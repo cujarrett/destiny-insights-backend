@@ -1,0 +1,32 @@
+{
+  "name": "bungie-api-client",
+  "version": "0.1.0",
+  "description": "Client for Bungie's API",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix-lint": "eslint . --fix",
+    "test": "test",
+    "build": "npm install --production && rm -rf build && mkdir build && zip -r -q -x='*media*' -x='*terraform*' -x=*coverage* -x='*.md' -x='LICENSE' -x='*build*' -x='*.DS_Store*' -x='*.git*' build/bungie-api-client.zip . && du -sh build",
+    "deploy": "aws lambda update-function-code --function-name=bungie-api-client --zip-file=fileb://build/bungie-api-client.zip --region=us-east-1 1> /dev/null",
+    "cd": "npm run build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cujarrett/bungie-api-client.git"
+  },
+  "author": "Matt Jarrett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cujarrett/bungie-api-client/issues"
+  },
+  "homepage": "https://github.com/cujarrett/bungie-api-client#readme",
+  "dependencies": {
+    "lambda-api": "~0.10.6",
+    "node-fetch": "~2.6.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "~2.809.0",
+    "eslint": "~7.16.0"
+  }
+}
