@@ -1,73 +1,37 @@
+<p align="center">
+  <a href="https://circleci.com/gh/cujarrett/banshee-44-mods-backend/tree/main"><img alt="Circle CI" src="https://circleci.com/gh/cujarrett/banshee-44-mods-backend/tree/main.svg?style=svg"></a>
+  <a href="https://discord.gg/jAA5U52"><img alt="Chat on Discord" src="https://img.shields.io/discord/460598989939802115?label=Discord"></a>
+  <a href="https://github.com/semantic-release/semantic-release"><img alt="Project uses semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg"></a>
+  <a href="http://commitizen.github.io/cz-cli/"><img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?"></a>
+</p>
+
 ## What
 
-It's an implementation of interacting with [Bungie's OAuth 2 API](https://github.com/Bungie-net/api), specifically the portion of the API dealing with Banshee-44's mod inventory. This was done to learn and build out a backend for my serverless Twitter [banshee-44-mods-bot](https://github.com/cujarrett/banshee-44-mods-bot).
+It's an implementation of interacting with
+[Bungie's OAuth 2 API](https://github.com/Bungie-net/api), specifically the
+portion of the API dealing with Banshee-44's mod inventory. This was done to
+learn and build out a backend for my serverless Twitter
+[banshee-44-mods-bot](https://github.com/cujarrett/banshee-44-mods-bot).
 
-## How's it work?
+## Use
 
-This project serves as a backend. It offers a handful of endpoints detailed below.
+It's intended for personal use. Don't abuse the API.
 
-### `/init`
+### `/info`
 
-This endpoint serves as the trigger to authenticate the backend. It uses OAuth 2 to authenticate to a number of different providers that Bungie offers such as Steam. This endpoint simply redirects to `https://www.bungie.net/en/oauth/authorize?client_id=${CLIENT_ID}&response_type=code`.
+This endpoint makes a call to Bungie's API to retrieve Banshee-44's mod
+inventory for sale. It also calls the backend database to retrieve the last sold
+date (in the last year) as well as how many times the mod was sold in the last
+year.
 
-### `/authorize`
+This endpoint leverages the static data in the `known-mods.js` file to save
+calls and processing time. If the mods for sale are not contained within, more
+timely calls are made to Bungie's API to get the info without the cached known
+mods.
 
-This endpoint serves as a callback after the user has authenticated via with the third party (such as Steam), it captures a `code` from Bungie via the URL query parameter. This code along with some API config are used to make a call to `POST` `https://www.bungie.net/Platform/App/OAuth/Token/`.
+### `/get-mod-data-for-last-year`
 
-Call specifics:
-```js
-const options = {
-  "method": "post",
-  "headers": {
-    "Authorization": `Basic ${auth}`, // auth = Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString("base64")
-    "X-API-Key": API_KEY,
-    "Content-Type": "application/x-www-form-urlencoded"
-  },
-  "body": `client_id=${CLIENT_ID}&grant_type=authorization_code&code=${code}` // code = request.query.code
-}
-```
-
-This call to Bungie returns a response with `access_token`, `token_type`, `expires_in`, `refresh_expires_in`, `membership_id`, and `refresh_token`. All of which are used in calls to Bungie's API for data or to effect items.
-
-### `/vendors`
-
-This endpoint makes a call to Bungie's API to retrieve Banshee-44's mod inventory for sale. This endpoint is currently `https://www.bungie.net/Platform/Destiny2/3/Profile/REDACTED/Character/REDACTED/Vendors/672118013/?components=300,301,302,304,305,400,401,402`.
-
-Call specifics:
-```js
-{
-  "method": "get",
-  "headers": {
-    "Authorization": `Bearer ${access_token}`, // comes from /authorize
-    "X-API-Key": API_KEY
-  }
-}
-```
-
-To get clear text info out of Bungie's API I make a couple of sequential calls.
-
-`https://www.bungie.net/Platform/Destiny2/Manifest/` returns the English `DestinyInventoryItemDefinition`. From there I use this info to determine the correct manifest to call to get the name and other info about the mods Banshee-44 is selling.
-
-This endpoint leverages the static data in the `known-mods.js` file to save calls and processing time. If the mods for sale are not contained within, further action will be required such as a call to `vendors-no-cache` to get the info and or a manual update to `known-mods.js` to add the missing info.
-
-### `/vendors-no-cache`
-
-This endpoint has the same functionality as `/vendors` but with some changes to how it goes about getting there. It does not leverage any cached mod info. This makes the endpoint more fault tolerant but at the cost to performance impacts to time and additional resource needs resulting in additional infrastructure costs.
-
-## What's the tech stack?
-
-This project uses [Node.js](https://nodejs.org/en/) as my language of choice. I'm using [AWS](https://aws.amazon.com/) for my infrastructure. I'm using [Terraform](https://www.terraform.io/) for my
-[Infrastructure as Code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_code) and if I wanted to have this deployed I'd do so with
-[Terraform Cloud](https://www.terraform.io/docs/cloud/overview.html) to provision my infrastructure,
-either on demand or in response to various events.
-
-I'm leveraging compute via [AWS Lambda](https://aws.amazon.com/lambda/) for all of the benefits of having a serverless architecture.
-
-I'm using [AWS API Gateway](https://aws.amazon.com/api-gateway/) to create our RESTful API. API Gateway handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, CORS support, authorization and access control, throttling, monitoring, and API version management.
-
-I'm using [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) to persist the OAuth 2 bearer token and other app configuration and state data.
-
-I'm using [lambda-api](https://github.com/jeremydaly/lambda-api) which offers a simple and lightweight solution that will look familiar to anyone that has spent time with [Express](https://github.com/expressjs/express). Building a solution with `lambda-api` provides a single dependency solution that is tiny at 28 kB. [I've written a short post if you want more info on this useful package](https://dev.to/cujarrett/build-an-express-like-app-on-aws-lambda-12g6).
+This endpoint provides a list of all mods sold in the last year.
 
 <p align="center">
   Made with :heart:, JavaScript, and GitHub.

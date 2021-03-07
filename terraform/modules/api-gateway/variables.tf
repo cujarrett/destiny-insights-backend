@@ -1,9 +1,14 @@
-variable "aws-lambda-function-bungie-api-client-arn" {
-  description = "bungie-api-client Lambda ARN"
+variable "banshee-44-mods-backend-lambda-arn" {
+  description = "banshee-44-mods-backend Lambda ARN"
   type = string
 }
 
-variable "aws-lambda-function-bungie-api-client-invoke-arn" {
-  description = "bungie-api-client Lambda invoke ARN"
+variable "banshee-44-mods-backend-lambda-invoke-arn" {
+  description = "banshee-44-mods-backend Lambda invoke ARN"
+  type = string
+}
+
+variable "acm-certificate-arn" {
+  description = "api.banshee44mods.com ACM ARN"
   type = string
 }
