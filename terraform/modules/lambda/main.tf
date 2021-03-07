@@ -1,30 +1,36 @@
-resource "aws_lambda_function" "bungie-api-client" {
-  filename = var.data-archive-file-placeholder-output-path
-  function_name = "bungie-api-client"
+resource "aws_lambda_function" "banshee-44-mods-backend" {
+  filename = var.file-placeholder-output-path
+  function_name = "banshee-44-mods-backend"
   handler       = "index.handler"
-  role          = var.aws-iam-role-bungie-api-client-arn
+  role          = var.banshee-44-mods-backend-role-arn
   runtime       = "nodejs12.x"
-  memory_size   = 256
+  memory_size   = 512
   timeout       = 300
 }
 
-resource "aws_lambda_function_event_invoke_config" "bungie-api-client-event-invoke-config" {
-  function_name = aws_lambda_function.bungie-api-client.arn
+resource "aws_lambda_function_event_invoke_config" "banshee-44-mods-backend-event-invoke-config" {
+  function_name = aws_lambda_function.banshee-44-mods-backend.arn
   maximum_event_age_in_seconds = 60
   maximum_retry_attempts       = 0
+
+  destination_config {
+    on_failure {
+      destination = var.error-sns-topic
+    }
+  }
 }
 
-resource "aws_lambda_permission" "bungie-api-client" {
+resource "aws_lambda_permission" "banshee-44-mods-backend" {
   statement_id  = "AllowAPIGatewayInvoke"
   action        = "lambda:InvokeFunction"
-  function_name = aws_lambda_function.bungie-api-client.arn
+  function_name = aws_lambda_function.banshee-44-mods-backend.arn
   principal     = "apigateway.amazonaws.com"
 }
 
-output "aws-lambda-function-bungie-api-client-arn" {
-  value = aws_lambda_function.bungie-api-client.arn
+output "banshee-44-mods-backend-lambda-arn" {
+  value = aws_lambda_function.banshee-44-mods-backend.arn
 }
 
-output "aws-lambda-function-bungie-api-client-invoke-arn" {
-  value = aws_lambda_function.bungie-api-client.invoke_arn
+output "banshee-44-mods-backend-lambda-invoke-arn" {
+  value = aws_lambda_function.banshee-44-mods-backend.invoke_arn
 }
