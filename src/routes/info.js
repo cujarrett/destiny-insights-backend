@@ -52,9 +52,9 @@ module.exports = async (api) => {
       let firstMod = knownMods[firstModHash]
       let secondMod = knownMods[secondModHash]
 
-      let usedCachedMods = true
+      let cachedMods = true
       if (!firstMod || !secondMod) {
-        usedCachedMods = false
+        cachedMods = false
         const itemDefinitionsResponse = await fetch(gunsmithItemDefinitionsEndpoint)
         const itemDefinitionsText = await itemDefinitionsResponse.text()
         const itemDefinitions = await JSON.parse(itemDefinitionsText)
@@ -116,7 +116,7 @@ module.exports = async (api) => {
           lastUpdated,
           lastTokenRefresh: auth.lastTokenRefresh,
           cachedAuth: !isTokenRefreshNeeded,
-          usedCachedMods,
+          cachedMods,
           gunsmithItemDefinitionsEndpoint
         }
       }
@@ -127,7 +127,7 @@ ${JSON.stringify(result, null, "  ")}`)
       return JSON.stringify(result, null, "  ")
     } catch (error) {
       console.log(error)
-      return "An error has occurred"
+      return { errorMessage: "An error has occurred" }
     }
   })
 }
