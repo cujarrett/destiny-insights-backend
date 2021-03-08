@@ -38,8 +38,24 @@ module.exports = async (api) => {
         throw new Error("Auth failed")
       }
       const gunsmithInventory = await gunsmithInventoryResponse.json()
-      const rawManifest = await fetch("https://www.bungie.net/Platform/Destiny2/Manifest/")
-      const manifestData = await rawManifest.json()
+      let rawManifest = await fetch("https://www.bungie.net/Platform/Destiny2/Manifest/")
+      let manifestData = await rawManifest.json()
+
+      let isValidManifestData = manifestData.Message === "Ok"
+      const maxRetries = 3
+      let manifestRetries = 0
+      if (!isValidManifestData) {
+        while (manifestRetries < maxRetries && !isValidManifestData) {
+          rawManifest = await fetch("https://www.bungie.net/Platform/Destiny2/Manifest/")
+          manifestData = await rawManifest.json()
+          isValidManifestData = manifestData.Message === "Ok"
+          manifestRetries += 1
+        }
+
+        if (manifestRetries === maxRetries && !isValidManifestData) {
+          throw new Error("Manifest failed")
+        }
+      }
       // eslint-disable-next-line max-len
       const gunsmithItemDefinitionsPath = manifestData.Response.jsonWorldComponentContentPaths.en.DestinyInventoryItemDefinition
       const gunsmithItemDefinitionsEndpoint = `https://www.bungie.net${gunsmithItemDefinitionsPath}`
@@ -117,6 +133,7 @@ module.exports = async (api) => {
           lastTokenRefresh: auth.lastTokenRefresh,
           cachedAuth: !isTokenRefreshNeeded,
           cachedMods,
+          manifestRetries,
           gunsmithItemDefinitionsEndpoint
         }
       }
