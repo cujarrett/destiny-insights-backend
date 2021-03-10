@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.1.0](https://github.com/cujarrett/banshee-44-mods-backend/compare/v1.0.3...v1.1.0) (2021-03-10)
+
+
+### Features
+
+* adds additional manifest attempt logging ([7c4e4e6](https://github.com/cujarrett/banshee-44-mods-backend/commit/7c4e4e614d523011394ed3b45652941deda1db71))
+* updates manifest max retries to 5 ([04c9adb](https://github.com/cujarrett/banshee-44-mods-backend/commit/04c9adbdc411867d612cd8a61712adc13749b177))
+
 ## [1.0.3](https://github.com/cujarrett/banshee-44-mods-backend/compare/v1.0.2...v1.0.3) (2021-03-08)
 
 
