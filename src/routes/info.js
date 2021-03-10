@@ -42,7 +42,7 @@ module.exports = async (api) => {
       let manifestData = await rawManifest.json()
 
       let isValidManifestData = manifestData.Message === "Ok"
-      const maxRetries = 3
+      const maxRetries = 5
       let manifestRetries = 0
       if (!isValidManifestData) {
         while (manifestRetries < maxRetries && !isValidManifestData) {
