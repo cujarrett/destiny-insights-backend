@@ -42,18 +42,19 @@ module.exports = async (api) => {
       let manifestData = await rawManifest.json()
 
       let isValidManifestData = manifestData.Message === "Ok"
-      const maxRetries = 3
+      const maxRetries = 5
       let manifestRetries = 0
       if (!isValidManifestData) {
         while (manifestRetries < maxRetries && !isValidManifestData) {
+          manifestRetries += 1
+          console.log({ manifestRetries })
           rawManifest = await fetch("https://www.bungie.net/Platform/Destiny2/Manifest/")
           manifestData = await rawManifest.json()
           isValidManifestData = manifestData.Message === "Ok"
-          manifestRetries += 1
         }
 
         if (manifestRetries === maxRetries && !isValidManifestData) {
-          throw new Error("Manifest failed")
+          return { metadata: { error: `The Bungie manifest failed to load ${maxRetries} times` } }
         }
       }
       // eslint-disable-next-line max-len
@@ -144,7 +145,7 @@ ${JSON.stringify(result, null, "  ")}`)
       return JSON.stringify(result, null, "  ")
     } catch (error) {
       console.log(error)
-      return { errorMessage: "An error has occurred" }
+      return { metadata: { error: "An error has occurred" } }
     }
   })
 }
