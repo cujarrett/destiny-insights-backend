@@ -1,4 +1,4 @@
-module.exports = (categories) => {
+module.exports.getCategories = (categories) => {
   console.log("getCategories called")
   // Normally, the last item in the array holds the mods but if Banshee-44 has a
   // seasonal quest it goes to end until picked up.

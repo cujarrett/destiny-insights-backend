@@ -1,4 +1,4 @@
-module.exports = {
+module.exports.knownMods = {
   "720857": {
     "name": "Empty Mod Socket",
     "type": "Common Legacy Armor Mod"
