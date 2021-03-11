@@ -22,12 +22,14 @@ module.exports = async (api) => {
       const { categoryData, salesData, authRetries, getBansheeInventoryError } = await getBansheeInventory(auth)
       if (getBansheeInventoryError) {
         result = { metadata: { error: getBansheeInventoryError } }
+        console.log(`completing request\n${JSON.stringify(result, null, "  ")}`)
         return JSON.stringify(result, null, "  ")
       }
 
       const { manifestData, manifestRetries, getManifestDataError } = await getManifestData()
       if (getBansheeInventoryError) {
         result = { metadata: { error: getManifestDataError } }
+        console.log(`completing request\n${JSON.stringify(result, null, "  ")}`)
         return JSON.stringify(result, null, "  ")
       }
 
@@ -75,9 +77,7 @@ module.exports = async (api) => {
         }
       }
 
-      console.log(`completing request
-
-${JSON.stringify(result, null, "  ")}`)
+      console.log(`completing request\n${JSON.stringify(result, null, "  ")}`)
       return JSON.stringify(result, null, "  ")
     } catch (error) {
       console.log(error)
