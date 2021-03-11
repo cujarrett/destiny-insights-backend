@@ -1,5 +1,5 @@
 const test = require("tape-async")
-const getCategories = require("../../src/util/get-categories.js")
+const { getCategories } = require("../../src/util/get-categories.js")
 
 const normalTestData = [{ itemIndexes: [3] }, { itemIndexes: [1, 2] }]
 const vendorQuestPresentTestData = [{ itemIndexes: [1, 2] }, { itemIndexes: [3] }]

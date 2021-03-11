@@ -1,5 +1,5 @@
 const test = require("tape-async")
-const checkIfTokenRefreshNeeded = require("../../src/util/check-if-token-refresh-needed.js")
+const { checkIfTokenRefreshNeeded } = require("../../src/util/check-if-token-refresh-needed.js")
 
 test("Unit - checkIfTokenRefreshNeeded", async (assert) => {
   assert.plan(2)
