@@ -79,7 +79,6 @@ module.exports.setLastUpdated = async (lastUpdated) => {
   const params = {
     TableName: "banshee-44-mods-backend-last-updated",
     Key: { app: name },
-    // eslint-disable-next-line max-len
     UpdateExpression: "set #lu = :lastUpdated",
     ExpressionAttributeValues: {
       ":lastUpdated": lastUpdated
@@ -104,7 +103,6 @@ const getQuery = (modNumber, mod) => {
       // AWS DynamoDB uses single char for types
       // eslint-disable-next-line id-length
       ":startDate": { S: oneYearAgo },
-      // AWS DynamoDB uses single char for types
       // eslint-disable-next-line id-length
       ":value": { S: mod }
     },

@@ -29,7 +29,7 @@ module.exports.getBansheeInventory = async (auth) => {
     }
 
     if (authRetries === maxRetries && !isValidAuth) {
-      return { getBansheeInventoryError: `The Bungie auth failed to load ${maxRetries} times` }
+      throw new Error(`The Bungie auth failed to load ${maxRetries} times`)
     }
   }
   const categoryData = bansheeInventory.Response.categories.data.categories

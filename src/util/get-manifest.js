@@ -1,11 +1,11 @@
 const fetch = require("node-fetch")
 
-module.exports.getManifestData = async () => {
-  console.log("getManifestData called")
+module.exports.getManifest = async () => {
+  console.log("getManifest called")
   const manifestEndpoint = "https://www.bungie.net/Platform/Destiny2/Manifest/"
   let rawManifest = await fetch(manifestEndpoint)
-  let manifestData = await rawManifest.json()
-  let isValidManifestData = manifestData.Message === "Ok"
+  let manifest = await rawManifest.json()
+  let isValidManifestData = manifest.Message === "Ok"
   const maxRetries = 5
   let manifestRetries = 0
   if (!isValidManifestData) {
@@ -13,13 +13,13 @@ module.exports.getManifestData = async () => {
       manifestRetries += 1
       console.log({ manifestRetries })
       rawManifest = await fetch(manifestEndpoint)
-      manifestData = await rawManifest.json()
-      isValidManifestData = manifestData.Message === "Ok"
+      manifest = await rawManifest.json()
+      isValidManifestData = manifest.Message === "Ok"
     }
 
     if (manifestRetries === maxRetries && !isValidManifestData) {
-      return { getManifestDataError: `The Bungie manifest failed to load ${maxRetries} times` }
+      throw new Error(`The Bungie manifest failed to load ${maxRetries} times`)
     }
   }
-  return { manifestData, manifestRetries }
+  return { manifest, manifestRetries }
 }
