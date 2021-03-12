@@ -3,7 +3,7 @@ resource "aws_lambda_function" "banshee-44-mods-backend" {
   function_name = "banshee-44-mods-backend"
   handler       = "index.handler"
   role          = var.banshee-44-mods-backend-role-arn
-  runtime       = "nodejs12.x"
+  runtime       = "nodejs14.x"
   memory_size   = 512
   timeout       = 300
 }
