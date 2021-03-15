@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.6.0](https://github.com/cujarrett/banshee-44-mods-backend/compare/v1.5.0...v1.6.0) (2021-03-15)
+
+
+### Features
+
+* adds dynamic mod type lookup ([be608d0](https://github.com/cujarrett/banshee-44-mods-backend/commit/be608d09dadfe1a7a0981b77f0adc733d1c949c3))
+
 # [1.5.0](https://github.com/cujarrett/banshee-44-mods-backend/compare/v1.4.0...v1.5.0) (2021-03-12)
 
 
