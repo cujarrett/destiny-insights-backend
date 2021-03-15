@@ -170,8 +170,8 @@ module.exports.getModDataForLastYear = async () => {
     results.push({
       timestamp: tweet.timestamp.S,
       mods: [
-        { name: tweet.mod1.S, type: "Weapon Mod" },
-        { name: tweet.mod2.S, type: "Armor Mod" }
+        { name: tweet.mod1.S },
+        { name: tweet.mod2.S }
       ]
     })
   }
