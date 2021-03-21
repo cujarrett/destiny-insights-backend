@@ -24,7 +24,7 @@ inventory for sale. It also calls the backend database to retrieve the last sold
 date (in the last year) as well as how many times the mod was sold in the last
 year.
 
-This endpoint leverages the static data in the `known-mods.js` file to save
+This endpoint leverages the static data in the `cached-mods.json` file to save
 calls and processing time. If the mods for sale are not contained within, more
 timely calls are made to Bungie's API to get the info without the cached known
 mods.

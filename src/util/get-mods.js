@@ -1,18 +1,18 @@
 const fetch = require("node-fetch")
 
-const { knownMods } = require("../data/known-mods.js")
-module.exports.getMods = async (salesData, categories, bansheeItemDefinitionsEndpoint) => {
+const cachedMods = require("../data/cached-mods.json")
+module.exports.getMods = async (salesData, categories, inventoryItemDefinitionEndpoint) => {
   console.log("getMods called")
   const [firstCategory, secondCategory] = categories
   const firstModHash = salesData[firstCategory].itemHash
   const secondModHash = salesData[secondCategory].itemHash
-  let firstMod = knownMods[firstModHash]
-  let secondMod = knownMods[secondModHash]
+  let firstMod = cachedMods[firstModHash]
+  let secondMod = cachedMods[secondModHash]
 
-  let cachedMods = true
+  let usedCachedMods = true
   if (!firstMod || !secondMod) {
-    cachedMods = false
-    const itemDefinitionsResponse = await fetch(bansheeItemDefinitionsEndpoint)
+    usedCachedMods = false
+    const itemDefinitionsResponse = await fetch(inventoryItemDefinitionEndpoint)
     const itemDefinitionsText = await itemDefinitionsResponse.text()
     const itemDefinitions = await JSON.parse(itemDefinitionsText)
 
@@ -27,5 +27,5 @@ module.exports.getMods = async (salesData, categories, bansheeItemDefinitionsEnd
   }
   firstMod.itemHash = firstModHash
   secondMod.itemHash = secondModHash
-  return { firstMod, secondMod, cachedMods }
+  return { firstMod, secondMod, usedCachedMods }
 }

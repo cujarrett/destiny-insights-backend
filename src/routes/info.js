@@ -1,5 +1,6 @@
 const { getBansheeInventory } = require ("../util/get-banshee-inventory.js")
-const { getBansheeInventoryEndpoint } = require ("../util/get-banshee-inventory-endpoint.js")
+// eslint-disable-next-line max-len
+const { getInventoryItemDefinitionEndpoint } = require ("../util/get-inventory-item-definition-endpoint.js")
 const { getCategories } = require("../util/get-categories.js")
 const { getLastSoldMessge } = require("../util/get-last-sold-message.js")
 const { getManifest } = require ("../util/get-manifest.js")
@@ -43,10 +44,10 @@ module.exports = async (api) => {
       return JSON.stringify(result, null, "  ")
     }
 
-    const bansheeItemDefinitionsEndpoint = await getBansheeInventoryEndpoint(manifest)
+    const inventoryItemDefinitionEndpoint = await getInventoryItemDefinitionEndpoint(manifest)
     const categories = getCategories(categoryData)
-    const modData = await getMods(salesData, categories, bansheeItemDefinitionsEndpoint)
-    const { firstMod, secondMod, cachedMods } = modData
+    const modData = await getMods(salesData, categories, inventoryItemDefinitionEndpoint)
+    const { firstMod, secondMod, usedCachedMods } = modData
     const lastUpdated = await processLastUpdated(firstMod, secondMod)
     const firstModSales = await getModSalesInLastYear(firstMod.name)
     const secondModSales = await getModSalesInLastYear(secondMod.name)
@@ -79,11 +80,11 @@ module.exports = async (api) => {
         now: new Date().toISOString(),
         lastUpdated,
         lastTokenRefresh,
-        cachedAuth: !isTokenRefreshNeeded,
-        cachedMods,
+        usedCachedAuth: !isTokenRefreshNeeded,
+        usedCachedMods,
         authRetries,
         manifestRetries,
-        bansheeItemDefinitionsEndpoint
+        inventoryItemDefinitionEndpoint
       }
     }
 
