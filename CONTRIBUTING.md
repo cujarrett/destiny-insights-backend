@@ -151,37 +151,14 @@ I'm using AWS DynamoDB to persist auth and config. The structure of that table i
 }
 ```
 
-## known-mods.js
+## cached-mods.json
 
 To avoid processing the very large JSON each compute I downsampled the normal Bungie manifest for Banshee-44's mods use case. I've
-stored this in `known-mods.js`. If you want to recreate this file, you can use get the current raw manifest JSON and downsample it
+stored this in `cached-mods.json`. If you want to recreate this file, you can use get the current raw manifest JSON and downsample it
 with this script.
 
-```js
-const fs = require("fs")
-
-const text = fs.readFileSync("./input.json","utf8")
-const data = JSON.parse(text)
-
-const output = {}
-for (const item in data) {
-  const name = data[item].displayProperties.name
-  const type = data[item].itemTypeAndTierDisplayName
-
-  if(type && type.endsWith("Mod")) {
-    output[item] = {
-      name,
-      type
-    }
-  }
-}
-
-fs.writeFile('./output.json', JSON.stringify(output, null, "  "), (error) => {
-  if (error) {
-    return console.log(error)
-  }
-  console.log("Done")
-})
+```sh
+npm run build-cached-mods
 ```
 
 ## Terraform

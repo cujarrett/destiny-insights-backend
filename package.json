@@ -7,6 +7,7 @@
     "lint": "eslint .",
     "fix-lint": "eslint . --fix",
     "test": "nyc --reporter=lcov tape test/**/*.js | tap-spec && nyc report",
+    "build-cached-mods": "node -e 'require(\"./src/util/build-cached-mods.js\").printNewCachedMods()'",
     "build": "npm install --production && rm -rf build && mkdir build && zip -r -q -x='*test*' -x='package-lock.json' -x='*media*' -x='*terraform*' -x=*coverage* -x='*.md' -x='LICENSE' -x='*build*' -x='*.DS_Store*' -x='*.git*' -x='release.config.js' -x='commitlint.config.js' build/banshee-44-mods-backend.zip . && du -sh build",
     "deploy": "aws lambda update-function-code --function-name=banshee-44-mods-backend --zip-file=fileb://build/banshee-44-mods-backend.zip --region=us-east-1 1> /dev/null",
     "semantic-release": "semantic-release",
@@ -30,7 +31,7 @@
   },
   "homepage": "https://github.com/cujarrett/banshee-44-mods-backend#readme",
   "dependencies": {
-    "lambda-api": "~0.10.6",
+    "lambda-api": "~0.10.7",
     "node-fetch": "~2.6.1"
   },
   "devDependencies": {
@@ -43,7 +44,7 @@
     "@semantic-release/github": "~7.2.0",
     "@semantic-release/npm": "~7.0.10",
     "@semantic-release/release-notes-generator": "~9.0.2",
-    "aws-sdk": "~2.863.0",
+    "aws-sdk": "~2.868.0",
     "commitizen": "~4.2.3",
     "cz-conventional-changelog": "~3.3.0",
     "eslint": "~7.22.0",
