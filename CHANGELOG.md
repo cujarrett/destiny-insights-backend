@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.8.0](https://github.com/cujarrett/banshee-44-mods-backend/compare/v1.7.0...v1.8.0) (2021-03-24)
+
+
+### Features
+
+* adds CODEOWNERS ([6572173](https://github.com/cujarrett/banshee-44-mods-backend/commit/657217366c4848dfd745f22cd2eb2d0b3aeaa11f))
+
 # [1.7.0](https://github.com/cujarrett/banshee-44-mods-backend/compare/v1.6.0...v1.7.0) (2021-03-21)
 
 
