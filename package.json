@@ -1,6 +1,6 @@
 {
   "name": "banshee-44-mods-backend",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Backend for banshee-44-mods apps",
   "main": "index.js",
   "scripts": {
