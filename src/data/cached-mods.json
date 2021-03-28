@@ -122,31 +122,31 @@
   "179977568": {
     "name": "Grasp of the Warmind",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "You can pick up, carry, and throw Warmind Cells. Once thrown, a Warmind Cell cannot be picked up again.",
     "icon": "https://bungie.net/common/destiny2_content/icons/180ee0e9b32d2676a171dfbc606b14ba.png"
   },
   "179977572": {
     "name": "Global Reach",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Warmind Cells you create affect and damage targets at a greater distance.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9106c7e977dc578319d636c9566047de.png"
   },
   "179977573": {
     "name": "Blessing of Rasputin",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Collecting a Warmind Cell increases the chances that your next final blow with a Seraph weapon will create a Warmind Cell.",
     "icon": "https://bungie.net/common/destiny2_content/icons/3b89677660624c4c0bd27e89fe52649c.png"
   },
   "179977574": {
     "name": "Light of the Fire",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Rapidly defeating targets with the detonation of a Warmind Cell generates an Orb of Power.",
     "icon": "https://bungie.net/common/destiny2_content/icons/bd59d9404b500d7dafb9038a149d8d1d.png"
   },
   "179977575": {
     "name": "Warmind's Light",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Become Charged with Light by collecting a Warmind Cell.",
     "icon": "https://bungie.net/common/destiny2_content/icons/14dc085823df3d8819aedad8747bc09c.png"
   },
   "193651840": {
@@ -320,7 +320,6 @@
   "344032858": {
     "name": "Solar Damage Mod",
     "type": "Legendary Weapon Mod",
-    "description": "This mod has been deprecated. Dismantle to clear space and reclaim useful components.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7821effdc9ed9bc4aec04f6e3c955a08.jpg"
   },
   "345205583": {
@@ -362,7 +361,7 @@
   "369171376": {
     "name": "Transcendent Blessing",
     "type": "Common General Armor Mod",
-    "description": "This is a consumable armor mod, which can be inserted into only one piece of armor at a time. Replacing this mod with another mod destroys it. Dismantling armor containing this mod refunds the mod.",
+    "description": "While in the Dreaming City, you deal more damage to all targets.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e6d331674ccfb21c5a99dac70c41d851.png"
   },
   "371216963": {
@@ -374,7 +373,7 @@
   "399528760": {
     "name": "Taken Invigoration",
     "type": "Common Last Wish Raid Mod",
-    "description": "This mod's perks are only active in the \"Last Wish\" raid.",
+    "description": "Defeating a challenging Taken enemy refreshes your class ability.\n\nThis mod's abilities cannot stack across multiple copies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/932b9937f783cb0e61061684c40592a1.png"
   },
   "403494087": {
@@ -434,19 +433,19 @@
   "466796172": {
     "name": "Vampiric Touch",
     "type": "Legendary Armor Mod",
-    "description": "This mask can be upgraded to increase damage to challenging enemies and trigger health regeneration on precision kills. Unlock these upgrades by defeating Terrors in the Haunted Forest.\n\nThese perks are active only inside the Haunted Forest. Choosing this upgrade will lock the selected perks on the mask.",
+    "description": "Increased damage to challenging enemies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d687306cdc10af8472976319b955d296.png"
   },
   "466796173": {
     "name": "Higher Purpose",
     "type": "Legendary Armor Mod",
-    "description": "This mask can be upgraded to increase damage to enemies and provide near-invulnerability while airborne. Unlock these upgrades by defeating Terrors in the Haunted Forest.\n\nThese perks are active only inside the Haunted Forest. Choosing this upgrade will lock the selected perks on the mask.",
+    "description": "Increased damage to all enemies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b72ae79f6a9b017fd4bec0e5d790d94c.png"
   },
   "466796175": {
     "name": "Energetic Assassin",
     "type": "Legendary Armor Mod",
-    "description": "This mask can be upgraded to increase damage to Terrors and grant grenade and melee energy on precision kills. Unlock these upgrades by defeating Terrors in the Haunted Forest.\n\nThese perks are active only inside the Haunted Forest. Choosing this upgrade will lock the selected perks on the mask.",
+    "description": "Increased damage to Terrors.",
     "icon": "https://bungie.net/common/destiny2_content/icons/561f898ec516907c91eaee957f65a0f7.png"
   },
   "476007934": {
@@ -776,7 +775,7 @@
   "817361141": {
     "name": "Enhanced Operator Augment",
     "type": "Common Deep Stone Crypt Raid Mod",
-    "description": "This mod's perks are only active in the \"Deep Stone Crypt\" raid.\n\nMultiple copies of this mod stack and improve its effects.",
+    "description": "With the Operator Augment, you gain periodic bursts of healing when your health is depleted.",
     "icon": "https://bungie.net/common/destiny2_content/icons/24a82ebb135726111e3c99073871cdaa.png"
   },
   "817770433": {
@@ -788,19 +787,19 @@
   "819191764": {
     "name": "Mask Upgrade",
     "type": "Legendary Armor Mod",
-    "description": "Defeat Terrors in the Haunted Forest while wearing a Festival of the Lost mask to unlock this perk.",
+    "description": "Precision kills trigger health regeneration.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
   "819191765": {
     "name": "Mask Upgrade",
     "type": "Legendary Armor Mod",
-    "description": "Defeat Terrors in the Haunted Forest while wearing a Festival of the Lost mask to unlock this perk.",
+    "description": "Significantly increased damage to challenging enemies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
   "819191767": {
     "name": "Mask Upgrade",
     "type": "Legendary Armor Mod",
-    "description": "Defeat Terrors in the Haunted Forest while wearing a Festival of the Lost mask to unlock this perk.",
+    "description": "Increases the drop chance of Heavy ammo on kill.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
   "843081753": {
@@ -812,7 +811,7 @@
   "865380761": {
     "name": "Enhanced Voltaic Mote Collector",
     "type": "Common Garden of Salvation Raid Mod",
-    "description": "Active only in the \"Garden of Salvation\" raid.",
+    "description": "Gain an overshield after you collect 5 Motes. This mod's effect does not stack with other copies of this mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/cd34a7894d5ff58a61f407956f27e191.png"
   },
   "910975608": {
@@ -836,7 +835,7 @@
   "928186993": {
     "name": "Voltaic Ammo Collector",
     "type": "Common Garden of Salvation Raid Mod",
-    "description": "Active only in the \"Garden of Salvation\" raid.",
+    "description": "Increases the chances of finding Heavy ammo while you have the Voltaic Overflow buff. Multiple copies of this mod stack to increase this benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9311f85548666d1cca5f58ac911695c0.png"
   },
   "941997506": {
@@ -1058,7 +1057,7 @@
   "1196831979": {
     "name": "Font of Wisdom",
     "type": "Elemental Well Mod",
-    "description": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+    "description": "Picking up an elemental well that matches your subclass energy type grants you a temporary significant increase in your Intellect, improving the recharge rate of your Super.",
     "icon": "https://bungie.net/common/destiny2_content/icons/5f0f125d9e6194cf156a257f20811bc3.png"
   },
   "1203395203": {
@@ -1094,7 +1093,7 @@
   "1249334869": {
     "name": "Dawning Parade",
     "type": "Rare Sparrow Mod",
-    "description": "Reload weapons and charge grenades while riding with a side of festive delights.",
+    "description": "This vehicle reloads weapons while you ride.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6f4d8b781a7e6ee6798cfc2a0f7a19ff.png"
   },
   "1251927947": {
@@ -1172,7 +1171,7 @@
   "1362793604": {
     "name": "Enhanced Suppressor Augment",
     "type": "Common Deep Stone Crypt Raid Mod",
-    "description": "This mod's perks are only active in the \"Deep Stone Crypt\" raid.\n\nMultiple copies of this mod stack and improve its effects.",
+    "description": "With the Suppressor Augment, you take decreased damage from powerful foes.",
     "icon": "https://bungie.net/common/destiny2_content/icons/3da4be3a2c3609aafbee3655e902c0b2.png"
   },
   "1384818155": {
@@ -1232,25 +1231,25 @@
   "1484685884": {
     "name": "Quick Charge",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+    "description": "Become Charged with Light by rapidly defeating multiple combatants with Fusion Rifles or Shotguns.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e80f0a325b78190e164810724044776e.png"
   },
   "1484685885": {
     "name": "Striking Light",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+    "description": "While Charged with Light, defeating combatants with melee damage and Swords spawns 1 Orb of Power for your allies and consumes one stack of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e1eb7cf6ad88c3311f775df370bd21e4.png"
   },
   "1484685886": {
     "name": "Heavy Handed",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+    "description": "While Charged with Light, regain half of your melee energy when you use a charged melee ability, consuming one stack of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/c6d1db58becc093aa5d7b2534af41005.png"
   },
   "1484685887": {
     "name": "Powerful Friends",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+    "description": "When you become Charged with Light, nearby allies also become Charged with Light, if they are not already.",
     "icon": "https://bungie.net/common/destiny2_content/icons/006460670f0ca57fbe5ee1af83dcfd4d.png"
   },
   "1489470244": {
@@ -1298,7 +1297,7 @@
   "1515669996": {
     "name": "Elemental Armaments",
     "type": "Elemental Well Mod",
-    "description": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+    "description": "Weapons takedowns with a damage type that matches your subclass element have an escalating chance to spawn an elemental well.",
     "icon": "https://bungie.net/common/destiny2_content/icons/447bcd67662b6036ba9807dbc528b8ca.png"
   },
   "1525622117": {
@@ -1352,7 +1351,7 @@
   "1578165808": {
     "name": "Enhanced Scanner Augment",
     "type": "Common Deep Stone Crypt Raid Mod",
-    "description": "This mod's perks are only active in the \"Deep Stone Crypt\" raid.\n\nMultiple copies of this mod stack and improve its effects.",
+    "description": "With the scanner augment, powerful targets are marked by precision shots and take increased damage for a short period.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e01f849d196fa1d63cfc95dede616038.png"
   },
   "1582133419": {
@@ -1382,19 +1381,19 @@
   "1590498252": {
     "name": "Mask Upgrade",
     "type": "Legendary Armor Mod",
-    "description": "Defeat Terrors in the Haunted Forest while wearing a Festival of the Lost mask to unlock this perk.",
+    "description": "Increases the drop chance of Heavy ammo on kill.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
   "1590498254": {
     "name": "Mask Upgrade",
     "type": "Legendary Armor Mod",
-    "description": "Defeat Terrors in the Haunted Forest while wearing a Festival of the Lost mask to unlock this perk.",
+    "description": "Significantly increased damage to Terrors.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
   "1590498255": {
     "name": "Mask Upgrade",
     "type": "Legendary Armor Mod",
-    "description": "Defeat Terrors in the Haunted Forest while wearing a Festival of the Lost mask to unlock this perk.",
+    "description": "Precision kills grant grenade and melee energy.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
   "1608630108": {
@@ -1430,31 +1429,31 @@
   "1662439581": {
     "name": "Air Control",
     "type": "Rare Sparrow Mod",
-    "description": "Increased agility while airborne.",
+    "description": "This vehicle gains increased agility while airborne.",
     "icon": "https://bungie.net/common/destiny2_content/icons/bd09dc9cd80d286edabb0e72917843b3.png"
   },
   "1666207336": {
     "name": "Energetic Assassin",
     "type": "Legendary Armor Mod",
-    "description": "This mask can be upgraded to increase damage to Terrors and grant grenade and melee energy on precision kills. Unlock these upgrades by defeating Terrors in the Haunted Forest.\n\nThese perks are active only inside the Haunted Forest.",
+    "description": "Precision kills grant grenade and melee energy.",
     "icon": "https://bungie.net/common/destiny2_content/icons/561f898ec516907c91eaee957f65a0f7.png"
   },
   "1666207338": {
     "name": "Higher Purpose",
     "type": "Legendary Armor Mod",
-    "description": "This mask can be upgraded to increase damage to enemies and provide near-invulnerability while airborne. Unlock these upgrades by defeating Terrors in the Haunted Forest.\n\nThese perks are active only inside the Haunted Forest.",
+    "description": "Significant damage resistance while airborne.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b72ae79f6a9b017fd4bec0e5d790d94c.png"
   },
   "1666207339": {
     "name": "Vampiric Touch",
     "type": "Legendary Armor Mod",
-    "description": "This mask can be upgraded to increase damage to challenging enemies and trigger health regeneration on precision kills. Unlock these upgrades by defeating Terrors in the Haunted Forest.\n\nThese perks are active only inside the Haunted Forest.",
+    "description": "Precision kills trigger health regeneration.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d687306cdc10af8472976319b955d296.png"
   },
   "1674525506": {
     "name": "Vernier Thrusters",
     "type": "Rare Sparrow Mod",
-    "description": "Improved lateral boosting, enabling you to better dodge enemy attacks.",
+    "description": "This vehicle has improved dodging from side to side.",
     "icon": "https://bungie.net/common/destiny2_content/icons/ab9ffea1eb5fa31f6866fc85d6613aaf.png"
   },
   "1675508353": {
@@ -1520,7 +1519,7 @@
   "1740246051": {
     "name": "Font of Might",
     "type": "Elemental Well Mod",
-    "description": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+    "description": "Picking up an elemental well that matches your subclass energy type grants a temporary bonus to weapon damage of that same elemental type.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d5dc170cb40ee6e43564cc35e8551e05.png"
   },
   "1758950396": {
@@ -1532,25 +1531,25 @@
   "1789319804": {
     "name": "Sheltering Energy",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Collecting a Warmind Cell grants you an overshield.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7e6816b6da94913a9743d2855191ee88.png"
   },
   "1789319805": {
     "name": "Chosen of the Warmind",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Collecting or destroying a Warmind Cell creates a concussive blast that pushes enemies away.",
     "icon": "https://bungie.net/common/destiny2_content/icons/0d11c3a259eb95eb3918bd2130b304ac.png"
   },
   "1789319806": {
     "name": "Modular Lightning",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Collecting a Warmind Cell creates a burst of chaining Arc energy around you.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7c730a8f363a494fd25d3c98aa4111b8.png"
   },
   "1789319807": {
     "name": "Strength of Rasputin",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Collecting a Warmind Cell grants you melee energy.",
     "icon": "https://bungie.net/common/destiny2_content/icons/20a81ffdf748de8cebd8c90973a5275e.png"
   },
   "1819979056": {
@@ -1604,7 +1603,7 @@
   "1824486242": {
     "name": "Elemental Ordnance",
     "type": "Elemental Well Mod",
-    "description": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+    "description": "Defeating a combatant with a grenade spawns an elemental well that matches your subclass energy type.",
     "icon": "https://bungie.net/common/destiny2_content/icons/3b875aea848fe37d8b693418bf3effe0.png"
   },
   "1829115845": {
@@ -1628,7 +1627,6 @@
   "1837294881": {
     "name": "Void Damage Mod",
     "type": "Legendary Weapon Mod",
-    "description": "This mod has been deprecated. Dismantle to clear space and reclaim useful components.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7821effdc9ed9bc4aec04f6e3c955a08.jpg"
   },
   "1839911272": {
@@ -1670,7 +1668,7 @@
   "1890164722": {
     "name": "Autoloader",
     "type": "Rare Sparrow Mod",
-    "description": "Automatically reloads your weapons when you board the vehicle.",
+    "description": "This vehicle reloads weapons while you ride.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6f4d8b781a7e6ee6798cfc2a0f7a19ff.png"
   },
   "1891474609": {
@@ -1712,7 +1710,7 @@
   "1997025201": {
     "name": "Vernier Thrusters",
     "type": "Rare Sparrow Mod",
-    "description": "Improved lateral boosting, enabling you to better dodge enemy attacks.",
+    "description": "This vehicle has improved dodging from side to side.",
     "icon": "https://bungie.net/common/destiny2_content/icons/ab9ffea1eb5fa31f6866fc85d6613aaf.png"
   },
   "2020900991": {
@@ -1730,7 +1728,7 @@
   "2037533514": {
     "name": "Enhanced Resistant Tether",
     "type": "Common Garden of Salvation Raid Mod",
-    "description": "Active only in the \"Garden of Salvation\" raid.",
+    "description": "Gain powerful damage resistance while part of a tether chain. Multiple copies of this mod stack to increase this benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/3b828293d2610ba0d9e987b14c4eeb75.png"
   },
   "2039949393": {
@@ -1808,7 +1806,7 @@
   "2142852459": {
     "name": "Herd Thinner",
     "type": "Common Deep Stone Crypt Raid Mod",
-    "description": "This mod's perks are only active in the \"Deep Stone Crypt\" raid.\n\nMultiple copies of this mod stack and improve its effects.",
+    "description": "Your weapons deal additional damage to non-powerful combatants.",
     "icon": "https://bungie.net/common/destiny2_content/icons/68e54e0d7beab4eaa228a522c85a6d60.png"
   },
   "2146553541": {
@@ -1898,31 +1896,31 @@
   "2216063960": {
     "name": "Rage of the Warmind",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Adds additional Solar damage to the explosions of Warmind Cells you destroy.",
     "icon": "https://bungie.net/common/destiny2_content/icons/41e2c3607cef7cc665417dde5172ea32.png"
   },
   "2216063961": {
     "name": "Fireteam Medic",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Destroying a Warmind Cell creates a burst of healing for you and allies near you.",
     "icon": "https://bungie.net/common/destiny2_content/icons/1b0357512d53319f63e5d2bf3c0a17b7.png"
   },
   "2216063962": {
     "name": "Wrath of Rasputin",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Solar splash damage final blows have a chance to create Warmind Cells.",
     "icon": "https://bungie.net/common/destiny2_content/icons/5f066e7b42e77905e008511d02c2ea32.png"
   },
   "2216063963": {
     "name": "Burning Cells",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Destroying a Warmind Cell creates a burst of Solar energy that causes enemies to burn for several seconds.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e51fc35efbfb77746846ff39157de297.png"
   },
   "2216063967": {
     "name": "Incinerating Light",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Become Charged with Light by rapidly defeating multiple enemies with the explosion of a Warmind Cell.",
     "icon": "https://bungie.net/common/destiny2_content/icons/14dc085823df3d8819aedad8747bc09c.png"
   },
   "2220407779": {
@@ -1940,31 +1938,30 @@
   "2263321584": {
     "name": "Precision Charge",
     "type": "Common Charged with Light Mod",
-    "description": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+    "description": "Become Charged with Light by rapidly defeating combatants with precision kills from Bows, Hand Cannons, and Scout Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/2614935a04f326038bddff44a374e996.png"
   },
   "2263321585": {
     "name": "Surprise Attack",
     "type": "Common Charged with Light Mod",
-    "description": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+    "description": "While Charged with Light, reloading or readying a Sidearm will consume all stacks of Charged with Light and convert them into stacks of a major damage buff, which are depleted as you damage combatants with that Sidearm.",
     "icon": "https://bungie.net/common/destiny2_content/icons/df471d6e132702ba8bdfc87b16d1c441.png"
   },
   "2263321586": {
     "name": "Energy Converter",
     "type": "Common Charged with Light Mod",
-    "description": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+    "description": "While Charged with Light, using your grenade attack grants you Super energy, consuming all stacks of Charged with Light. The more stacks you have, the more energy you gain, up to a maximum of 50% of your Super energy.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e0b2cb5c2a1fd8ffa92f20c91ed5e7e0.png"
   },
   "2263321587": {
     "name": "Charge Harvester",
     "type": "Common Charged with Light Mod",
-    "description": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+    "description": "While you are not Charged with Light, any kill or assist has a small cumulative chance to cause you to become Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/a8acc2b6cf36527f879051a38622e310.png"
   },
   "2273483223": {
     "name": "Solar Damage Mod",
     "type": "Rare Weapon Mod",
-    "description": "This mod has been deprecated. Dismantle to clear space and reclaim useful components.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d955780680b22e2d39eaff575ae4161e.jpg"
   },
   "2276366746": {
@@ -2126,7 +2123,6 @@
   "2510923716": {
     "name": "Random Damage Type",
     "type": "Common Weapon Mod",
-    "description": "This item will have a randomly assigned damage type: Arc, Solar, or Void.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9f7e148731bf3ec4ac44555a4d48aed8.png"
   },
   "2520883911": {
@@ -2174,37 +2170,37 @@
   "2589105944": {
     "name": "Taken Repurposing",
     "type": "Common Last Wish Raid Mod",
-    "description": "This mod's perks are only active in the \"Last Wish\" raid.",
+    "description": "Destroying a Taken shield refreshes your grenade ability.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9d54e2149f945b2c298020da443b70fa.png"
   },
   "2597888506": {
     "name": "Light from Darkness",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Become Charged with Light by rapidly defeating multiple enemies near a Warmind Cell using weapons or abilities.",
     "icon": "https://bungie.net/common/destiny2_content/icons/14dc085823df3d8819aedad8747bc09c.png"
   },
   "2597888508": {
     "name": "Warmind's Protection",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "You take reduced damage from enemies that are near Warmind Cells.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9b3809c858edb260cdc2ae341c26601e.png"
   },
   "2597888509": {
     "name": "Warmind's Longevity",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Warmind Cells you create last longer.",
     "icon": "https://bungie.net/common/destiny2_content/icons/5ea2d5af34ebe66b4c8919d0dbd69e4b.png"
   },
   "2597888510": {
     "name": "Cellular Suppression",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "Damaging a Warmind Cell creates a burst of suppressing Void energy. Additionally, you deal less damage to Warmind Cells.",
     "icon": "https://bungie.net/common/destiny2_content/icons/ba4111a459ca971860571ef9ce5ca4ed.png"
   },
   "2597888511": {
     "name": "Power of Rasputin",
     "type": "Common Warmind Cell Mod",
-    "description": "Defeating a combatant with a Seventh Seraph weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+    "description": "You gain a bonus to weapon damage against enemies that are near Warmind Cells.",
     "icon": "https://bungie.net/common/destiny2_content/icons/75029cbc3eb965029197391d41ff9246.png"
   },
   "2599026044": {
@@ -2336,7 +2332,7 @@
   "2823326549": {
     "name": "Elemental Light",
     "type": "Elemental Well Mod",
-    "description": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+    "description": "Defeating a combatant with your Super spawns an elemental well that matches your subclass energy type.",
     "icon": "https://bungie.net/common/destiny2_content/icons/034ae7c2c029209816088d3fa81f4a06.png"
   },
   "2829974286": {
@@ -2360,7 +2356,7 @@
   "2859541905": {
     "name": "Taken Armaments",
     "type": "Common Last Wish Raid Mod",
-    "description": "This mod's perks are only active in the \"Last Wish\" raid.",
+    "description": "Defeating a Taken enemy with a grenade grants Heavy ammo.\n\nThis mod's abilities cannot stack across multiple copies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d365907deee1024944e9bc405a5c4bba.png"
   },
   "2865860988": {
@@ -2390,7 +2386,7 @@
   "2887845822": {
     "name": "Resistant Tether",
     "type": "Common Garden of Salvation Raid Mod",
-    "description": "Active only in the \"Garden of Salvation\" raid.",
+    "description": "Gain damage resistance while part of a tether chain. Multiple copies of this mod stack to increase this benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e7817ed2f532a95d1bc76e4274ea3459.png"
   },
   "2912791105": {
@@ -2414,25 +2410,25 @@
   "2979815164": {
     "name": "Swift Charge",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+    "description": "Become Charged with Light by rapidly defeating combatants with Pulse Rifles, Sidearms, or Submachine Guns.",
     "icon": "https://bungie.net/common/destiny2_content/icons/80b1179638c3627864a1ab5247151305.png"
   },
   "2979815165": {
     "name": "Lucent Blade",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+    "description": "While Charged with Light, dealing damage with a Sword gives you bonus Sword damage for 5 seconds, consuming one stack of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b2863d7ca41af5bca31641ecc6c5998a.png"
   },
   "2979815166": {
     "name": "Reactive Pulse",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+    "description": "While Charged with Light, when you take damage while surrounded by combatants, you emit a burst of damaging Arc energy, consuming one stack of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/19fc1544595d371c631855656c9f31b7.png"
   },
   "2979815167": {
     "name": "Radiant Light",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+    "description": "Casting your Super causes nearby allies to become Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b6649b05c177d25a0faae24fe727fbb9.png"
   },
   "2998471416": {
@@ -2462,7 +2458,7 @@
   "3052096176": {
     "name": "Transmat Preloader",
     "type": "Rare Sparrow Mod",
-    "description": "Increased transmat speed.",
+    "description": "This vehicle takes less time to summon.",
     "icon": "https://bungie.net/common/destiny2_content/icons/c1b7d9c21f3d2636679c4d3beb9a0ed4.png"
   },
   "3055419104": {
@@ -2594,25 +2590,25 @@
   "3185435908": {
     "name": "Firepower",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's effects stack with other copies of this mod.",
+    "description": "While Charged with Light, regain a portion of your grenade energy when you use your grenade, consuming one stack of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/070b7b77cd6fb8462dc6013764cb3709.png"
   },
   "3185435909": {
     "name": "Heal Thyself",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's effects stack with other copies of this mod.",
+    "description": "While you are Charged with Light, grenade final blows heal you and consume one stack of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e7067bd91843c6a9a40cceba9d376683.png"
   },
   "3185435910": {
     "name": "Charged Up",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's effects stack with other copies of this mod.",
+    "description": "Allows for 1 additional stack of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/ce29f32ba5ef8758d1b5f3cfad0944a6.png"
   },
   "3185435911": {
     "name": "Blast Radius",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's effects stack with other copies of this mod.",
+    "description": "Become Charged with Light by rapidly defeating multiple combatants with Grenade Launchers or Rocket Launchers.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6b0d065905e6e640a2c23b1af25160d1.png"
   },
   "3188535145": {
@@ -2654,19 +2650,19 @@
   "3230867320": {
     "name": "Mask Upgrade",
     "type": "Legendary Armor Mod",
-    "description": "Defeat Terrors in the Haunted Forest while wearing a Festival of the Lost mask to unlock this perk.",
+    "description": "Significantly increased damage to all enemies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
   "3230867321": {
     "name": "Mask Upgrade",
     "type": "Legendary Armor Mod",
-    "description": "Defeat Terrors in the Haunted Forest while wearing a Festival of the Lost mask to unlock this perk.",
+    "description": "Significant damage resistance while airborne.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
   "3230867322": {
     "name": "Mask Upgrade",
     "type": "Legendary Armor Mod",
-    "description": "Defeat Terrors in the Haunted Forest while wearing a Festival of the Lost mask to unlock this perk.",
+    "description": "Increases the drop chance of Heavy ammo on kill.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
   "3232982826": {
@@ -2696,7 +2692,6 @@
   "3268255645": {
     "name": "Sect of Force",
     "type": "Common Aeon Cult Mod",
-    "description": "You specialize in punishing powerful combatants before they can harm your allies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/1afd329603bbc915ce6ec5e2cc1f3c55.jpg"
   },
   "3282442165": {
@@ -2810,7 +2805,7 @@
   "3415291596": {
     "name": "Relay Defender",
     "type": "Common Garden of Salvation Raid Mod",
-    "description": "Active only in the \"Garden of Salvation\" raid.",
+    "description": "Gain an increase to weapon damage while within 5 meters of an active Vex Relay. Multiple copies of this mod stack to increase this benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9f71b7b4e5d75c12b11d4691b462d8ac.png"
   },
   "3420505819": {
@@ -2882,7 +2877,7 @@
   "3511698030": {
     "name": "Transmat Preloader",
     "type": "Rare Sparrow Mod",
-    "description": "Increased transmat speed.",
+    "description": "This vehicle takes less time to summon.",
     "icon": "https://bungie.net/common/destiny2_content/icons/c1b7d9c21f3d2636679c4d3beb9a0ed4.png"
   },
   "3512340080": {
@@ -2960,7 +2955,7 @@
   "3570105787": {
     "name": "Taken Barrier",
     "type": "Common Last Wish Raid Mod",
-    "description": "This mod's perks are only active in the \"Last Wish\" raid.",
+    "description": "Receiving Taken damage gives a 20% reduction in damage for 10 seconds.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6e112c563ecc78c1a674ef9edb8cb727.png"
   },
   "3581121455": {
@@ -2990,7 +2985,7 @@
   "3630287380": {
     "name": "Enhanced Relay Defender",
     "type": "Common Garden of Salvation Raid Mod",
-    "description": "Active only in the \"Garden of Salvation\" raid.",
+    "description": "Gain a powerful increase to weapon damage while within 5 meters of an active Vex Relay.",
     "icon": "https://bungie.net/common/destiny2_content/icons/0b055cf6c2f7f02012da6d32a735bbfc.png"
   },
   "3630662113": {
@@ -3056,7 +3051,6 @@
   "3651607301": {
     "name": "Sect of Insight",
     "type": "Common Aeon Cult Mod",
-    "description": "You specialize in empowering your allies and keeping them well supplied.",
     "icon": "https://bungie.net/common/destiny2_content/icons/94d922ec3eb165b42f68156e6b00c352.jpg"
   },
   "3661789072": {
@@ -3098,7 +3092,7 @@
   "3683811620": {
     "name": "Sect of Vigor",
     "type": "Common Aeon Cult Mod",
-    "description": "You specialize in keeping your allies in the fight.",
+    "description": "Gain class ability energy as your allies die. Gain full class ability energy when you resurrect an ally.",
     "icon": "https://bungie.net/common/destiny2_content/icons/ca12bd2a80dadc88f405f155d655d455.jpg"
   },
   "3699676109": {
@@ -3110,13 +3104,12 @@
   "3728733956": {
     "name": "Void Damage Mod",
     "type": "Rare Weapon Mod",
-    "description": "This mod has been deprecated. Dismantle to clear space and reclaim useful components.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d955780680b22e2d39eaff575ae4161e.jpg"
   },
   "3730619869": {
     "name": "Elemental Charge",
     "type": "Elemental Well Mod",
-    "description": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+    "description": "Become Charged with Light by picking up an elemental well. If the elemental well's element type matches your subclass element, you gain 2 stacks of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/ffc9d51dc0f442c535909eb2b4b8d1a2.png"
   },
   "3736152098": {
@@ -3302,7 +3295,6 @@
   "3994397859": {
     "name": "Arc Damage Mod",
     "type": "Legendary Weapon Mod",
-    "description": "This mod has been deprecated. Dismantle to clear space and reclaim useful components.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7821effdc9ed9bc4aec04f6e3c955a08.jpg"
   },
   "4003264426": {
@@ -3320,7 +3312,7 @@
   "4020036031": {
     "name": "Enhanced Voltaic Ammo Collector",
     "type": "Common Garden of Salvation Raid Mod",
-    "description": "Active only in the \"Garden of Salvation\" raid.",
+    "description": "Greatly increases the chances of finding Heavy ammo while you have the Voltaic Overflow buff. Multiple copies of this mod stack to increase this benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7309f0e00f8c0f1ca7823a2d7321a154.png"
   },
   "4048838440": {
@@ -3380,7 +3372,6 @@
   "4126105782": {
     "name": "Arc Damage Mod",
     "type": "Rare Weapon Mod",
-    "description": "This mod has been deprecated. Dismantle to clear space and reclaim useful components.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d955780680b22e2d39eaff575ae4161e.jpg"
   },
   "4130296084": {
@@ -3392,7 +3383,7 @@
   "4134680615": {
     "name": "Voltaic Mote Collector",
     "type": "Common Garden of Salvation Raid Mod",
-    "description": "Active only in the \"Garden of Salvation\" raid.",
+    "description": "Gain an overshield after you collect 10 Motes. This mod's effect does not stack with other copies of this mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/2cf09f03340c2ba8499e1d2e889ea88b.png"
   },
   "4137020505": {
@@ -3560,25 +3551,25 @@
   "4272180932": {
     "name": "Argent Ordnance",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's effects stack with other copies of this mod.",
+    "description": "While Charged with Light, readying or firing a Rocket Launcher grants it increased damage and reload speed. Damaging a combatant with a rocket consumes one stack of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9bc05cbb389498fb9ca99807c9b91b6b.png"
   },
   "4272180933": {
     "name": "Sustained Charge",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's effects stack with other copies of this mod.",
+    "description": "Become Charged with Light by rapidly defeating combatants with Auto Rifles, Trace Rifles, or Machine Guns. Additional copies of this mod increase the time allowed between combatants that are defeated.",
     "icon": "https://bungie.net/common/destiny2_content/icons/900534ac5f6ffd274521ed7fc0e43e31.png"
   },
   "4272180934": {
     "name": "Supercharged",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's effects stack with other copies of this mod.",
+    "description": "You can have 2 additional stacks of Charged with Light, up to a maximum of 5.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7102cef97f85ae4fae1d34153c292973.png"
   },
   "4272180935": {
     "name": "Kindling the Flame",
     "type": "Common Charged with Light Mod",
-    "description": "This mod's effects stack with other copies of this mod.",
+    "description": "While Charged with Light, reviving a downed Guardian gives you a burst of healing, consuming one stack of Charged with Light.",
     "icon": "https://bungie.net/common/destiny2_content/icons/cc1eb304baed451cbb4b8b5cfcab164f.png"
   },
   "4278960718": {
