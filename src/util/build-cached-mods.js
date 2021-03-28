@@ -26,7 +26,7 @@ module.exports.buildCachedMods = async () => {
       sandboxPerkHash = sandboxPerks[0].perkHash
     }
 
-    if (type && type.endsWith("Mod") && description === "") {
+    if (type && type.endsWith("Mod") && sandboxPerkHash) {
       description = sandboxPerkDefinitions[sandboxPerkHash].displayProperties.description
     }
 

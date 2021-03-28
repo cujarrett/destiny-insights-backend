@@ -28,7 +28,7 @@ test("Unit - getMods", async (assert) => {
   expectedType = "Common Charged with Light Mod"
   assert.equals(mods.secondMod.type, expectedType, "getMods type for cached armor mod verified")
   // eslint-disable-next-line max-len
-  expectedDescription = "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing."
+  expectedDescription = "When you become Charged with Light, nearby allies also become Charged with Light, if they are not already."
   // eslint-disable-next-line max-len
   assert.equals(mods.secondMod.description, expectedDescription, "getMods description for cached armor mod verified")
   // eslint-disable-next-line max-len
