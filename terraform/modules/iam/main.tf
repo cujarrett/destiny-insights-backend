@@ -1,5 +1,5 @@
-resource "aws_iam_role" "banshee-44-mods-backend" {
-  name               = "banshee-44-mods-backend"
+resource "aws_iam_role" "destiny_insights_backend" {
+  name               = "destiny_insights_backend"
   assume_role_policy = <<POLICY
 {
   "Version": "2012-10-17",
@@ -14,8 +14,8 @@ resource "aws_iam_role" "banshee-44-mods-backend" {
 POLICY
 }
 
-resource "aws_iam_policy" "banshee-44-mods-backend-logs" {
-  name        = "banshee-44-mods-backend-logs"
+resource "aws_iam_policy" "destiny_insights_backend_logs" {
+  name        = "destiny_insights_backend_logs"
   description = "Adds logging access"
 
   policy = <<EOF
@@ -36,13 +36,13 @@ resource "aws_iam_policy" "banshee-44-mods-backend-logs" {
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "attach-logs" {
-  role       = aws_iam_role.banshee-44-mods-backend.name
-  policy_arn = aws_iam_policy.banshee-44-mods-backend-logs.arn
+resource "aws_iam_role_policy_attachment" "attach_logs" {
+  role       = aws_iam_role.destiny_insights_backend.name
+  policy_arn = aws_iam_policy.destiny_insights_backend_logs.arn
 }
 
-resource "aws_iam_policy" "banshee-44-mods-backend-sns" {
-  name        = "banshee-44-mods-backend-sns"
+resource "aws_iam_policy" "destiny_insights_backend_sns" {
+  name        = "destiny_insights_backend_sns"
   description = "Adds sns access"
 
   policy = <<EOF
@@ -52,20 +52,20 @@ resource "aws_iam_policy" "banshee-44-mods-backend-sns" {
     {
       "Effect": "Allow",
       "Action": "sns:Publish",
-      "Resource": "${var.error-sns-topic}"
+      "Resource": "${var.error_sns_topic}"
     }
   ]
 }
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "attach-sns" {
-  role       = aws_iam_role.banshee-44-mods-backend.name
-  policy_arn = aws_iam_policy.banshee-44-mods-backend-sns.arn
+resource "aws_iam_role_policy_attachment" "attach_sns" {
+  role       = aws_iam_role.destiny_insights_backend.name
+  policy_arn = aws_iam_policy.destiny_insights_backend_sns.arn
 }
 
-resource "aws_iam_policy" "banshee-44-mods-backend-mods" {
-  name        = "banshee-44-mods-backend-mods-dynamodb"
+resource "aws_iam_policy" "destiny_insights_backend_mods" {
+  name        = "destiny_insights_backend_mods_dynamodb"
   description = "Adds DynamoDB access"
 
   policy = <<EOF
@@ -78,20 +78,20 @@ resource "aws_iam_policy" "banshee-44-mods-backend-mods" {
         "dynamodb:Scan",
         "dynamodb:PutItem"
       ],
-      "Resource": "${var.banshee-44-mods-backend-mods-table-arn}"
+      "Resource": "${var.destiny_insights_backend_mods_table_arn}"
     }
   ]
 }
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "attach-banshee-44-mods-backend-mods-dynamodb" {
-  role       = aws_iam_role.banshee-44-mods-backend.name
-  policy_arn = aws_iam_policy.banshee-44-mods-backend-mods.arn
+resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_mods_dynamodb" {
+  role       = aws_iam_role.destiny_insights_backend.name
+  policy_arn = aws_iam_policy.destiny_insights_backend_mods.arn
 }
 
-resource "aws_iam_policy" "banshee-44-mods-backend-bungie-api-auth" {
-  name        = "banshee-44-mods-backend-bungie-api-auth-dynamodb"
+resource "aws_iam_policy" "destiny_insights_backend_bungie_api_auth" {
+  name        = "destiny_insights_backend_bungie_api_auth_dynamodb"
   description = "Adds DynamoDB access"
 
   policy = <<EOF
@@ -104,20 +104,20 @@ resource "aws_iam_policy" "banshee-44-mods-backend-bungie-api-auth" {
         "dynamodb:Query",
         "dynamodb:UpdateItem"
       ],
-      "Resource": "${var.banshee-44-mods-backend-bungie-api-auth-table-arn}"
+      "Resource": "${var.destiny_insights_backend_bungie_api_auth_table_arn}"
     }
   ]
 }
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "attach-banshee-44-mods-backend-bungie-api-auth-dynamodb" {
-  role       = aws_iam_role.banshee-44-mods-backend.name
-  policy_arn = aws_iam_policy.banshee-44-mods-backend-bungie-api-auth.arn
+resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_bungie_api_auth_dynamodb" {
+  role       = aws_iam_role.destiny_insights_backend.name
+  policy_arn = aws_iam_policy.destiny_insights_backend_bungie_api_auth.arn
 }
 
-resource "aws_iam_policy" "banshee-44-mods-backend-last-updated" {
-  name        = "banshee-44-mods-backend-last-updated-dynamodb"
+resource "aws_iam_policy" "destiny_insights_backend_last_updated" {
+  name        = "destiny_insights_backend_last_updated_dynamodb"
   description = "Adds DynamoDB access"
 
   policy = <<EOF
@@ -130,18 +130,18 @@ resource "aws_iam_policy" "banshee-44-mods-backend-last-updated" {
         "dynamodb:Query",
         "dynamodb:UpdateItem"
       ],
-      "Resource": "${var.banshee-44-mods-backend-last-updated-table-arn}"
+      "Resource": "${var.destiny_insights_backend_last_updated_table_arn}"
     }
   ]
 }
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "attach-banshee-44-mods-backend-last-updated-dynamodb" {
-  role       = aws_iam_role.banshee-44-mods-backend.name
-  policy_arn = aws_iam_policy.banshee-44-mods-backend-last-updated.arn
+resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_last_updated_dynamodb" {
+  role       = aws_iam_role.destiny_insights_backend.name
+  policy_arn = aws_iam_policy.destiny_insights_backend_last_updated.arn
 }
 
-output "banshee-44-mods-backend-role-arn" {
-  value = aws_iam_role.banshee-44-mods-backend.arn
+output "destiny_insights_backend_role_arn" {
+  value = aws_iam_role.destiny_insights_backend.arn
 }

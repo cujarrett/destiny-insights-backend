@@ -7,7 +7,7 @@ module.exports.getAuth = async () => {
   const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
 
   const params = {
-    TableName: "banshee-44-mods-backend-bungie-api-auth",
+    TableName: "destiny-insights-backend-bungie-api-auth",
     KeyConditionExpression: "app = :app",
     ExpressionAttributeValues: { ":app": { "S": name } }
   }
@@ -28,7 +28,7 @@ module.exports.setAuth = async (newAuth) => {
   const docClient = new AWS.DynamoDB.DocumentClient()
 
   const params = {
-    TableName: "banshee-44-mods-backend-bungie-api-auth",
+    TableName: "destiny-insights-backend-bungie-api-auth",
     Key: { app: name },
     // eslint-disable-next-line max-len
     UpdateExpression: "set #ei = :expiresIn, #ltr = :lastTokenRefresh, #mi = :membershipId, #at = :accessToken, #tt = :tokenType, #rt = :refreshToken, #rei = :refreshExpiresIn",
@@ -60,7 +60,7 @@ module.exports.getLastUpdated = async () => {
   const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
 
   const params = {
-    TableName: "banshee-44-mods-backend-last-updated",
+    TableName: "destiny-insights-backend-last-updated",
     KeyConditionExpression: "app = :app",
     ExpressionAttributeValues: { ":app": { "S": name } }
   }
@@ -77,7 +77,7 @@ module.exports.setLastUpdated = async (lastUpdated) => {
   const docClient = new AWS.DynamoDB.DocumentClient()
 
   const params = {
-    TableName: "banshee-44-mods-backend-last-updated",
+    TableName: "destiny-insights-backend-last-updated",
     Key: { app: name },
     UpdateExpression: "set #lu = :lastUpdated",
     ExpressionAttributeValues: {
@@ -97,7 +97,7 @@ const getQuery = (modNumber, mod) => {
   oneYearAgo = oneYearAgo.toISOString().split("T")[0]
 
   return {
-    TableName: "banshee-44-mods-backend-mods",
+    TableName: "destiny-insights-backend-mods",
     FilterExpression: `#ts > :startDate and ${modNumber} = :value`,
     ExpressionAttributeValues: {
       // AWS DynamoDB uses single char for types
@@ -151,7 +151,7 @@ module.exports.getModDataForLastYear = async () => {
   oneYearAgo = oneYearAgo.toISOString().split("T")[0]
 
   const query = {
-    TableName: "banshee-44-mods-backend-mods",
+    TableName: "destiny-insights-backend-mods",
     FilterExpression: "#ts > :startDate",
     ExpressionAttributeValues: {
       // AWS DynamoDB uses single char for types
@@ -197,7 +197,7 @@ module.exports.getLastSoldMods = async () => {
   oneDayAgo = oneDayAgo.toISOString().split("T")[0]
 
   const query = {
-    TableName: "banshee-44-mods-backend-mods",
+    TableName: "destiny-insights-backend-mods",
     FilterExpression: "#ts > :startDate",
     ExpressionAttributeValues: {
       // AWS DynamoDB uses single char for types
@@ -235,7 +235,7 @@ module.exports.addNewMods = async (mod1, mod2) => {
   const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
 
   const params = {
-    TableName: "banshee-44-mods-backend-mods",
+    TableName: "destiny-insights-backend-mods",
     Item: {
       // AWS DynamoDB uses single char for types
       // eslint-disable-next-line id-length

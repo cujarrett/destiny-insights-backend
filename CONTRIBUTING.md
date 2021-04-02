@@ -5,7 +5,7 @@ If you're new to contributing to open source software
 
 ## Not sure where to start?
 
-A great place to jump in are issues labeled [Beginner Friendly](https://github.com/cujarrett/banshee-44-mods-backend/labels/Beginner%20Friendly).
+A great place to jump in are issues labeled [Beginner Friendly](https://github.com/cujarrett/destiny-insights-backend/labels/Beginner%20Friendly).
 
 ## Chat
 
@@ -54,8 +54,8 @@ software listed in Setup.
 
 ### Cloning & Dependency Installations
 ```sh
-git clone git@github.com:cujarrett/banshee-44-mods-backend.git
-cd banshee-44-mods-backend
+git clone git@github.com:cujarrett/destiny-insights-backend.git
+cd destiny-insights-backend
 npm install
 ```
 
@@ -101,7 +101,7 @@ I'm using AWS DynamoDB to persist auth and config. The structure of that table i
 ```js
 {
   "app": {
-    "S": "banshee-44-mods-backend"
+    "S": "destiny-insights-backend"
   },
   "lastTokenRefresh": {
     "S": "2021-03-07T07:03:42.420Z"
@@ -143,7 +143,7 @@ I'm using AWS DynamoDB to persist auth and config. The structure of that table i
 ```js
 {
   "app": {
-    "S": "banshee-44-mods-backend"
+    "S": "destiny-insights-backend"
   },
   "lastUpdated": {
     "S": "2021-03-07T04:51:16.805Z"

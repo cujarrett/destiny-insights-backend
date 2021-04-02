@@ -31,7 +31,7 @@ module.exports = async (api) => {
         refreshToken: newToken.refresh_token
       }
       await setAuth(newAuth)
-      response.redirect("https://api.banshee44mods.com/info")
+      response.redirect("https://api.destinyinsights.com/mods")
     } catch (error) {
       console.log(error)
     }
