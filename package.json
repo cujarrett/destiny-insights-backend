@@ -1,15 +1,15 @@
 {
-  "name": "banshee-44-mods-backend",
+  "name": "destiny-insights-backend",
   "version": "1.8.2",
-  "description": "Backend for banshee-44-mods apps",
+  "description": "Backend for destiny-insights apps",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "fix-lint": "eslint . --fix",
     "test": "nyc --reporter=lcov tape test/**/*.js | tap-spec && nyc report",
     "build-cached-mods": "node -e 'require(\"./src/util/build-cached-mods.js\").printNewCachedMods()'",
-    "build": "npm install --production && rm -rf build && mkdir build && zip -r -q -x='*test*' -x='package-lock.json' -x='*media*' -x='*terraform*' -x=*coverage* -x='*.md' -x='LICENSE' -x='*build*' -x='*.DS_Store*' -x='*.git*' -x='release.config.js' -x='commitlint.config.js' build/banshee-44-mods-backend.zip . && du -sh build",
-    "deploy": "aws lambda update-function-code --function-name=banshee-44-mods-backend --zip-file=fileb://build/banshee-44-mods-backend.zip --region=us-east-1 1> /dev/null",
+    "build": "npm install --production && rm -rf build && mkdir build && zip -r -q -x='*test*' -x='package-lock.json' -x='*media*' -x='*terraform*' -x=*coverage* -x='*.md' -x='LICENSE' -x='*build*' -x='*.DS_Store*' -x='*.git*' -x='release.config.js' -x='commitlint.config.js' build/destiny-insights-backend.zip . && du -sh build",
+    "deploy": "aws lambda update-function-code --function-name=destiny-insights-backend --zip-file=fileb://build/destiny-insights-backend.zip --region=us-east-1 1> /dev/null",
     "semantic-release": "semantic-release",
     "ci": "npm run lint && npm run test",
     "cd": "npm run build && npm run deploy"
@@ -22,32 +22,32 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cujarrett/banshee-44-mods-backend.git"
+    "url": "https://github.com/cujarrett/destiny-insights-backend.git"
   },
   "author": "Matt Jarrett",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cujarrett/banshee-44-mods-backend/issues"
+    "url": "https://github.com/cujarrett/destiny-insights-backend/issues"
   },
-  "homepage": "https://github.com/cujarrett/banshee-44-mods-backend#readme",
+  "homepage": "https://github.com/cujarrett/destiny-insights-backend#readme",
   "dependencies": {
     "lambda-api": "~0.10.7",
     "node-fetch": "~2.6.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "~12.0.1",
-    "@commitlint/config-conventional": "~12.0.1",
+    "@commitlint/cli": "~12.1.1",
+    "@commitlint/config-conventional": "~12.1.1",
     "@semantic-release/changelog": "~5.0.1",
     "@semantic-release/commit-analyzer": "~8.0.1",
     "@semantic-release/exec": "~5.0.0",
     "@semantic-release/git": "~9.0.0",
     "@semantic-release/github": "~7.2.0",
-    "@semantic-release/npm": "~7.0.10",
+    "@semantic-release/npm": "~7.1.0",
     "@semantic-release/release-notes-generator": "~9.0.2",
-    "aws-sdk": "~2.868.0",
+    "aws-sdk": "~2.879.0",
     "commitizen": "~4.2.3",
     "cz-conventional-changelog": "~3.3.0",
-    "eslint": "~7.22.0",
+    "eslint": "~7.23.0",
     "husky": "~4.3.8",
     "nyc": "~15.1.0",
     "semantic-release": "^17.4.2",

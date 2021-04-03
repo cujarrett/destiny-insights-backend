@@ -8,27 +8,27 @@ module "dynamodb" {
 
 module "iam" {
   source = "./modules/iam"
-  error-sns-topic = var.error-sns-topic
-  banshee-44-mods-backend-mods-table-arn = module.dynamodb.banshee-44-mods-backend-mods-table-arn
-  banshee-44-mods-backend-bungie-api-auth-table-arn = module.dynamodb.banshee-44-mods-backend-bungie-api-auth-table-arn
-  banshee-44-mods-backend-last-updated-table-arn = module.dynamodb.banshee-44-mods-backend-last-updated-table-arn
+  error_sns_topic = var.error_sns_topic
+  destiny_insights_backend_mods_table_arn = module.dynamodb.destiny_insights_backend_mods_table_arn
+  destiny_insights_backend_bungie_api_auth_table_arn = module.dynamodb.destiny_insights_backend_bungie_api_auth_table_arn
+  destiny_insights_backend_last_updated_table_arn = module.dynamodb.destiny_insights_backend_last_updated_table_arn
 }
 
 module "lambda" {
   source = "./modules/lambda"
-  error-sns-topic = var.error-sns-topic
-  file-placeholder-output-path = module.archive.file-placeholder-output-path
-  banshee-44-mods-backend-role-arn = module.iam.banshee-44-mods-backend-role-arn
+  error_sns_topic = var.error_sns_topic
+  file_placeholder_output_path = module.archive.file_placeholder_output_path
+  destiny_insights_backend_role_arn = module.iam.destiny_insights_backend_role_arn
 }
 
-module "api-gateway" {
-  source = "./modules/api-gateway"
-  acm-certificate-arn = var.acm-certificate-arn
-  banshee-44-mods-backend-lambda-arn = module.lambda.banshee-44-mods-backend-lambda-arn
-  banshee-44-mods-backend-lambda-invoke-arn = module.lambda.banshee-44-mods-backend-lambda-invoke-arn
+module "api_gateway" {
+  source = "./modules/api_gateway"
+  acm_certificate_arn = var.acm_certificate_arn
+  destiny_insights_backend_lambda_arn = module.lambda.destiny_insights_backend_lambda_arn
+  destiny_insights_backend_lambda_invoke_arn = module.lambda.destiny_insights_backend_lambda_invoke_arn
 }
 
 # Set the generated URL as an output. Run `terraform output url` to get this.
 output "endpoint" {
-  value = module.api-gateway.endpoint
+  value = module.api_gateway.endpoint
 }

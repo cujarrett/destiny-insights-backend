@@ -12,7 +12,7 @@ const { name, version } = require("../../package.json")
 
 module.exports = async (api) => {
   // eslint-disable-next-line no-unused-vars
-  api.get("/info", async (request, response) => {
+  api.get("/mods", async (request, response) => {
     console.log("/info called")
     response.header("Access-Control-Allow-Origin", "*")
     let categoryData

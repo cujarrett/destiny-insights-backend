@@ -1,19 +1,19 @@
-variable "banshee-44-mods-backend-mods-table-arn" {
-  description = "DynamoDB banshee-44-mods-backend-mods table ARN"
+variable "destiny_insights_backend_mods_table_arn" {
+  description = "DynamoDB destiny_insights_backend_mods table ARN"
   type = string
 }
 
-variable "banshee-44-mods-backend-bungie-api-auth-table-arn" {
-  description = "DynamoDB banshee-44-mods-backend-bungie-api-auth table ARN"
+variable "destiny_insights_backend_bungie_api_auth_table_arn" {
+  description = "DynamoDB destiny_insights_backend_bungie_api_auth table ARN"
   type = string
 }
 
-variable "banshee-44-mods-backend-last-updated-table-arn" {
-  description = "DynamoDB banshee-44-mods-backend-last-updated-table-arn table ARN"
+variable "destiny_insights_backend_last_updated_table_arn" {
+  description = "DynamoDB destiny_insights_backend_last_updated_table_arn table ARN"
   type = string
 }
 
-variable "error-sns-topic" {
+variable "error_sns_topic" {
   description = "SNS Topic ARN to trigger on lambda failure"
   type = string
 }

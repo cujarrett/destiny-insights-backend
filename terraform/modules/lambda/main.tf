@@ -1,36 +1,36 @@
-resource "aws_lambda_function" "banshee-44-mods-backend" {
-  filename = var.file-placeholder-output-path
-  function_name = "banshee-44-mods-backend"
+resource "aws_lambda_function" "destiny_insights_backend" {
+  filename = var.file_placeholder_output_path
+  function_name = "destiny-insights-backend"
   handler       = "index.handler"
-  role          = var.banshee-44-mods-backend-role-arn
+  role          = var.destiny_insights_backend_role_arn
   runtime       = "nodejs14.x"
   memory_size   = 512
   timeout       = 300
 }
 
-resource "aws_lambda_function_event_invoke_config" "banshee-44-mods-backend-event-invoke-config" {
-  function_name = aws_lambda_function.banshee-44-mods-backend.arn
+resource "aws_lambda_function_event_invoke_config" "destiny_insights_backend_event_invoke_config" {
+  function_name = aws_lambda_function.destiny_insights_backend.arn
   maximum_event_age_in_seconds = 60
   maximum_retry_attempts       = 0
 
   destination_config {
     on_failure {
-      destination = var.error-sns-topic
+      destination = var.error_sns_topic
     }
   }
 }
 
-resource "aws_lambda_permission" "banshee-44-mods-backend" {
+resource "aws_lambda_permission" "destiny_insights_backend" {
   statement_id  = "AllowAPIGatewayInvoke"
   action        = "lambda:InvokeFunction"
-  function_name = aws_lambda_function.banshee-44-mods-backend.arn
+  function_name = aws_lambda_function.destiny_insights_backend.arn
   principal     = "apigateway.amazonaws.com"
 }
 
-output "banshee-44-mods-backend-lambda-arn" {
-  value = aws_lambda_function.banshee-44-mods-backend.arn
+output "destiny_insights_backend_lambda_arn" {
+  value = aws_lambda_function.destiny_insights_backend.arn
 }
 
-output "banshee-44-mods-backend-lambda-invoke-arn" {
-  value = aws_lambda_function.banshee-44-mods-backend.invoke_arn
+output "destiny_insights_backend_lambda_invoke_arn" {
+  value = aws_lambda_function.destiny_insights_backend.invoke_arn
 }
