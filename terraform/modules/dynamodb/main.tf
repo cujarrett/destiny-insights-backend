@@ -1,8 +1,8 @@
 resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   name           = "destiny-insights-backend-mods"
   billing_mode   = "PROVISIONED"
-  read_capacity  = 2
-  write_capacity = 2
+  read_capacity  = 20
+  write_capacity = 20
   hash_key       = "timestamp"
 
   point_in_time_recovery {
@@ -27,16 +27,16 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   global_secondary_index {
     name               = "type"
     hash_key           = "type"
-    write_capacity     = 2
-    read_capacity      = 2
+    write_capacity     = 20
+    read_capacity      = 20
     projection_type    = "ALL"
   }
 
   global_secondary_index {
     name               = "name"
     hash_key           = "name"
-    write_capacity     = 2
-    read_capacity      = 2
+    write_capacity     = 20
+    read_capacity      = 20
     projection_type    = "ALL"
   }
 
@@ -48,8 +48,8 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
 resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   name           = "destiny-insights-backend-xur"
   billing_mode   = "PROVISIONED"
-  read_capacity  = 2
-  write_capacity = 2
+  read_capacity  = 20
+  write_capacity = 20
   hash_key       = "timestamp"
 
   point_in_time_recovery {
@@ -74,16 +74,16 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   global_secondary_index {
     name               = "type"
     hash_key           = "type"
-    write_capacity     = 2
-    read_capacity      = 2
+    write_capacity     = 20
+    read_capacity      = 20
     projection_type    = "ALL"
   }
 
   global_secondary_index {
     name               = "name"
     hash_key           = "name"
-    write_capacity     = 2
-    read_capacity      = 2
+    write_capacity     = 20
+    read_capacity      = 20
     projection_type    = "ALL"
   }
 
