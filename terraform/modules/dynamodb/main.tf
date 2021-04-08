@@ -15,33 +15,33 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   }
 
   attribute {
-    name = "mod1"
+    name = "type"
     type = "S"
   }
 
   attribute {
-    name = "mod2"
+    name = "name"
     type = "S"
   }
 
   global_secondary_index {
-    name               = "mod1"
-    hash_key           = "mod1"
+    name               = "type"
+    hash_key           = "type"
     write_capacity     = 5
     read_capacity      = 5
     projection_type    = "ALL"
   }
 
   global_secondary_index {
-    name               = "mod2"
-    hash_key           = "mod2"
+    name               = "name"
+    hash_key           = "name"
     write_capacity     = 5
     read_capacity      = 5
     projection_type    = "ALL"
   }
 
   lifecycle {
-    prevent_destroy = true
+    # prevent_destroy = true
   }
 }
 
@@ -62,59 +62,33 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   }
 
   attribute {
-    name = "weapon"
+    name = "type"
     type = "S"
   }
 
   attribute {
-    name = "hunterArmor"
-    type = "S"
-  }
-
-  attribute {
-    name = "titanArmor"
-    type = "S"
-  }
-
-  attribute {
-    name = "warlockArmor"
+    name = "name"
     type = "S"
   }
 
   global_secondary_index {
-    name               = "weapon"
-    hash_key           = "weapon"
+    name               = "type"
+    hash_key           = "type"
     write_capacity     = 5
     read_capacity      = 5
     projection_type    = "ALL"
   }
 
   global_secondary_index {
-    name               = "hunterArmor"
-    hash_key           = "hunterArmor"
-    write_capacity     = 5
-    read_capacity      = 5
-    projection_type    = "ALL"
-  }
-
-  global_secondary_index {
-    name               = "titanArmor"
-    hash_key           = "titanArmor"
-    write_capacity     = 5
-    read_capacity      = 5
-    projection_type    = "ALL"
-  }
-
-  global_secondary_index {
-    name               = "warlockArmor"
-    hash_key           = "warlockArmor"
+    name               = "name"
+    hash_key           = "name"
     write_capacity     = 5
     read_capacity      = 5
     projection_type    = "ALL"
   }
 
   lifecycle {
-    prevent_destroy = true
+    # prevent_destroy = true
   }
 }
 
