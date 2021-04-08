@@ -64,57 +64,57 @@ resource "aws_iam_role_policy_attachment" "attach_sns" {
   policy_arn = aws_iam_policy.destiny_insights_backend_sns.arn
 }
 
-resource "aws_iam_policy" "destiny_insights_backend_mods" {
-  name        = "destiny_insights_backend_mods_dynamodb"
-  description = "Adds DynamoDB access"
+# resource "aws_iam_policy" "destiny_insights_backend_mods" {
+#   name        = "destiny_insights_backend_mods_dynamodb"
+#   description = "Adds DynamoDB access"
 
-  policy = <<EOF
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "dynamodb:Scan",
-        "dynamodb:PutItem"
-      ],
-      "Resource": "${var.destiny_insights_backend_mods_table_arn}"
-    }
-  ]
-}
-EOF
-}
+#   policy = <<EOF
+# {
+#   "Version": "2012-10-17",
+#   "Statement": [
+#     {
+#       "Effect": "Allow",
+#       "Action": [
+#         "dynamodb:Scan",
+#         "dynamodb:PutItem"
+#       ],
+#       "Resource": "${var.destiny_insights_backend_mods_table_arn}"
+#     }
+#   ]
+# }
+# EOF
+# }
 
-resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_mods_dynamodb" {
-  role       = aws_iam_role.destiny_insights_backend.name
-  policy_arn = aws_iam_policy.destiny_insights_backend_mods.arn
-}
+# resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_mods_dynamodb" {
+#   role       = aws_iam_role.destiny_insights_backend.name
+#   policy_arn = aws_iam_policy.destiny_insights_backend_mods.arn
+# }
 
-resource "aws_iam_policy" "destiny_insights_backend_xur" {
-  name        = "destiny_insights_backend_xur_dynamodb"
-  description = "Adds DynamoDB access"
+# resource "aws_iam_policy" "destiny_insights_backend_xur" {
+#   name        = "destiny_insights_backend_xur_dynamodb"
+#   description = "Adds DynamoDB access"
 
-  policy = <<EOF
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "dynamodb:Scan",
-        "dynamodb:PutItem"
-      ],
-      "Resource": "${var.destiny_insights_backend_xur_table_arn}"
-    }
-  ]
-}
-EOF
-}
+#   policy = <<EOF
+# {
+#   "Version": "2012-10-17",
+#   "Statement": [
+#     {
+#       "Effect": "Allow",
+#       "Action": [
+#         "dynamodb:Scan",
+#         "dynamodb:PutItem"
+#       ],
+#       "Resource": "${var.destiny_insights_backend_xur_table_arn}"
+#     }
+#   ]
+# }
+# EOF
+# }
 
-resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_xur_dynamodb" {
-  role       = aws_iam_role.destiny_insights_backend.name
-  policy_arn = aws_iam_policy.destiny_insights_backend_xur.arn
-}
+# resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_xur_dynamodb" {
+#   role       = aws_iam_role.destiny_insights_backend.name
+#   policy_arn = aws_iam_policy.destiny_insights_backend_xur.arn
+# }
 
 resource "aws_iam_policy" "destiny_insights_backend_bungie_api_auth" {
   name        = "destiny_insights_backend_bungie_api_auth_dynamodb"
