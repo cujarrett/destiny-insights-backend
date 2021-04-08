@@ -4,6 +4,7 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   read_capacity  = 20
   write_capacity = 20
   hash_key       = "timestamp"
+  range_key      = "type"
 
   point_in_time_recovery {
     enabled = true
@@ -27,6 +28,7 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   global_secondary_index {
     name               = "type"
     hash_key           = "type"
+    range_key          = "type"
     write_capacity     = 20
     read_capacity      = 20
     projection_type    = "ALL"
@@ -35,6 +37,7 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   global_secondary_index {
     name               = "name"
     hash_key           = "name"
+    range_key          = "type"
     write_capacity     = 20
     read_capacity      = 20
     projection_type    = "ALL"
@@ -51,6 +54,7 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   read_capacity  = 20
   write_capacity = 20
   hash_key       = "timestamp"
+  range_key      = "type"
 
   point_in_time_recovery {
     enabled = true
@@ -74,6 +78,7 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   global_secondary_index {
     name               = "type"
     hash_key           = "type"
+    range_key          = "type"
     write_capacity     = 20
     read_capacity      = 20
     projection_type    = "ALL"
@@ -82,6 +87,7 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   global_secondary_index {
     name               = "name"
     hash_key           = "name"
+    range_key          = "type"
     write_capacity     = 20
     read_capacity      = 20
     projection_type    = "ALL"
