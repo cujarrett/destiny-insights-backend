@@ -104,7 +104,7 @@ resource "aws_iam_policy" "destiny_insights_backend_xur" {
         "dynamodb:Scan",
         "dynamodb:PutItem"
       ],
-      "Resource": "${var.destiny_insights_backend_mods_table_arn}"
+      "Resource": "${var.destiny_insights_backend_xur_table_arn}"
     }
   ]
 }
@@ -113,7 +113,7 @@ EOF
 
 resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_xur_dynamodb" {
   role       = aws_iam_role.destiny_insights_backend.name
-  policy_arn = aws_iam_policy.destiny_insights_backend_mods.arn
+  policy_arn = aws_iam_policy.destiny_insights_backend_xur.arn
 }
 
 resource "aws_iam_policy" "destiny_insights_backend_bungie_api_auth" {
