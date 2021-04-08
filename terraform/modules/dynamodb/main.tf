@@ -109,23 +109,6 @@ resource "aws_dynamodb_table" "destiny_insights_backend_bungie_api_auth" {
   }
 }
 
-resource "aws_dynamodb_table" "destiny_insights_backend_last_updated" {
-  name           = "destiny-insights-backend-last-updated"
-  billing_mode   = "PROVISIONED"
-  read_capacity  = 1
-  write_capacity = 1
-  hash_key       = "vendor"
-
-  attribute {
-    name = "vendor"
-    type = "S"
-  }
-
-  lifecycle {
-    prevent_destroy = true
-  }
-}
-
 output "destiny_insights_backend_mods_table_arn" {
   value = aws_dynamodb_table.destiny_insights_backend_mods.arn
 }
