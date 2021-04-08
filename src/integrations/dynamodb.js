@@ -61,8 +61,8 @@ module.exports.getLastUpdated = async () => {
 
   const params = {
     TableName: "destiny-insights-backend-last-updated",
-    KeyConditionExpression: "app = :app",
-    ExpressionAttributeValues: { ":app": { "S": name } }
+    KeyConditionExpression: "vendor = :vendor",
+    ExpressionAttributeValues: { ":vendor": { "S": "mods" } }
   }
 
   const response = await ddb.query(params).promise()
@@ -78,7 +78,7 @@ module.exports.setLastUpdated = async (lastUpdated) => {
 
   const params = {
     TableName: "destiny-insights-backend-last-updated",
-    Key: { app: name },
+    Key: { vendor: "mods" },
     UpdateExpression: "set #lu = :lastUpdated",
     ExpressionAttributeValues: {
       ":lastUpdated": lastUpdated
