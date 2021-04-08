@@ -30,6 +30,14 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   }
 
   global_secondary_index {
+    name               = "timestamp"
+    hash_key           = "timestamp"
+    write_capacity     = 20
+    read_capacity      = 20
+    projection_type    = "ALL"
+  }
+
+  global_secondary_index {
     name               = "type"
     hash_key           = "type"
     write_capacity     = 20
@@ -46,7 +54,7 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   }
 
   lifecycle {
-    # prevent_destroy = true
+    prevent_destroy = true
   }
 }
 
@@ -82,6 +90,14 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   }
 
   global_secondary_index {
+    name               = "timestamp"
+    hash_key           = "timestamp"
+    write_capacity     = 20
+    read_capacity      = 20
+    projection_type    = "ALL"
+  }
+
+  global_secondary_index {
     name               = "type"
     hash_key           = "type"
     write_capacity     = 20
@@ -98,7 +114,7 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   }
 
   lifecycle {
-    # prevent_destroy = true
+    prevent_destroy = true
   }
 }
 
