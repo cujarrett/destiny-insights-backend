@@ -1,8 +1,8 @@
 resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   name           = "destiny-insights-backend-mods"
   billing_mode   = "PROVISIONED"
-  read_capacity  = 20
-  write_capacity = 20
+  read_capacity  = 50
+  write_capacity = 50
   hash_key       = "timestamp"
   range_key      = "type"
 
@@ -29,8 +29,8 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
     name               = "type"
     hash_key           = "type"
     range_key          = "type"
-    write_capacity     = 20
-    read_capacity      = 20
+    write_capacity     = 50
+    read_capacity      = 50
     projection_type    = "ALL"
   }
 
@@ -38,21 +38,21 @@ resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
     name               = "name"
     hash_key           = "name"
     range_key          = "type"
-    write_capacity     = 20
-    read_capacity      = 20
+    write_capacity     = 50
+    read_capacity      = 50
     projection_type    = "ALL"
   }
 
   lifecycle {
-    prevent_destroy = true
+    # prevent_destroy = true
   }
 }
 
 resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   name           = "destiny-insights-backend-xur"
   billing_mode   = "PROVISIONED"
-  read_capacity  = 20
-  write_capacity = 20
+  read_capacity  = 50
+  write_capacity = 50
   hash_key       = "timestamp"
   range_key      = "type"
 
@@ -79,8 +79,8 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
     name               = "type"
     hash_key           = "type"
     range_key          = "type"
-    write_capacity     = 20
-    read_capacity      = 20
+    write_capacity     = 50
+    read_capacity      = 50
     projection_type    = "ALL"
   }
 
@@ -88,13 +88,13 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
     name               = "name"
     hash_key           = "name"
     range_key          = "type"
-    write_capacity     = 20
-    read_capacity      = 20
+    write_capacity     = 50
+    read_capacity      = 50
     projection_type    = "ALL"
   }
 
   lifecycle {
-    prevent_destroy = true
+    # prevent_destroy = true
   }
 }
 
