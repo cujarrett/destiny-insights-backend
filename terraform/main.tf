@@ -12,7 +12,6 @@ module "iam" {
   destiny_insights_backend_mods_table_arn = module.dynamodb.destiny_insights_backend_mods_table_arn
   destiny_insights_backend_xur_table_arn = module.dynamodb.destiny_insights_backend_xur_table_arn
   destiny_insights_backend_bungie_api_auth_table_arn = module.dynamodb.destiny_insights_backend_bungie_api_auth_table_arn
-  destiny_insights_backend_last_updated_table_arn = module.dynamodb.destiny_insights_backend_last_updated_table_arn
 }
 
 module "lambda" {

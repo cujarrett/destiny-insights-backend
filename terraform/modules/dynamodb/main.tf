@@ -120,7 +120,3 @@ output "destiny_insights_backend_xur_table_arn" {
 output "destiny_insights_backend_bungie_api_auth_table_arn" {
   value = aws_dynamodb_table.destiny_insights_backend_bungie_api_auth.arn
 }
-
-output "destiny_insights_backend_last_updated_table_arn" {
-  value = aws_dynamodb_table.destiny_insights_backend_last_updated.arn
-}
