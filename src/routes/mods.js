@@ -4,7 +4,7 @@ const { getInventoryItemDefinitionEndpoint } = require ("../util/get-inventory-i
 const { getCategories } = require("../util/get-categories.js")
 const { getLastSoldMessge } = require("../util/get-last-sold-message.js")
 const { getManifest } = require ("../util/get-manifest.js")
-const { getMods } = require ("../util/get-mods.js")
+const { getCurrentMods } = require ("../util/get-current-mods.js")
 const { getValidAuth } = require("../util/get-valid-auth.js")
 const { processLastUpdated } = require ("../util/process-last-updated.js")
 const { getModSalesInLastYear } = require("../integrations/dynamodb.js")
@@ -13,7 +13,7 @@ const { name, version } = require("../../package.json")
 module.exports = async (api) => {
   // eslint-disable-next-line no-unused-vars
   api.get("/mods", async (request, response) => {
-    console.log("/info called")
+    console.log("/mods called")
     response.header("Access-Control-Allow-Origin", "*")
     let categoryData
     let salesData
@@ -46,34 +46,26 @@ module.exports = async (api) => {
 
     const inventoryItemDefinitionEndpoint = await getInventoryItemDefinitionEndpoint(manifest)
     const categories = getCategories(categoryData)
-    const modData = await getMods(salesData, categories, inventoryItemDefinitionEndpoint)
-    const { firstMod, secondMod, usedCachedMods } = modData
-    const lastUpdated = await processLastUpdated(firstMod, secondMod)
-    const firstModSales = await getModSalesInLastYear(firstMod.name)
-    const secondModSales = await getModSalesInLastYear(secondMod.name)
-    const firstModLastSoldDate = getLastSoldMessge(firstModSales)
-    const secondModLastSoldDate = getLastSoldMessge(secondModSales)
-    const firstModTimesSoldInLastYear = firstModSales.length
-    const secondModTimesSoldInLastYear = secondModSales.length
+    // eslint-disable-next-line max-len
+    const { currentMods, usedCachedMods } = await getCurrentMods(salesData, categories, inventoryItemDefinitionEndpoint)
+    const lastUpdated = await processLastUpdated(currentMods)
+
+    const mods = []
+    for (const mod of currentMods) {
+      const modSales = await getModSalesInLastYear(mod)
+      const lastSold = getLastSoldMessge(modSales)
+      mods.push({
+        name: mod.name,
+        itemHash: mod.itemHash,
+        type: mod.type,
+        lastSold,
+        timesSoldInLastYear: modSales.length
+      })
+    }
 
     const result = {
       "inventory": {
-        mods: [
-          {
-            name: firstMod.name,
-            itemHash: firstMod.itemHash,
-            type: firstMod.type,
-            lastSold: firstModLastSoldDate,
-            timesSoldInLastYear: firstModTimesSoldInLastYear
-          },
-          {
-            name: secondMod.name,
-            itemHash: secondMod.itemHash,
-            type: secondMod.type,
-            lastSold: secondModLastSoldDate,
-            timesSoldInLastYear: secondModTimesSoldInLastYear
-          }
-        ]
+        mods
       }, "metadata": {
         name,
         version,

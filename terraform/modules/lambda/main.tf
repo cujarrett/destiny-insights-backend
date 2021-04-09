@@ -4,7 +4,7 @@ resource "aws_lambda_function" "destiny_insights_backend" {
   handler       = "index.handler"
   role          = var.destiny_insights_backend_role_arn
   runtime       = "nodejs14.x"
-  memory_size   = 512
+  memory_size   = 1024
   timeout       = 300
 }
 

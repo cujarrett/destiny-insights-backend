@@ -1,7 +1,7 @@
 const test = require("tape-async")
-const { getMods } = require("../../src/util/get-mods.js")
+const { getCurrentMods } = require("../../src/util/get-current-mods.js")
 
-test("Unit - getMods", async (assert) => {
+test("Unit - getCurrentMods", async (assert) => {
   assert.plan(8)
   const mockedSalesData = {
     "1": { itemHash: 666440382 },
@@ -11,27 +11,34 @@ test("Unit - getMods", async (assert) => {
   const mockedInventoryItemDefinitionEndpoint = ""
 
   // eslint-disable-next-line max-len
-  const mods = await getMods(mockedSalesData, mockedCategories, mockedInventoryItemDefinitionEndpoint)
+  const { currentMods } = await getCurrentMods(mockedSalesData, mockedCategories, mockedInventoryItemDefinitionEndpoint)
   // eslint-disable-next-line max-len
   let expectedName = "Rampage Spec"
-  assert.equals(mods.firstMod.name, expectedName, "getMods name for cached weapon mod verified")
+  // eslint-disable-next-line max-len
+  assert.equals(currentMods[0].name, expectedName, "getCurrentMods name for cached weapon mod verified")
   let expectedType = "Legendary Weapon Mod"
-  assert.equals(mods.firstMod.type, expectedType, "getMods type for cached weapon mod verified")
+  // eslint-disable-next-line max-len
+  assert.equals(currentMods[0].type, expectedType, "getCurrentMods type for cached weapon mod verified")
   let expectedDescription = "Increases duration of Rampage."
   // eslint-disable-next-line max-len
-  assert.equals(mods.firstMod.description, expectedDescription, "getMods description for cached weapon mod verified")
+  // eslint-disable-next-line max-len
+  assert.equals(currentMods[0].description, expectedDescription, "getCurrentMods description for cached weapon mod verified")
   // eslint-disable-next-line max-len
   let expectedIconPath = "https://bungie.net/common/destiny2_content/icons/b3eadd1fcadf34e389fad3e7a75acc26.jpg"
-  assert.equals(mods.firstMod.icon, expectedIconPath, "getMods icon for cached weapon mod verified")
+  // eslint-disable-next-line max-len
+  assert.equals(currentMods[0].icon, expectedIconPath, "getCurrentMods icon for cached weapon mod verified")
   expectedName = "Powerful Friends"
-  assert.equals(mods.secondMod.name, expectedName, "getMods name for cached armor mod verified")
+  // eslint-disable-next-line max-len
+  assert.equals(currentMods[1].name, expectedName, "getCurrentMods name for cached armor mod verified")
   expectedType = "Common Charged with Light Mod"
-  assert.equals(mods.secondMod.type, expectedType, "getMods type for cached armor mod verified")
+  // eslint-disable-next-line max-len
+  assert.equals(currentMods[1].type, expectedType, "getCurrentMods type for cached armor mod verified")
   // eslint-disable-next-line max-len
   expectedDescription = "When you become Charged with Light, nearby allies also become Charged with Light, if they are not already."
   // eslint-disable-next-line max-len
-  assert.equals(mods.secondMod.description, expectedDescription, "getMods description for cached armor mod verified")
+  assert.equals(currentMods[1].description, expectedDescription, "getCurrentMods description for cached armor mod verified")
   // eslint-disable-next-line max-len
   expectedIconPath = "https://bungie.net/common/destiny2_content/icons/006460670f0ca57fbe5ee1af83dcfd4d.png"
-  assert.equals(mods.secondMod.icon, expectedIconPath, "getMods icon for cached armor mod verified")
+  // eslint-disable-next-line max-len
+  assert.equals(currentMods[1].icon, expectedIconPath, "getCurrentMods icon for cached armor mod verified")
 })
