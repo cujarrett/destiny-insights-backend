@@ -54,78 +54,37 @@ module.exports.setAuth = async (newAuth) => {
   await docClient.update(params).promise()
 }
 
-module.exports.getLastUpdated = async () => {
-  console.log("getLastUpdated called")
-  AWS.config.update({ region: "us-east-1" })
-  const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
-
-  const params = {
-    TableName: "destiny-insights-backend-last-updated",
-    KeyConditionExpression: "vendor = :vendor",
-    ExpressionAttributeValues: { ":vendor": { "S": "mods" } }
-  }
-
-  const response = await ddb.query(params).promise()
-  const { lastUpdated } = response.Items[0]
-
-  return lastUpdated.S
-}
-
-module.exports.setLastUpdated = async (lastUpdated) => {
-  console.log("setLastUpdated called")
-  AWS.config.update({ region: "us-east-1" })
-  const docClient = new AWS.DynamoDB.DocumentClient()
-
-  const params = {
-    TableName: "destiny-insights-backend-last-updated",
-    Key: { vendor: "mods" },
-    UpdateExpression: "set #lu = :lastUpdated",
-    ExpressionAttributeValues: {
-      ":lastUpdated": lastUpdated
-    },
-    ExpressionAttributeNames: {
-      "#lu": "lastUpdated"
-    }
-  }
-  await docClient.update(params).promise()
-}
-
-const getQuery = (modNumber, mod) => {
-  let oneYearAgo = new Date()
-  oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
-  // eslint-disable-next-line newline-per-chained-call
-  oneYearAgo = oneYearAgo.toISOString().split("T")[0]
-
-  return {
-    TableName: "destiny-insights-backend-mods",
-    FilterExpression: `#ts > :startDate and ${modNumber} = :value`,
-    ExpressionAttributeValues: {
-      // AWS DynamoDB uses single char for types
-      // eslint-disable-next-line id-length
-      ":startDate": { S: oneYearAgo },
-      // eslint-disable-next-line id-length
-      ":value": { S: mod }
-    },
-    ExpressionAttributeNames: {
-      "#ts": "timestamp"
-    }
-  }
-}
-
 module.exports.getModSalesInLastYear = async (mod) => {
   console.log("getModSalesInLastYear called")
   AWS.config.update({ region: "us-east-1" })
   const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
   const responses = []
+
+  let oneYearAgo = new Date()
+  oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
+  // eslint-disable-next-line newline-per-chained-call
+  oneYearAgo = oneYearAgo.toISOString().split("T")[0]
+
+  const query = {
+    TableName: "destiny-insights-backend-mods",
+    FilterExpression: "#ts > :startDate and #modName = :name",
+    ExpressionAttributeValues: {
+      // AWS DynamoDB uses single char for types
+      // eslint-disable-next-line id-length
+      ":startDate": { S: oneYearAgo },
+      // eslint-disable-next-line id-length
+      ":name": { S: mod.name }
+    },
+    ExpressionAttributeNames: {
+      "#ts": "timestamp",
+      "#modName": "name"
+    }
+  }
+
+  const response = await ddb.scan(query).promise()
+  responses.push(...response.Items)
+
   const results = []
-
-  const query1 = getQuery("mod1", mod)
-  let response = await ddb.scan(query1).promise()
-  responses.push(...response.Items)
-  const query2 = getQuery("mod2", mod)
-  response = await ddb.scan(query2).promise()
-  responses.push(...response.Items)
-
   for (const tweet of responses) {
     results.push(new Date(tweet.timestamp.S))
   }
@@ -137,58 +96,11 @@ module.exports.getModSalesInLastYear = async (mod) => {
   return sortedResults
 }
 
-module.exports.getModDataForLastYear = async () => {
-  console.log("getModDataForLastYear called")
-  AWS.config.update({ region: "us-east-1" })
-  const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
-  const responses = []
-  const results = []
-
-  // eslint-disable-next-line newline-per-chained-call
-  const now = new Date().toISOString().split("T")[0]
-  let oneYearAgo = new Date(now)
-  oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
-  oneYearAgo = oneYearAgo.toISOString().split("T")[0]
-
-  const query = {
-    TableName: "destiny-insights-backend-mods",
-    FilterExpression: "#ts > :startDate",
-    ExpressionAttributeValues: {
-      // AWS DynamoDB uses single char for types
-      // eslint-disable-next-line id-length
-      ":startDate": { S: oneYearAgo }
-    },
-    ExpressionAttributeNames: {
-      "#ts": "timestamp"
-    }
-  }
-
-  const response = await ddb.scan(query).promise()
-  responses.push(...response.Items)
-
-  for (const tweet of responses) {
-    results.push({
-      timestamp: tweet.timestamp.S,
-      mods: [
-        { name: tweet.mod1.S },
-        { name: tweet.mod2.S }
-      ]
-    })
-  }
-
-  const sortedResults = results.sort((first, second) => {
-    return new Date(second.timestamp) - new Date(first.timestamp)
-  })
-
-  return sortedResults
-}
-
 module.exports.getLastSoldMods = async () => {
   console.log("getLastSoldMods called")
   AWS.config.update({ region: "us-east-1" })
   const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
   const responses = []
-  const results = []
 
   // eslint-disable-next-line newline-per-chained-call
   const now = new Date().toISOString().split("T")[0]
@@ -212,13 +124,12 @@ module.exports.getLastSoldMods = async () => {
   const response = await ddb.scan(query).promise()
   responses.push(...response.Items)
 
-  for (const tweet of responses) {
+  const results = []
+  for (const sale of responses) {
     results.push({
-      timestamp: tweet.timestamp.S,
-      mods: [
-        { name: tweet.mod1.S, type: "Weapon Mod" },
-        { name: tweet.mod2.S, type: "Armor Mod" }
-      ]
+      timestamp: sale.timestamp.S,
+      name: sale.name.S,
+      type: sale.type.S
     })
   }
 
@@ -229,8 +140,19 @@ module.exports.getLastSoldMods = async () => {
   return sortedResults
 }
 
-module.exports.addNewMods = async (mod1, mod2) => {
-  console.log("addNewMods called")
+module.exports.addMod = async (mod) => {
+  console.log("addMod called")
+
+  let type = mod.type
+  if (type.includes("Armor")) {
+    type = "Armor Mod"
+  } else if (type === "Legendary Weapon Mod") {
+    type = "Weapon Mod"
+  } else if (type === "Common Charged with Light Mod" || type === "Common Warmind Cell Mod") {
+    type = "Combat Style Mod"
+  }
+
+  const now = new Date().toISOString()
   AWS.config.update({ region: "us-east-1" })
   const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
 
@@ -239,11 +161,13 @@ module.exports.addNewMods = async (mod1, mod2) => {
     Item: {
       // AWS DynamoDB uses single char for types
       // eslint-disable-next-line id-length
-      timestamp: { S: new Date().toISOString() },
+      key: { S: `${now} (${type})` },
       // eslint-disable-next-line id-length
-      mod1: { S: mod1.name },
+      timestamp: { S: now },
       // eslint-disable-next-line id-length
-      mod2: { S: mod2.name }
+      type: { S: type },
+      // eslint-disable-next-line id-length
+      name: { S: mod.name }
     }
   }
 
