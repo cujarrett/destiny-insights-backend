@@ -1,23 +1,26 @@
-// eslint-disable-next-line max-len
 const { addMod, getLastSoldMods } = require("../integrations/dynamodb.js")
 
 module.exports.processLastUpdated = async (currentMods) => {
   console.log("processLastUpdated called")
   const lastSoldMods = await getLastSoldMods()
-  let lastUpdated = lastSoldMods[0].timestamp
-
+  const noModsInLastDay = lastSoldMods.length === 0
   let newModsFound = false
-  for (let index = 0; index < currentMods && newModsFound === false; index++) {
-    if (currentMods[index].name !== lastSoldMods[index].name) {
+  const lastModsSold = lastSoldMods.map((value) => value.name)
+
+  for (const currentMod of currentMods) {
+    if (!lastModsSold.includes(currentMod.name)) {
       newModsFound = true
     }
   }
 
-  if (newModsFound) {
+  let lastUpdated = undefined
+  if (noModsInLastDay || newModsFound) {
     for (const mod of currentMods) {
       await addMod(mod)
     }
-    lastUpdated = currentMods[0].timestamp
+    lastUpdated = new Date().toISOString()
+  } else {
+    lastUpdated = lastSoldMods[0].timestamp
   }
   return lastUpdated
 }
