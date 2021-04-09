@@ -101,12 +101,7 @@ module.exports.getLastSoldMods = async () => {
   AWS.config.update({ region: "us-east-1" })
   const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
   const responses = []
-
-  // eslint-disable-next-line newline-per-chained-call
-  const now = new Date().toISOString().split("T")[0]
-  let oneDayAgo = new Date(now)
-  oneDayAgo.setDate(oneDayAgo.getDate() - 1)
-  oneDayAgo = oneDayAgo.toISOString().split("T")[0]
+  const oneDayAgo = new Date(new Date().getTime() - (24 * 60 * 60 * 1000)).toISOString()
 
   const query = {
     TableName: "destiny-insights-backend-mods",
