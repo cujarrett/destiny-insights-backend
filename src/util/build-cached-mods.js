@@ -43,7 +43,7 @@ module.exports.buildCachedMods = async () => {
   return output
 }
 
-module.exports.printNewCachedMods = async () => {
+module.exports.printCachedMods = async () => {
   const data = await this.buildCachedMods()
   console.log(JSON.stringify(data, null, "  "))
 }

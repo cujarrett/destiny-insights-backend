@@ -11,7 +11,6 @@ module.exports.getManifest = async () => {
   if (!isValidManifestData) {
     while (manifestRetries < maxRetries && !isValidManifestData) {
       manifestRetries += 1
-      console.log({ manifestRetries })
       rawManifest = await fetch(manifestEndpoint)
       manifest = await rawManifest.json()
       isValidManifestData = manifest.Message === "Ok"

@@ -1,0 +1,1342 @@
+{
+  "19024058": {
+    "name": "Prometheus Lens",
+    "type": "Exotic Trace Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/779288b69aa050c126c827ec5bb44c47.jpg"
+  },
+  "68357813": {
+    "name": "Ophidian Aspect",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3995951ee0fdf3fb77d757370458e031.jpg"
+  },
+  "106575079": {
+    "name": "Helm of Saint-14",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e363d457b179de242b932e097cca6edd.jpg"
+  },
+  "121305948": {
+    "name": "Geomag Stabilizers",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2a8adaa02a77a82ff8f84d5debdeb529.jpg"
+  },
+  "136355432": {
+    "name": "Mk. 44 Stand Asides",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/869138d14fc6be5650522b1372739172.jpg"
+  },
+  "138282166": {
+    "name": "Transversive Steps",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/78874c268891725a68bdcc35432fec9e.jpg"
+  },
+  "146629029": {
+    "name": "Khepri's Sting",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6c80680f2a60f304fcc871c639974070.jpg"
+  },
+  "193869520": {
+    "name": "St0mp-EE5",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8c7681f1e93ee996a724e55554e079e9.jpg"
+  },
+  "193869522": {
+    "name": "Lucky Pants",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/68dc68ed3ce3f9361460b7d4a69bd351.jpg"
+  },
+  "193869523": {
+    "name": "Orpheus Rig",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0d6ae4296f1435209070142cf26dfd37.jpg"
+  },
+  "197761152": {
+    "name": "Mask of the Quiet One",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cd76e4a21cb89cd5b850eba34a8df41c.jpg"
+  },
+  "197761153": {
+    "name": "An Insurmountable Skullfort",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c444f5213f554d715b0d7a9de1108e12.jpg"
+  },
+  "204878059": {
+    "name": "Malfeasance",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0c2816822b0a1787157f1e90d3bd057c.jpg"
+  },
+  "227756207": {
+    "name": "Hard Light",
+    "type": "Exotic Trace Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8070b4aa8ef05ed33005d0ea314c575f.jpg"
+  },
+  "235591051": {
+    "name": "Promethium Spur",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/770c8a9fa2baedeeb6fae9df00315567.jpg"
+  },
+  "241462141": {
+    "name": "Doom Fang Pauldron",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1e6af1d4e6ec8568434b1c8f8604b122.jpg"
+  },
+  "241462142": {
+    "name": "Synthoceps",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21d1f1aaf807996e1cfff5fc283fb59e.jpg"
+  },
+  "347366834": {
+    "name": "Ace of Spades",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ce5d5c56ffc83fe92b367ec2d4dc1a2a.jpg"
+  },
+  "370712896": {
+    "name": "Salvation's Grip",
+    "type": "Exotic Grenade Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/010d673dd0841e7c071344cc787c1bcd.jpg"
+  },
+  "370930766": {
+    "name": "Wings of Sacred Dawn",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/eb1c6215d4997aaba5c0c10114ff65b6.jpg"
+  },
+  "400096939": {
+    "name": "Outbreak Perfected",
+    "type": "Exotic Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b71a0a8c2dbfda6ac33cde56983fe078.jpg"
+  },
+  "417164956": {
+    "name": "Jötunn",
+    "type": "Exotic Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/507250e2d087e20c9c2572113dae8f72.jpg"
+  },
+  "419976108": {
+    "name": "The Dragon's Shadow",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5501d47a7916022c737494682c0c73ec.jpg"
+  },
+  "419976110": {
+    "name": "Raiden Flux",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e065a7ce827f8a1c624052595c4e7916.jpg"
+  },
+  "419976111": {
+    "name": "Lucky Raspberry",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/710504ae0aedfaa671f29e37dd041a4b.jpg"
+  },
+  "458095280": {
+    "name": "Crest of Alpha Lupi",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5d9110e516e5828d881ffe17e7c1482e.jpg"
+  },
+  "458095281": {
+    "name": "Actium War Rig",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/957eae3f0e2e00ee7f8dba4b1f03c1e7.jpg"
+  },
+  "458095282": {
+    "name": "Hallowfire Heart",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9f337b76f1abf670fac270b272818c2f.jpg"
+  },
+  "460724140": {
+    "name": "The Jade Rabbit",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f9259f56c04975f2c92e5617d19d22fa.jpg"
+  },
+  "475652357": {
+    "name": "Young Ahamkara's Spine",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e7ccbff166a5a543df4f475f69f3ebf8.jpg"
+  },
+  "510504540": {
+    "name": "Khepri's Horn",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/835191598407f6a2d3305db51c49e892.jpg"
+  },
+  "546372301": {
+    "name": "The Jade Rabbit",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f9259f56c04975f2c92e5617d19d22fa.jpg"
+  },
+  "574694189": {
+    "name": "Fr0st-EE5",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/308f4e5bd5b86d095904b878f70d8ee8.jpg"
+  },
+  "576499615": {
+    "name": "Stronghold",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/623ebc54e5a3bb481991df4513c543d7.jpg"
+  },
+  "609852545": {
+    "name": "Fr0st-EE5",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/308f4e5bd5b86d095904b878f70d8ee8.jpg"
+  },
+  "653948914": {
+    "name": "SUROS Regime",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c4327b4c697485c21bee1833d1075bf1.jpg"
+  },
+  "691578978": {
+    "name": "Oathkeeper",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e37b8c80f3b87365c372de25e45dc658.jpg"
+  },
+  "691578979": {
+    "name": "Shards of Galanor",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3c9400f304fc1d7976d6f6784b21b85f.jpg"
+  },
+  "776191470": {
+    "name": "Tommy's Matchbook",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/48bc926c393a48f40e43dec16122c6b3.jpg"
+  },
+  "809007410": {
+    "name": "Ashen Wake",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a48952be6f94003a71b317486532eb10.jpg"
+  },
+  "809007411": {
+    "name": "Wormgod Caress",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/aadd6b6efdd9e70cb2849d08a0755a54.jpg"
+  },
+  "814876684": {
+    "name": "Wish-Ender",
+    "type": "Exotic Combat Bow",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2f43461f378a905db1ba3e3dbcbfed83.jpg"
+  },
+  "814876685": {
+    "name": "Trinity Ghoul",
+    "type": "Exotic Combat Bow",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fd7b661576c13c450d0d729d5bbf7333.jpg"
+  },
+  "866590993": {
+    "name": "Astrocyte Verse",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/96fdb1cd590b2212006d128dd0bc32a4.jpg"
+  },
+  "896224899": {
+    "name": "Foetracer",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5e995f3d538bbfdc83f887b11a1f747c.jpg"
+  },
+  "903984858": {
+    "name": "Lucky Raspberry",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/710504ae0aedfaa671f29e37dd041a4b.jpg"
+  },
+  "973499765": {
+    "name": "SUROS Regime",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c4327b4c697485c21bee1833d1075bf1.jpg"
+  },
+  "978537162": {
+    "name": "Ophidia Spathe",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e1be553c40f233880f9ad18b8687c385.jpg"
+  },
+  "1030017949": {
+    "name": "Skull of Dire Ahamkara",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58c941539ffb843a5559a83c6f7cb579.jpg"
+  },
+  "1035680664": {
+    "name": "ACD/0 Feedback Fence",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/51fd51c3b825f132198ccbf02b4de7d2.jpg"
+  },
+  "1035680665": {
+    "name": "Doom Fang Pauldron",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1e6af1d4e6ec8568434b1c8f8604b122.jpg"
+  },
+  "1035680666": {
+    "name": "Synthoceps",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21d1f1aaf807996e1cfff5fc283fb59e.jpg"
+  },
+  "1053737370": {
+    "name": "Shinobu's Vow",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/41d16b23c1af5dbf3363bc34bd591ce6.jpg"
+  },
+  "1096253259": {
+    "name": "Apotheosis Veil",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6f234606ab2e043388dfaeee946f854b.jpg"
+  },
+  "1098931324": {
+    "name": "Oathkeeper",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e37b8c80f3b87365c372de25e45dc658.jpg"
+  },
+  "1098931325": {
+    "name": "Shards of Galanor",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3c9400f304fc1d7976d6f6784b21b85f.jpg"
+  },
+  "1160559849": {
+    "name": "Dunemarchers",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a2e2f285d70d2fe23511278c071666f6.jpg"
+  },
+  "1163283805": {
+    "name": "Gemini Jester",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2e17b501b613c225728347e8da10723d.jpg"
+  },
+  "1190497097": {
+    "name": "Citan's Ramparts",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/410990b1b05932c0380eb5c808a9c22e.jpg"
+  },
+  "1192890598": {
+    "name": "Hallowfire Heart",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9f337b76f1abf670fac270b272818c2f.jpg"
+  },
+  "1201830623": {
+    "name": "Truth",
+    "type": "Exotic Rocket Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/29fa7e1d919034759424e4e233b59b57.jpg"
+  },
+  "1219761634": {
+    "name": "The Bombardiers",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cd4edf7ec937a158820acef78f7eda43.jpg"
+  },
+  "1245809812": {
+    "name": "Lucky Pants",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/68dc68ed3ce3f9361460b7d4a69bd351.jpg"
+  },
+  "1245809813": {
+    "name": "Orpheus Rig",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0d6ae4296f1435209070142cf26dfd37.jpg"
+  },
+  "1245809814": {
+    "name": "St0mp-EE5",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8c7681f1e93ee996a724e55554e079e9.jpg"
+  },
+  "1315823811": {
+    "name": "Antaeus Wards",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e9f3ca5b7e0853c963102f6d1cb35fb9.jpg"
+  },
+  "1321354572": {
+    "name": "Knucklehead Radar",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5c085a24228eff7815014f82a6caeadf.jpg"
+  },
+  "1321354573": {
+    "name": "Celestial Nighthawk",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fa668959fe0812f22f277ac17d819747.jpg"
+  },
+  "1331482397": {
+    "name": "MIDA Multi-Tool",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b481ccc7a201f55e21b561b132112f28.jpg"
+  },
+  "1341951177": {
+    "name": "Heart of Inmost Light",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ff43a8718ef112640f519346e169d994.jpg"
+  },
+  "1345867570": {
+    "name": "Sweet Business",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f997235a74d948f98c0f83817d8a5143.jpg"
+  },
+  "1345867571": {
+    "name": "Coldheart",
+    "type": "Exotic Trace Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/01de9a1a16ed563ac911c0c95d15ab88.jpg"
+  },
+  "1362342075": {
+    "name": "Helm of Saint-14",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e363d457b179de242b932e097cca6edd.jpg"
+  },
+  "1363238943": {
+    "name": "Ruinous Effigy",
+    "type": "Exotic Trace Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c56baa404c0aa497af59b05f13c8d035.jpg"
+  },
+  "1364093401": {
+    "name": "The Last Word",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c30f714c7f642951c68069aa92cf06b3.jpg"
+  },
+  "1395261499": {
+    "name": "Xenophage",
+    "type": "Exotic Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2828804450abc6575609258a3479b19a.jpg"
+  },
+  "1462291111": {
+    "name": "Heart of Inmost Light",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ff43a8718ef112640f519346e169d994.jpg"
+  },
+  "1467044898": {
+    "name": "Icefall Mantle",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/83eaeca380ae46c3747b07af22d2923e.jpg"
+  },
+  "1474735276": {
+    "name": "Gwisin Vest",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/598126991a4bfe56b2901f1e1dca6147.jpg"
+  },
+  "1474735277": {
+    "name": "The Sixth Coyote",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f6a2a1450f6020cd7fb1c368c44593b6.jpg"
+  },
+  "1484674161": {
+    "name": "Ursa Furiosa",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fcb345a9ab4c3c6a1afecb75f379c289.jpg"
+  },
+  "1488061763": {
+    "name": "Gemini Jester",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2e17b501b613c225728347e8da10723d.jpg"
+  },
+  "1508896098": {
+    "name": "The Wardcliff Coil",
+    "type": "Exotic Rocket Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7c419b2fb92344ed57211f7bcaf157b9.jpg"
+  },
+  "1537074069": {
+    "name": "Phoenix Cradle",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c6cab448d3b64ef356258cf6712d373c.jpg"
+  },
+  "1538967359": {
+    "name": "Ticuu's Divination",
+    "type": "Exotic Combat Bow",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7301e9d948c8f56dd9f972eea2a7ccd2.jpg"
+  },
+  "1541131350": {
+    "name": "Cerberus+1",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8d6d43a7aab79e837b7b3b09dd7a8b3d.jpg"
+  },
+  "1591207518": {
+    "name": "Actium War Rig",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/957eae3f0e2e00ee7f8dba4b1f03c1e7.jpg"
+  },
+  "1591207519": {
+    "name": "Crest of Alpha Lupi",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5d9110e516e5828d881ffe17e7c1482e.jpg"
+  },
+  "1594120904": {
+    "name": "No Time to Explain",
+    "type": "Exotic Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b4815d2060876f82559502e67bf9c3e3.jpg"
+  },
+  "1619425569": {
+    "name": "Mask of Bakris",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/bdb410cb8de0240d4aadea69a8da54c4.jpg"
+  },
+  "1643575148": {
+    "name": "Eternal Warrior",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a070ad591d0bee08fc4711bd01581486.jpg"
+  },
+  "1654461647": {
+    "name": "Aeon Safe",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1bd2569de3ca26038dca9c2a406b0fb5.jpg"
+  },
+  "1656912113": {
+    "name": "Aeon Swift",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2e98cefd54e09b7383c000e2501358e0.jpg"
+  },
+  "1665952087": {
+    "name": "The Fourth Horseman",
+    "type": "Exotic Shotgun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e22cf7677ed8903cfb1bbaec8dc0d81a.jpg"
+  },
+  "1667080809": {
+    "name": "Foetracer",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5e995f3d538bbfdc83f887b11a1f747c.jpg"
+  },
+  "1667080810": {
+    "name": "Celestial Nighthawk",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fa668959fe0812f22f277ac17d819747.jpg"
+  },
+  "1667080811": {
+    "name": "Knucklehead Radar",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5c085a24228eff7815014f82a6caeadf.jpg"
+  },
+  "1688602431": {
+    "name": "Sealed Ahamkara Grasps",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1f1c77866e270996058590849422f1d0.jpg"
+  },
+  "1725917554": {
+    "name": "Vesper of Radius",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b22c53b5868c94352f69f7493f7f6f2d.jpg"
+  },
+  "1734144409": {
+    "name": "Mechaneer's Tricksleeves",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a11c0abd3b5a9d9ac128ff37aec61425.jpg"
+  },
+  "1734844650": {
+    "name": "Ashen Wake",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a48952be6f94003a71b317486532eb10.jpg"
+  },
+  "1734844651": {
+    "name": "Wormgod Caress",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/aadd6b6efdd9e70cb2849d08a0755a54.jpg"
+  },
+  "1744115122": {
+    "name": "Legend of Acrius",
+    "type": "Exotic Shotgun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1ed0827344c3855218be3bca8afb12af.jpg"
+  },
+  "1786557270": {
+    "name": "Shinobu's Vow",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/41d16b23c1af5dbf3363bc34bd591ce6.jpg"
+  },
+  "1799380614": {
+    "name": "Vesper of Radius",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b22c53b5868c94352f69f7493f7f6f2d.jpg"
+  },
+  "1848640623": {
+    "name": "Ursa Furiosa",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fcb345a9ab4c3c6a1afecb75f379c289.jpg"
+  },
+  "1852863732": {
+    "name": "Wavesplitter",
+    "type": "Exotic Trace Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e775a68f8846dc95cdd2823774b7b26d.jpg"
+  },
+  "1853180924": {
+    "name": "Traveler's Chosen",
+    "type": "Exotic Sidearm",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d35a7daa6cb2ce297d130588a7b45368.jpg"
+  },
+  "1862800745": {
+    "name": "Winter's Guile",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4307654e15248d54fcffca2ab2710951.jpg"
+  },
+  "1862800746": {
+    "name": "Karnstein Armlets",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7a37bd1dc75bd0848d8c7afa25570763.jpg"
+  },
+  "1862800747": {
+    "name": "Sunbracers",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/17c01ac034a7194e2de22d1ac487bb70.jpg"
+  },
+  "1864563948": {
+    "name": "Worldline Zero",
+    "type": "Exotic Sword",
+    "icon": "https://bungie.net/common/destiny2_content/icons/701e706076b9b82501aacc12db890d0c.jpg"
+  },
+  "1891561814": {
+    "name": "Whisper of the Worm",
+    "type": "Exotic Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7955c1254752ed790fb0f5fa1b483c13.jpg"
+  },
+  "1902412292": {
+    "name": "Mk. 44 Stand Asides",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/869138d14fc6be5650522b1372739172.jpg"
+  },
+  "1906093346": {
+    "name": "Contraverse Hold",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6cac8bb83b7e2921687d613d42f9fb47.jpg"
+  },
+  "1906855381": {
+    "name": "Aeon Safe",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1bd2569de3ca26038dca9c2a406b0fb5.jpg"
+  },
+  "1935198785": {
+    "name": "Omnioculus",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8d8c8f37d34c121441571fda7e8e3b7a.jpg"
+  },
+  "1996008488": {
+    "name": "Stormdancer's Brace",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6674e0265174407bcda44c20e3d7532a.jpg"
+  },
+  "2044500762": {
+    "name": "The Queenbreaker",
+    "type": "Exotic Linear Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ada52c29c412bbc292760f5e6a23fe72.jpg"
+  },
+  "2069224589": {
+    "name": "One Thousand Voices",
+    "type": "Exotic Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cb50132d014c78a0419bb23311260fe0.jpg"
+  },
+  "2076339106": {
+    "name": "Aeon Soul",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1ee10eac192a5c4a7c8dbc6195c10dec.jpg"
+  },
+  "2082483156": {
+    "name": "Starfire Protocol",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fa2241f0aaad40cb5ecfe5b810eb5f64.jpg"
+  },
+  "2084878005": {
+    "name": "Heir Apparent",
+    "type": "Exotic Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c7c44d140ec56dfdc5a1159947aa1aab.jpg"
+  },
+  "2130065553": {
+    "name": "Arbalest",
+    "type": "Exotic Linear Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a25a0a02beacad55e2e5baf7c56c4acf.jpg"
+  },
+  "2146650065": {
+    "name": "Prometheus Lens",
+    "type": "Exotic Trace Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/779288b69aa050c126c827ec5bb44c47.jpg"
+  },
+  "2166230715": {
+    "name": "Sealed Ahamkara Grasps",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1f1c77866e270996058590849422f1d0.jpg"
+  },
+  "2177524718": {
+    "name": "The Stag",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/16634beca2ccdda00a47e8615dbc89f7.jpg"
+  },
+  "2203146422": {
+    "name": "Assassin's Cowl",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/44a37337c57b27f43c24359cdff7e255.jpg"
+  },
+  "2208405142": {
+    "name": "Telesto",
+    "type": "Exotic Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/977b96607460863e36260a5428bdd4c3.jpg"
+  },
+  "2221042414": {
+    "name": "Whisper of the Worm",
+    "type": "Exotic Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7955c1254752ed790fb0f5fa1b483c13.jpg"
+  },
+  "2221042415": {
+    "name": "Whisper of the Worm",
+    "type": "Exotic Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7955c1254752ed790fb0f5fa1b483c13.jpg"
+  },
+  "2232171099": {
+    "name": "Deathbringer",
+    "type": "Exotic Rocket Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/bad350071ec8c83c32c3795df872a9dc.jpg"
+  },
+  "2240152949": {
+    "name": "Stronghold",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/623ebc54e5a3bb481991df4513c543d7.jpg"
+  },
+  "2255796155": {
+    "name": "Peregrine Greaves",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e190a700d56bedadee4344970e8f2133.jpg"
+  },
+  "2268523867": {
+    "name": "Raiju's Harness",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3a1b6b0ed4381607dc6e47d8c51758b3.jpg"
+  },
+  "2286143274": {
+    "name": "The Huckleberry",
+    "type": "Exotic Submachine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0b614758c3d49e7f84776b0c0ce0413d.jpg"
+  },
+  "2316914168": {
+    "name": "Dawn Chorus",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/66289d9dce869bca5aa53beb88edf15c.jpg"
+  },
+  "2321120637": {
+    "name": "Cuirass of the Falling Star",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ea1b68b6afd0da11a98d814774cc8900.jpg"
+  },
+  "2326396534": {
+    "name": "Severance Enclosure",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/eefd8a59d6e89563de1b79b0f9945944.jpg"
+  },
+  "2357297366": {
+    "name": "Witherhoard",
+    "type": "Exotic Grenade Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e805ada80a07dccb6db9db71199ab273.jpg"
+  },
+  "2362471601": {
+    "name": "Rat King",
+    "type": "Exotic Sidearm",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e4b1e51834802439cb342a439b0079cf.jpg"
+  },
+  "2376481550": {
+    "name": "Anarchy",
+    "type": "Exotic Grenade Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/140b9a1877eb689ff0e9c18f95f53029.jpg"
+  },
+  "2384488862": {
+    "name": "Khepri's Horn",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/835191598407f6a2d3305db51c49e892.jpg"
+  },
+  "2389062558": {
+    "name": "Contraverse Hold",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6cac8bb83b7e2921687d613d42f9fb47.jpg"
+  },
+  "2399110176": {
+    "name": "Eyes of Tomorrow",
+    "type": "Exotic Rocket Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/29ddc714cb21c8c57d4dbfe36362e58c.jpg"
+  },
+  "2415517654": {
+    "name": "Bastion",
+    "type": "Exotic Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/32c00781f13e5597d16d8c2fc40e170d.jpg"
+  },
+  "2415768376": {
+    "name": "Athrys's Embrace",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/51dac9557cd6c46c6f427a26f46392e3.jpg"
+  },
+  "2422973183": {
+    "name": "Sanguine Alchemy",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f3207249663fd5f4297656e73f942a42.jpg"
+  },
+  "2423243921": {
+    "name": "Antaeus Wards",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e9f3ca5b7e0853c963102f6d1cb35fb9.jpg"
+  },
+  "2428181146": {
+    "name": "Verity's Brow",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/370fcdc370c73eb2d839253f76a1e826.jpg"
+  },
+  "2481356995": {
+    "name": "Eriana's Vow",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/021e6564a148be166ebd04a38979a025.jpg"
+  },
+  "2522817335": {
+    "name": "Witherhoard",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e805ada80a07dccb6db9db71199ab273.jpg"
+  },
+  "2523259392": {
+    "name": "Eye of Another World",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e8afec0dbe1253087cb19242dd626305.jpg"
+  },
+  "2523259393": {
+    "name": "Nezarec's Sin",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/67f7bbf158f84c33802b178e463b7037.jpg"
+  },
+  "2523259394": {
+    "name": "Skull of Dire Ahamkara",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58c941539ffb843a5559a83c6f7cb579.jpg"
+  },
+  "2523259395": {
+    "name": "Crown of Tempests",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/afd0a0e6f206d9518e56e7d7a148a50d.jpg"
+  },
+  "2563444729": {
+    "name": "ACD/0 Feedback Fence",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/51fd51c3b825f132198ccbf02b4de7d2.jpg"
+  },
+  "2578771006": {
+    "name": "One-Eyed Mask",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d6e6248b34d1299aee22571db71c7a24.jpg"
+  },
+  "2591746970": {
+    "name": "Leviathan's Breath",
+    "type": "Exotic Combat Bow",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f062142edf3a76e89920f34147d69947.jpg"
+  },
+  "2600992433": {
+    "name": "Wormhusk Crown",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/95eb480d723f510afd9fd3e2bbb1d92d.jpg"
+  },
+  "2603483885": {
+    "name": "Cloudstrike",
+    "type": "Exotic Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c365777c8302772a865d99fb63da8731.jpg"
+  },
+  "2614062688": {
+    "name": "Eriana's Vow",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/021e6564a148be166ebd04a38979a025.jpg"
+  },
+  "2617963291": {
+    "name": "Symmetry",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab8384a7cf91615ca198219436a8808b.jpg"
+  },
+  "2639743396": {
+    "name": "Duality",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ad94d7a9510d40ae68cd51d175c031f9.jpg"
+  },
+  "2694576561": {
+    "name": "Two-Tailed Fox",
+    "type": "Exotic Rocket Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/db73528358622aca68f3606390bd7f27.jpg"
+  },
+  "2757274117": {
+    "name": "Khepri's Sting",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6c80680f2a60f304fcc871c639974070.jpg"
+  },
+  "2766109872": {
+    "name": "Raiden Flux",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e065a7ce827f8a1c624052595c4e7916.jpg"
+  },
+  "2766109874": {
+    "name": "The Dragon's Shadow",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5501d47a7916022c737494682c0c73ec.jpg"
+  },
+  "2773056939": {
+    "name": "Graviton Forfeit",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/57f35a636ef455069d04231d4a564013.jpg"
+  },
+  "2780717641": {
+    "name": "Necrotic Grip",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ef055cbc0f4b0992f4a3c2e4c8e179f7.jpg"
+  },
+  "2782999716": {
+    "name": "Wings of Sacred Dawn",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/eb1c6215d4997aaba5c0c10114ff65b6.jpg"
+  },
+  "2782999717": {
+    "name": "Starfire Protocol",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fa2241f0aaad40cb5ecfe5b810eb5f64.jpg"
+  },
+  "2808156426": {
+    "name": "Eternal Warrior",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a070ad591d0bee08fc4711bd01581486.jpg"
+  },
+  "2808445048": {
+    "name": "Geomag Stabilizers",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2a8adaa02a77a82ff8f84d5debdeb529.jpg"
+  },
+  "2816212794": {
+    "name": "Bad Juju",
+    "type": "Exotic Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/83f666505b8e3a3d311b005922739283.jpg"
+  },
+  "2822465023": {
+    "name": "Felwinter's Helm",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d2555fd79b630dfdcba0ae1fac3bda1b.jpg"
+  },
+  "2829609851": {
+    "name": "Armamentarium",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9482dc5d359231558d9ac7f70e5bbd86.jpg"
+  },
+  "2856683562": {
+    "name": "SUROS Regime",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c4327b4c697485c21bee1833d1075bf1.jpg"
+  },
+  "2896466320": {
+    "name": "The Jade Rabbit",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f9259f56c04975f2c92e5617d19d22fa.jpg"
+  },
+  "2897117448": {
+    "name": "Verity's Brow",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/370fcdc370c73eb2d839253f76a1e826.jpg"
+  },
+  "2907129556": {
+    "name": "Sturm",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d3733c665f01b4adea1c5f65558ddde.jpg"
+  },
+  "2907129557": {
+    "name": "Sunshot",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7e2480b7abb1091ad6fe981641fcfe92.jpg"
+  },
+  "2927653646": {
+    "name": "Coldheart",
+    "type": "Exotic Trace Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/01de9a1a16ed563ac911c0c95d15ab88.jpg"
+  },
+  "2950045886": {
+    "name": "Aeon Soul",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1ee10eac192a5c4a7c8dbc6195c10dec.jpg"
+  },
+  "2954558332": {
+    "name": "Lunafaction Boots",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4d1cf89d08b11bd87c8944ecddbbfffe.jpg"
+  },
+  "2954558333": {
+    "name": "Transversive Steps",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/78874c268891725a68bdcc35432fec9e.jpg"
+  },
+  "2970800254": {
+    "name": "Claws of Ahamkara",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/90f62236b87badbb2f56c104315f63e2.jpg"
+  },
+  "2978016230": {
+    "name": "The Jade Rabbit",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f9259f56c04975f2c92e5617d19d22fa.jpg"
+  },
+  "3008550972": {
+    "name": "The Stag",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/16634beca2ccdda00a47e8615dbc89f7.jpg"
+  },
+  "3070357340": {
+    "name": "Getaway Artist",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/673dfa5edf0723adf0275cf30281a123.jpg"
+  },
+  "3070555693": {
+    "name": "Sanguine Alchemy",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f3207249663fd5f4297656e73f942a42.jpg"
+  },
+  "3084282676": {
+    "name": "Getaway Artist",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/673dfa5edf0723adf0275cf30281a123.jpg"
+  },
+  "3089417789": {
+    "name": "Riskrunner",
+    "type": "Exotic Submachine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d8fc70e24fd1ddae0546c21ff1cf86d4.jpg"
+  },
+  "3110698812": {
+    "name": "Tarrabah",
+    "type": "Exotic Submachine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6cc7802bb9e22fbd1d8a0b4d70bdf531.jpg"
+  },
+  "3141979346": {
+    "name": "D.A.R.C.I.",
+    "type": "Exotic Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7840cd05c28abe361a115eba355d8996.jpg"
+  },
+  "3141979347": {
+    "name": "Borealis",
+    "type": "Exotic Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/390a627fb3ce18808c6288c1664b3738.jpg"
+  },
+  "3211806999": {
+    "name": "Izanagi's Burden",
+    "type": "Exotic Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/90e33e5fbf32b4445cb095d17ab00fb7.jpg"
+  },
+  "3216110440": {
+    "name": "An Insurmountable Skullfort",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c444f5213f554d715b0d7a9de1108e12.jpg"
+  },
+  "3229272315": {
+    "name": "The Jade Rabbit",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f9259f56c04975f2c92e5617d19d22fa.jpg"
+  },
+  "3242052935": {
+    "name": "Tommy's Matchbook",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/48bc926c393a48f40e43dec16122c6b3.jpg"
+  },
+  "3257252969": {
+    "name": "Peregrine Greaves",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e190a700d56bedadee4344970e8f2133.jpg"
+  },
+  "3260753130": {
+    "name": "Ticuu's Divination",
+    "type": "Exotic Combat Bow",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7301e9d948c8f56dd9f972eea2a7ccd2.jpg"
+  },
+  "3288917178": {
+    "name": "Claws of Ahamkara",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/90f62236b87badbb2f56c104315f63e2.jpg"
+  },
+  "3295711091": {
+    "name": "Liar's Handshake",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0a7faba69ffaf9ecd84183c606a506e.jpg"
+  },
+  "3301944824": {
+    "name": "Mantle of Battle Harmony",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/85bf3170006a8249ca78e5a672880bea.jpg"
+  },
+  "3325463374": {
+    "name": "Thunderlord",
+    "type": "Exotic Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ddfe8daa6f2093efae32bd6f70ef36c5.jpg"
+  },
+  "3381022969": {
+    "name": "Crown of Tempests",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/afd0a0e6f206d9518e56e7d7a148a50d.jpg"
+  },
+  "3381022970": {
+    "name": "Eye of Another World",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e8afec0dbe1253087cb19242dd626305.jpg"
+  },
+  "3381022971": {
+    "name": "Nezarec's Sin",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/67f7bbf158f84c33802b178e463b7037.jpg"
+  },
+  "3392742912": {
+    "name": "Ophidia Spathe",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e1be553c40f233880f9ad18b8687c385.jpg"
+  },
+  "3413074534": {
+    "name": "Polaris Lance",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3bac8dcce9fec2943b7fa5608849d6bc.jpg"
+  },
+  "3413860062": {
+    "name": "The Chaperone",
+    "type": "Exotic Shotgun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c5fb814d409f1c0a47e89c5062e2182b.jpg"
+  },
+  "3413860063": {
+    "name": "Lord of Wolves",
+    "type": "Exotic Shotgun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cad0bc80784d4029898b3a142c13da03.jpg"
+  },
+  "3437746471": {
+    "name": "Crimson",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9a698cbe617a95339c6f885764e68ebc.jpg"
+  },
+  "3460576091": {
+    "name": "Duality",
+    "type": "Exotic Shotgun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ad94d7a9510d40ae68cd51d175c031f9.jpg"
+  },
+  "3487253372": {
+    "name": "The Lament",
+    "type": "Exotic Sword",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9976b41a3b121e9c191fa0b313eb6bf9.jpg"
+  },
+  "3488362706": {
+    "name": "Chromatic Fire",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/aeba89a17da757ee0329979f7a3ec883.jpg"
+  },
+  "3488362707": {
+    "name": "Phoenix Protocol",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/10e877d11596456c90452dd47739469a.jpg"
+  },
+  "3512014804": {
+    "name": "Lumina",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/26e7f61d27a6d730336a5bfe33dd5532.jpg"
+  },
+  "3524313097": {
+    "name": "Eriana's Vow",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/021e6564a148be166ebd04a38979a025.jpg"
+  },
+  "3539357318": {
+    "name": "Lion Rampant",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/bd9977d2267655736adc7c72a8fb4659.jpg"
+  },
+  "3539357319": {
+    "name": "Peacekeepers",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/592dc38dd7a785ad28e83236559fc6ea.jpg"
+  },
+  "3549153978": {
+    "name": "Fighting Lion",
+    "type": "Exotic Grenade Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4392251920264f64bfed200ea894adb4.jpg"
+  },
+  "3549153979": {
+    "name": "The Prospector",
+    "type": "Exotic Grenade Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/814b087177b19c7f187f22280e845b1e.jpg"
+  },
+  "3562696927": {
+    "name": "Wormhusk Crown",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/95eb480d723f510afd9fd3e2bbb1d92d.jpg"
+  },
+  "3580904580": {
+    "name": "Legend of Acrius",
+    "type": "Exotic Shotgun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1ed0827344c3855218be3bca8afb12af.jpg"
+  },
+  "3580904581": {
+    "name": "Tractor Cannon",
+    "type": "Exotic Shotgun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b95e68c761e400c2fe5cf3c46999d689.jpg"
+  },
+  "3588934839": {
+    "name": "Le Monarque",
+    "type": "Exotic Combat Bow",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0c71441bf8ee516b5a2001532d1f8d01.jpg"
+  },
+  "3627185503": {
+    "name": "Ophidian Aspect",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3995951ee0fdf3fb77d757370458e031.jpg"
+  },
+  "3628991658": {
+    "name": "Graviton Lance",
+    "type": "Exotic Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/492d92346c4325dada5455281ea00053.jpg"
+  },
+  "3628991659": {
+    "name": "Vigilance Wing",
+    "type": "Exotic Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5c6ce39544e7656d1a5bdafd7829443e.jpg"
+  },
+  "3654674561": {
+    "name": "Dead Man's Tale",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/67634d7a01d7dca3aef90b4612d58489.jpg"
+  },
+  "3766045777": {
+    "name": "Black Talon",
+    "type": "Exotic Sword",
+    "icon": "https://bungie.net/common/destiny2_content/icons/bf2ab15ec0780ed4e2cd2dfe193117a6.jpg"
+  },
+  "3787517196": {
+    "name": "Sunbracers",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/17c01ac034a7194e2de22d1ac487bb70.jpg"
+  },
+  "3790373072": {
+    "name": "Dunemarchers",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a2e2f285d70d2fe23511278c071666f6.jpg"
+  },
+  "3790373074": {
+    "name": "Lion Rampant",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/bd9977d2267655736adc7c72a8fb4659.jpg"
+  },
+  "3790373075": {
+    "name": "Peacekeepers",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/592dc38dd7a785ad28e83236559fc6ea.jpg"
+  },
+  "3824106094": {
+    "name": "Devil's Ruin",
+    "type": "Exotic Sidearm",
+    "icon": "https://bungie.net/common/destiny2_content/icons/65acc14a463a14875980a54d6d244a99.jpg"
+  },
+  "3844694310": {
+    "name": "The Jade Rabbit",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f9259f56c04975f2c92e5617d19d22fa.jpg"
+  },
+  "3844826440": {
+    "name": "Karnstein Armlets",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7a37bd1dc75bd0848d8c7afa25570763.jpg"
+  },
+  "3844826443": {
+    "name": "Winter's Guile",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4307654e15248d54fcffca2ab2710951.jpg"
+  },
+  "3856705927": {
+    "name": "Hawkmoon",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/bc462cdde2fa00c808ff4f15802cb3b4.jpg"
+  },
+  "3874247549": {
+    "name": "Armamentarium",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9482dc5d359231558d9ac7f70e5bbd86.jpg"
+  },
+  "3883866764": {
+    "name": "Mask of the Quiet One",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cd76e4a21cb89cd5b850eba34a8df41c.jpg"
+  },
+  "3897389303": {
+    "name": "Apotheosis Veil",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6f234606ab2e043388dfaeee946f854b.jpg"
+  },
+  "3899270607": {
+    "name": "The Colony",
+    "type": "Exotic Grenade Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/374345ed18447e7eb3a4a2bac4f3a694.jpg"
+  },
+  "3918600864": {
+    "name": "One-Eyed Mask",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d6e6248b34d1299aee22571db71c7a24.jpg"
+  },
+  "3926392527": {
+    "name": "Graviton Forfeit",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/57f35a636ef455069d04231d4a564013.jpg"
+  },
+  "3942036043": {
+    "name": "Aeon Swift",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2e98cefd54e09b7383c000e2501358e0.jpg"
+  },
+  "3948284065": {
+    "name": "Astrocyte Verse",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/96fdb1cd590b2212006d128dd0bc32a4.jpg"
+  },
+  "3973202132": {
+    "name": "Thorn",
+    "type": "Exotic Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ba392591a98adb436d5f34db5af635c1.jpg"
+  },
+  "3974038291": {
+    "name": "Precious Scars",
+    "type": "Exotic Helmet",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e69888e5592b50c6e36aa7206236aacb.jpg"
+  },
+  "4017959782": {
+    "name": "Symmetry",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab8384a7cf91615ca198219436a8808b.jpg"
+  },
+  "4018727386": {
+    "name": "Prideglass",
+    "type": "Exotic Grenade Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8fbca1de4f9c6cb57a3e554885d3d588.jpg"
+  },
+  "4036115577": {
+    "name": "Sleeper Simulant",
+    "type": "Exotic Linear Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/06c339b02b1a3b0b5c1322751b177557.jpg"
+  },
+  "4057299718": {
+    "name": "Chromatic Fire",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/aeba89a17da757ee0329979f7a3ec883.jpg"
+  },
+  "4057299719": {
+    "name": "Phoenix Protocol",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/10e877d11596456c90452dd47739469a.jpg"
+  },
+  "4068264807": {
+    "name": "Monte Carlo",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3885eb5206a2f3b8a85a020fb87d34a7.jpg"
+  },
+  "4070560770": {
+    "name": "Gwisin Vest",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/598126991a4bfe56b2901f1e1dca6147.jpg"
+  },
+  "4070560771": {
+    "name": "The Sixth Coyote",
+    "type": "Exotic Chest Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f6a2a1450f6020cd7fb1c368c44593b6.jpg"
+  },
+  "4103414242": {
+    "name": "Divinity",
+    "type": "Exotic Trace Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/097f8146229e7e8693a989952f44c843.jpg"
+  },
+  "4124984448": {
+    "name": "Hard Light",
+    "type": "Exotic Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8070b4aa8ef05ed33005d0ea314c575f.jpg"
+  },
+  "4136768282": {
+    "name": "Lunafaction Boots",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4d1cf89d08b11bd87c8944ecddbbfffe.jpg"
+  },
+  "4165919945": {
+    "name": "Liar's Handshake",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0a7faba69ffaf9ecd84183c606a506e.jpg"
+  },
+  "4190156464": {
+    "name": "Merciless",
+    "type": "Exotic Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2539a0478ce440192272f16529dcc37d.jpg"
+  },
+  "4255268456": {
+    "name": "Skyburner's Oath",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/69589d312320228022173ef7ef543a40.jpg"
+  },
+  "4284305242": {
+    "name": "Young Ahamkara's Spine",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e7ccbff166a5a543df4f475f69f3ebf8.jpg"
+  },
+  "4284305243": {
+    "name": "Mechaneer's Tricksleeves",
+    "type": "Exotic Gauntlets",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a11c0abd3b5a9d9ac128ff37aec61425.jpg"
+  }
+}
