@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.11.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.10.1...v1.11.0) (2021-04-12)
+
+
+### Features
+
+* adds Xur support ([#26](https://github.com/cujarrett/destiny-insights-backend/issues/26)) ([b4370f4](https://github.com/cujarrett/destiny-insights-backend/commit/b4370f442f023dbff85a7067633542fc33ecaf1e))
+
 ## [1.10.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.10.0...v1.10.1) (2021-04-09)
 
 
