@@ -7,7 +7,6 @@ module.exports = async (api) => {
   api.get("/xur", async (request, response) => {
     console.log("/xur called")
     const { auth, isTokenRefreshNeeded, lastTokenRefresh } = await getValidAuth()
-    // eslint-disable-next-line max-len
     const {
       inventory,
       lastUpdated,
