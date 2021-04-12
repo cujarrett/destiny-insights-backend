@@ -1,15 +1,15 @@
 const fetch = require("node-fetch")
 const cachedMods = require("../data/cached-mods.json")
-const { getCategories } = require("../util/get-categories.js")
+const { getCategories } = require("./get-categories.js")
 const { addMod, getLastSoldMods, getModSalesInLastYear } = require("../integrations/dynamodb.js")
 // eslint-disable-next-line max-len
-const { getInventoryItemDefinitionEndpoint } = require ("../util/get-inventory-item-definition-endpoint.js")
-const { getLastSoldMessge } = require("../util/get-last-sold-message.js")
-const { getManifest } = require ("../util/get-manifest.js")
-const { isNewInventory } = require ("../util/is-new-inventory.js")
+const { getInventoryItemDefinitionEndpoint } = require ("./get-inventory-item-definition-endpoint.js")
+const { getLastSoldMessge } = require("./get-last-sold-message.js")
+const { getManifest } = require ("./get-manifest.js")
+const { isNewInventory } = require ("./is-new-inventory.js")
 
-module.exports.getBansheeInventory = async (auth) => {
-  console.log("getBansheeInventory called")
+module.exports.getBanshee44Inventory = async (auth) => {
+  console.log("getBanshee44Inventory called")
   const { accessToken, apiKey } = auth
   const options = {
     "method": "get",

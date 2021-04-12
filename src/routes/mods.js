@@ -1,4 +1,4 @@
-const { getBansheeInventory } = require ("../util/get-banshee-inventory.js")
+const { getBanshee44Inventory } = require ("../util/get-banshee-44-inventory.js")
 const { getValidAuth } = require("../util/get-valid-auth.js")
 const { name, version } = require("../../package.json")
 
@@ -16,7 +16,7 @@ module.exports = async (api) => {
       manifestRetries,
       usedCachedData,
       inventoryItemDefinitionEndpoint
-    } = await getBansheeInventory(auth)
+    } = await getBanshee44Inventory(auth)
 
     const result = {
       inventory,

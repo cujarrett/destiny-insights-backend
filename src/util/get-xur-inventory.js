@@ -2,9 +2,9 @@ const fetch = require("node-fetch")
 const cachedExotics = require("../data/cached-exotics.json")
 const { addXurItem, getLastSoldXurItems } = require("../integrations/dynamodb.js")
 // eslint-disable-next-line max-len
-const { getInventoryItemDefinitionEndpoint } = require("../util/get-inventory-item-definition-endpoint.js")
-const { getManifest } = require("../util/get-manifest")
-const { isNewInventory } = require("../util/is-new-inventory.js")
+const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
+const { getManifest } = require("./get-manifest")
+const { isNewInventory } = require("./is-new-inventory.js")
 
 let manifest
 let manifestRetries
