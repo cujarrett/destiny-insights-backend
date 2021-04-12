@@ -135,9 +135,8 @@ module.exports.getLastSoldMods = async () => {
   return sortedResults
 }
 
-module.exports.addMod = async (mod) => {
+module.exports.addMod = async (mod, timestamp) => {
   console.log("addMod called")
-
   let type = mod.type
   if (type.includes("Armor")) {
     type = "Armor Mod"
@@ -147,7 +146,6 @@ module.exports.addMod = async (mod) => {
     type = "Combat Style Mod"
   }
 
-  const now = new Date().toISOString()
   AWS.config.update({ region: "us-east-1" })
   const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
 
@@ -156,9 +154,9 @@ module.exports.addMod = async (mod) => {
     Item: {
       // AWS DynamoDB uses single char for types
       // eslint-disable-next-line id-length
-      key: { S: `${now} (${type})` },
+      key: { S: `${timestamp} (${mod.itemHash})` },
       // eslint-disable-next-line id-length
-      timestamp: { S: now },
+      timestamp: { S: timestamp },
       // eslint-disable-next-line id-length
       type: { S: type },
       // eslint-disable-next-line id-length
@@ -167,4 +165,71 @@ module.exports.addMod = async (mod) => {
   }
 
   await ddb.putItem(params).promise()
+}
+
+module.exports.getLastSoldXurItems = async () => {
+  console.log("getLastSoldXurItems called")
+  AWS.config.update({ region: "us-east-1" })
+  const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
+  const responses = []
+  const oneWeekAgo = new Date(new Date().getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString()
+
+  const query = {
+    TableName: "destiny-insights-backend-xur",
+    FilterExpression: "#ts > :startDate",
+    ExpressionAttributeValues: {
+      // AWS DynamoDB uses single char for types
+      // eslint-disable-next-line id-length
+      ":startDate": { S: oneWeekAgo }
+    },
+    ExpressionAttributeNames: {
+      "#ts": "timestamp"
+    }
+  }
+
+  const response = await ddb.scan(query).promise()
+  responses.push(...response.Items)
+
+  const results = []
+  for (const sale of responses) {
+    results.push({
+      timestamp: sale.timestamp.S,
+      name: sale.name.S,
+      type: sale.type.S
+    })
+  }
+
+  const sortedResults = results.sort((first, second) => {
+    return new Date(second.timestamp) - new Date(first.timestamp)
+  })
+
+  return sortedResults
+}
+
+module.exports.addXurItem = async (item, timestamp) => {
+  console.log("addXurItem called")
+  const { itemHash, type, name } = item
+  AWS.config.update({ region: "us-east-1" })
+  const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
+
+  const params = {
+    TableName: "destiny-insights-backend-xur",
+    Item: {
+      // AWS DynamoDB uses single char for types
+      // eslint-disable-next-line id-length
+      key: { S: `${timestamp} (${itemHash})` },
+      // eslint-disable-next-line id-length
+      timestamp: { S: timestamp },
+      // eslint-disable-next-line id-length
+      type: { S: type },
+      // eslint-disable-next-line id-length
+      name: { S: name }
+    }
+  }
+
+  try {
+    await ddb.putItem(params).promise()
+  } catch (error) {
+    console.log(error)
+  }
 }

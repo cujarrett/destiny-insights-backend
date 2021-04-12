@@ -1,22 +1,19 @@
-const { getBanshee44Inventory } = require ("../util/get-banshee-44-inventory.js")
 const { getValidAuth } = require("../util/get-valid-auth.js")
+const { getXurInventory } = require("../util/get-xur-inventory.js")
 const { name, version } = require("../../package.json")
 
 module.exports = async (api) => {
   // eslint-disable-next-line no-unused-vars
-  api.get("/mods", async (request, response) => {
-    console.log("/mods called")
-    response.header("Access-Control-Allow-Origin", "*")
-
+  api.get("/xur", async (request, response) => {
+    console.log("/xur called")
     const { auth, isTokenRefreshNeeded, lastTokenRefresh } = await getValidAuth()
     const {
       inventory,
       lastUpdated,
       authRetries,
       manifestRetries,
-      usedCachedData,
-      inventoryItemDefinitionEndpoint
-    } = await getBanshee44Inventory(auth)
+      inventoryItemDefinitionEndpoint,
+      usedCachedData } = await getXurInventory(auth)
 
     const result = {
       inventory,
