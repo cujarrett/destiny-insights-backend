@@ -67,49 +67,51 @@ module.exports.getXurInventory = async (auth) => {
   const [, weaponKey, ...armorKeys] = Object.keys(xurSalesData)
   armorKeys.pop()
   const inventoryKeys = [weaponKey, ...armorKeys]
-  const currentItems = []
 
   let usedCachedData = true
-  for (const key of inventoryKeys) {
-    const xurItemComponents = xurData.Response.itemComponents.stats.data
-    const itemHash = xurSalesData[key].itemHash
+  let lastUpdated = undefined
+  const currentItems = []
 
-    const item = {}
-    item.itemHash = itemHash
-    if (cachedExotics[itemHash]) {
-      item.name = cachedExotics[itemHash].name
-      item.type = cachedExotics[itemHash].type
-    } else {
-      usedCachedData = false
-      await getItemDefinitions()
-      item.name = itemDefinitions[xurSalesData[key].itemHash].displayProperties.name
-      item.type = itemDefinitions[xurSalesData[key].itemHash].itemTypeAndTierDisplayName
+  const xurHasInventory = inventoryKeys.length > 1
+  if (xurHasInventory) {
+    for (const key of inventoryKeys) {
+      const xurItemComponents = xurData.Response.itemComponents.stats.data
+      const itemHash = xurSalesData[key].itemHash
+
+      const item = {}
+      item.itemHash = itemHash
+      if (cachedExotics[itemHash]) {
+        item.name = cachedExotics[itemHash].name
+        item.type = cachedExotics[itemHash].type
+      } else {
+        usedCachedData = false
+        await getItemDefinitions()
+        item.name = itemDefinitions[xurSalesData[key].itemHash].displayProperties.name
+        item.type = itemDefinitions[xurSalesData[key].itemHash].itemTypeAndTierDisplayName
+      }
+
+      const isArmor = xurItemComponents[key].stats["2996146975"]
+      if (isArmor) {
+        const mobility = xurItemComponents[key].stats["2996146975"].value
+        const resilience = xurItemComponents[key].stats["392767087"].value
+        const recovery = xurItemComponents[key].stats["1943323491"].value
+        const discipline = xurItemComponents[key].stats["1735777505"].value
+        const intellect = xurItemComponents[key].stats["144602215"].value
+        const strength = xurItemComponents[key].stats["4244567218"].value
+        item.mobility = mobility
+        item.resilience = resilience
+        item.recovery = recovery
+        item.discipline = discipline
+        item.intellect = intellect
+        item.strength = strength
+        item.total = mobility + resilience + recovery + discipline + intellect + strength
+      }
+
+      currentItems.push(item)
     }
-
-    const isArmor = xurItemComponents[key].stats["2996146975"]
-    if (isArmor) {
-      const mobility = xurItemComponents[key].stats["2996146975"].value
-      const resilience = xurItemComponents[key].stats["392767087"].value
-      const recovery = xurItemComponents[key].stats["1943323491"].value
-      const discipline = xurItemComponents[key].stats["1735777505"].value
-      const intellect = xurItemComponents[key].stats["144602215"].value
-      const strength = xurItemComponents[key].stats["4244567218"].value
-      item.mobility = mobility
-      item.resilience = resilience
-      item.recovery = recovery
-      item.discipline = discipline
-      item.intellect = intellect
-      item.strength = strength
-      item.total = mobility + resilience + recovery + discipline + intellect + strength
-    }
-
-    currentItems.push(item)
   }
-
   const lastSoldItems = await getLastSoldXurItems()
   const newInventory = await isNewInventory(currentItems, lastSoldItems)
-
-  let lastUpdated = undefined
   if (newInventory) {
     const timestamp = new Date().toISOString()
     for (const item of currentItems) {
