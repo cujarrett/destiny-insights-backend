@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.12.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.11.1...v1.12.0) (2021-04-15)
+
+
+### Bug Fixes
+
+* handles empty Xur inventory days ([8d1dfb1](https://github.com/cujarrett/destiny-insights-backend/commit/8d1dfb1d045e2b901c9c382dcffb69b06b07fe94))
+
+
+### Features
+
+* adds notable vendor armor IaC ([c6f61ae](https://github.com/cujarrett/destiny-insights-backend/commit/c6f61aefbf923d9b3a4e3074535b62eae3d68978))
+
 ## [1.11.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.11.0...v1.11.1) (2021-04-13)
 
 
