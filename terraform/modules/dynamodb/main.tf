@@ -1,7 +1,7 @@
 resource "aws_dynamodb_table" "destiny_insights_backend_mods" {
   name           = "destiny-insights-backend-mods"
   billing_mode   = "PROVISIONED"
-  read_capacity  = 2
+  read_capacity  = 15
   write_capacity = 2
   hash_key       = "key"
 
