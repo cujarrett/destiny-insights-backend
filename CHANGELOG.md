@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.13.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.12.0...v1.13.0) (2021-04-17)
+
+
+### Features
+
+* renames iam names ([#29](https://github.com/cujarrett/destiny-insights-backend/issues/29)) ([64a90c3](https://github.com/cujarrett/destiny-insights-backend/commit/64a90c363556c1c029456deef10717d74c2a64ac))
+
 # [1.12.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.11.1...v1.12.0) (2021-04-15)
 
 
