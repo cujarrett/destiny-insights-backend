@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.15.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.14.0...v1.15.0) (2021-04-17)
+
+
+### Features
+
+* renames vendor armor database ([#31](https://github.com/cujarrett/destiny-insights-backend/issues/31)) ([5f8eb45](https://github.com/cujarrett/destiny-insights-backend/commit/5f8eb459db3bc0eef261469d7572ec351d18fbf2))
+
 # [1.14.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.13.0...v1.14.0) (2021-04-17)
 
 
