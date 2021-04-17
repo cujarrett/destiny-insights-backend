@@ -8,8 +8,8 @@ variable "destiny_insights_backend_xur_arn" {
   type = string
 }
 
-variable "destiny_insights_backend_notable_vendor_armor_arn" {
-  description = "DynamoDB destiny_insights_backend_notable_vendor_armor table ARN"
+variable "destiny_insights_backend_vendors_last_updated_arn" {
+  description = "DynamoDB destiny_insights_backend_vendors_last_updated table ARN"
   type = string
 }
 

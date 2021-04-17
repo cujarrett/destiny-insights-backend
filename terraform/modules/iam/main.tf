@@ -116,8 +116,8 @@ resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_xur_d
   policy_arn = aws_iam_policy.destiny_insights_backend_xur.arn
 }
 
-resource "aws_iam_policy" "destiny_insights_backend_notable_vendor_armor" {
-  name        = "destiny-insights-backend-notable-vendor-armor-dynamodb"
+resource "aws_iam_policy" "destiny_insights_backend_vendors_last_updated" {
+  name        = "destiny-insights-backend-vendor-armor-dynamodb"
   description = "Adds DynamoDB access"
 
   policy = <<EOF
@@ -130,16 +130,16 @@ resource "aws_iam_policy" "destiny_insights_backend_notable_vendor_armor" {
         "dynamodb:Scan",
         "dynamodb:PutItem"
       ],
-      "Resource": "${var.destiny_insights_backend_notable_vendor_armor_arn}"
+      "Resource": "${var.destiny_insights_backend_vendors_last_updated_arn}"
     }
   ]
 }
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_notable_vendor_armor_dynamodb" {
+resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_vendors_last_updated_dynamodb" {
   role       = aws_iam_role.destiny_insights_backend.name
-  policy_arn = aws_iam_policy.destiny_insights_backend_notable_vendor_armor.arn
+  policy_arn = aws_iam_policy.destiny_insights_backend_vendors_last_updated.arn
 }
 
 resource "aws_iam_policy" "destiny_insights_backend_bungie_api_auth" {
