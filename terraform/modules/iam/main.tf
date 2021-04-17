@@ -1,5 +1,5 @@
 resource "aws_iam_role" "destiny_insights_backend" {
-  name               = "destiny_insights_backend"
+  name               = "destiny-insights-backend"
   assume_role_policy = <<POLICY
 {
   "Version": "2012-10-17",
@@ -15,7 +15,7 @@ POLICY
 }
 
 resource "aws_iam_policy" "destiny_insights_backend_logs" {
-  name        = "destiny_insights_backend_logs"
+  name        = "destiny-insights-backend-logs"
   description = "Adds logging access"
 
   policy = <<EOF
@@ -42,7 +42,7 @@ resource "aws_iam_role_policy_attachment" "attach_logs" {
 }
 
 resource "aws_iam_policy" "destiny_insights_backend_sns" {
-  name        = "destiny_insights_backend_sns"
+  name        = "destiny-insights-backend-sns"
   description = "Adds sns access"
 
   policy = <<EOF
@@ -65,7 +65,7 @@ resource "aws_iam_role_policy_attachment" "attach_sns" {
 }
 
 resource "aws_iam_policy" "destiny_insights_backend_mods" {
-  name        = "destiny_insights_backend_mods_dynamodb"
+  name        = "destiny-insights-backend-mods-dynamodb"
   description = "Adds DynamoDB access"
 
   policy = <<EOF
@@ -91,7 +91,7 @@ resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_mods_
 }
 
 resource "aws_iam_policy" "destiny_insights_backend_xur" {
-  name        = "destiny_insights_backend_xur_dynamodb"
+  name        = "destiny-insights-backend-xur-dynamodb"
   description = "Adds DynamoDB access"
 
   policy = <<EOF
@@ -117,7 +117,7 @@ resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_xur_d
 }
 
 resource "aws_iam_policy" "destiny_insights_backend_notable_vendor_armor" {
-  name        = "destiny_insights_backend_notable_vendor_armor_dynamodb"
+  name        = "destiny-insights-backend-notable-vendor-armor-dynamodb"
   description = "Adds DynamoDB access"
 
   policy = <<EOF
@@ -143,7 +143,7 @@ resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_notab
 }
 
 resource "aws_iam_policy" "destiny_insights_backend_bungie_api_auth" {
-  name        = "destiny_insights_backend_bungie_api_auth_dynamodb"
+  name        = "destiny-insights-backend-bungie-api-auth-dynamodb"
   description = "Adds DynamoDB access"
 
   policy = <<EOF
