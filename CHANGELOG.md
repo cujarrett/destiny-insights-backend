@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.14.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.13.0...v1.14.0) (2021-04-17)
+
+
+### Features
+
+* increase mods table provisioned reads to 15 ([#30](https://github.com/cujarrett/destiny-insights-backend/issues/30)) ([8efcfd0](https://github.com/cujarrett/destiny-insights-backend/commit/8efcfd0f8371fded1d3eacc329491b28e4c608a7))
+
 # [1.13.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.12.0...v1.13.0) (2021-04-17)
 
 
