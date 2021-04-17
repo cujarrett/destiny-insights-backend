@@ -9,7 +9,7 @@ A great place to jump in are issues labeled [Beginner Friendly](https://github.c
 
 ## Chat
 
-Feel free to join the [Banshee-44 Mods Bot Discord](https://discord.gg/Pv3xrPV) if you have questions.
+Feel free to join the [Destiny Insights Backend Discord](https://discord.gg/9jbXdyU6JT) if you have questions.
 
 ## Pull Request Checklist
 
@@ -153,9 +153,10 @@ I'm using AWS DynamoDB to persist auth and config. The structure of that table i
 
 ## cached-mods.json
 
-To avoid processing the very large JSON each compute I downsampled the normal Bungie manifest for Banshee-44's mods use case. I've
-stored this in `cached-mods.json`. If you want to recreate this file, you can use get the current raw manifest JSON and downsample it
-with this script.
+To avoid processing the very large JSON each compute I downsampled the normal
+Bungie manifest. I've stored this in `cached-mods.json`. If you want to recreate
+this file, you can use get the current raw manifest JSON and downsample it with
+this script.
 
 ```sh
 npm run build-cached-mods
