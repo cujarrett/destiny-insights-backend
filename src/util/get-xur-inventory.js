@@ -67,6 +67,7 @@ module.exports.getXurInventory = async (auth) => {
   const [, weaponKey, ...armorKeys] = Object.keys(xurSalesData)
   armorKeys.pop()
   const inventoryKeys = [weaponKey, ...armorKeys]
+  const xurItemComponents = xurData.Response.itemComponents.stats.data
 
   let usedCachedData = true
   let lastUpdated = undefined
@@ -75,7 +76,6 @@ module.exports.getXurInventory = async (auth) => {
   const xurHasInventory = inventoryKeys.length > 1
   if (xurHasInventory) {
     for (const key of inventoryKeys) {
-      const xurItemComponents = xurData.Response.itemComponents.stats.data
       const itemHash = xurSalesData[key].itemHash
 
       const item = {}
