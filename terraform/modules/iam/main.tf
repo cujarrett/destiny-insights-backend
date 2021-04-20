@@ -116,32 +116,6 @@ resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_xur_d
   policy_arn = aws_iam_policy.destiny_insights_backend_xur.arn
 }
 
-resource "aws_iam_policy" "destiny_insights_backend_vendors_last_updated" {
-  name        = "destiny-insights-backend-vendor-armor-dynamodb"
-  description = "Adds DynamoDB access"
-
-  policy = <<EOF
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "dynamodb:Scan",
-        "dynamodb:PutItem"
-      ],
-      "Resource": "${var.destiny_insights_backend_vendors_last_updated_arn}"
-    }
-  ]
-}
-EOF
-}
-
-resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_vendors_last_updated_dynamodb" {
-  role       = aws_iam_role.destiny_insights_backend.name
-  policy_arn = aws_iam_policy.destiny_insights_backend_vendors_last_updated.arn
-}
-
 resource "aws_iam_policy" "destiny_insights_backend_bungie_api_auth" {
   name        = "destiny-insights-backend-bungie-api-auth-dynamodb"
   description = "Adds DynamoDB access"

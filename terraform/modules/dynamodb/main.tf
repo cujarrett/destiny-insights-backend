@@ -118,27 +118,6 @@ resource "aws_dynamodb_table" "destiny_insights_backend_xur" {
   }
 }
 
-resource "aws_dynamodb_table" "destiny_insights_backend_vendors_last_updated" {
-  name           = "destiny-insights-backend-vendors-last-updated"
-  billing_mode   = "PROVISIONED"
-  read_capacity  = 1
-  write_capacity = 1
-  hash_key       = "app"
-
-  point_in_time_recovery {
-    enabled = true
-  }
-
-  attribute {
-    name = "app"
-    type = "S"
-  }
-
-  lifecycle {
-    prevent_destroy = true
-  }
-}
-
 resource "aws_dynamodb_table" "destiny_insights_backend_bungie_api_auth" {
   name           = "destiny-insights-backend-bungie-api-auth"
   billing_mode   = "PROVISIONED"
@@ -162,10 +141,6 @@ output "destiny_insights_backend_mods_arn" {
 
 output "destiny_insights_backend_xur_arn" {
   value = aws_dynamodb_table.destiny_insights_backend_xur.arn
-}
-
-output "destiny_insights_backend_vendors_last_updated_arn" {
-  value = aws_dynamodb_table.destiny_insights_backend_vendors_last_updated.arn
 }
 
 output "destiny_insights_backend_bungie_api_auth_arn" {
