@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.17.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.17.0...v1.17.1) (2021-04-20)
+
+
+### Bug Fixes
+
+* removes redundant xurItemComponents creation ([#34](https://github.com/cujarrett/destiny-insights-backend/issues/34)) ([76fb4ba](https://github.com/cujarrett/destiny-insights-backend/commit/76fb4ba98b6d482e195d06f8bc8b80bd6bdd5ec8))
+
 # [1.17.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.16.0...v1.17.0) (2021-04-20)
 
 
