@@ -1,7 +1,7 @@
 const fetch = require("node-fetch")
 
 module.exports.isBungieApiDownForMaintenance = async (auth) => {
-  console.log("getManifest called")
+  console.log("isBungieApiDownForMaintenance called")
   const { accessToken, apiKey } = auth
   const options = {
     "method": "get",
