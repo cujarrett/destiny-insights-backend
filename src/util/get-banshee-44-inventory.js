@@ -6,6 +6,7 @@ const { addMod, getLastSoldMods, getModSalesInLastYear } = require("../integrati
 const { getInventoryItemDefinitionEndpoint } = require ("./get-inventory-item-definition-endpoint.js")
 const { getLastSoldMessge } = require("./get-last-sold-message.js")
 const { getManifest } = require ("./get-manifest.js")
+const { isBungieApiDownForMaintenance } = require("./is-bungie-api-down-for-maintenance.js")
 const { isNewInventory } = require ("./is-new-inventory.js")
 
 module.exports.getBanshee44Inventory = async (auth) => {
@@ -27,6 +28,12 @@ module.exports.getBanshee44Inventory = async (auth) => {
   const maxRetries = 5
   let authRetries = 0
   if (!isValidAuth) {
+    const isBungieApiDownForMaintenanceFlag = await isBungieApiDownForMaintenance(auth)
+    if (isBungieApiDownForMaintenanceFlag) {
+      // eslint-disable-next-line max-len
+      throw new Error("The Bungie API is down for maintenance. Check https://twitter.com/BungieHelp for more info.")
+    }
+
     while (authRetries < maxRetries && !isValidAuth) {
       authRetries += 1
       bansheeInventoryResponse = await fetch(bansheeItemDefinitionsEndpoint, options)

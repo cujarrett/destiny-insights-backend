@@ -4,6 +4,7 @@ const { addXurItem, getLastSoldXurItems } = require("../integrations/dynamodb.js
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
 const { getManifest } = require("./get-manifest")
+const { isBungieApiDownForMaintenance } = require("./is-bungie-api-down-for-maintenance.js")
 const { isNewInventory } = require("./is-new-inventory.js")
 
 let manifest
@@ -50,6 +51,12 @@ module.exports.getXurInventory = async (auth) => {
   const maxRetries = 5
   let authRetries = 0
   if (!isValidAuth) {
+    const isBungieApiDownForMaintenanceFlag = await isBungieApiDownForMaintenance(auth)
+    if (isBungieApiDownForMaintenanceFlag) {
+      // eslint-disable-next-line max-len
+      throw new Error("The Bungie API is down for maintenance. Check https://twitter.com/BungieHelp for more info.")
+    }
+
     while (authRetries < maxRetries && !isValidAuth) {
       authRetries += 1
       xurDataResponse = await fetch(xurItemDefinitionsEndpoint, options)
