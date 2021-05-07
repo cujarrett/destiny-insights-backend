@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.19.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.18.0...v1.19.0) (2021-05-07)
+
+
+### Features
+
+* adds handling of Bungie API maintenance ([a58fa78](https://github.com/cujarrett/destiny-insights-backend/commit/a58fa78f01b7a7322da95a7876b988696a7d44c0))
+
 # [1.18.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.17.1...v1.18.0) (2021-04-30)
 
 
