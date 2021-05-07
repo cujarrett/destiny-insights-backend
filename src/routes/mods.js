@@ -36,7 +36,7 @@ module.exports = async (api) => {
         }
       }
     } catch (error) {
-      response.sendStatus(424)
+      response.sendStatus(500)
       result = { "error": error.message }
     }
 
