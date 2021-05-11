@@ -17,27 +17,17 @@ was done to learn and build out a backend for my serverless Twitter
 
 It's intended for personal use. Don't abuse the API.
 
-### [/mods](https://api.destinyinsights.com/mods)
+### [/ada-1](https://api.destinyinsights.com/ada-1)
 
-This endpoint makes a call to Bungie's API to retrieve the current mods sale. It
-also calls the backend database to retrieve the last sold date (in the last
-year) as well as how many times the mod was sold in the last year.
+Returns Ada-1 inventory
 
-This endpoint leverages the static data in the `cached-mods.json` file to save
-calls and processing time. If the mods for sale are not contained within, more
-timely calls are made to Bungie's API to get the info without the cached known
-mods.
+### [/banshee-44](https://api.destinyinsights.com/banshee-44)
+
+Returns Banshee-44 inventory
 
 ### [/xur](https://api.destinyinsights.com/xur)
 
-This endpoint makes a call to Bungie's API to retrieve the current mods sale. It
-also calls the backend database to retrieve the last sold date (in the last
-year) as well as how many times the mod was sold in the last year.
-
-This endpoint leverages the static data in the `cached-exotics.json` file to save
-calls and processing time. If the mods for sale are not contained within, more
-timely calls are made to Bungie's API to get the info without the cached known
-mods.
+Returns Xur inventory
 
 <p align="center">
   Made with :heart:, JavaScript, and GitHub.
