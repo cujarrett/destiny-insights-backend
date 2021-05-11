@@ -16,15 +16,19 @@ module.exports.refreshToken = async (auth) => {
   }
   const rawResponse = await fetch("https://www.bungie.net/Platform/App/OAuth/Token/", options)
   const newToken = await rawResponse.json()
-
-  const newAuth = {
-    lastTokenRefresh: new Date().toISOString(),
-    accessToken: newToken.access_token,
-    tokenType: newToken.token_type,
-    expiresIn: newToken.expires_in,
-    refreshExpiresIn: newToken.refresh_expires_in,
-    membershipId: newToken.membership_id,
-    refreshToken: newToken.refresh_token
+  if (newToken.error) {
+    // eslint-disable-next-line max-len
+    throw new Error("The Bungie API is down for maintenance. Check https://twitter.com/BungieHelp for more info.")
+  } else {
+    const newAuth = {
+      lastTokenRefresh: new Date().toISOString(),
+      accessToken: newToken.access_token,
+      tokenType: newToken.token_type,
+      expiresIn: newToken.expires_in,
+      refreshExpiresIn: newToken.refresh_expires_in,
+      membershipId: newToken.membership_id,
+      refreshToken: newToken.refresh_token
+    }
+    await setAuth(newAuth)
   }
-  await setAuth(newAuth)
 }
