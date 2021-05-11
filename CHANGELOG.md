@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.21.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.20.0...v1.21.0) (2021-05-11)
+
+
+### Features
+
+* adds handling for when Bungie API is offline ([#40](https://github.com/cujarrett/destiny-insights-backend/issues/40)) ([a0cc1ff](https://github.com/cujarrett/destiny-insights-backend/commit/a0cc1ffbf7bf75c4456dd8479e9d5a9076367555))
+
 # [1.20.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.19.0...v1.20.0) (2021-05-11)
 
 
