@@ -13,8 +13,12 @@ module.exports.isBungieApiDownForMaintenance = async (auth) => {
 
   const settingsEndpoint = "https://www.bungie.net/Platform/Settings/"
   const rawResponse = await fetch(settingsEndpoint, options)
-  const response = await rawResponse.json()
-  const isBungieApiDown = response.ErrorCode !== 1
-  const isVendorsDisabled = response.Response.systems.D2Vendors.enabled === false
-  return isBungieApiDown || isVendorsDisabled
+  if (rawResponse.ok) {
+    const response = await rawResponse.json()
+    const isBungieApiDown = response.ErrorCode !== 1
+    const isVendorsDisabled = response.Response.systems.D2Vendors.enabled === false
+    return isBungieApiDown || isVendorsDisabled
+  } else {
+    return false
+  }
 }

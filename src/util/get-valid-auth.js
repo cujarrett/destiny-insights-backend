@@ -6,9 +6,13 @@ module.exports.getValidAuth = async () => {
   console.log("getValidAuth called")
   let auth = await getAuth()
   const isTokenRefreshNeeded = checkIfTokenRefreshNeeded(auth)
-  if (isTokenRefreshNeeded) {
-    await refreshToken(auth)
-    auth = await getAuth()
+  try {
+    if (isTokenRefreshNeeded) {
+      await refreshToken(auth)
+      auth = await getAuth()
+    }
+    return { auth, isTokenRefreshNeeded }
+  } catch (error) {
+    throw new Error(error)
   }
-  return { auth, isTokenRefreshNeeded }
 }
