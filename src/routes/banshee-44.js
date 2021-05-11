@@ -4,13 +4,14 @@ const { name, version } = require("../../package.json")
 
 module.exports = async (api) => {
   // eslint-disable-next-line no-unused-vars
-  api.get("/mods", async (request, response) => {
-    console.log("/mods called")
+  api.get("/banshee-44", async (request, response) => {
+    console.log("/banshee-44 called")
     let result
 
     try {
       response.header("Access-Control-Allow-Origin", "*")
       const { auth, isTokenRefreshNeeded, lastTokenRefresh } = await getValidAuth()
+
       const {
         inventory,
         lastUpdated,

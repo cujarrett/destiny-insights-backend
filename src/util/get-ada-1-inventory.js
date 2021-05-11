@@ -8,8 +8,8 @@ const { getManifest } = require ("./get-manifest.js")
 const { isBungieApiDownForMaintenance } = require("./is-bungie-api-down-for-maintenance.js")
 const { isNewInventory } = require ("./is-new-inventory.js")
 
-module.exports.getBanshee44Inventory = async (auth) => {
-  console.log("getBanshee44Inventory called")
+module.exports.getAda1Inventory = async (auth) => {
+  console.log("getAda1Inventory called")
   const { accessToken, apiKey } = auth
   const options = {
     "method": "get",
@@ -20,10 +20,10 @@ module.exports.getBanshee44Inventory = async (auth) => {
   }
 
   // eslint-disable-next-line max-len
-  const bansheeItemDefinitionsEndpoint = "https://www.bungie.net/Platform/Destiny2/3/Profile/4611686018467431261/Character/2305843009299499863/Vendors/672118013/?components=300,301,302,304,305,400,401,402"
-  let bansheeInventoryResponse = await fetch(bansheeItemDefinitionsEndpoint, options)
+  const adaItemDefinitionsEndpoint = "https://www.bungie.net/Platform/Destiny2/3/Profile/4611686018467431261/Character/2305843009299499863/Vendors/350061650/?components=300,301,302,304,305,400,401,402"
+  let adaInventoryResponse = await fetch(adaItemDefinitionsEndpoint, options)
 
-  let isValidAuth = bansheeInventoryResponse.status === 200
+  let isValidAuth = adaInventoryResponse.status === 200
   const maxRetries = 5
   let authRetries = 0
   if (!isValidAuth) {
@@ -35,8 +35,8 @@ module.exports.getBanshee44Inventory = async (auth) => {
 
     while (authRetries < maxRetries && !isValidAuth) {
       authRetries += 1
-      bansheeInventoryResponse = await fetch(bansheeItemDefinitionsEndpoint, options)
-      isValidAuth = bansheeInventoryResponse.status === 200
+      adaInventoryResponse = await fetch(adaItemDefinitionsEndpoint, options)
+      isValidAuth = adaInventoryResponse.status === 200
     }
 
     if (authRetries === maxRetries && !isValidAuth) {
@@ -44,9 +44,9 @@ module.exports.getBanshee44Inventory = async (auth) => {
     }
   }
 
-  const bansheeInventory = await bansheeInventoryResponse.json()
-  const categoryData = bansheeInventory.Response.categories.data.categories
-  const salesData = bansheeInventory.Response.sales.data
+  const adaInventory = await adaInventoryResponse.json()
+  const categoryData = adaInventory.Response.categories.data.categories
+  const salesData = adaInventory.Response.sales.data
 
   let manifest
   let manifestRetries
@@ -74,7 +74,7 @@ module.exports.getBanshee44Inventory = async (auth) => {
   }
 
   // Get categories for weapon mods for sale
-  const [firstModCategory, secondModCategory] = categoryData[2].itemIndexes
+  const [firstModCategory, secondModCategory] = categoryData[1].itemIndexes
   const categories = [firstModCategory, secondModCategory]
 
   const currentMods = []
