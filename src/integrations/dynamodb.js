@@ -129,7 +129,7 @@ module.exports.getLastSoldMods = async () => {
   }
 
   const sortedResults = results.sort((first, second) => {
-    return new Date(second.timestamp) - new Date(first.timestamp)
+    return new Date(first.timestamp) - new Date(second.timestamp)
   })
 
   return sortedResults
