@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.21.2](https://github.com/cujarrett/destiny-insights-backend/compare/v1.21.1...v1.21.2) (2021-05-18)
+
+
+### Bug Fixes
+
+* bug where if Bungie API is late the lastUpdated is correct ([a76bd71](https://github.com/cujarrett/destiny-insights-backend/commit/a76bd7196f4a5edd8ed64bbbcad52f2d32c19955))
+
 ## [1.21.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.21.0...v1.21.1) (2021-05-13)
 
 
