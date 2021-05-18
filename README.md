@@ -9,7 +9,7 @@
 
 It's an implementation of interacting with
 [Bungie's OAuth 2 API](https://github.com/Bungie-net/api), specifically the
-portion of the API dealing with the games mod, armor, and weapon inventory. This
+portion of the API dealing with the games mods, armor, and weapon inventory. This
 was done to learn and build out a backend for my serverless Twitter
 [destiny-insights-bot](https://github.com/cujarrett/destiny-insights-bot).
 
