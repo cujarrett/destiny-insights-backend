@@ -106,7 +106,7 @@ module.exports.getAda1Inventory = async (auth) => {
     }
     lastUpdated = timestamp
   } else {
-    lastUpdated = lastSoldMods[lastSoldMods.length - 1].timestamp
+    lastUpdated = lastSoldMods[0].timestamp
   }
 
   const currentItems = []
