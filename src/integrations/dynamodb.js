@@ -128,9 +128,16 @@ module.exports.getLastSoldMods = async () => {
     })
   }
 
-  const sortedResults = results.sort((first, second) => {
+  let sortedResults = results.sort((first, second) => {
     return new Date(first.timestamp) - new Date(second.timestamp)
   })
+
+  // When Bungie's API is down during reset the mods are sold "late" so the next day when the app
+  // searches for the last sold mods in the last 24 hours, more than the current four are sold, we
+  // need to remove the oldest ones to get to the newest mods sold
+  if (sortedResults.length > 4) {
+    sortedResults = sortedResults.slice(Math.max(sortedResults.length - 4, 0))
+  }
 
   return sortedResults
 }
