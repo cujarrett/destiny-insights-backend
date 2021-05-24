@@ -96,8 +96,8 @@ module.exports.getModSalesInLastYear = async (mod) => {
   return sortedResults
 }
 
-module.exports.getLastSoldMods = async () => {
-  console.log("getLastSoldMods called")
+module.exports.getLastSoldAda1Mods = async () => {
+  console.log("getLastSoldAda1Mods called")
   AWS.config.update({ region: "us-east-1" })
   const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
   const responses = []
@@ -105,14 +105,68 @@ module.exports.getLastSoldMods = async () => {
 
   const query = {
     TableName: "destiny-insights-backend-mods",
-    FilterExpression: "#ts > :startDate",
+    FilterExpression: "#ts > :startDate AND (#type = :armorType OR #type = :combatSyleType)",
     ExpressionAttributeValues: {
       // AWS DynamoDB uses single char for types
       // eslint-disable-next-line id-length
-      ":startDate": { S: oneDayAgo }
+      ":startDate": { S: oneDayAgo },
+      // eslint-disable-next-line id-length
+      ":armorType": { S: "Armor Mod" },
+      // eslint-disable-next-line id-length
+      ":combatSyleType": { S: "Combat Style Mod" }
     },
     ExpressionAttributeNames: {
-      "#ts": "timestamp"
+      "#ts": "timestamp",
+      "#type": "type"
+    }
+  }
+
+  const response = await ddb.scan(query).promise()
+  responses.push(...response.Items)
+
+  const results = []
+  for (const sale of responses) {
+    results.push({
+      timestamp: sale.timestamp.S,
+      name: sale.name.S,
+      type: sale.type.S
+    })
+  }
+
+  let sortedResults = results.sort((first, second) => {
+    return new Date(first.timestamp) - new Date(second.timestamp)
+  })
+
+  // When Bungie's API is down during reset the mods are sold "late" so the next day when the app
+  // searches for the last sold mods in the last 24 hours, more than the current four are sold, we
+  // need to remove the oldest ones to get to the newest mods sold
+  if (sortedResults.length > 4) {
+    sortedResults = sortedResults.slice(Math.max(sortedResults.length - 4, 0))
+  }
+
+  return sortedResults
+}
+
+module.exports.getLastSoldBanshee44Mods = async () => {
+  console.log("getLastSoldBanshee44Mods called")
+  AWS.config.update({ region: "us-east-1" })
+  const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
+  const responses = []
+  const oneDayAgo = new Date(new Date().getTime() - (24 * 60 * 60 * 1000)).toISOString()
+
+  const query = {
+    TableName: "destiny-insights-backend-mods",
+    FilterExpression: "#ts > :startDate AND #type = :weaponType",
+    ExpressionAttributeValues: {
+      // AWS DynamoDB uses single char for types
+      // eslint-disable-next-line id-length
+      ":startDate": { S: oneDayAgo },
+      // eslint-disable-next-line id-length
+      ":weaponType": { S: "Weapon Mod" }
+    },
+    ExpressionAttributeNames: {
+      "#ts": "timestamp",
+      "#type": "type"
     }
   }
 
