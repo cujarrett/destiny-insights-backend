@@ -1,6 +1,7 @@
 const fetch = require("node-fetch")
 const cachedMods = require("../data/cached-mods.json")
-const { addMod, getLastSoldMods, getModSalesInLastYear } = require("../integrations/dynamodb.js")
+// eslint-disable-next-line max-len
+const { addMod, getLastSoldAda1Mods, getModSalesInLastYear } = require("../integrations/dynamodb.js")
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require ("./get-inventory-item-definition-endpoint.js")
 const { getLastSoldMessge } = require("./get-last-sold-message.js")
@@ -95,7 +96,7 @@ module.exports.getAda1Inventory = async (auth) => {
     currentMods.push(mod)
   }
 
-  const lastSoldMods = await getLastSoldMods()
+  const lastSoldMods = await getLastSoldAda1Mods()
   const newInventory = await isNewInventory(currentMods, lastSoldMods)
 
   let lastUpdated = undefined
@@ -106,7 +107,7 @@ module.exports.getAda1Inventory = async (auth) => {
     }
     lastUpdated = timestamp
   } else {
-    lastUpdated = lastSoldMods[0].timestamp
+    lastUpdated = lastSoldMods[lastSoldMods.length - 1].timestamp
   }
 
   const currentItems = []
