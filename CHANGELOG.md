@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.22.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.21.4...v1.22.0) (2021-06-02)
+
+
+### Features
+
+* adds new inventory double check ([#47](https://github.com/cujarrett/destiny-insights-backend/issues/47)) ([f26f4d0](https://github.com/cujarrett/destiny-insights-backend/commit/f26f4d01e85fa0d563ceaadfde64f1e105ef2a57))
+
 ## [1.21.4](https://github.com/cujarrett/destiny-insights-backend/compare/v1.21.3...v1.21.4) (2021-05-24)
 
 
