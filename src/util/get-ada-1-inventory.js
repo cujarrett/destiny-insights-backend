@@ -101,7 +101,7 @@ module.exports.getAda1Inventory = async (auth) => {
     return currentMods
   }
 
-  const currentMods = await getCurrentAda1Mods()
+  let currentMods = await getCurrentAda1Mods()
   const lastSoldMods = await getLastSoldAda1Mods()
   const newInventory = await isNewInventory(currentMods, lastSoldMods)
 
@@ -116,6 +116,7 @@ module.exports.getAda1Inventory = async (auth) => {
       }
       lastUpdated = timestamp
     } else {
+      currentMods = doubleCheckedMods
       lastUpdated = lastSoldMods[lastSoldMods.length - 1].timestamp
     }
   } else {

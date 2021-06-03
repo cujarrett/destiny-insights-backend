@@ -101,7 +101,7 @@ module.exports.getBanshee44Inventory = async (auth) => {
     return currentMods
   }
 
-  const currentMods = await getCurrentBanshee44Mods()
+  let currentMods = await getCurrentBanshee44Mods()
   const lastSoldMods = await getLastSoldBanshee44Mods()
   const newInventory = await isNewInventory(currentMods, lastSoldMods)
 
@@ -116,6 +116,7 @@ module.exports.getBanshee44Inventory = async (auth) => {
       }
       lastUpdated = timestamp
     } else {
+      currentMods = doubleCheckedMods
       lastUpdated = lastSoldMods[lastSoldMods.length - 1].timestamp
     }
   } else {
