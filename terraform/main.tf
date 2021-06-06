@@ -9,8 +9,6 @@ module "dynamodb" {
 module "iam" {
   source = "./modules/iam"
   error_sns_topic = var.error_sns_topic
-  destiny_insights_backend_mods_arn = module.dynamodb.destiny_insights_backend_mods_arn
-  destiny_insights_backend_xur_arn = module.dynamodb.destiny_insights_backend_xur_arn
   destiny_insights_backend_bungie_api_auth_arn = module.dynamodb.destiny_insights_backend_bungie_api_auth_arn
 }
 
