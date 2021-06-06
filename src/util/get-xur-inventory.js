@@ -1,11 +1,9 @@
 const fetch = require("node-fetch")
 const cachedExotics = require("../data/cached-exotics.json")
-const { addXurItem, getLastSoldXurItems } = require("../integrations/dynamodb.js")
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
 const { getManifest } = require("./get-manifest")
 const { isBungieApiDownForMaintenance } = require("./is-bungie-api-down-for-maintenance.js")
-const { isNewInventory } = require("./is-new-inventory.js")
 
 let manifest
 let manifestRetries
@@ -77,8 +75,7 @@ module.exports.getXurInventory = async (auth) => {
   const xurItemComponents = xurData.Response.itemComponents.stats.data
 
   let usedCachedData = true
-  let lastUpdated = undefined
-  const currentItems = []
+  const inventory = []
 
   const xurHasInventory = inventoryKeys.length > 1
   if (xurHasInventory) {
@@ -114,24 +111,12 @@ module.exports.getXurInventory = async (auth) => {
         item.total = mobility + resilience + recovery + discipline + intellect + strength
       }
 
-      currentItems.push(item)
+      inventory.push(item)
     }
-  }
-  const lastSoldItems = await getLastSoldXurItems()
-  const newInventory = await isNewInventory(currentItems, lastSoldItems)
-  if (newInventory) {
-    const timestamp = new Date().toISOString()
-    for (const item of currentItems) {
-      await await addXurItem(item, timestamp)
-    }
-    lastUpdated = timestamp
-  } else {
-    lastUpdated = lastSoldItems[0].timestamp
   }
 
   return {
-    inventory: currentItems,
-    lastUpdated,
+    inventory,
     authRetries,
     manifestRetries,
     usedCachedData,

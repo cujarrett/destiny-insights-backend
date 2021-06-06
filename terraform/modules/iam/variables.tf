@@ -1,13 +1,3 @@
-variable "destiny_insights_backend_mods_arn" {
-  description = "DynamoDB destiny_insights_backend_mods table ARN"
-  type = string
-}
-
-variable "destiny_insights_backend_xur_arn" {
-  description = "DynamoDB destiny_insights_backend_xur table ARN"
-  type = string
-}
-
 variable "destiny_insights_backend_bungie_api_auth_arn" {
   description = "DynamoDB destiny_insights_backend_bungie_api_auth table ARN"
   type = string

@@ -1,14 +1,9 @@
 const fetch = require("node-fetch")
 const cachedMods = require("../data/cached-mods.json")
 // eslint-disable-next-line max-len
-const { addMod, getLastSoldAda1Mods, getModSalesInLastYear } = require("../integrations/dynamodb.js")
-// eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require ("./get-inventory-item-definition-endpoint.js")
-const { getLastSoldMessge } = require("./get-last-sold-message.js")
 const { getManifest } = require ("./get-manifest.js")
 const { isBungieApiDownForMaintenance } = require("./is-bungie-api-down-for-maintenance.js")
-const { isNewInventory } = require ("./is-new-inventory.js")
-const { isSameInventory } = require ("./is-same-inventory.js")
 
 module.exports.getAda1Inventory = async (auth) => {
   console.log("getAda1Inventory called")
@@ -101,44 +96,18 @@ module.exports.getAda1Inventory = async (auth) => {
     return currentMods
   }
 
-  let currentMods = await getCurrentAda1Mods()
-  const lastSoldMods = await getLastSoldAda1Mods()
-  const newInventory = await isNewInventory(currentMods, lastSoldMods)
-
-  let lastUpdated = undefined
-  if (newInventory) {
-    const doubleCheckedMods = await getCurrentAda1Mods()
-    const confirmedNewMods = await isSameInventory(currentMods, doubleCheckedMods)
-    if (confirmedNewMods) {
-      const timestamp = new Date().toISOString()
-      for (const mod of currentMods) {
-        await addMod(mod, timestamp)
-      }
-      lastUpdated = timestamp
-    } else {
-      currentMods = doubleCheckedMods
-      lastUpdated = lastSoldMods[lastSoldMods.length - 1].timestamp
-    }
-  } else {
-    lastUpdated = lastSoldMods[lastSoldMods.length - 1].timestamp
-  }
-
-  const currentItems = []
+  const currentMods = await getCurrentAda1Mods()
+  const inventory = []
   for (const mod of currentMods) {
-    const modSales = await getModSalesInLastYear(mod)
-    const lastSold = getLastSoldMessge(modSales)
-    currentItems.push({
+    inventory.push({
       name: mod.name,
       itemHash: mod.itemHash,
-      type: mod.type,
-      lastSold,
-      timesSoldInLastYear: modSales.length
+      type: mod.type
     })
   }
 
   return {
-    inventory: currentItems,
-    lastUpdated,
+    inventory,
     authRetries,
     manifestRetries,
     usedCachedData,
