@@ -23,36 +23,6 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
-  "76553634": {
-    "name": "Submachine Gun Loader",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Increases reload speed of Submachine Guns.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/951c8bb4c4c01445731d0e792f40ab3a.png"
-  },
-  "76553635": {
-    "name": "Unflinching Sniper Aim",
-    "type": "Legendary Chest Armor Mod",
-    "description": "Reduces flinching from incoming fire while aiming Sniper Rifles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b88067d3abb930445aec082230e18d7c.png"
-  },
-  "76553636": {
-    "name": "Bow Reloader",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Increases reload speed of Bows.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bb03ccff9d0039be832b395267ac76e8.png"
-  },
-  "76553637": {
-    "name": "Sniper Rifle Scavenger",
-    "type": "Legendary Leg Armor Mod",
-    "description": "Sniper Rifles get bonus reserves when you pick up Special ammo.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5ddf99f5a085a720e64743a61abf31bf.png"
-  },
-  "76553638": {
-    "name": "Unflinching Scout Rifle Aim",
-    "type": "Legendary Chest Armor Mod",
-    "description": "Reduces flinching from incoming fire while aiming Scout Rifles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4e5603993685a0f7d23070624fd4fbad.png"
-  },
   "87259167": {
     "name": "Enhanced Fusion Rifle Targeting",
     "type": "Common Deprecated Armor Mod",
@@ -197,6 +167,12 @@
     "description": "Activity mods provide additional currency and material rewards in various activities.",
     "icon": "https://bungie.net/common/destiny2_content/icons/aa09438250638a654652801673cce7d8.png"
   },
+  "240958661": {
+    "name": "Reaping Wellmaker",
+    "type": "Elemental Well Mod",
+    "description": "After activating your class ability, your next weapon final blow spawns a Void elemental well.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fe2fa521bc6fb32f25ac1e238ef59005.png"
+  },
   "240987419": {
     "name": "Scout Rifle Reserves",
     "type": "Common Chest Armor Mod",
@@ -256,6 +232,36 @@
     "type": "Common Economic Ghost Mod",
     "description": "Increases Glimmer gains by 20%.",
     "icon": "https://bungie.net/common/destiny2_content/icons/cc67a4517e3546dcc672647c4ef34b6d.png"
+  },
+  "282898296": {
+    "name": "Impulse Recycler",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Grenade final blows grant grenade energy. Multiple copies of this mod increase the amount of energy gained.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9b212d92289471277c480e22dc66dfd1.png"
+  },
+  "282898297": {
+    "name": "Energy Accelerant",
+    "type": "Legendary Class Item Mod",
+    "description": "Your Dragonfly, Chain Reaction, and Firefly explosions deal more damage.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a9fb8dc807a0fbfcf31fab3d03ab399e.png"
+  },
+  "282898301": {
+    "name": "Breach and Clear",
+    "type": "Legendary Class Item Mod",
+    "description": "When using a Grenade Launcher, damaging a boss, damaging a Champion, or breaking a combatant's shield reloads your stowed weapons and causes the combatant to take increased damage for a short duration.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d5ccf55656ab1d4ed2ceb2e0902312db.png"
+  },
+  "282898302": {
+    "name": "Glacial Inheritance",
+    "type": "Legendary Class Item Mod",
+    "description": "Defeating targets with your Stasis Super refunds Super energy.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b8da17dd79bfee3a5eaf7d1ac46f6206.png"
+  },
+  "282898303": {
+    "name": "Warmind's Decree",
+    "type": "Legendary Warmind Cell Mod",
+    "description": "Void splash damage final blows have a chance to create Warmind Cells.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/72a81508706cea0160e5704c18c031df.png"
   },
   "294409479": {
     "name": "Enhanced Shotgun Dexterity",
@@ -489,6 +495,24 @@
     "type": "Legendary Weapon Mod",
     "description": "Temporarily increases the weapon's ready speed and aim down sights speed after sprinting.",
     "icon": "https://bungie.net/common/destiny2_content/icons/8e7b5d4045da59ca6e4ff3f56f458c1e.jpg"
+  },
+  "518521232": {
+    "name": "Precise Oracle Disruptor",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "Your equipped Bows, Hand Cannons, Linear Fusion Rifles, Scout Rifles, and Sniper Rifles deal additional damage to Oracles in the Vault of Glass.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e3a31b91f13978610b75dff836bad99b.png"
+  },
+  "518521233": {
+    "name": "Vex Striker",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "Defeating a Vex with a precision hit has a chance to spawn an Orb of Power. Multiple copies of this mod increase the Super energy granted when those Orbs are picked up.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/81f78e450c715d53dbac5ef99235a696.png"
+  },
+  "518521234": {
+    "name": "Superstructure Defender",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "While you are standing on a sync plate or are near a conflux, weapon attacks that hit powerful Vex combatants have a high chance to weaken those combatants.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0ff2d5c2be0870eb3208f6f649dfda78.png"
   },
   "531752975": {
     "name": "Minor Resist",
@@ -724,36 +748,6 @@
     "description": "No activity mod currently selected",
     "icon": "https://bungie.net/common/destiny2_content/icons/39cbea7ed3fcd53085cbc42a3e6565dd.png"
   },
-  "792292104": {
-    "name": "Focusing Lens",
-    "type": "Legendary Class Item Mod",
-    "description": "Your Light abilities do bonus damage to combatants affected by Stasis.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/96d23ec884ad446f76a5f7fab9b076f5.png"
-  },
-  "792292106": {
-    "name": "Glacial Inheritance",
-    "type": "Legendary Class Item Mod",
-    "description": "Defeating targets with your Stasis Super refunds Super energy.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b8da17dd79bfee3a5eaf7d1ac46f6206.png"
-  },
-  "792292107": {
-    "name": "Passive Guard",
-    "type": "Legendary Class Item Mod",
-    "description": "Receive less damage from combatants that are close to you while you are wielding a sword.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/01b6281bcb7986cc9930ea8fa9962fd4.png"
-  },
-  "792292108": {
-    "name": "Volatile Conduction",
-    "type": "Legendary Class Item Mod",
-    "description": "Grants bonus Arc Super damage if cast while critically wounded. Lasts until the end of the Super activation.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/7f052f89060bd4b14a00e0af8a03a6c0.png"
-  },
-  "792292109": {
-    "name": "Sundering Glare",
-    "type": "Legendary Class Item Mod",
-    "description": "Rapid precision hits against distant combatants weaken them for a short duration.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f8d8732ab798faf87860ae3670ea1860.png"
-  },
   "805625272": {
     "name": "Light Arms Dexterity",
     "type": "Common Deprecated Armor Mod",
@@ -802,11 +796,47 @@
     "description": "Increases the drop chance of Heavy ammo on kill.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e54d34d49fce1ecdbb31c386da908f44.png"
   },
+  "825650462": {
+    "name": "Explosive Wellmaker",
+    "type": "Elemental Well Mod",
+    "description": "Rapidly defeating combatants with explosive damage spawns a Solar elemental well.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/478c4e5db2565e544ebe0795ed67aa3b.png"
+  },
   "843081753": {
     "name": "Shielding Hand",
     "type": "Legendary Arms Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "864745274": {
+    "name": "Overload Hand Cannon",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Landing consecutive hits with any Hand Cannon you are wielding disrupts combatants, stunning them, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/685d7a18ff5b051384adf6a3f85fbf5c.png"
+  },
+  "864745275": {
+    "name": "Anti-Barrier Auto Rifle",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Auto Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nAuto Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/022136ff1ba2ad30aeb9d0c06df81631.png"
+  },
+  "864745276": {
+    "name": "Anti-Barrier Scout Rifle",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Scout Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nScout Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/bf5c86c29410d64027d43af8d1b0e20d.png"
+  },
+  "864745277": {
+    "name": "Unstoppable Sidearm",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Aiming down sights with any Sidearm you are wielding loads a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger]  Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6ef403a775894c4f91ca7b48509e2cd9.png"
+  },
+  "864745279": {
+    "name": "Overload Submachine Gun",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Uninterrupted fire from your equipped SMGs grants bullets that stun combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f05983e838ccf561054891772ee9b6b5.png"
   },
   "865380761": {
     "name": "Enhanced Voltaic Mote Collector",
@@ -892,36 +922,6 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
-  "1007628738": {
-    "name": "Surge Detonators",
-    "type": "Legendary Class Item Mod",
-    "description": "Arc grenades disrupt combatants, stunning them, delaying ability regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/e5049e5ac3be04260609c281e2fa7579.png"
-  },
-  "1007628739": {
-    "name": "Inferno Whip",
-    "type": "Legendary Class Item Mod",
-    "description": "Solar melee abilities stun unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d52bf97156a06bcd389f3a58c477e226.png"
-  },
-  "1007628740": {
-    "name": "Disrupting Blade",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Landing consecutive hits with any Sword you are wielding disrupts combatants, stunning them, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption]  Overload Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/89cc197ffa140557c27a4a9f40c622a4.png"
-  },
-  "1007628741": {
-    "name": "Resonance Siphon",
-    "type": "Legendary Class Item Mod",
-    "description": "Gain [Stasis] Stasis ability energy whenever you or a member of your fireteam stuns a Champion.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/8728825bdc897e96876a84e0ade4abc6.png"
-  },
-  "1007628743": {
-    "name": "Anti-Barrier Sniper Rifle",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Sniper Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nSniper Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/7e1d1a6a7b5745e003fbf08cbcbfbdd7.png"
-  },
   "1008801629": {
     "name": "Enhanced Unflinching Submachine Gun Aim",
     "type": "Common Deprecated Armor Mod",
@@ -976,35 +976,11 @@
     "description": "Increases reload speed of Hand Cannons.",
     "icon": "https://bungie.net/common/destiny2_content/icons/aea4a74a51ddbed77350afdafaaf13cd.png"
   },
-  "1082186944": {
-    "name": "Sniper Rifle Dexterity",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Faster ready and stow speed for Sniper Rifles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9256b48263672fcc33c35cd427447109.png"
-  },
-  "1082186945": {
-    "name": "Sidearm Dexterity",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Faster ready and stow speed for Sidearms.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/20198ffe9c9a86f29db2683f9284691b.png"
-  },
-  "1082186949": {
-    "name": "Scout and Sniper Rifle Targeting",
-    "type": "Legendary Helmet Armor Mod",
-    "description": "Improves targeting for Scout Rifles and Sniper Rifles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ca157de8b75447308b50c58836ba0360.png"
-  },
-  "1082186950": {
-    "name": "Scout Rifle Loader",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Increases reload speed of Scout Rifles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5a5e2adbbde813d46ac459960cbe8435.png"
-  },
-  "1082186951": {
-    "name": "Bow Dexterity",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Faster ready and stow speed for Bows.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/8ecaefc3582494b042de4776db2928f3.png"
+  "1052528480": {
+    "name": "Shieldcrash Wellmaker",
+    "type": "Elemental Well Mod",
+    "description": "Breaking a shield with the matching weapon type creates an elemental well.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8d746c762380714c0197d34ac30c7991.png"
   },
   "1092719892": {
     "name": "Stealth Running",
@@ -1135,7 +1111,7 @@
   "1312062056": {
     "name": "Auto Rifle Dexterity",
     "type": "Common Arms Armor Mod",
-    "description": "Faster ready and stow speed for Auto Rifles and Trace Rifles.",
+    "description": "Faster ready and stow speed for Auto Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/34da39d9d7a4511d16d79a329da0874c.png"
   },
   "1313760467": {
@@ -1185,6 +1161,24 @@
     "type": "Legendary Weak Mutation Mod",
     "description": "Armor obtained from a Wrathborn will roll with a higher Resilience stat bias.\n\nOnly a limited number are available each week.",
     "icon": "https://bungie.net/common/destiny2_content/icons/c116ab47b67da22539b8cd7c13386995.jpg"
+  },
+  "1401506404": {
+    "name": "Vex Destroyer",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "Defeating a Vex with a grenade attack has a chance to spawn an Orb of Power. Multiple copies of this mod increase the Super energy granted when those Orbs are picked up.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1329b43e9413bb45a678847c14f8c04a.png"
+  },
+  "1401506405": {
+    "name": "Aggressive Oracle Disruptor",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "Your equipped Auto Rifles, Fusion Rifles, Grenade Launchers, Trace Rifles, and Rocket Launchers deal additional damage to Oracles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/61c39d00cda46b7e7dfd8d60a70ff9ac.png"
+  },
+  "1401506407": {
+    "name": "Superstructure Medic",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "While you are standing on a sync plate or are near a conflux, weapon attacks that hit powerful Vex combatants have a high chance to create a burst of healing for you and allies near you.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8f2805e20ae35c09851c919f161efa41.png"
   },
   "1409526707": {
     "name": "Emperor's Shock",
@@ -1450,6 +1444,12 @@
     "description": "Precision kills trigger health regeneration.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d687306cdc10af8472976319b955d296.png"
   },
+  "1670364231": {
+    "name": "Trace Rifle Dexterity",
+    "type": "Common Arms Armor Mod",
+    "description": "Faster ready and stow speed for Trace Rifles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/105c887db55aecd3a62cb37a7f77fa24.png"
+  },
   "1674525506": {
     "name": "Vernier Thrusters",
     "type": "Rare Sparrow Mod",
@@ -1467,6 +1467,12 @@
     "type": "Common Last Wish Raid Mod",
     "description": "No mod currently selected.",
     "icon": "https://bungie.net/common/destiny2_content/icons/c70116144be386def9e675d76dacfe64.png"
+  },
+  "1680735357": {
+    "name": "Well of Ions",
+    "type": "Elemental Well Mod",
+    "description": "Picking up an Arc elemental well causes your next melee to deal increased damage.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d161b266370183f13a90e1a728964f3e.png"
   },
   "1708067044": {
     "name": "Traction",
@@ -1551,6 +1557,12 @@
     "type": "Common Warmind Cell Mod",
     "description": "Collecting a Warmind Cell grants you melee energy.",
     "icon": "https://bungie.net/common/destiny2_content/icons/20a81ffdf748de8cebd8c90973a5275e.png"
+  },
+  "1807758212": {
+    "name": "Trace Rifle Loader",
+    "type": "Common Arms Armor Mod",
+    "description": "Increases reload speed of Trace Rifles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/be8fb8a2aa3b5750ed650da21d7a2fc0.png"
   },
   "1819979056": {
     "name": "Sniper Rifle Dexterity",
@@ -1779,6 +1791,36 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "2072507546": {
+    "name": "Rocket Launcher Loader",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Increases reload speed of Rocket Launchers.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b1a35bc3213478c25158b2784d7e330f.png"
+  },
+  "2072507547": {
+    "name": "Ashes to Assets",
+    "type": "Common Helmet Armor Mod",
+    "description": "Gain bonus Super energy on grenade kills.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/975ea54df7d41fff76a19977e30daba5.png"
+  },
+  "2072507548": {
+    "name": "Argent Ordnance",
+    "type": "Common Charged with Light Mod",
+    "description": "While Charged with Light, readying or firing a Rocket Launcher grants it increased damage and reload speed. Damaging a combatant with a rocket consumes one stack of Charged with Light.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/aca54d83cf479b6cceb3c5f713524919.png"
+  },
+  "2072507549": {
+    "name": "Grenade Launcher Dexterity",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Faster ready and stow speed for Grenade Launchers.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b4fbf283a7d5636571a8119d8efbb641.png"
+  },
+  "2072507551": {
+    "name": "Unflinching Auto Rifle Aim",
+    "type": "Legendary Chest Armor Mod",
+    "description": "Reduces flinching from incoming fire while aiming Auto Rifles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/37a6719093d9b59e80062961d19d7598.png"
+  },
   "2073462546": {
     "name": "Empowering Largesse",
     "type": "Legendary Opulent Armor Mod",
@@ -1827,6 +1869,12 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "2164090163": {
+    "name": "Well of Life",
+    "type": "Elemental Well Mod",
+    "description": "Picking up a Solar elemental well grants increased regeneration for a short period of time.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/38aa387607eebecbd4d50a2f62b1b594.png"
+  },
   "2165754723": {
     "name": "Enhanced Grenade Launcher Loader",
     "type": "Common Deprecated Armor Mod",
@@ -1862,36 +1910,6 @@
     "type": "Common Arms Armor Mod",
     "description": "Faster ready and stow speed for Grenade Launchers.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d20a351956b61019aa7b8950496a8ec0.png"
-  },
-  "2215945386": {
-    "name": "Overload Submachine Gun",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Uninterrupted fire from your equipped SMGs grants bullets that stun combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f05983e838ccf561054891772ee9b6b5.png"
-  },
-  "2215945387": {
-    "name": "Unstoppable Hand Cannon",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Aiming down sights with any Hand Cannon you are wielding loads a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger]  Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1ca1f26de176d2c9c0bee72b864440ce.png"
-  },
-  "2215945388": {
-    "name": "Anti-Barrier Scout Rifle",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Scout Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nScout Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bf5c86c29410d64027d43af8d1b0e20d.png"
-  },
-  "2215945389": {
-    "name": "Unstoppable Pulse Rifle",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Aiming down Pulse Rifle sights loads a high-impact burst that stuns unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a7ae12d255f2d8d1aadd184036d84588.png"
-  },
-  "2215945390": {
-    "name": "Overload Bow",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Damage by fully drawn arrows disrupts combatants, stunning them, delaying ability energy regeneration and lowering combatant damage output. Strong against [Disruption] Overload Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/dcbc827311479a0c17bea6e14ad997c0.png"
   },
   "2216063960": {
     "name": "Rage of the Warmind",
@@ -2018,10 +2036,16 @@
     "description": "This mod enables the Lure to attract the Hive Wrathborn, Xillox.",
     "icon": "https://bungie.net/common/destiny2_content/icons/4765f95f377082929ea20cc2395bee4c.jpg"
   },
+  "2321484659": {
+    "name": "Trace Rifle Reserves",
+    "type": "Common Chest Armor Mod",
+    "description": "Increases the amount of Trace Rifle ammo you can carry.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0843d74baf5d5f63cf4bd305822ae1dd.png"
+  },
   "2323170449": {
     "name": "Destabilizers",
     "type": "Rare Sparrow Mod",
-    "description": ": Use while airborne to release roll stabilizers, and move  to roll.",
+    "description": "[Brake]  : Use while airborne to release roll stabilizers, and move [Movement] to roll.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e413865a030e3622e204e951f210dd9f.png"
   },
   "2323986101": {
@@ -2117,7 +2141,7 @@
   "2505824339": {
     "name": "Unflinching Auto Rifle Aim",
     "type": "Common Chest Armor Mod",
-    "description": "Reduces flinching from incoming fire while aiming Auto Rifles and Trace Rifles.",
+    "description": "Reduces flinching from incoming fire while aiming Auto Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6be962bda318162e15a5cf395d8b5158.png"
   },
   "2510923716": {
@@ -2158,7 +2182,7 @@
   "2571974065": {
     "name": "Auto Rifle Loader",
     "type": "Common Arms Armor Mod",
-    "description": "Increases reload speed of Auto Rifles and Trace Rifles.",
+    "description": "Increases reload speed of Auto Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b347afa5ea1de90d71a19befad378e5a.png"
   },
   "2588939505": {
@@ -2253,9 +2277,9 @@
   },
   "2655746324": {
     "name": "Empty Mod Socket",
-    "type": "Legacy Armor Mod",
-    "description": "No mod currently selected.\n\nYou can select Charged with Light mods, Garden of Salvation mods, Nightmare mods, Raid mods, and Warmind Cell mods to use in this socket.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2531d7bee79857f3b3dbdc72f99c3e16.png"
+    "type": "Combat Style Armor Mod",
+    "description": "No mod currently selected.\n\nYou can select Charged with Light mods, Warmind Cell mods, and Elemental Well mods to use in this socket.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png"
   },
   "2665314006": {
     "name": "Emperor's Balance",
@@ -2281,6 +2305,18 @@
     "description": "This mod enables the Lure to attract the High Celebrant, leader of the Wrathborn.",
     "icon": "https://bungie.net/common/destiny2_content/icons/dec0791a561b175160c2bb5442a334ee.jpg"
   },
+  "2725575870": {
+    "name": "Anti-Oracle",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "Defeating an Oracle grants you Super energy.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/121c47d570be6cb4c77ee5cf5a8d5dcf.png"
+  },
+  "2725575871": {
+    "name": "Anti-Praetorian",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "Defeating a Praetorian grants you Super energy.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d875cd79e496abe02b608c4b404ce77d.png"
+  },
   "2754084930": {
     "name": "Sniper Rifle Ammo Finder",
     "type": "Common Helmet Armor Mod",
@@ -2292,6 +2328,36 @@
     "type": "Common Leg Armor Mod",
     "description": "Hand Cannons get bonus reserves when you pick up ammo.",
     "icon": "https://bungie.net/common/destiny2_content/icons/deb9ea8b84e7b15620d8a31d1755c76f.png"
+  },
+  "2788876186": {
+    "name": "Unstoppable Schwarzschild Condensor",
+    "type": "Legendary Class Item Mod",
+    "description": "Void melee abilities [Stagger] stun unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/baaec254da3342419421c9a1bc09d5bf.png"
+  },
+  "2788876187": {
+    "name": "Surge Detonators",
+    "type": "Legendary Class Item Mod",
+    "description": "Arc grenades disrupt combatants, stunning them, delaying ability regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e5049e5ac3be04260609c281e2fa7579.png"
+  },
+  "2788876188": {
+    "name": "Sundering Blast",
+    "type": "Legendary Class Item Mod",
+    "description": "Stunning a Champion creates an explosive blast.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a1432b79818b832984de932632623c34.png"
+  },
+  "2788876189": {
+    "name": "Hammer of the Warmind",
+    "type": "Legendary Warmind Cell Mod",
+    "description": "The detonations from Warmind Cells you destroy cause disruption, stunning combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption]  Overload Champions  and [Stagger]  Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/59853880dcf3fceea4d2496575c24a98.png"
+  },
+  "2788876190": {
+    "name": "Unstoppable Grenade Launcher",
+    "type": "Legendary Arms Armor Mod",
+    "description": "When you ready or reload a Grenade Launcher, for a short period, that weapon stuns Unstoppable Champions.\n\nStrong against [Stagger]  Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0a2f1eb684049c340d8650eff7eee480.png"
   },
   "2788909693": {
     "name": "Boss Spec",
@@ -2527,6 +2593,12 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "3097132144": {
+    "name": "Overload Wellmaker",
+    "type": "Elemental Well Mod",
+    "description": "Defeating a combatant with a finisher spawns 2 Arc elemental wells.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/52c7812bcf9f9398b8d99d2d2ee7034f.png"
+  },
   "3099724909": {
     "name": "Fallen Barrier",
     "type": "Common Deep Stone Crypt Raid Mod",
@@ -2620,7 +2692,7 @@
   "3201675491": {
     "name": "Auto Rifle Targeting",
     "type": "Common Helmet Armor Mod",
-    "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Auto Rifles and Trace Rifles.",
+    "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Auto Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/90a37644be43a6be4c0bfd5da2bf8f42.png"
   },
   "3208647503": {
@@ -2747,6 +2819,12 @@
     "type": "Common Leg Armor Mod",
     "description": "Reduces all ability cooldowns each time you pick up an Orb of Power.",
     "icon": "https://bungie.net/common/destiny2_content/icons/a3cd4b61619a426bd5787a9aa5e8e4b4.png"
+  },
+  "3330325954": {
+    "name": "Trace Rifle Targeting",
+    "type": "Common Helmet Armor Mod",
+    "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Trace Rifles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e82851107867604506ce5817afc3d944.png"
   },
   "3330921441": {
     "name": "Grenade Launcher Reserves",
@@ -3018,6 +3096,12 @@
     "description": "This mod enables the Lure to attract the Fallen Wrathborn, Savek.",
     "icon": "https://bungie.net/common/destiny2_content/icons/4ed707b6cef29dbcca9fad9991ca65a3.jpg"
   },
+  "3632415743": {
+    "name": "Trace Rifle Scavenger",
+    "type": "Common Leg Armor Mod",
+    "description": "Trace Rifles get bonus reserves when you pick up Special ammo.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7f83b92ed68b0809c83878dc8f1924e3.png"
+  },
   "3632726236": {
     "name": "Empowered Finish",
     "type": "Common Charged with Light Mod",
@@ -3118,6 +3202,12 @@
     "description": "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/f29b9b0a7d561cb107aa42c9edaae8df.png"
   },
+  "3738398030": {
+    "name": "Empty Mod Socket",
+    "type": "Vault of Glass Armor Mod",
+    "description": "No mod currently selected.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9603e0d01826d7ab97ce1b1bf3eb3c96.png"
+  },
   "3750139805": {
     "name": "Fallen Invigoration",
     "type": "Legendary Armor Mod",
@@ -3165,6 +3255,12 @@
     "type": "Legendary Armor Mod",
     "description": "Grants increased resilience.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7192b8c8b404cf0ec1aa192ed6695caa.jpg"
+  },
+  "3809244044": {
+    "name": "Well of Tenacity",
+    "type": "Elemental Well Mod",
+    "description": "Picking up a Void elemental well reduces the damage you take from combatants for a short period of time.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/181af037e6420b92d9a491d0b0176e23.png"
   },
   "3829100654": {
     "name": "Supreme Nightmare Banisher",
@@ -3268,6 +3364,12 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "3973928133": {
+    "name": "Trace Rifle Ammo Finder",
+    "type": "Common Helmet Armor Mod",
+    "description": "Increases your chance of finding Special ammo while you have a Trace Rifle equipped.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/07b90310a869e79cc04542f182f33871.png"
+  },
   "3974455041": {
     "name": "Outreach",
     "type": "Common Class Item Armor Mod",
@@ -3315,6 +3417,12 @@
     "description": "Greatly increases the chances of finding Heavy ammo while you have the Voltaic Overflow buff. Multiple copies of this mod stack to increase this benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7309f0e00f8c0f1ca7823a2d7321a154.png"
   },
+  "4023967480": {
+    "name": "Unflinching Trace Rifle Aim",
+    "type": "Common Chest Armor Mod",
+    "description": "Reduces flinching from incoming fire while aiming Trace Rifles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b7289e7a7513c8a21cb41eb4ccc1b686.png"
+  },
   "4048838440": {
     "name": "Discipline Mod",
     "type": "Common General Armor Mod",
@@ -3327,11 +3435,35 @@
     "description": "No mod currently selected.",
     "icon": "https://bungie.net/common/destiny2_content/icons/3c14e3c3a747a7487c76f38602b9e2fe.png"
   },
+  "4055766573": {
+    "name": "Utility Finisher",
+    "type": "Common Class Item Armor Mod",
+    "description": "Finishers restore class abilities. Requires one-tenth of your Super energy.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d8fe55ca252f4e4d1a11f0a287cf76b9.png"
+  },
   "4057143977": {
     "name": "Enhanced Unflinching Fusion Rifle Aim",
     "type": "Common Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "4076776732": {
+    "name": "Rapid Oracle Disruptor",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "Your equipped Pulse Rifles, Shotguns, Sidearms, SMGs, and Swords deal additional damage to Oracles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/24f635fa2f0f3b0a5f8f9328771d2cd5.png"
+  },
+  "4076776733": {
+    "name": "Vex Breaker",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "Defeating a Vex with a melee attack has a chance to spawn an Orb of Power. Multiple copies of this mod increase the Super energy granted when those Orbs are picked up.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ec576e6c4d570a4cbe9ac42376e7b087.png"
+  },
+  "4076776734": {
+    "name": "Superstructure Striker",
+    "type": "Common Vault of Glass Armor Mod",
+    "description": "While you are standing on a sync plate or are near a conflux, weapon attacks that hit powerful Vex combatants have a high chance to stun those combatants.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b840f523d03b4ed439560c1a5ec10fc6.png"
   },
   "4084428384": {
     "name": "Light Reactor",
@@ -3380,6 +3512,36 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "4132945792": {
+    "name": "Grenade Launcher Scavenger",
+    "type": "Legendary Leg Armor Mod",
+    "description": "Grenade Launchers get bonus reserves when you pick up ammo.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/41a0855e42928edba6d3dcf5afc16700.png"
+  },
+  "4132945794": {
+    "name": "Unflinching Pulse Rifle Aim",
+    "type": "Legendary Chest Armor Mod",
+    "description": "Reduces flinching from incoming fire while aiming Pulse Rifles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3500c4e10c01b7f98126cb98d29994b7.png"
+  },
+  "4132945795": {
+    "name": "Rocket Launcher Scavenger",
+    "type": "Legendary Leg Armor Mod",
+    "description": "Rocket Launchers get bonus reserves when you pick up ammo.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6b5170ab64873e6bc88bf1e1d5668cbc.png"
+  },
+  "4132945796": {
+    "name": "Blast Radius",
+    "type": "Common Charged with Light Mod",
+    "description": "Become Charged with Light by rapidly defeating multiple combatants with Grenade Launchers or Rocket Launchers.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab4c24c82a476f9a83ce89e0680f4241.png"
+  },
+  "4132945797": {
+    "name": "Scout Rifle Loader",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Increases reload speed of Scout Rifles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5a5e2adbbde813d46ac459960cbe8435.png"
+  },
   "4134680615": {
     "name": "Voltaic Mote Collector",
     "type": "Common Garden of Salvation Raid Mod",
@@ -3412,9 +3574,9 @@
   },
   "4153634494": {
     "name": "Empty Mod Socket",
-    "type": "Legacy Armor Mod",
-    "description": "No mod currently selected.\n\nYou can select mods from Seasons 10, 11, and 12 to use in this socket.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/78619168b73f73f3ec5cfdf655774fff.png"
+    "type": "Combat Style Armor Mod",
+    "description": "No mod currently selected.\n\nYou can select Charged with Light mods, Warmind Cell mods, and Elemental Well mods to use in this socket.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png"
   },
   "4160547565": {
     "name": "Kinetic Damage Mod",

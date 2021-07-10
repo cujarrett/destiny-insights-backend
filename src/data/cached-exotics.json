@@ -169,6 +169,11 @@
     "type": "Exotic Gauntlets",
     "icon": "https://bungie.net/common/destiny2_content/icons/623ebc54e5a3bb481991df4513c543d7.jpg"
   },
+  "603721696": {
+    "name": "Cryosthesia 77K",
+    "type": "Exotic Sidearm",
+    "icon": "https://bungie.net/common/destiny2_content/icons/53989f95d057bdf0b2607a4b6de2013e.jpg"
+  },
   "609852545": {
     "name": "Fr0st-EE5",
     "type": "Exotic Leg Armor",
@@ -238,6 +243,11 @@
     "name": "Ophidia Spathe",
     "type": "Exotic Chest Armor",
     "icon": "https://bungie.net/common/destiny2_content/icons/e1be553c40f233880f9ad18b8687c385.jpg"
+  },
+  "1001356380": {
+    "name": "Star-Eater Scales",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/90190addf444371b5817524982b9ee5c.jpg"
   },
   "1030017949": {
     "name": "Skull of Dire Ahamkara",
@@ -378,6 +388,11 @@
     "name": "Xenophage",
     "type": "Exotic Machine Gun",
     "icon": "https://bungie.net/common/destiny2_content/icons/2828804450abc6575609258a3479b19a.jpg"
+  },
+  "1453120846": {
+    "name": "The Path of Burning Steps",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/42c3009229b1e7126edf4e6f32ecb218.jpg"
   },
   "1462291111": {
     "name": "Heart of Inmost Light",
@@ -944,6 +959,11 @@
     "type": "Exotic Helmet",
     "icon": "https://bungie.net/common/destiny2_content/icons/16634beca2ccdda00a47e8615dbc89f7.jpg"
   },
+  "3045642045": {
+    "name": "Boots of the Assembler",
+    "type": "Exotic Leg Armor",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4ec2f5a9ee028c80cb682eff6ca50b5f.jpg"
+  },
   "3070357340": {
     "name": "Getaway Artist",
     "type": "Exotic Gauntlets",
@@ -1267,7 +1287,7 @@
   "4018727386": {
     "name": "Prideglass",
     "type": "Exotic Grenade Launcher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/8fbca1de4f9c6cb57a3e554885d3d588.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/bfb0a36badca94b2e3f5b0756c19850c.jpg"
   },
   "4036115577": {
     "name": "Sleeper Simulant",
@@ -1338,5 +1358,10 @@
     "name": "Mechaneer's Tricksleeves",
     "type": "Exotic Gauntlets",
     "icon": "https://bungie.net/common/destiny2_content/icons/a11c0abd3b5a9d9ac128ff37aec61425.jpg"
+  },
+  "4289226715": {
+    "name": "Vex Mythoclast",
+    "type": "Exotic Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a8e1945b653a0cfb35c3652bef2f6092.jpg"
   }
 }
