@@ -53,3 +53,47 @@ module.exports.setAuth = async (newAuth) => {
   }
   await docClient.update(params).promise()
 }
+
+module.exports.getModDataForLastYear = async () => {
+  console.log("getModDataForLastYear called")
+  AWS.config.update({ region: "us-east-1" })
+  const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
+  const responses = []
+  const results = []
+
+  // eslint-disable-next-line newline-per-chained-call
+  const now = new Date().toISOString().split("T")[0]
+  let oneYearAgo = new Date(now)
+  oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
+  oneYearAgo = oneYearAgo.toISOString().split("T")[0]
+
+  const query = {
+    TableName: "destiny-insights-mods",
+    FilterExpression: "#ts > :startDate",
+    ExpressionAttributeValues: {
+      // AWS DynamoDB uses single char for types
+      // eslint-disable-next-line id-length
+      ":startDate": { S: oneYearAgo }
+    },
+    ExpressionAttributeNames: {
+      "#ts": "timestamp"
+    }
+  }
+
+  const response = await ddb.scan(query).promise()
+  responses.push(...response.Items)
+
+  for (const mod of responses) {
+    results.push({
+      timestamp: mod.timestamp.S,
+      name: mod.name.S,
+      type: mod.type.S
+    })
+  }
+
+  const sortedResults = results.sort((first, second) => {
+    return new Date(second.timestamp) - new Date(first.timestamp)
+  })
+
+  return sortedResults
+}

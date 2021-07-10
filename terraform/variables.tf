@@ -3,6 +3,11 @@ variable "acm_certificate_arn" {
   type = string
 }
 
+variable "destiny_insights_mods_arn" {
+  description = "destiny_insights_mods_arn DynamoDB table ARN"
+  type = string
+}
+
 variable "aws_region" {
   description = "AWS region for the infrastructure"
   type = string
