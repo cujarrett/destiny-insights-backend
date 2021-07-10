@@ -29,6 +29,10 @@ Returns Banshee-44 inventory
 
 Returns Xur inventory
 
+### [/mod-data-for-last-year](https://api.destinyinsights.com/mod-data-for-last-year)
+
+Returns mods sold in the last year
+
 <p align="center">
   Made with :heart:, JavaScript, and GitHub.
 </p>
