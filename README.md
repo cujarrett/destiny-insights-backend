@@ -1,3 +1,5 @@
+![logo](./media/logo.jpg)
+
 <p align="center">
   <a href="https://circleci.com/gh/cujarrett/destiny-insights-backend/tree/main"><img alt="Circle CI" src="https://circleci.com/gh/cujarrett/destiny-insights-backend/tree/main.svg?style=svg"></a>
   <a href="https://discord.gg/jAA5U52"><img alt="Chat on Discord" src="https://img.shields.io/discord/460598989939802115?label=Discord"></a>
