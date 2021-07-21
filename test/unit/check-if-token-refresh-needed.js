@@ -1,15 +1,15 @@
-const test = require("tape-async")
+const test = require("ava")
 const { checkIfTokenRefreshNeeded } = require("../../src/util/check-if-token-refresh-needed.js")
 
-test("Unit - checkIfTokenRefreshNeeded", async (assert) => {
-  assert.plan(2)
+test("Unit - checkIfTokenRefreshNeeded no refresh needed", async (assert) => {
   const now = new Date()
-  let result = checkIfTokenRefreshNeeded({ lastTokenRefresh: now, expiresIn: 3600 })
-  let expected = false
-  assert.equal(result, expected, "checkIfTokenRefreshNeeded no refresh needed verified")
+  const result = checkIfTokenRefreshNeeded({ lastTokenRefresh: now, expiresIn: 3600 })
+  assert.false(result)
+})
+
+test("Unit - checkIfTokenRefreshNeeded refresh needed", async (assert) => {
   const oneDayAgo = new Date()
   oneDayAgo.setDate(oneDayAgo.getDate() - 1)
-  result = checkIfTokenRefreshNeeded({ lastTokenRefresh: oneDayAgo, expiresIn: 3600 })
-  expected = true
-  assert.equal(result, expected, "checkIfTokenRefreshNeeded refresh needed verified")
+  const result = checkIfTokenRefreshNeeded({ lastTokenRefresh: oneDayAgo, expiresIn: 3600 })
+  assert.true(result)
 })

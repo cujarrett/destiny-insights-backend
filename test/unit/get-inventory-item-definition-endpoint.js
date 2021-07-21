@@ -1,9 +1,8 @@
-const test = require("tape-async")
+const test = require("ava")
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require("../../src/util/get-inventory-item-definition-endpoint.js")
 
 test("Unit - getInventoryItemDefinitionEndpoint", async (assert) => {
-  assert.plan(1)
   const mockedManifestData = {
     "Response": {
       "jsonWorldComponentContentPaths": {
@@ -15,5 +14,5 @@ test("Unit - getInventoryItemDefinitionEndpoint", async (assert) => {
     }
   }
   const inventoryItemDefinitionEndpoint = getInventoryItemDefinitionEndpoint(mockedManifestData)
-  assert.true(inventoryItemDefinitionEndpoint, "getInventoryItemDefinitionEndpoint verified")
+  assert.truthy(inventoryItemDefinitionEndpoint)
 })
