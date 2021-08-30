@@ -7,8 +7,8 @@
     "lint": "eslint .",
     "fix-lint": "eslint . --fix",
     "test": "nyc ava",
-    "build-cached-mods": "node -e 'require(\"./src/util/build-cached-mods.js\").printCachedMods()'",
-    "build-cached-exotics": "node -e 'require(\"./src/util/build-cached-exotics.js\").printCachedExotics()'",
+    "build-cached-mods": "node -e 'require(\"./src/util/build-cached-mods.js\").updateCachedMods()'",
+    "build-cached-items": "node -e 'require(\"./src/util/build-cached-items.js\").updateCachedItems()'",
     "build": "npm install --production && rm -rf build && mkdir build && zip -r -q -x='*test*' -x='package-lock.json' -x='*media*' -x='*terraform*' -x=*coverage* -x='*.md' -x='LICENSE' -x='*build*' -x='*.DS_Store*' -x='*.git*' -x='release.config.js' -x='commitlint.config.js' build/destiny-insights-backend.zip . && du -sh build",
     "deploy": "aws lambda update-function-code --function-name=destiny-insights-backend --zip-file=fileb://build/destiny-insights-backend.zip --region=us-east-1 1> /dev/null",
     "semantic-release": "semantic-release",
@@ -47,13 +47,13 @@
     "@semantic-release/npm": "~7.1.3",
     "@semantic-release/release-notes-generator": "~9.0.3",
     "ava": "~3.15.0",
-    "aws-sdk": "~2.958.0",
+    "aws-sdk": "~2.978.0",
     "commitizen": "~4.2.4",
     "cz-conventional-changelog": "~3.3.0",
     "eslint": "~7.32.0",
-    "husky": "~7.0.1",
+    "husky": "~7.0.2",
     "nyc": "~15.1.0",
-    "semantic-release": "~17.4.4"
+    "semantic-release": "~17.4.7"
   },
   "husky": {
     "hooks": {

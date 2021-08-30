@@ -1,4 +1,5 @@
 const fetch = require("node-fetch")
+const fs = require("fs")
 const { getManifest } = require("./get-manifest")
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
@@ -43,7 +44,8 @@ module.exports.buildCachedMods = async () => {
   return output
 }
 
-module.exports.printCachedMods = async () => {
-  const data = await this.buildCachedMods()
-  console.log(JSON.stringify(data, null, "  "))
+module.exports.updateCachedMods = async () => {
+  const cachedMods = await this.buildCachedMods()
+  const data = JSON.stringify(cachedMods, null, "  ")
+  await fs.writeFileSync("./src/data/cached-mods.json", data)
 }

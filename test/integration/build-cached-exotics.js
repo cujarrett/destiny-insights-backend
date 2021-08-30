@@ -1,8 +1,8 @@
 const test = require("ava")
-const { buildCachedExotics } = require("../../src/util/build-cached-exotics.js")
+const { buildCachedItems } = require("../../src/util/build-cached-items.js")
 
-test("Integration - buildCachedExotics for exotic", async (assert) => {
-  const cachedMods = await buildCachedExotics()
+test("Integration - buildCachedItems for exotic", async (assert) => {
+  const cachedMods = await buildCachedItems()
   const { name, type, icon } = cachedMods["3562696927"]
   assert.is(name, "Wormhusk Crown")
   assert.is(type, "Exotic Helmet")

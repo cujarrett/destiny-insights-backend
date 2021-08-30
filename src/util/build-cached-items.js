@@ -1,9 +1,10 @@
 const fetch = require("node-fetch")
+const fs = require("fs")
 const { getManifest } = require("./get-manifest")
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
 
-module.exports.buildCachedExotics = async () => {
+module.exports.buildCachedItems = async () => {
   const { manifest } = await getManifest()
   const inventoryItemDefinitionEndpoint = getInventoryItemDefinitionEndpoint(manifest)
   const itemDefinitionsResponse = await fetch(inventoryItemDefinitionEndpoint)
@@ -15,30 +16,7 @@ module.exports.buildCachedExotics = async () => {
     const type = itemDefinitions[item].itemTypeAndTierDisplayName
     const icon = `https://bungie.net${itemDefinitions[item].displayProperties.icon}`
 
-    const exoticWeaponOrArmorTypes = [
-      "Exotic Trace Rifle",
-      "Exotic Gauntlets",
-      "Exotic Helmet",
-      "Exotic Leg Armor",
-      "Exotic Hand Cannon",
-      "Exotic Grenade Launcher",
-      "Exotic Chest Armor",
-      "Exotic Pulse Rifle",
-      "Exotic Fusion Rifle",
-      "Exotic Scout Rifle",
-      "Exotic Auto Rifle",
-      "Exotic Combat Bow",
-      "Exotic Rocket Launcher",
-      "Exotic Machine Gun",
-      "Exotic Shotgun",
-      "Exotic Sidearm",
-      "Exotic Sword",
-      "Exotic Sniper Rifle",
-      "Exotic Linear Fusion Rifle",
-      "Exotic Submachine Gun"
-    ]
-
-    if (type && exoticWeaponOrArmorTypes.includes(type)) {
+    if (name && name !== "" && type && type !== "" && icon && icon !== "") {
       output[item] = {
         name,
         type,
@@ -50,7 +28,8 @@ module.exports.buildCachedExotics = async () => {
   return output
 }
 
-module.exports.printCachedExotics = async () => {
-  const data = await this.buildCachedExotics()
-  console.log(JSON.stringify(data, null, "  "))
+module.exports.updateCachedItems = async () => {
+  const cachedItems = await this.buildCachedItems()
+  const data = JSON.stringify(cachedItems, null, "  ")
+  await fs.writeFileSync("./src/data/cached-items.json", data)
 }
