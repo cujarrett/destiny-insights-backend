@@ -1,5 +1,5 @@
 const fetch = require("node-fetch")
-const cachedExotics = require("../data/cached-exotics.json")
+const cachedExotics = require("../data/cached-items.json")
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
 const { getManifest } = require("./get-manifest")
