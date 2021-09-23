@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.28.26](https://github.com/cujarrett/destiny-insights-backend/compare/v1.28.25...v1.28.26) (2021-09-23)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/changelog from 5.0.1 to 6.0.0 ([#86](https://github.com/cujarrett/destiny-insights-backend/issues/86)) ([15616c4](https://github.com/cujarrett/destiny-insights-backend/commit/15616c42cc2653c70f675c791020e438441eb96b))
+
 ## [1.28.25](https://github.com/cujarrett/destiny-insights-backend/compare/v1.28.24...v1.28.25) (2021-09-23)
 
 
