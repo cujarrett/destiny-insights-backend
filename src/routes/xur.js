@@ -23,7 +23,6 @@ module.exports = async (api) => {
         inventory,
         metadata: {
           name,
-          version,
           now: new Date().toISOString(),
           lastUpdated,
           lastTokenRefresh,
