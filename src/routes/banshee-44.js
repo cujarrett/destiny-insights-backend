@@ -1,6 +1,6 @@
 const { getBanshee44Inventory } = require ("../util/get-banshee-44-inventory.js")
 const { getValidAuth } = require("../util/get-valid-auth.js")
-const { name, version } = require("../../package.json")
+const { name } = require("../../package.json")
 
 module.exports = async (api) => {
   // eslint-disable-next-line no-unused-vars
@@ -25,7 +25,6 @@ module.exports = async (api) => {
         inventory,
         metadata: {
           name,
-          version,
           now: new Date().toISOString(),
           lastUpdated,
           lastTokenRefresh,
