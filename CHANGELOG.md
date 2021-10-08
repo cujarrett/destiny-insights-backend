@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.31.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.30.3...v1.31.0) (2021-10-08)
+
+
+### Features
+
+* adds default terraform tags ([#101](https://github.com/cujarrett/destiny-insights-backend/issues/101)) ([ada5fc1](https://github.com/cujarrett/destiny-insights-backend/commit/ada5fc1b58451c33d77a732953836c4520cdf6a7))
+
 ## [1.30.3](https://github.com/cujarrett/destiny-insights-backend/compare/v1.30.2...v1.30.3) (2021-10-08)
 
 
