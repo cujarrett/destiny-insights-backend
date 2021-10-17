@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.31.4](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.3...v1.31.4) (2021-10-17)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump eslint from 7.32.0 to 8.0.1 ([#107](https://github.com/cujarrett/destiny-insights-backend/issues/107)) ([4f9c81c](https://github.com/cujarrett/destiny-insights-backend/commit/4f9c81c28c142f8f1164faad4adc8adb8200a0b1))
+
 ## [1.31.3](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.2...v1.31.3) (2021-10-16)
 
 
