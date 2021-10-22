@@ -6,9 +6,7 @@ const { getManifest } = require("./get-manifest")
 const { isBungieApiDownForMaintenance } = require("./is-bungie-api-down-for-maintenance.js")
 
 let manifest
-let manifestRetries
 let itemDefinitions
-let inventoryItemDefinitionEndpoint
 
 const getItemDefinitions = async () => {
   console.log("getItemDefinitions called")
@@ -16,14 +14,13 @@ const getItemDefinitions = async () => {
     try {
       const manifestResponse = await getManifest()
       manifest = manifestResponse.manifest
-      manifestRetries = manifestResponse.manifestRetries
     } catch (error) {
       const result = { metadata: { error } }
       console.log(`Completing request:\n${JSON.stringify(result, null, "  ")}`)
       return JSON.stringify(result, null, "  ")
     }
 
-    inventoryItemDefinitionEndpoint = getInventoryItemDefinitionEndpoint(manifest)
+    const inventoryItemDefinitionEndpoint = getInventoryItemDefinitionEndpoint(manifest)
     const itemDefinitionsResponse = await fetch(inventoryItemDefinitionEndpoint)
     itemDefinitions = await itemDefinitionsResponse.json()
   }
@@ -41,42 +38,30 @@ module.exports.getXurInventory = async (auth) => {
     }
   }
 
+  const isBungieApiDownForMaintenanceFlag = await isBungieApiDownForMaintenance(auth)
+  if (isBungieApiDownForMaintenanceFlag) {
+    // eslint-disable-next-line max-len
+    throw new Error("The Bungie API is down for maintenance. Check https://twitter.com/BungieHelp for more info.")
+  }
   // eslint-disable-next-line max-len
   const xurItemDefinitionsEndpoint = "https://www.bungie.net/Platform/Destiny2/3/Profile/4611686018467431261/Character/2305843009299499863/Vendors/2190858386/?components=304,402"
-  let xurDataResponse = await fetch(xurItemDefinitionsEndpoint, options)
-  let isValidAuth = xurDataResponse.status === 200
+  const xurDataResponse = await fetch(xurItemDefinitionsEndpoint, options)
+  const xurData = await xurDataResponse.json()
+  const { Message: message } = xurData
 
-  const maxRetries = 5
-  let authRetries = 0
-  if (!isValidAuth) {
-    const isBungieApiDownForMaintenanceFlag = await isBungieApiDownForMaintenance(auth)
-    if (isBungieApiDownForMaintenanceFlag) {
-      // eslint-disable-next-line max-len
-      throw new Error("The Bungie API is down for maintenance. Check https://twitter.com/BungieHelp for more info.")
-    }
-
-    while (authRetries < maxRetries && !isValidAuth) {
-      authRetries += 1
-      xurDataResponse = await fetch(xurItemDefinitionsEndpoint, options)
-      isValidAuth = xurDataResponse.status === 200
-    }
-
-    if (authRetries === maxRetries && !isValidAuth) {
-      throw new Error(`The Bungie auth failed to load ${maxRetries} times`)
+  if (message === "The Vendor you requested was not found.") {
+    return {
+      inventory: []
     }
   }
 
-  const xurData = await xurDataResponse.json()
   const xurSalesData = xurData.Response.sales.data
-
   const [, weaponKey, ...armorKeys] = Object.keys(xurSalesData)
   armorKeys.pop()
   const inventoryKeys = [weaponKey, ...armorKeys]
   const xurItemComponents = xurData.Response.itemComponents.stats.data
-
   let usedCachedData = true
   const inventory = []
-
   const xurHasInventory = inventoryKeys.length > 1
   if (xurHasInventory) {
     for (const key of inventoryKeys) {
@@ -117,9 +102,6 @@ module.exports.getXurInventory = async (auth) => {
 
   return {
     inventory,
-    authRetries,
-    manifestRetries,
-    usedCachedData,
-    inventoryItemDefinitionEndpoint
+    usedCachedData
   }
 }
