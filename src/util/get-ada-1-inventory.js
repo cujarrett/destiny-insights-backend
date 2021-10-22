@@ -8,12 +8,8 @@ const { isBungieApiDownForMaintenance } = require("./is-bungie-api-down-for-main
 module.exports.getAda1Inventory = async (auth) => {
   console.log("getAda1Inventory called")
   let manifest
-  let manifestRetries
   let itemDefinitions
-  let inventoryItemDefinitionEndpoint
   let usedCachedData = true
-  const maxAuthRetries = 5
-  let authRetries = 0
 
   const getCurrentAda1Mods = async () => {
     console.log("getCurrentAda1Mods called")
@@ -28,27 +24,12 @@ module.exports.getAda1Inventory = async (auth) => {
 
     // eslint-disable-next-line max-len
     const adaItemDefinitionsEndpoint = "https://www.bungie.net/Platform/Destiny2/3/Profile/4611686018467431261/Character/2305843009299499863/Vendors/350061650/?components=300,301,302,304,305,400,401,402"
-    let adaInventoryResponse = await fetch(adaItemDefinitionsEndpoint, options)
-
-    let isValidAuth = adaInventoryResponse.status === 200
-    if (!isValidAuth) {
-      const isBungieApiDownForMaintenanceFlag = await isBungieApiDownForMaintenance(auth)
-      if (isBungieApiDownForMaintenanceFlag) {
-        // eslint-disable-next-line max-len
-        throw new Error("The Bungie API is down for maintenance. Check https://twitter.com/BungieHelp for more info.")
-      }
-
-      while (authRetries < maxAuthRetries && !isValidAuth) {
-        authRetries += 1
-        adaInventoryResponse = await fetch(adaItemDefinitionsEndpoint, options)
-        isValidAuth = adaInventoryResponse.status === 200
-      }
-
-      if (authRetries === maxAuthRetries && !isValidAuth) {
-        throw new Error(`The Bungie auth failed to load ${maxAuthRetries} times`)
-      }
+    const isBungieApiDownForMaintenanceFlag = await isBungieApiDownForMaintenance(auth)
+    if (isBungieApiDownForMaintenanceFlag) {
+      // eslint-disable-next-line max-len
+      throw new Error("The Bungie API is down for maintenance. Check https://twitter.com/BungieHelp for more info.")
     }
-
+    const adaInventoryResponse = await fetch(adaItemDefinitionsEndpoint, options)
     const adaInventory = await adaInventoryResponse.json()
     const categoryData = adaInventory.Response.categories.data.categories
     const salesData = adaInventory.Response.sales.data
@@ -59,14 +40,13 @@ module.exports.getAda1Inventory = async (auth) => {
         try {
           const manifestResponse = await getManifest()
           manifest = manifestResponse.manifest
-          manifestRetries = manifestResponse.manifestRetries
         } catch (error) {
           const result = { metadata: { error } }
           console.log(`Completing request:\n${JSON.stringify(result, null, "  ")}`)
           return JSON.stringify(result, null, "  ")
         }
 
-        inventoryItemDefinitionEndpoint = getInventoryItemDefinitionEndpoint(manifest)
+        const inventoryItemDefinitionEndpoint = getInventoryItemDefinitionEndpoint(manifest)
         const itemDefinitionsResponse = await fetch(inventoryItemDefinitionEndpoint)
         itemDefinitions = await itemDefinitionsResponse.json()
       }
@@ -108,9 +88,6 @@ module.exports.getAda1Inventory = async (auth) => {
 
   return {
     inventory,
-    authRetries,
-    manifestRetries,
-    usedCachedData,
-    inventoryItemDefinitionEndpoint
+    usedCachedData
   }
 }
