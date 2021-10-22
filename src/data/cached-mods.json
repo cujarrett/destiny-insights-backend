@@ -194,7 +194,7 @@
   "240958661": {
     "name": "Reaping Wellmaker",
     "type": "Elemental Well Mod",
-    "description": "After activating your class ability, your next weapon final blow spawns a Void elemental well.",
+    "description": "After activating your class ability, your next weapon final blow on a combatant spawns a Void elemental well.",
     "icon": "https://bungie.net/common/destiny2_content/icons/fe2fa521bc6fb32f25ac1e238ef59005.png"
   },
   "240987419": {
@@ -1021,7 +1021,7 @@
   "1052528480": {
     "name": "Shieldcrash Wellmaker",
     "type": "Elemental Well Mod",
-    "description": "Breaking a shield with the matching weapon type creates a well of the shield's element.",
+    "description": "Breaking a combatant's shield with a matching weapon type creates an elemental well.",
     "icon": "https://bungie.net/common/destiny2_content/icons/8d746c762380714c0197d34ac30c7991.png"
   },
   "1092719892": {
@@ -1357,7 +1357,7 @@
   "1515669996": {
     "name": "Elemental Armaments",
     "type": "Elemental Well Mod",
-    "description": "Weapons takedowns with a damage type that matches your subclass element have an escalating chance to spawn an elemental well.",
+    "description": "Combatant weapon final blows with a damage type that matches your subclass element have an escalating chance to spawn an elemental well.",
     "icon": "https://bungie.net/common/destiny2_content/icons/447bcd67662b6036ba9807dbc528b8ca.png"
   },
   "1525622117": {
@@ -1788,13 +1788,13 @@
   "1977242752": {
     "name": "Elemental Shards",
     "type": "Elemental Well Mod",
-    "description": "Stasis shards count as Stasis elemental wells for you.",
+    "description": "Stasis shards count as Stasis elemental wells for you. Does not apply to Crucible, Trials, or Iron Banner.",
     "icon": "https://bungie.net/common/destiny2_content/icons/c93437f3f1060fc19389e39e5b0b5796.png"
   },
   "1977242753": {
     "name": "Supreme Wellmaker",
     "type": "Elemental Well Mod",
-    "description": "Casting your Super spawns three Stasis elemental wells near you.",
+    "description": "Casting your Super spawns three Stasis elemental wells near you. Does not apply to Crucible, Trials, or Iron Banner.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d4cdfb3cff0fe06a8aa4e884dbbed4b4.png"
   },
   "1977242754": {
@@ -3737,7 +3737,7 @@
   "4157626657": {
     "name": "Fire and Ice",
     "type": "Legendary Elemental Well Mod",
-    "description": "Defeating a Champion spawns a random array of Solar and Stasis wells.",
+    "description": "Defeating a Champion spawns multiple Solar and Stasis wells.",
     "icon": "https://bungie.net/common/destiny2_content/icons/bfa892bffc900cb2af13ab5671a6d626.png"
   },
   "4157626661": {
@@ -3833,7 +3833,7 @@
   "4213142382": {
     "name": "Melee Wellmaker",
     "type": "Elemental Well Mod",
-    "description": "Powered melee final blows spawn elemental wells matching your subclass energy type.",
+    "description": "Powered melee combatant final blows spawn elemental wells matching your subclass energy type.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b9c9c90259d917eaa436da286ba0deb2.png"
   },
   "4216349042": {
@@ -3905,7 +3905,7 @@
   "4237638094": {
     "name": "Snapload Finisher",
     "type": "Common Class Item Armor Mod",
-    "description": "Finishers generate Primary ammo and reload all your weapons. Requires one-tenth of your Super energy.",
+    "description": "Finishers reload all your weapons. Requires one-tenth of your Super energy.",
     "icon": "https://bungie.net/common/destiny2_content/icons/f2a5aeff94123a72571b8de0fcdfb6b9.png"
   },
   "4237638095": {
