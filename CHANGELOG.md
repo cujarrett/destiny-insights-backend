@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.31.12](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.11...v1.31.12) (2021-10-27)
+
+
+### Bug Fixes
+
+* **deps:** bump lambda-api from 0.11.1 to 0.11.2 ([#120](https://github.com/cujarrett/destiny-insights-backend/issues/120)) ([439fc6f](https://github.com/cujarrett/destiny-insights-backend/commit/439fc6f9360e1f66e718d7f3dffa0f3179cd9999))
+
 ## [1.31.11](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.10...v1.31.11) (2021-10-26)
 
 
