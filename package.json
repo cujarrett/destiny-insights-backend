@@ -1,6 +1,6 @@
 {
   "name": "destiny-insights-backend",
-  "version": "1.31.31",
+  "version": "1.31.32",
   "description": "Backend for destiny-insights apps",
   "main": "index.js",
   "scripts": {
