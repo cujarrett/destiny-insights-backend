@@ -1,4 +1,4 @@
-![logo](./media/logo.jpg)
+![logo](./media/destiny-insights.png)
 
 <p align="center">
   <a href="https://github.com/cujarrett/destiny-insights-backend/actions"><img alt="CI/CD" src="https://github.com/cujarrett/destiny-insights-backend/actions/workflows/release.yml/badge.svg"></a>
