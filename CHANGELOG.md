@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.31.35](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.34...v1.31.35) (2021-11-18)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/config-conventional ([#147](https://github.com/cujarrett/destiny-insights-backend/issues/147)) ([04899a6](https://github.com/cujarrett/destiny-insights-backend/commit/04899a6f0bf32a4f633d40bb763adebb784154c8))
+
 ## [1.31.34](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.33...v1.31.34) (2021-11-18)
 
 
