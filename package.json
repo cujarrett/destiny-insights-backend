@@ -50,7 +50,7 @@
     "aws-sdk": "~2.1032.0",
     "commitizen": "~4.2.4",
     "cz-conventional-changelog": "~3.3.0",
-    "eslint": "~8.1.0",
+    "eslint": "~8.2.0",
     "husky": "~7.0.2",
     "nyc": "~15.1.0"
   },
