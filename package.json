@@ -1,6 +1,6 @@
 {
   "name": "destiny-insights-backend",
-  "version": "1.31.32",
+  "version": "1.31.36",
   "description": "Backend for destiny-insights apps",
   "main": "index.js",
   "scripts": {
@@ -37,8 +37,8 @@
     "node-fetch": "~2.6.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "~14.1.0",
-    "@commitlint/config-conventional": "~14.1.0",
+    "@commitlint/cli": "~15.0.0",
+    "@commitlint/config-conventional": "~15.0.0",
     "@semantic-release/changelog": "~6.0.1",
     "@semantic-release/commit-analyzer": "~9.0.1",
     "@semantic-release/exec": "~6.0.2",
@@ -47,7 +47,7 @@
     "@semantic-release/npm": "~8.0.3",
     "@semantic-release/release-notes-generator": "~10.0.2",
     "ava": "~3.15.0",
-    "aws-sdk": "~2.1027.0",
+    "aws-sdk": "~2.1032.0",
     "commitizen": "~4.2.4",
     "cz-conventional-changelog": "~3.3.0",
     "eslint": "~8.1.0",

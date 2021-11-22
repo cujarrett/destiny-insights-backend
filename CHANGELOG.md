@@ -2,6 +2,34 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.31.36](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.35...v1.31.36) (2021-11-20)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump aws-sdk from 2.1028.0 to 2.1032.0 ([#149](https://github.com/cujarrett/destiny-insights-backend/issues/149)) ([dd006e2](https://github.com/cujarrett/destiny-insights-backend/commit/dd006e25a01197eacbbb893904907bafcd817313))
+
+## [1.31.35](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.34...v1.31.35) (2021-11-18)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/config-conventional ([#147](https://github.com/cujarrett/destiny-insights-backend/issues/147)) ([04899a6](https://github.com/cujarrett/destiny-insights-backend/commit/04899a6f0bf32a4f633d40bb763adebb784154c8))
+
+## [1.31.34](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.33...v1.31.34) (2021-11-18)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/cli from 14.1.0 to 15.0.0 ([#145](https://github.com/cujarrett/destiny-insights-backend/issues/145)) ([4bed8a0](https://github.com/cujarrett/destiny-insights-backend/commit/4bed8a05f51e600c0ae7023b20eaec377ce5fc41))
+
+## [1.31.33](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.32...v1.31.33) (2021-11-16)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump aws-sdk from 2.1027.0 to 2.1028.0 ([#143](https://github.com/cujarrett/destiny-insights-backend/issues/143)) ([3ed232c](https://github.com/cujarrett/destiny-insights-backend/commit/3ed232c487fd2ca9dd5655b6766d4d91e4b2e910))
+
 ## [1.31.32](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.31...v1.31.32) (2021-11-13)
 
 
