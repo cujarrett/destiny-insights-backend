@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.33.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.32.0...v1.33.0) (2021-11-26)
+
+
+### Features
+
+* removes dependabot auto merge ([#158](https://github.com/cujarrett/destiny-insights-backend/issues/158)) ([0e426f0](https://github.com/cujarrett/destiny-insights-backend/commit/0e426f0dff3b904d021d0ec185c1dac0a6e4b271))
+
 # [1.32.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.31.36...v1.32.0) (2021-11-22)
 
 
