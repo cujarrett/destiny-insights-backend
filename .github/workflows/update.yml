@@ -12,7 +12,6 @@ on:
 jobs:
   update-cache:
     name: update-cache
-    environment: main
     runs-on: ubuntu-latest
 
     steps:
@@ -23,8 +22,10 @@ jobs:
         persist-credentials: false
 
     - name: Node setup
-    - uses: actions/setup-node@v2
-    - run: npm install
+      uses: actions/setup-node@v2
+
+    - name: Install dependencies
+      run: npm install
 
     - name: Update cached data
       run: |
