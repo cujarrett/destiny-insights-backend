@@ -41,3 +41,4 @@ jobs:
         committer: GitHub <noreply@github.com>
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         title: "feat: update cached data"
+        reviewers: "@cujarrett"
