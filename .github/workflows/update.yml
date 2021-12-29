@@ -1,4 +1,4 @@
-name: update
+name: update-cache
 
 on:
   schedule:
@@ -10,7 +10,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  update-cache:
+    name: update-cache
     environment: main
     runs-on: ubuntu-latest
 
@@ -22,8 +23,8 @@ jobs:
         persist-credentials: false
 
     - name: Node setup
-      uses: actions/setup-node@v2
-      run: npm install
+    - uses: actions/setup-node@v2
+    - run: npm install
 
     - name: Update cached data
       run: |
@@ -38,4 +39,4 @@ jobs:
         commit-message: Cached data update
         committer: GitHub <noreply@github.com>
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-        title: Cached data update
+        title: "feat: update cached data"
