@@ -35,6 +35,12 @@
     "description": "When your grenade energy is fully expended, you gain grenade energy.",
     "icon": "https://bungie.net/common/destiny2_content/icons/2387baa3ce8a7479b45219ab7ea93ab1.png"
   },
+  "79843948": {
+    "name": "Empty Mod Socket",
+    "type": "Common Leg Artifact Mod",
+    "description": "No mod currently selected.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c4b573f9dd4892f6eb3bfb9b194170d0.png"
+  },
   "87259167": {
     "name": "Enhanced Fusion Rifle Targeting",
     "type": "Common Deprecated Armor Mod",
@@ -82,6 +88,12 @@
     "type": "Legendary Armor Mod",
     "description": "Grants increased recovery.",
     "icon": "https://bungie.net/common/destiny2_content/icons/ffc0f01051331a708aa2efba932a6924.jpg"
+  },
+  "127731051": {
+    "name": "Fusion Rifle Scavenger",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "Fusion Rifles get bonus reserves when picking up ammo used by that Fusion Rifle.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/04ed1af3fe82e47c8b787d266e7c5586.png"
   },
   "130615063": {
     "name": "Enhanced Scout Rifle Targeting",
@@ -808,6 +820,12 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "787139317": {
+    "name": "Empty Mod Socket",
+    "type": "Common Helmet Artifact Mod",
+    "description": "No mod currently selected.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d89699e6307ac5d2a306cf054978e251.png"
+  },
   "791435474": {
     "name": "Empty Activity Mod Socket",
     "type": "Common Opulent Armor Mod",
@@ -1008,9 +1026,9 @@
   },
   "1050260245": {
     "name": "Sidearm Ammo Finder",
-    "type": "Common Deprecated Armor Mod",
-    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+    "type": "Common Helmet Armor Mod",
+    "description": "Increases your chance of finding Special ammo while you have a Sidearm equipped that uses Special ammo.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c1ae38920a60c4e8f393d44761972169.png"
   },
   "1052494884": {
     "name": "Hand Cannon Loader",
@@ -1138,6 +1156,12 @@
     "description": "Reduces flinching from incoming fire while aiming Scout Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/84f799f6a73473be939afc549b18d669.png"
   },
+  "1285086138": {
+    "name": "Empty Mod Socket",
+    "type": "Common Arms Artifact Mod",
+    "description": "No mod currently selected.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/18bb744532b78a20164f150c770c5f89.png"
+  },
   "1303690937": {
     "name": "Rocket Launcher Reserves",
     "type": "Common Chest Armor Mod",
@@ -1183,7 +1207,7 @@
   "1334978104": {
     "name": "Quick Access Sling",
     "type": "Legendary Weapon Mod",
-    "description": "Swap weapons much faster for a short duration after emptying the magazine.",
+    "description": "Increases this weapon's ready and stow speed.",
     "icon": "https://bungie.net/common/destiny2_content/icons/da4d74b0d8ee25ca038d4053811573fc.jpg"
   },
   "1350878542": {
@@ -1479,6 +1503,12 @@
     "type": "Common Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "1643912408": {
+    "name": "Sweaty Confetti",
+    "type": "Legendary Weapon Mod",
+    "description": "Causes a festive celebration on each precision final blow.\n\nThis cosmetic mod is consumed when inserted into a weapon.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/43d5a97c6bfa284f028c403d3a1a2eba.jpg"
   },
   "1657427196": {
     "name": "Enhanced Shotgun Loader",
@@ -1967,9 +1997,9 @@
   },
   "2183342667": {
     "name": "Sidearm Scavenger",
-    "type": "Common Deprecated Armor Mod",
-    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+    "type": "Common Leg Armor Mod",
+    "description": "Sidearms that use Special ammo get bonus reserves when you pick up Special ammo.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b60763f81889eaf07329eaf32b01b0ae.png"
   },
   "2193892158": {
     "name": "Auto Rifle Ammo Finder",
@@ -3144,6 +3174,12 @@
     "description": "Gradually reloads your stowed Submachine Guns over time. Multiple copies of this perk stack to reduce the time taken to fully reload.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e5c1c8a62e98f75c4f43ff0f8737aeb6.png"
   },
+  "3564974257": {
+    "name": "Full Auto Retrofit",
+    "type": "Legendary Weapon Mod",
+    "description": "Holding down the trigger will fire this weapon at full auto.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7d0161cf210aef177285f043ce8e5cd8.jpg"
+  },
   "3566745556": {
     "name": "Sniper Damage Resistance",
     "type": "Common Chest Armor Mod",
@@ -3432,9 +3468,9 @@
   },
   "3859610803": {
     "name": "Sidearm Reserves",
-    "type": "Common Deprecated Armor Mod",
-    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+    "type": "Common Chest Armor Mod",
+    "description": "Increases the amount of Sidearm ammo you can carry.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ed993c2a0662ae820957dfe00938d18d.png"
   },
   "3866072732": {
     "name": "Heavy Ammo Scavenger",
@@ -3525,6 +3561,12 @@
     "type": "Common Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "3965359154": {
+    "name": "Empty Mod Socket",
+    "type": "Common Chest Artifact Mod",
+    "description": "No mod currently selected.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6bf61607ffa8198cdabdf0fa3b5feab1.png"
   },
   "3967424085": {
     "name": "Hive Barrier",
@@ -3626,6 +3668,12 @@
     "type": "Common Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "4059708161": {
+    "name": "Empty Mod Socket",
+    "type": "Common Class Item Artifact Mod",
+    "description": "No mod currently selected.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3cfff0f2aa68784762f553eb7997e909.png"
   },
   "4076776732": {
     "name": "Rapid Oracle Disruptor",
