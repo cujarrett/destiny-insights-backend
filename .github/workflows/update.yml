@@ -1,0 +1,41 @@
+name: update
+
+on:
+  schedule:
+    # Daily at 13:00 UTC, 07:00 US Central
+    - cron: "0 13 * * *"
+
+  # Enables the web UI manual trigger, handy for oneoff runs
+  # https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#workflow_dispatch
+  workflow_dispatch:
+
+jobs:
+  update:
+    environment: main
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        persist-credentials: false
+
+    - name: Node setup
+      uses: actions/setup-node@v2
+      run: npm install
+
+    - name: Update cached data
+      run: |
+        npm run build-cached-mods
+        npm run build-cached-items
+
+    - name: Create pull request
+      id: cpr
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: Cached data update
+        committer: GitHub <noreply@github.com>
+        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+        title: Cached data update
