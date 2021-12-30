@@ -1,5 +1,5 @@
 const { getModDataForLastYear } = require("../integrations/dynamodb.js")
-const { name, version } = require("../../package.json")
+const { name } = require("../../package.json")
 
 module.exports = async (api) => {
   api.get("/mod-data-for-last-year", async (request, response) => {
@@ -12,7 +12,7 @@ module.exports = async (api) => {
       ],
       metadata: {
         name,
-        version
+        now: new Date().toISOString()
       }
     }
     return JSON.stringify(result, null, "  ")

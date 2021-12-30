@@ -75,6 +75,10 @@ npm run fix-lint
 Bungie's API is fully documented [here](https://bungie-net.github.io/multi/index.html). Information on how to work with Bungie's API
 OAuth 2 can be found [here](https://github.com/Bungie-net/api/wiki/OAuth-Documentation).
 
+### Destiny Component Type Info
+
+[Destiny Component Type Info](https://bungie-net.github.io/multi/schema_Destiny-DestinyComponentType.html#schema_Destiny-DestinyComponentType)
+
 ### Debugging Bungie API Item Hashs
 
 [data.destinysets.com](https://data.destinysets.com/?) is pretty great for debugging `itemHash` issues.
