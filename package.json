@@ -14,7 +14,7 @@
     "semantic-release": "semantic-release",
     "ci": "npm run lint && npm run test",
     "cd": "npm run build && npm run deploy",
-    "prepare": ""
+    "prepare": "husky install"
   },
   "contributors": [
     {
