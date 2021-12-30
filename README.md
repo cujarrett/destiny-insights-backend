@@ -19,21 +19,20 @@ was done to learn and build out a backend for my serverless Twitter
 
 It's intended for personal use. Don't abuse the API.
 
-### [/ada-1](https://api.destinyinsights.com/ada-1)
+### Vendors
 
-Returns Ada-1 inventory
+- [/ada-1](https://api.destinyinsights.com/ada-1)
+- [/banshee-44](https://api.destinyinsights.com/banshee-44)
+- [/commander-zavala](https://api.destinyinsights.com/commander-zavala)
+- [/devrim-kay](https://api.destinyinsights.com/devrim-kay)
+- [/failsafe](https://api.destinyinsights.com/failsafe)
+- [/lord-shaxx](https://api.destinyinsights.com/lord-shaxx)
+- [/the-drifter](https://api.destinyinsights.com/the-drifter)
+- [/xur](https://api.destinyinsights.com/xur)
 
-### [/banshee-44](https://api.destinyinsights.com/banshee-44)
+### Historic Data
 
-Returns Banshee-44 inventory
-
-### [/xur](https://api.destinyinsights.com/xur)
-
-Returns Xur inventory
-
-### [/mod-data-for-last-year](https://api.destinyinsights.com/mod-data-for-last-year)
-
-Returns mods sold in the last year
+- [/mod-data-for-last-year](https://api.destinyinsights.com/mod-data-for-last-year) - Returns mods sold in the last year
 
 <p align="center">
   Made with :heart:, JavaScript, and GitHub.

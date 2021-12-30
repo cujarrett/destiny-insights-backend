@@ -31,7 +31,7 @@ module.exports = async (api) => {
         refreshToken: newToken.refresh_token
       }
       await setAuth(newAuth)
-      response.redirect("https://api.destinyinsights.com/mods")
+      response.redirect("https://github.com/cujarrett/destiny-insights-backend#use")
     } catch (error) {
       console.log(error)
     }
