@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.38.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.37.1...v1.38.0) (2021-12-30)
+
+
+### Features
+
+* adds weapon and armor support ([#186](https://github.com/cujarrett/destiny-insights-backend/issues/186)) ([599457d](https://github.com/cujarrett/destiny-insights-backend/commit/599457d0c73ab71295ea7baac3bfdea97e9898a2))
+
 ## [1.37.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.37.0...v1.37.1) (2021-12-29)
 
 
