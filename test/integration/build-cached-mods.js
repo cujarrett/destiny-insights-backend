@@ -1,7 +1,7 @@
 const test = require("ava")
 const { buildCachedMods } = require("../../src/util/build-cached-mods.js")
 
-test("Integration - buildCachedMods for weapon mod", async (assert) => {
+test("Integration - buildCachedMods", async (assert) => {
   const cachedMods = await buildCachedMods()
   const { name, type, description, icon } = cachedMods["666440382"]
   assert.is(name, "Rampage Spec")

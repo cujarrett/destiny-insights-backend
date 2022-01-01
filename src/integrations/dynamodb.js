@@ -68,15 +68,23 @@ module.exports.getModDataForLastYear = async () => {
   oneYearAgo = oneYearAgo.toISOString().split("T")[0]
 
   const query = {
-    TableName: "destiny-insights-mods",
-    FilterExpression: "#ts > :startDate",
+    TableName: "destiny-insights-items",
+    // eslint-disable-next-line max-len
+    FilterExpression: "#ts > :startDate AND (#type = :armorType OR #type = :combatSyleType OR #type = :weaponType)",
     ExpressionAttributeValues: {
       // AWS DynamoDB uses single char for types
       // eslint-disable-next-line id-length
-      ":startDate": { S: oneYearAgo }
+      ":startDate": { S: oneYearAgo },
+      // eslint-disable-next-line id-length
+      ":armorType": { S: "Armor Mod" },
+      // eslint-disable-next-line id-length
+      ":weaponType": { S: "Weapon Mod" },
+      // eslint-disable-next-line id-length
+      ":combatSyleType": { S: "Combat Style Mod" }
     },
     ExpressionAttributeNames: {
-      "#ts": "timestamp"
+      "#ts": "timestamp",
+      "#type": "type"
     }
   }
 

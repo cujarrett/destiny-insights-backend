@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v2
       - run: npm ci
       - run: npm run lint
-      - run: npm run test
+      - run: npm run test-exclude-vendors
       - env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
