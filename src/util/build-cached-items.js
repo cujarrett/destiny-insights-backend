@@ -1,8 +1,9 @@
 const fetch = require("node-fetch")
 const fs = require("fs")
-const { getManifest } = require("./get-manifest")
+const classMapping = require("../data/class-mapping.json")
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
+const { getManifest } = require("./get-manifest")
 
 module.exports.buildCachedItems = async () => {
   const { manifest } = await getManifest()
@@ -14,12 +15,14 @@ module.exports.buildCachedItems = async () => {
   for (const item in itemDefinitions) {
     const name = itemDefinitions[item].displayProperties.name
     const type = itemDefinitions[item].itemTypeAndTierDisplayName
+    const classType = classMapping[itemDefinitions[item].classType]
     const icon = `https://bungie.net${itemDefinitions[item].displayProperties.icon}`
 
     if (name && name !== "" && type && type !== "" && icon && icon !== "") {
       output[item] = {
         name,
         type,
+        class: classType,
         icon
       }
     }

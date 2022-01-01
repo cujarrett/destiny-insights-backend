@@ -1,6 +1,7 @@
 const fetch = require("node-fetch")
 const cachedItems = require("../data/cached-items.json")
 const cachedMods = require("../data/cached-mods.json")
+const classMapping = require("../data/class-mapping.json")
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
 const { getManifest } = require("./get-manifest.js")
@@ -62,7 +63,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
 
   for (const [className, value] of Object.entries(characterClasses)) {
     // eslint-disable-next-line max-len
-    const vendorItemDefinitionsEndpoint = `https://www.bungie.net/Platform/Destiny2/3/Profile/4611686018467431261/Character/${value}/Vendors/${vendorHash}/?components=304,310,402`
+    const vendorItemDefinitionsEndpoint = `https://www.bungie.net/Platform/Destiny2/3/Profile/4611686018467431261/Character/${value}/Vendors/${vendorHash}/?components=304,305,310,402`
     const vendorResponse = await fetch(vendorItemDefinitionsEndpoint, options)
     const vendorData = await vendorResponse.json()
     const { Message: message } = vendorData
@@ -82,26 +83,29 @@ module.exports.getVendorInventory = async (vendorHash) => {
     const vendorSalesData = vendorData.Response.sales.data
     const vendorArmorStats = vendorData.Response.itemComponents.stats.data
     const vendorWeaponPerks = vendorData.Response.itemComponents.reusablePlugs.data
+    const vendorWeaponSockets = vendorData.Response.itemComponents.sockets.data
 
     for (const key of Object.keys(vendorSalesData)) {
+      const itemHash = vendorSalesData[key].itemHash
       const isArmor = vendorArmorStats[key]?.stats["2996146975"]
       const isMod = vendorSalesData[key].costs[0]?.itemHash === 4046539562
-      const isWeapon = vendorWeaponPerks[key]?.plugs["1"]?.[0].plugItemHash
+      // eslint-disable-next-line max-len
+      const isWeapon = vendorWeaponPerks[key]?.plugs["1"]?.[0].plugItemHash || vendorWeaponSockets[key]?.sockets[0].plugHash
 
-      const itemHash = vendorSalesData[key].itemHash
       if (isArmor) {
         const armor = {}
         armor.itemHash = itemHash
-        armor.class = className
 
         if (cachedItems[itemHash]) {
           armor.name = cachedItems[itemHash].name
           armor.type = cachedItems[itemHash].type
+          armor.class = cachedItems[itemHash].class
         } else {
           usedCachedData = false
           await getItemDefinitions()
           armor.name = itemDefinitions[vendorSalesData[key].itemHash].displayProperties.name
           armor.type = itemDefinitions[vendorSalesData[key].itemHash].itemTypeAndTierDisplayName
+          armor.class = classMapping[itemDefinitions[vendorSalesData[key].itemHash].classType]
         }
 
         const mobility = vendorArmorStats[key].stats["2996146975"].value
@@ -117,7 +121,10 @@ module.exports.getVendorInventory = async (vendorHash) => {
         armor.intellect = intellect
         armor.strength = strength
         armor.total = mobility + resilience + recovery + discipline + intellect + strength
-        inventory.armor.push(armor)
+
+        if (armor.class === className) {
+          inventory.armor.push(armor)
+        }
       } else if (isMod && className === "titan") {
         const mod = {}
         if (cachedMods[itemHash]) {
@@ -134,6 +141,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
         inventory.mods.push(mod)
       } else if (isWeapon && className === "titan") {
         const weapon = {}
+        weapon.itemHash = itemHash
         if (cachedItems[itemHash]) {
           weapon.name = cachedItems[itemHash].name
           weapon.type = cachedItems[itemHash].type
@@ -144,38 +152,89 @@ module.exports.getVendorInventory = async (vendorHash) => {
           weapon.type = itemDefinitions[itemHash].itemTypeAndTierDisplayName
         }
 
-        const perk1 = vendorWeaponPerks[key].plugs["1"][0].plugItemHash
-        const perk2 = vendorWeaponPerks[key].plugs["1"][1].plugItemHash
-        const perk3 = vendorWeaponPerks[key].plugs["2"][0].plugItemHash
-        const perk4 = vendorWeaponPerks[key].plugs["2"][1].plugItemHash
-        const perk5 = vendorWeaponPerks[key].plugs["3"][0].plugItemHash
-        const perk6 = vendorWeaponPerks[key].plugs["4"][0].plugItemHash
+        weapon.perks = []
+        let perk1
+        let perk2
+        let perk3
+        let perk4
+        let perk5
+        let perk6
 
         // eslint-disable-next-line max-len
-        if (cachedItems[perk1] && cachedItems[perk2] && cachedItems[perk3] && cachedItems[perk4] && cachedItems[perk5] && cachedItems[perk6]) {
-          weapon.perks = [
-            cachedItems[perk1].name,
-            cachedItems[perk2].name,
-            cachedItems[perk3].name,
-            cachedItems[perk4].name,
-            cachedItems[perk5].name,
-            cachedItems[perk6].name
-          ]
+        if (vendorWeaponPerks[key] && Object.keys(vendorWeaponPerks[key].plugs).length > 2) {
+          perk1 = vendorWeaponPerks[key].plugs["1"][0].plugItemHash
+          perk2 = vendorWeaponPerks[key].plugs["1"][1].plugItemHash
+          perk3 = vendorWeaponPerks[key].plugs["2"][0].plugItemHash
+          perk4 = vendorWeaponPerks[key].plugs["2"][1].plugItemHash
+          perk5 = vendorWeaponPerks[key].plugs["3"][0].plugItemHash
+          perk6 = vendorWeaponPerks[key].plugs["4"][0].plugItemHash
+        } else {
+          perk1 = vendorWeaponSockets[key].sockets[0].plugHash
+          perk2 = vendorWeaponSockets[key].sockets[1].plugHash
+          perk3 = vendorWeaponSockets[key].sockets[2].plugHash
+          perk4 = vendorWeaponSockets[key].sockets[3].plugHash
+          perk5 = vendorWeaponSockets[key].sockets[4].plugHash
+        }
+
+        const arePerksCached = () => {
+          let cacheFound = true
+          const perks = [perk1, perk2, perk3, perk4, perk5, perk6]
+          for (const perk of perks) {
+            if (perk && !cachedItems[perk]) {
+              cacheFound = false
+            }
+          }
+          return cacheFound
+        }
+
+        const perksCached = arePerksCached()
+
+        if (perksCached) {
+          if (perk1) {
+            weapon.perks.push(cachedItems[perk1].name)
+          }
+          if (perk2) {
+            weapon.perks.push(cachedItems[perk2].name)
+          }
+          if (perk3) {
+            weapon.perks.push(cachedItems[perk3].name)
+          }
+          if (perk4) {
+            weapon.perks.push(cachedItems[perk4].name)
+          }
+          if (perk5) {
+            weapon.perks.push(cachedItems[perk5].name)
+          }
+          if (perk6) {
+            weapon.perks.push(cachedItems[perk6].name)
+          }
         } else {
           usedCachedData = false
           await getItemDefinitions()
-          weapon.perks = [
-            itemDefinitions[perk1].displayProperties.name,
-            itemDefinitions[perk2].displayProperties.name,
-            itemDefinitions[perk3].displayProperties.name,
-            itemDefinitions[perk4].displayProperties.name,
-            itemDefinitions[perk5].displayProperties.name,
-            itemDefinitions[perk6].displayProperties.name2
-          ]
+
+          if (perk1) {
+            weapon.perks.push(itemDefinitions[perk1].displayProperties.name)
+          }
+          if (perk2) {
+            weapon.perks.push(itemDefinitions[perk2].displayProperties.name)
+          }
+          if (perk3) {
+            weapon.perks.push(itemDefinitions[perk3].displayProperties.name)
+          }
+          if (perk4) {
+            weapon.perks.push(itemDefinitions[perk4].displayProperties.name)
+          }
+          if (perk5) {
+            weapon.perks.push(itemDefinitions[perk5].displayProperties.name)
+          }
+          if (perk6) {
+            weapon.perks.push(itemDefinitions[perk6].displayProperties.name)
+          }
         }
 
-        weapon.itemHash = itemHash
-        inventory.weapons.push(weapon)
+        if (!weapon.type.endsWith("Ghost Shell")) {
+          inventory.weapons.push(weapon)
+        }
       }
     }
   }
