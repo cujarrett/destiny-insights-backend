@@ -3,8 +3,8 @@ variable "acm_certificate_arn" {
   type = string
 }
 
-variable "destiny_insights_mods_arn" {
-  description = "destiny_insights_mods_arn DynamoDB table ARN"
+variable "destiny_insights_items_arn" {
+  description = "destiny_insights_items_arn DynamoDB table ARN"
   type = string
 }
 
