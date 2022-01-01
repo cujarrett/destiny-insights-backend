@@ -90,8 +90,8 @@ resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_bungi
   policy_arn = aws_iam_policy.destiny_insights_backend_bungie_api_auth.arn
 }
 
-resource "aws_iam_policy" "destiny_insights_mods" {
-  name        = "destiny-insights-backend-mods-dynamodb"
+resource "aws_iam_policy" "destiny_insights_items" {
+  name        = "destiny-insights-backend-items-dynamodb"
   description = "Adds DynamoDB access"
 
   policy = <<EOF
@@ -103,16 +103,16 @@ resource "aws_iam_policy" "destiny_insights_mods" {
       "Action": [
         "dynamodb:Scan"
       ],
-      "Resource": "${var.destiny_insights_mods_arn}"
+      "Resource": "${var.destiny_insights_items_arn}"
     }
   ]
 }
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "attach_destiny_insights_mods_dynamodb" {
+resource "aws_iam_role_policy_attachment" "attach_destiny_insights_items_dynamodb" {
   role       = aws_iam_role.destiny_insights_backend.name
-  policy_arn = aws_iam_policy.destiny_insights_mods.arn
+  policy_arn = aws_iam_policy.destiny_insights_items.arn
 }
 
 output "destiny_insights_backend_role_arn" {
