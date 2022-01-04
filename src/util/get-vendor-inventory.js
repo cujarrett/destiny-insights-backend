@@ -70,7 +70,11 @@ module.exports.getVendorInventory = async (vendorHash) => {
 
     if (message === "The Vendor you requested was not found.") {
       return {
-        inventory: [],
+        inventory: {
+          armor: [],
+          weapons: [],
+          mods: []
+        },
         metadata: {
           name,
           now: new Date().toISOString(),
