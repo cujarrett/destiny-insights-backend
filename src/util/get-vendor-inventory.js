@@ -1,7 +1,6 @@
 const fetch = require("node-fetch")
 const cachedItems = require("../data/cached-items.json")
 const cachedMods = require("../data/cached-mods.json")
-const cachedDesiredRolls = require("../data/cached-weapon-desired-rolls.json")
 const classMapping = require("../data/class-mapping.json")
 // eslint-disable-next-line max-len
 const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
@@ -35,17 +34,6 @@ const getItemDefinitions = async () => {
     itemDefinitions = await itemDefinitionsResponse.json()
   }
   return itemDefinitions
-}
-
-const isDesiredRoll = (desiredRolls, currentRoll) => {
-  for (const desiredRoll of desiredRolls) {
-    // eslint-disable-next-line max-len
-    const isDesiredRoll = desiredRoll.every((desiredRollPerk) => currentRoll.includes(desiredRollPerk))
-    if (isDesiredRoll) {
-      return true
-    }
-  }
-  return false
 }
 
 module.exports.getVendorInventory = async (vendorHash) => {
@@ -246,33 +234,6 @@ module.exports.getVendorInventory = async (vendorHash) => {
           if (perk6) {
             weapon.perks.push(itemDefinitions[perk6].displayProperties.name)
           }
-        }
-
-        if (cachedDesiredRolls[itemHash]) {
-          const desiredRolls = cachedDesiredRolls[itemHash]
-          // eslint-disable-next-line max-len
-          const currentRoll = []
-          if (perk1) {
-            currentRoll.push(perk1.toString())
-          }
-          if (perk2) {
-            currentRoll.push(perk2.toString())
-          }
-          if (perk3) {
-            currentRoll.push(perk3.toString())
-          }
-          if (perk4) {
-            currentRoll.push(perk4.toString())
-          }
-          if (perk5) {
-            currentRoll.push(perk5.toString())
-          }
-          if (perk6) {
-            currentRoll.push(perk6.toString())
-          }
-
-          const desiredRoll = isDesiredRoll(desiredRolls, currentRoll)
-          weapon.desiredRoll = desiredRoll
         }
 
         if (!weapon.type.endsWith("Ghost Shell")) {
