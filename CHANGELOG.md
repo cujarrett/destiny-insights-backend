@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.39.6](https://github.com/cujarrett/destiny-insights-backend/compare/v1.39.5...v1.39.6) (2022-01-06)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump aws-sdk from 2.1049.0 to 2.1050.0 ([#193](https://github.com/cujarrett/destiny-insights-backend/issues/193)) ([3f25f1a](https://github.com/cujarrett/destiny-insights-backend/commit/3f25f1aead75dfb9bf6412e5764621c3a5e55a67))
+
 ## [1.39.5](https://github.com/cujarrett/destiny-insights-backend/compare/v1.39.4...v1.39.5) (2022-01-04)
 
 
