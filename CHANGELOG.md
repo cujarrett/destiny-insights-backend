@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.39.10](https://github.com/cujarrett/destiny-insights-backend/compare/v1.39.9...v1.39.10) (2022-01-10)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump ava from 4.0.0 to 4.0.1 ([#197](https://github.com/cujarrett/destiny-insights-backend/issues/197)) ([87aa1ab](https://github.com/cujarrett/destiny-insights-backend/commit/87aa1abbde39d99a72c5c66d66e1230257a67ba0))
+
 ## [1.39.9](https://github.com/cujarrett/destiny-insights-backend/compare/v1.39.8...v1.39.9) (2022-01-10)
 
 
