@@ -164,20 +164,38 @@ module.exports.getVendorInventory = async (vendorHash) => {
         let perk5
         let perk6
 
-        // eslint-disable-next-line max-len
-        if (vendorWeaponPerks[key] && Object.keys(vendorWeaponPerks[key].plugs).length > 2) {
-          perk1 = vendorWeaponPerks[key].plugs["1"][0].plugItemHash
-          perk2 = vendorWeaponPerks[key].plugs["1"][1].plugItemHash
-          perk3 = vendorWeaponPerks[key].plugs["2"][0].plugItemHash
-          perk4 = vendorWeaponPerks[key].plugs["2"][1].plugItemHash
-          perk5 = vendorWeaponPerks[key].plugs["3"][0].plugItemHash
-          perk6 = vendorWeaponPerks[key].plugs["4"][0].plugItemHash
+        const isSword = weapon.type.endsWith("Sword")
+
+        if (isSword) {
+          if (vendorWeaponPerks[key] && Object.keys(vendorWeaponPerks[key].plugs).length > 2) {
+            perk1 = vendorWeaponPerks[key].plugs["1"][0].plugItemHash
+            perk2 = vendorWeaponPerks[key].plugs["1"][1].plugItemHash
+            perk3 = vendorWeaponPerks[key].plugs["1"][2].plugItemHash
+            perk5 = vendorWeaponPerks[key].plugs["3"][0].plugItemHash
+            perk6 = vendorWeaponPerks[key].plugs["4"][0].plugItemHash
+          } else {
+            perk1 = vendorWeaponSockets[key].sockets[0].plugHash
+            perk2 = vendorWeaponSockets[key].sockets[1].plugHash
+            perk3 = vendorWeaponSockets[key].sockets[2].plugHash
+            perk4 = vendorWeaponSockets[key].sockets[3].plugHash
+            perk5 = vendorWeaponSockets[key].sockets[4].plugHash
+          }
         } else {
-          perk1 = vendorWeaponSockets[key].sockets[0].plugHash
-          perk2 = vendorWeaponSockets[key].sockets[1].plugHash
-          perk3 = vendorWeaponSockets[key].sockets[2].plugHash
-          perk4 = vendorWeaponSockets[key].sockets[3].plugHash
-          perk5 = vendorWeaponSockets[key].sockets[4].plugHash
+          // eslint-disable-next-line max-len
+          if (vendorWeaponPerks[key] && Object.keys(vendorWeaponPerks[key].plugs).length > 2) {
+            perk1 = vendorWeaponPerks[key].plugs["1"][0].plugItemHash
+            perk2 = vendorWeaponPerks[key].plugs["1"][1].plugItemHash
+            perk3 = vendorWeaponPerks[key].plugs["2"][0].plugItemHash
+            perk4 = vendorWeaponPerks[key].plugs["2"][1].plugItemHash
+            perk5 = vendorWeaponPerks[key].plugs["3"][0].plugItemHash
+            perk6 = vendorWeaponPerks[key].plugs["4"][0].plugItemHash
+          } else {
+            perk1 = vendorWeaponSockets[key].sockets[0].plugHash
+            perk2 = vendorWeaponSockets[key].sockets[1].plugHash
+            perk3 = vendorWeaponSockets[key].sockets[2].plugHash
+            perk4 = vendorWeaponSockets[key].sockets[3].plugHash
+            perk5 = vendorWeaponSockets[key].sockets[4].plugHash
+          }
         }
 
         const arePerksCached = () => {
