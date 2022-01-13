@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.40.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.39.13...v1.40.0) (2022-01-13)
+
+
+### Features
+
+* adds all class specific sword support ([#202](https://github.com/cujarrett/destiny-insights-backend/issues/202)) ([d3baf62](https://github.com/cujarrett/destiny-insights-backend/commit/d3baf622581a57c8b4425cef47f3d23639b306e4))
+
 ## [1.39.13](https://github.com/cujarrett/destiny-insights-backend/compare/v1.39.12...v1.39.13) (2022-01-12)
 
 
