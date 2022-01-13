@@ -129,7 +129,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
         if (armor.class === className) {
           inventory.armor.push(armor)
         }
-      } else if (isMod && className === "titan") {
+      } else if (isMod && !inventory.mods.find((item) => item.itemHash === itemHash)) {
         const mod = {}
         if (cachedMods[itemHash]) {
           mod.name = cachedMods[itemHash].name
@@ -143,7 +143,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
 
         mod.itemHash = itemHash
         inventory.mods.push(mod)
-      } else if (isWeapon && className === "titan") {
+      } else if (isWeapon && !inventory.weapons.find((item) => item.itemHash === itemHash)) {
         const weapon = {}
         weapon.itemHash = itemHash
         if (cachedItems[itemHash]) {
@@ -171,14 +171,10 @@ module.exports.getVendorInventory = async (vendorHash) => {
             perk1 = vendorWeaponPerks[key].plugs["1"][0].plugItemHash
             perk2 = vendorWeaponPerks[key].plugs["1"][1].plugItemHash
             perk3 = vendorWeaponPerks[key].plugs["1"][2].plugItemHash
+            // Swords have their fourth perk in vendorWeaponSockets instead of vendorWeaponPerks
+            perk4 = vendorWeaponSockets[key].sockets[2].plugHash
             perk5 = vendorWeaponPerks[key].plugs["3"][0].plugItemHash
             perk6 = vendorWeaponPerks[key].plugs["4"][0].plugItemHash
-          } else {
-            perk1 = vendorWeaponSockets[key].sockets[0].plugHash
-            perk2 = vendorWeaponSockets[key].sockets[1].plugHash
-            perk3 = vendorWeaponSockets[key].sockets[2].plugHash
-            perk4 = vendorWeaponSockets[key].sockets[3].plugHash
-            perk5 = vendorWeaponSockets[key].sockets[4].plugHash
           }
         } else {
           // eslint-disable-next-line max-len
