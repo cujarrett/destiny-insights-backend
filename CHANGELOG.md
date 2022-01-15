@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.41.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.40.2...v1.41.0) (2022-01-15)
+
+
+### Features
+
+* adds wishlist info aligning to DIM wishlists ([#205](https://github.com/cujarrett/destiny-insights-backend/issues/205)) ([6384c4a](https://github.com/cujarrett/destiny-insights-backend/commit/6384c4a74ee05f4e753296754e64231b49068b19))
+
 ## [1.40.2](https://github.com/cujarrett/destiny-insights-backend/compare/v1.40.1...v1.40.2) (2022-01-14)
 
 
