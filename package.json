@@ -36,7 +36,7 @@
   "homepage": "https://github.com/cujarrett/destiny-insights-backend#readme",
   "dependencies": {
     "lambda-api": "~0.11.2",
-    "node-fetch": "~2.6.6"
+    "node-fetch": "~2.6.7"
   },
   "devDependencies": {
     "@commitlint/cli": "~16.0.2",
