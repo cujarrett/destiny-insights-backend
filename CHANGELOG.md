@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.45.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.45.0...v1.45.1) (2022-01-19)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/cli from 16.0.2 to 16.0.3 ([#217](https://github.com/cujarrett/destiny-insights-backend/issues/217)) ([d8a3cb0](https://github.com/cujarrett/destiny-insights-backend/commit/d8a3cb00b0f34ea504585b6f8e52372d23c3f361))
+
 # [1.45.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.44.0...v1.45.0) (2022-01-19)
 
 
