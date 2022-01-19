@@ -158,12 +158,45 @@ I'm using AWS DynamoDB to persist auth and config. The structure of that table i
 ## cached-mods.json
 
 To avoid processing the very large JSON each compute I downsampled the normal
-Bungie manifest. I've stored this in `cached-mods.json`. If you want to recreate
-this file, you can use get the current raw manifest JSON and downsample it with
-this script.
+Bungie manifest mod data. I've stored this in `cached-mods.json`. If you want to
+recreate this file, you can use get the current raw manifest JSON and downsample
+it with this script.
 
 ```sh
 npm run build-cached-mods
+```
+
+## cached-items.json
+
+To avoid processing the very large JSON each compute I downsampled the normal
+Bungie manifest item data. I've stored this in `cached-mods.json`. If you want
+to recreate this file, you can use get the current raw manifest JSON and
+downsample it with this script.
+
+```sh
+npm run build-cached-items
+```
+
+## cached-items.json
+
+To avoid processing the very large JSON each compute I downsampled the normal
+Bungie manifest item data. I've stored this in `cached-mods.json`. If you want
+to recreate this file, you can use get the current raw manifest JSON and
+downsample it with this script.
+
+```sh
+npm run build-cached-items
+```
+
+## cached-weapon-wish-lists.json
+
+To avoid community weapon wish list data each compute I downsampled the normal
+[community wish list data](https://github.com/48klocs/dim-wish-list-sources).
+I've stored this in `cached-mods.json`. If you want to recreate this file, you
+can use get the current raw manifest JSON and downsample it with this script.
+
+```sh
+npm run build-cached-weapon-wish-lists
 ```
 
 ## Terraform
