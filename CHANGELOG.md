@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.44.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.43.0...v1.44.0) (2022-01-19)
+
+
+### Features
+
+* disable execute endpoint ([#215](https://github.com/cujarrett/destiny-insights-backend/issues/215)) ([bb41222](https://github.com/cujarrett/destiny-insights-backend/commit/bb41222888558d9ac9e88c7ed82a961520f66f9d))
+
 # [1.43.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.42.0...v1.43.0) (2022-01-19)
 
 
