@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.43.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.42.0...v1.43.0) (2022-01-19)
+
+
+### Features
+
+* adds custom domain ([#214](https://github.com/cujarrett/destiny-insights-backend/issues/214)) ([f1850f0](https://github.com/cujarrett/destiny-insights-backend/commit/f1850f0a761db5e0258ca389bb01eb66b4db7c8e))
+
 # [1.42.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.41.4...v1.42.0) (2022-01-19)
 
 
