@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.42.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.41.4...v1.42.0) (2022-01-19)
+
+
+### Features
+
+* refactor api-gateway ([#213](https://github.com/cujarrett/destiny-insights-backend/issues/213)) ([9660885](https://github.com/cujarrett/destiny-insights-backend/commit/9660885385db8bc1b43dac4f1014cc022eacef73))
+
 ## [1.41.4](https://github.com/cujarrett/destiny-insights-backend/compare/v1.41.3...v1.41.4) (2022-01-19)
 
 
