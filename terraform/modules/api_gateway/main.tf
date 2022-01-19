@@ -420,7 +420,18 @@ resource "aws_api_gateway_deployment" "mod_data_for_last_year" {
   stage_name  = "v1"
 }
 
-# Set the generated URL as an output. Run `terraform output url` to get this.
+resource "aws_api_gateway_domain_name" "destiny_insights_backend" {
+  certificate_arn = var.acm_certificate_arn
+  security_policy = "TLS_1_2"
+  domain_name     = "api.destinyinsights.com"
+}
+
+resource "aws_api_gateway_base_path_mapping" "destiny_insights_backend" {
+  api_id      = aws_api_gateway_rest_api.destiny_insights_backend.id
+  stage_name  = "v1"
+  domain_name = "api.destinyinsights.com"
+}
+
 output "endpoint" {
   value = aws_api_gateway_deployment.ada_1.invoke_url
 }
