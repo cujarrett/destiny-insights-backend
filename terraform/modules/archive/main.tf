@@ -1,5 +1,5 @@
 data "archive_file" "placeholder" {
-  type = "zip"
+  type        = "zip"
   output_path = "${path.module}/lambda-function-payload.zip"
 
   source {
