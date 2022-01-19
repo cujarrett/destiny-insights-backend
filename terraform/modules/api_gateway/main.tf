@@ -1,5 +1,6 @@
 resource "aws_api_gateway_rest_api" "destiny_insights_backend" {
-  name = "destiny-insights-backend"
+  name                         = "destiny-insights-backend"
+  disable_execute_api_endpoint = true
 }
 
 resource "aws_api_gateway_resource" "init" {
