@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.46.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.45.1...v1.46.0) (2022-01-20)
+
+
+### Features
+
+* adds automated dependabot terraform providers ([#219](https://github.com/cujarrett/destiny-insights-backend/issues/219)) ([5b27adc](https://github.com/cujarrett/destiny-insights-backend/commit/5b27adc58896582cad2c17ad47195500d8ab0403))
+
 ## [1.45.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.45.0...v1.45.1) (2022-01-19)
 
 
