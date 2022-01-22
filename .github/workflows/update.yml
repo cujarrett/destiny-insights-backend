@@ -29,9 +29,9 @@ jobs:
 
     - name: Update cached data
       run: |
-        npm run build-cached-mods
-        npm run build-cached-items
-        npm run build-cached-weapon-wish-lists
+        npm run update-cached-mods
+        npm run update-cached-items
+        npm run update-cached-weapon-wish-lists
 
     - name: Create pull request
       id: cpr
