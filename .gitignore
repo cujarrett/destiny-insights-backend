@@ -20,7 +20,6 @@ terraform/modules/archive/lambda-function-payload.zip
 # .tfstate files
 *.tfstate
 *.tfstate.*
-**/.terraform.lock.hcl
 
 # .tfvars files
 *.tfvars
