@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.50.3](https://github.com/cujarrett/destiny-insights-backend/compare/v1.50.2...v1.50.3) (2022-02-06)
+
+
+### Bug Fixes
+
+* adds support for multiple sword perk locations ([#231](https://github.com/cujarrett/destiny-insights-backend/issues/231)) ([2cabba9](https://github.com/cujarrett/destiny-insights-backend/commit/2cabba94f176d71d5f3c195ca566cfe3fb083d5f))
+
 ## [1.50.2](https://github.com/cujarrett/destiny-insights-backend/compare/v1.50.1...v1.50.2) (2022-02-02)
 
 
