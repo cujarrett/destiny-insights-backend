@@ -183,9 +183,11 @@ module.exports.getVendorInventory = async (vendorHash) => {
           if (vendorWeaponPerks[key] && Object.keys(vendorWeaponPerks[key].plugs).length > 2) {
             perk1 = vendorWeaponPerks[key].plugs["1"][0].plugItemHash
             perk2 = vendorWeaponPerks[key].plugs["1"][1].plugItemHash
-            perk3 = vendorWeaponPerks[key].plugs["1"][2].plugItemHash
-            // Swords have their fourth perk in vendorWeaponSockets instead of vendorWeaponPerks
-            perk4 = vendorWeaponSockets[key].sockets[2].plugHash
+            // eslint-disable-next-line max-len
+            perk3 = vendorWeaponPerks[key].plugs["1"]?.[2]?.plugItemHash || vendorWeaponPerks[key].plugs["2"][0].plugItemHash
+            // Swords perk locations are weird :(
+            // eslint-disable-next-line max-len
+            perk4 = vendorWeaponSockets[key].sockets?.[2]?.plugHash || vendorWeaponPerks[key].plugs["2"][1].plugItemHash
             perk5 = vendorWeaponPerks[key].plugs["3"][0].plugItemHash
             perk6 = vendorWeaponPerks[key].plugs["4"][0].plugItemHash
           }
