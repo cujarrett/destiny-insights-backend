@@ -107,17 +107,17 @@
     "description": "No mod currently selected.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
   },
+  "155500646": {
+    "name": "Glaive Scavenger",
+    "type": "Common Leg Armor Mod",
+    "description": "Glaives get bonus reserves when picking up ammo used by that Glaive.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c1701d4161c4022213afbcaef16d3e9.png"
+  },
   "157329321": {
     "name": "Machine Gun Loader",
     "type": "Common Arms Armor Mod",
     "description": "Increases the reload speed of Machine Guns.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b980e2d7c665239655fa1fac7fc05faa.png"
-  },
-  "159950601": {
-    "name": "Trophy Mod: Reputation",
-    "type": "Legendary Strong Mutation Mod",
-    "description": "Additional recon data can be obtained from a Wrathborn.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5e48aa3bdc8d959b3bf386ac53517998.jpg"
   },
   "178399816": {
     "name": "Linear Fusion Rifle Loader",
@@ -191,11 +191,23 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "212107599": {
+    "name": "Harmonic Siphon",
+    "type": "Common Helmet Armor Mod",
+    "description": "Rapid weapon final blows with damage matching your subclass type create an Orb of Power.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e893e60e69206e02574394088a9cc97b.png"
+  },
   "229003538": {
     "name": "Adept Blast Radius",
     "type": "Legendary Weapon Mod",
     "description": "+10 Blast Radius",
     "icon": "https://bungie.net/common/destiny2_content/icons/c1c502dcc8b3fa6ce4277afc43fbdc11.jpg"
+  },
+  "231101171": {
+    "name": "Random Masterwork",
+    "type": "Common Weapon Mod",
+    "description": "When acquired, will contain one of several possible Masterwork types.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/360fa875a26b81b35a1240d46072ac1b.png"
   },
   "235531041": {
     "name": "Activity Mod Socket",
@@ -269,6 +281,36 @@
     "description": "Increases Glimmer gains by 20%.",
     "icon": "https://bungie.net/common/destiny2_content/icons/cc67a4517e3546dcc672647c4ef34b6d.png"
   },
+  "288409040": {
+    "name": "Psionic Forging I",
+    "type": "Legendary Helmet Armor Mod",
+    "description": "Increases the duration of the Psychohack Origin Trait and the effect of the Suros Synergy Origin Trait.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e612949aca53dc77e1beefddbf21c9b1.png"
+  },
+  "288409041": {
+    "name": "Rocket Launcher Scavenger",
+    "type": "Legendary Leg Armor Mod",
+    "description": "Rocket Launchers get bonus reserves when picking up Heavy ammo.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6b5170ab64873e6bc88bf1e1d5668cbc.png"
+  },
+  "288409042": {
+    "name": "Glaive Dexterity",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Faster ready and stow speed for Glaives.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/04417f580ef0a55c78f5114dfef3e621.png"
+  },
+  "288409046": {
+    "name": "Hand Cannon Targeting",
+    "type": "Legendary Helmet Armor Mod",
+    "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Hand Cannons.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d0e3f850d0ad8f9ee05f7c17d42cf1b9.png"
+  },
+  "288409047": {
+    "name": "Melee Wellmaker",
+    "type": "Legendary Elemental Well Mod",
+    "description": "Powered melee combatant final blows spawn elemental wells matching your subclass energy type.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9180f58afc897cd6adba69dba51e51e7.png"
+  },
   "294409479": {
     "name": "Enhanced Shotgun Dexterity",
     "type": "Common Deprecated Armor Mod",
@@ -286,30 +328,6 @@
     "type": "Common Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
-  },
-  "306484308": {
-    "name": "Trophy Mod: Stability",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Weapons obtained from Wrathborn will include a Stability Masterwork.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/92a0c3a9b18bf9b6830c5c5e2864f726.jpg"
-  },
-  "306484309": {
-    "name": "Trophy Mod: Handling",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Weapons obtained from Wrathborn will include a Handling Masterwork.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/62f62c8cf14e02e7ee81daeefe766bdb.jpg"
-  },
-  "306484310": {
-    "name": "Trophy Mod: Reload or Charge Time",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Weapons obtained from Wrathborn will include a Reload or Charge Time Masterwork.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/724b02d39191defdce058cb25b28c020.jpg"
-  },
-  "306484311": {
-    "name": "Trophy Mod: Velocity or Range",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Weapons obtained from Wrathborn will include a Velocity or Range Masterwork.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f2bda11dec2acd78459a89e6ca3b0b7b.jpg"
   },
   "311492789": {
     "name": "Rocket Launcher Scavenger",
@@ -412,12 +430,6 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
-  "421960051": {
-    "name": "Prey Mod: High Celebrant",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the High Celebrant, leader of the Wrathborn.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/dec0791a561b175160c2bb5442a334ee.jpg"
-  },
   "428274928": {
     "name": "Fusion Rifle Loader",
     "type": "Common Arms Armor Mod",
@@ -502,12 +514,6 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
-  "508892455": {
-    "name": "Armor Trophy Mod: Discipline",
-    "type": "Legendary Strong Mutation Mod",
-    "description": "Armor obtained from a Wrathborn will roll with a higher Discipline stat bias.\n\nOnly a limited number are available each week.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a621804650916e94998447ba7762a750.jpg"
-  },
   "518387148": {
     "name": "Sprint Grip",
     "type": "Legendary Weapon Mod",
@@ -575,34 +581,34 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "583723938": {
-    "name": "Fusion Rifle Loader",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Increases reload speed of Fusion Rifles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/354949e72c9cd75e75d71e09110aba39.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "583723939": {
-    "name": "Linear Fusion Rifle Targeting",
-    "type": "Legendary Helmet Armor Mod",
-    "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Linear Fusion Rifles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/836392dd578dd9e458c2ac2e90070f0f.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "583723940": {
-    "name": "Shotgun Dexterity",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Faster ready and stow speed for Shotguns.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/0e36764e0e423ee5a32966c0a73476ad.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "583723941": {
-    "name": "Sword Scavenger",
-    "type": "Legendary Leg Armor Mod",
-    "description": "Swords get larger bonus reserves when you pick up ammo.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a18e4ff3b26d2b219f3782aa54c36eb2.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "583723943": {
-    "name": "Hands-On",
-    "type": "Legendary Helmet Armor Mod",
-    "description": "Gain bonus Super energy on melee kills.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6770732ce8e8e347da8915ce054b684b.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "589699896": {
     "name": "Pulse Rifle Ammo Finder",
@@ -664,6 +670,12 @@
     "description": "Increases reload speed of Scout Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/10c932a466c63876b8177d2f7a9d4185.png"
   },
+  "681555689": {
+    "name": "Glaive Holster",
+    "type": "Common Leg Armor Mod",
+    "description": "Gradually reloads your stowed Glaives over time. Multiple copies of this perk stack to reduce the time taken to fully reload.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/17eeb5f0bb7b3d57fa666584f06ef6e5.png"
+  },
   "691818084": {
     "name": "Pulse Rifle Dexterity",
     "type": "Common Arms Armor Mod",
@@ -675,6 +687,12 @@
     "type": "Common Garden of Salvation Raid Mod",
     "description": "No mod currently selected.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6bf9ba37386b907ddb514ec422fc74c9.png"
+  },
+  "712951940": {
+    "name": "Glaive Ammo Finder",
+    "type": "Common Helmet Armor Mod",
+    "description": "Increases your chances of finding ammo while you have a Glaive equipped.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2738ab0acadae03680484093b8ff9b04.png"
   },
   "718367886": {
     "name": "Banshee Special",
@@ -707,34 +725,34 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "739655784": {
-    "name": "Auto Rifle Loader",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Increases reload speed of Auto Rifles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/212d746af951f3a2d5d27f48e8ceefde.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "739655786": {
-    "name": "Passive Guard",
-    "type": "Legendary Class Item Mod",
-    "description": "Receive less damage from combatants that are close to you while you are wielding a sword.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/01b6281bcb7986cc9930ea8fa9962fd4.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "739655787": {
-    "name": "Shotgun Ammo Finder",
-    "type": "Legendary Helmet Armor Mod",
-    "description": "Increases your chance of finding ammo while you have a Shotgun equipped.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/27f26922062ceb53e8f26de98b6cf7a7.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "739655788": {
-    "name": "Sidearm Dexterity",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Faster ready and stow speed for Sidearms.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/20198ffe9c9a86f29db2683f9284691b.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "739655789": {
-    "name": "Fusion Scavenger",
-    "type": "Legendary Leg Armor Mod",
-    "description": "Fusion Rifles get bonus reserves when picking up ammo used by that Fusion Rifle.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/490d44517fd339971ee21f3248a50e36.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "744770875": {
     "name": "Adept Charge Time",
@@ -934,6 +952,12 @@
     "description": "Faster ready and stow speed for Fusion Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/f0b919dbe17cdfa7aa4df1e35ef32650.png"
   },
+  "950703238": {
+    "name": "Glaive Reserves",
+    "type": "Common Chest Armor Mod",
+    "description": "Increases the amount of Glaive ammo you can carry.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3a9d973830b30b74c3aa575c708c8770.png"
+  },
   "951413738": {
     "name": "Spirit of the Season",
     "type": "Legendary Ship Mod",
@@ -1011,6 +1035,12 @@
     "type": "Rare Sparrow Mod",
     "description": "Landing a trick while riding Dawning Cheer will spawn multiple Glimmer presents. This perk is available only during the Dawning.",
     "icon": "https://bungie.net/common/destiny2_content/icons/25efbfe2c049eb72f9d64009193fc588.png"
+  },
+  "1038135636": {
+    "name": "Void Siphon",
+    "type": "Common Helmet Armor Mod",
+    "description": "Rapid Void weapon final blows create an Orb of Power.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8bac306648020a866b8d269858503779.png"
   },
   "1041574086": {
     "name": "Special Ammo Finder",
@@ -1120,12 +1150,6 @@
     "description": "+5 Intellect ▲",
     "icon": "https://bungie.net/common/destiny2_content/icons/d8da60458e3355ddf7123be5ffe3dc3c.png"
   },
-  "1233250250": {
-    "name": "Armor Trophy Mod: Mobility",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Armor obtained from a Wrathborn will roll with a higher Mobility stat bias.\n\nOnly a limited number are available each week.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/137774f93a5fdca85c2d64d60e2b31b9.jpg"
-  },
   "1248126076": {
     "name": "Enhanced Pulse Rifle Targeting",
     "type": "Common Deprecated Armor Mod",
@@ -1173,12 +1197,6 @@
     "type": "Legendary Armor Mod",
     "description": "Gain extra damage resistance against powerful combatants.",
     "icon": "https://bungie.net/common/destiny2_content/icons/a718ca6cc93367ba0d3cd66db09a109e.jpg"
-  },
-  "1311999377": {
-    "name": "Armor Trophy Mod: High Stats",
-    "type": "Legendary Strong Mutation Mod",
-    "description": "Armor obtained from a Wrathborn will roll with high overall stats.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b10cd3d8f768e392d4480190993382d4.jpg"
   },
   "1312062056": {
     "name": "Auto Rifle Dexterity",
@@ -1246,12 +1264,6 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
-  "1393636866": {
-    "name": "Armor Trophy Mod: Resilience",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Armor obtained from a Wrathborn will roll with a higher Resilience stat bias.\n\nOnly a limited number are available each week.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/c116ab47b67da22539b8cd7c13386995.jpg"
-  },
   "1401506404": {
     "name": "Vex Destroyer",
     "type": "Common Vault of Glass Armor Mod",
@@ -1269,6 +1281,12 @@
     "type": "Common Vault of Glass Armor Mod",
     "description": "While you are standing on a sync plate or are near a conflux, weapon attacks that hit powerful Vex combatants have a high chance to create a burst of healing for you and allies near you.",
     "icon": "https://bungie.net/common/destiny2_content/icons/8f2805e20ae35c09851c919f161efa41.png"
+  },
+  "1406211233": {
+    "name": "Unflinching Glaive Aim",
+    "type": "Common Chest Armor Mod",
+    "description": "Reduces flinching from incoming fire while aiming Glaives.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/87cb6978d0b6ca7f8bd148a329741032.png"
   },
   "1409526707": {
     "name": "Emperor's Shock",
@@ -1485,6 +1503,12 @@
     "type": "Common Leg Armor Mod",
     "description": "Gradually reloads your stowed Sniper Rifles over time. Multiple copies of this perk stack to reduce the time taken to fully reload.",
     "icon": "https://bungie.net/common/destiny2_content/icons/c022deefaa07eaed35c49dd2e4b866cf.png"
+  },
+  "1600896643": {
+    "name": "Glaive Loader",
+    "type": "Common Arms Armor Mod",
+    "description": "Increases reload speed of Glaives.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b80d8d097c6b9e3a9a7663f1c7df284c.png"
   },
   "1608630108": {
     "name": "Empty Mod Socket",
@@ -1773,6 +1797,36 @@
     "description": "Reduces flinching from incoming fire while aiming Hand Cannons.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e42e42a3846155c12f00657dd4ab1581.png"
   },
+  "1861426408": {
+    "name": "Inferno Whip",
+    "type": "Legendary Class Item Mod",
+    "description": "Solar melee abilities stun unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d52bf97156a06bcd389f3a58c477e226.png"
+  },
+  "1861426409": {
+    "name": "Overload Grenades",
+    "type": "Legendary Class Item Mod",
+    "description": "Void grenades disrupt combatants, stunning them, delaying ability energy regeneration and lowering combatant damage output. Strong against [Disruption] Overload Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2a4174eb0340aaaec02f35b64ce99a2a.png"
+  },
+  "1861426412": {
+    "name": "Unstoppable Glaive",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Glaives you wield fire a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1cdefcb06bcf21384c308cc156f0eba1.png"
+  },
+  "1861426414": {
+    "name": "Suppressing Glaive",
+    "type": "Legendary Class Item Mod",
+    "description": "Damaging combatants with your Glaive suppresses them, preventing them from using abilities for a short time.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/90a64e375c1c69305c528f642e4f6334.png"
+  },
+  "1861426415": {
+    "name": "Lucent Finisher",
+    "type": "Legendary Class Item Mod",
+    "description": "Defeating a Lucent Hive Lightbearer or Champion with your finisher spawns Heavy ammo for you and your allies.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3664d1ee2b3e914f21c32e9ab72a2656.png"
+  },
   "1871240627": {
     "name": "Enhanced Hand Cannon Targeting",
     "type": "Common Deprecated Armor Mod",
@@ -1790,24 +1844,6 @@
     "type": "Rare Sparrow Mod",
     "description": "This vehicle reloads weapons while you ride.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6f4d8b781a7e6ee6798cfc2a0f7a19ff.png"
-  },
-  "1891474609": {
-    "name": "Trophy Perk Veto Mod VI",
-    "type": "Legendary Strong Mutation Mod",
-    "description": "Weapons obtained from a successful Wrathborn hunt will exclude specific perks.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/21ee205d0fbea4bceeb2e8e689ecc93c.jpg"
-  },
-  "1891474610": {
-    "name": "Trophy Perk Veto Mod V",
-    "type": "Legendary Strong Mutation Mod",
-    "description": "Weapons obtained from a successful Wrathborn hunt will exclude specific perks.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/cf4d55a68bd331f5eb7bda0468f11500.jpg"
-  },
-  "1891474611": {
-    "name": "Trophy Perk Veto Mod IV",
-    "type": "Legendary Strong Mutation Mod",
-    "description": "Weapons obtained from a successful Wrathborn hunt will exclude specific perks.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a1842ea0b178ebb5c204211397bd96ea.jpg"
   },
   "1957851633": {
     "name": "Bleeding Edge",
@@ -1911,24 +1947,6 @@
     "description": "Linear Fusion Rifles get bonus reserves when picking up ammo used by that Linear Fusion Rifle.",
     "icon": "https://bungie.net/common/destiny2_content/icons/81220058001d0ab32c6833624dabae3f.png"
   },
-  "2060759196": {
-    "name": "Trophy Perk Veto Mod III",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Weapons obtained from a successful Wrathborn hunt will exclude specific perks.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ecb775f8be0ec7265c561e4a92f3b48f.jpg"
-  },
-  "2060759198": {
-    "name": "Trophy Perk Veto Mod I",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Weapons obtained from a successful Wrathborn hunt will exclude specific perks.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d5412b2f6a1b6dfd9a0feb15731c1e47.jpg"
-  },
-  "2060759199": {
-    "name": "Trophy Perk Veto Mod II",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Weapons obtained from a successful Wrathborn hunt will exclude specific perks.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2f1a1dfe739d8f7b9d36f90f2945e4bb.jpg"
-  },
   "2066320542": {
     "name": "Enhanced Unflinching Pulse Rifle Aim",
     "type": "Common Deprecated Armor Mod",
@@ -1947,6 +1965,66 @@
     "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Bows.",
     "icon": "https://bungie.net/common/destiny2_content/icons/a5121e051f0aeaa9eb39c90652ae68c6.png"
   },
+  "2081977513": {
+    "name": "Anti-Barrier Scout Rifle",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Scout Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nScout Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fd16f0cc5e5d6d92036b6d91a5c012e3.png"
+  },
+  "2081977514": {
+    "name": "Overload Rounds",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Uninterrupted fire from your equipped Auto Rifles and Submachine Guns grants bullets that stun combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e9a51ca00573ba6d4efa02c91dc49349.png"
+  },
+  "2081977515": {
+    "name": "Unstoppable Hand Cannon",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Aiming down sights with any Hand Cannon you are wielding loads a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger]  Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1ca1f26de176d2c9c0bee72b864440ce.png"
+  },
+  "2081977516": {
+    "name": "Piercing Bowstring",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Bows gain shield-piercing arrows, which bypass combatant defenses.\n\nStrong against [Shield-Piercing] Barrier Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a4738f504d3cbf3668c93e25d3e1f916.png"
+  },
+  "2081977517": {
+    "name": "Unstoppable Pulse Rifle",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Aiming down Pulse Rifle sights loads a high-impact burst that stuns unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a7ae12d255f2d8d1aadd184036d84588.png"
+  },
+  "2119661521": {
+    "name": "Glaive Scavenger",
+    "type": "Legendary Leg Armor Mod",
+    "description": "Glaives get bonus reserves when picking up ammo used by that Glaive.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/370ff3cf3a7bbcd3dac9533ed22c2d7b.png"
+  },
+  "2119661522": {
+    "name": "Thermoshock Plating",
+    "type": "Legendary Chest Armor Mod",
+    "description": "Reduces incoming Arc damage from combatants.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/950112d2fcdf470108fa58b274abcf3b.png"
+  },
+  "2119661523": {
+    "name": "Auto Rifle Loader",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Increases reload speed of Auto Rifles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/212d746af951f3a2d5d27f48e8ceefde.png"
+  },
+  "2119661524": {
+    "name": "Font of Might",
+    "type": "Legendary Elemental Well Mod",
+    "description": "Picking up an elemental well that matches your subclass energy type grants a temporary bonus to weapon damage of that same elemental type.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d58faf7a54b7e2310d1d2574b61126d8.png"
+  },
+  "2119661525": {
+    "name": "Psionic Forging II",
+    "type": "Legendary Helmet Armor Mod",
+    "description": "Increases the duration of the Land Tank Origin Trait and the effect of the Häkke Breach Armaments Origin Trait.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e41c4f12c2ff78ff21256ab74630fc60.png"
+  },
   "2127327637": {
     "name": "Boss Resist",
     "type": "Legendary Armor Mod",
@@ -1958,6 +2036,36 @@
     "type": "Common Helmet Armor Mod",
     "description": "Increases your chance of finding Heavy ammo while you have a Machine Gun equipped.",
     "icon": "https://bungie.net/common/destiny2_content/icons/492ddb35255ab0c8a9969b9e9e5075d6.png"
+  },
+  "2129265544": {
+    "name": "Devouring Depths",
+    "type": "Legendary Class Item Mod",
+    "description": "Casting your Void Super while you are critically wounded or benefitting from Devour increases your damage with that Super.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ace1a29e570f185ded73e9a74b640a4e.png"
+  },
+  "2129265545": {
+    "name": "Volatile Flow",
+    "type": "Legendary Elemental Well Mod",
+    "description": "Picking up a Void elemental well grants your Void weapons Volatile rounds.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/397bcce313af1799dfc2c4dc9d47a32e.png"
+  },
+  "2129265547": {
+    "name": "Suppression Mastery",
+    "type": "Legendary Class Item Mod",
+    "description": "Suppression effects you create have increased duration.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7a0af045fb8efbb683cd1b3f3d13959d.png"
+  },
+  "2129265550": {
+    "name": "Energy Vampirism",
+    "type": "Legendary Class Item Mod",
+    "description": "Gain energy for your least-charged ability when you suppress a target.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/43d69665bd75a5f45987714bc39994fd.png"
+  },
+  "2129265551": {
+    "name": "Suppressive Darkness",
+    "type": "Legendary Class Item Mod",
+    "description": "Whenever you suppress a combatant, you also weaken them, causing them to take additional damage for a short time.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7c9e09e4f1d07870beb05879f2d7ed72.png"
   },
   "2142852459": {
     "name": "Herd Thinner",
@@ -2055,12 +2163,6 @@
     "description": "Become Charged with Light by rapidly defeating multiple enemies with the explosion of a Warmind Cell.",
     "icon": "https://bungie.net/common/destiny2_content/icons/14dc085823df3d8819aedad8747bc09c.png"
   },
-  "2220407779": {
-    "name": "Armor Trophy Mod: Intellect",
-    "type": "Legendary Strong Mutation Mod",
-    "description": "Armor obtained from a Wrathborn will roll with a higher Intellect stat bias.\n\nOnly a limited number are available each week.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/79b79256ca27da0817ddc9097c112e05.jpg"
-  },
   "2231409668": {
     "name": "Mobility Armorer",
     "type": "Common Economic Ghost Mod",
@@ -2131,36 +2233,6 @@
     "type": "Common Helmet Armor Mod",
     "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Sniper Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9aee84e9176a73dc541bc34629e0a233.png"
-  },
-  "2316941626": {
-    "name": "Prey Mod: Xillox",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Xillox.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4765f95f377082929ea20cc2395bee4c.jpg"
-  },
-  "2316941628": {
-    "name": "Prey Mod: Xillox",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Xillox.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4765f95f377082929ea20cc2395bee4c.jpg"
-  },
-  "2316941629": {
-    "name": "Prey Mod: Xillox",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Xillox.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4765f95f377082929ea20cc2395bee4c.jpg"
-  },
-  "2316941630": {
-    "name": "Prey Mod: Xillox",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Xillox.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4765f95f377082929ea20cc2395bee4c.jpg"
-  },
-  "2316941631": {
-    "name": "Prey Mod: Xillox",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Xillox.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4765f95f377082929ea20cc2395bee4c.jpg"
   },
   "2321484659": {
     "name": "Trace Rifle Reserves",
@@ -2292,6 +2364,12 @@
     "type": "Common Arms Armor Mod",
     "description": "Faster ready and stow speed for Linear Fusion Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/25458636887e9eeff6868c6daaa6482c.png"
+  },
+  "2524985605": {
+    "name": "Kinetic Siphon",
+    "type": "Common Helmet Armor Mod",
+    "description": "Rapid Kinetic weapon final blows create an Orb of Power.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c06d088d077db43a1ff820657c328b8f.png"
   },
   "2527938402": {
     "name": "Riven's Curse",
@@ -2431,23 +2509,11 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
-  "2669463438": {
-    "name": "Armor Trophy Mod: All-Around",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Armor obtained from a Wrathborn will roll with higher-than-average stats.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6c1ff821013f14ddd3338f9955cf3009.jpg"
-  },
   "2689994974": {
     "name": "Radiant Largesse",
     "type": "Common Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
-  },
-  "2693618443": {
-    "name": "Prey Mod: High Celebrant",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the High Celebrant, leader of the Wrathborn.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/dec0791a561b175160c2bb5442a334ee.jpg"
   },
   "2725575870": {
     "name": "Anti-Oracle",
@@ -2484,12 +2550,6 @@
     "type": "Common Arms Armor Mod",
     "description": "Increases reload speed of Submachine Guns.",
     "icon": "https://bungie.net/common/destiny2_content/icons/0cf177981705d5633f9ace696c4d9f39.png"
-  },
-  "2792234398": {
-    "name": "Armor Trophy Mod: Strength",
-    "type": "Legendary Weak Mutation Mod",
-    "description": "Armor obtained from a Wrathborn will roll with a higher Strength stat bias.\n\nOnly a limited number are available each week.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2c2b71613574884218cfcaa1e439c90e.jpg"
   },
   "2816649701": {
     "name": "Striking Hand",
@@ -2538,12 +2598,6 @@
     "type": "Common Last Wish Raid Mod",
     "description": "Defeating a Taken combatant with a grenade grants Heavy ammo.\n\nThis mod's abilities cannot stack across multiple copies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d365907deee1024944e9bc405a5c4bba.png"
-  },
-  "2865860988": {
-    "name": "Armor Trophy Mod: Recovery",
-    "type": "Legendary Strong Mutation Mod",
-    "description": "Armor obtained from a Wrathborn will roll with a higher Recovery stat bias.\n\nOnly a limited number are available each week.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/449cda2c10efdc26f1c2105512f1ef56.jpg"
   },
   "2874957617": {
     "name": "Nightmare Banisher",
@@ -2640,6 +2694,12 @@
     "type": "Common Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "2999890939": {
+    "name": "Solar Siphon",
+    "type": "Common Helmet Armor Mod",
+    "description": "Rapid Solar weapon final blows create an Orb of Power.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6aaabf13eea45e8710d892e56cee55e4.png"
   },
   "3018373291": {
     "name": "Adept Big Ones Spec",
@@ -2743,41 +2803,17 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "3109470977": {
+    "name": "Glaive Targeting",
+    "type": "Common Helmet Armor Mod",
+    "description": "Improved target acquisition and accuracy for Glaives.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/df1808d56c96449a67a0dbb0b6edbac2.png"
+  },
   "3121039270": {
     "name": "Unflinching Fusion Rifle Aim",
     "type": "Common Chest Armor Mod",
     "description": "Reduces flinching from incoming fire while aiming Fusion Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/eb5f2e47bc787d8d7a8109b362f0e61c.png"
-  },
-  "3152953720": {
-    "name": "Prey Mod: HKD-1",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, HKD-1.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d990502e2349ae93445f4cc1623209d8.jpg"
-  },
-  "3152953721": {
-    "name": "Prey Mod: HKD-1",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, HKD-1.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d990502e2349ae93445f4cc1623209d8.jpg"
-  },
-  "3152953722": {
-    "name": "Prey Mod: HKD-1",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, HKD-1.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d990502e2349ae93445f4cc1623209d8.jpg"
-  },
-  "3152953723": {
-    "name": "Prey Mod: HKD-1",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, HKD-1.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d990502e2349ae93445f4cc1623209d8.jpg"
-  },
-  "3152953726": {
-    "name": "Prey Mod: HKD-1",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, HKD-1.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d990502e2349ae93445f4cc1623209d8.jpg"
   },
   "3156855054": {
     "name": "Pulse Rifle Scavenger",
@@ -3222,36 +3258,6 @@
     "description": "Gain a powerful increase to weapon damage while within 5 meters of an active Vex Relay.",
     "icon": "https://bungie.net/common/destiny2_content/icons/0b055cf6c2f7f02012da6d32a735bbfc.png"
   },
-  "3630662113": {
-    "name": "Prey Mod: Savek",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, Savek.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4ed707b6cef29dbcca9fad9991ca65a3.jpg"
-  },
-  "3630662116": {
-    "name": "Prey Mod: Savek",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, Savek.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4ed707b6cef29dbcca9fad9991ca65a3.jpg"
-  },
-  "3630662117": {
-    "name": "Prey Mod: Savek",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, Savek.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4ed707b6cef29dbcca9fad9991ca65a3.jpg"
-  },
-  "3630662118": {
-    "name": "Prey Mod: Savek",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, Savek.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4ed707b6cef29dbcca9fad9991ca65a3.jpg"
-  },
-  "3630662119": {
-    "name": "Prey Mod: Savek",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Fallen Wrathborn, Savek.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4ed707b6cef29dbcca9fad9991ca65a3.jpg"
-  },
   "3632415743": {
     "name": "Trace Rifle Scavenger",
     "type": "Common Leg Armor Mod",
@@ -3347,6 +3353,12 @@
     "description": "+5 Strength ▲",
     "icon": "https://bungie.net/common/destiny2_content/icons/ec0b298ec4dac0023604e467a58c3868.png"
   },
+  "3725144328": {
+    "name": "Glaive Dexterity",
+    "type": "Common Arms Armor Mod",
+    "description": "Faster ready and stow speed for Glaives.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/15b3aa4a74e9fb1cd42d1e0b5d8cda0b.png"
+  },
   "3728733956": {
     "name": "Void Damage Mod",
     "type": "Rare Weapon Mod",
@@ -3430,6 +3442,12 @@
     "description": "Picking up a Void elemental well reduces the damage you take from combatants for a short period of time.",
     "icon": "https://bungie.net/common/destiny2_content/icons/181af037e6420b92d9a491d0b0176e23.png"
   },
+  "3825575169": {
+    "name": "Stasis Siphon",
+    "type": "Common Helmet Armor Mod",
+    "description": "Rapid Stasis weapon final blows create an Orb of Power.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/dcd5e62a49b402aa3f399c4ab39b72d3.png"
+  },
   "3829100654": {
     "name": "Supreme Nightmare Banisher",
     "type": "Common Nightmare Mod",
@@ -3496,6 +3514,12 @@
     "description": "Reduces the damage you take from Nightmare bosses. Multiple copies of this mod stack for greater effect.",
     "icon": "https://bungie.net/common/destiny2_content/icons/90b3fc6134cc1d7db551138fa221e109.png"
   },
+  "3899134858": {
+    "name": "Arc Siphon",
+    "type": "Common Helmet Armor Mod",
+    "description": "Rapid Arc weapon final blows create an Orb of Power.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0623027fec11525e2ee6f92889b8a4a6.png"
+  },
   "3901392720": {
     "name": "Fusion Rifle Targeting",
     "type": "Common Helmet Armor Mod",
@@ -3515,40 +3539,34 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/05c76ab7430ab5b47c6837b5f8fe69db.png"
   },
   "3947616002": {
-    "name": "Particle Deconstruction",
-    "type": "Legendary Class Item Mod",
-    "description": "Dealing damage to a combatant with a Fusion Rifle or Linear Fusion Rifle grants bonus damage with a Fusion Rifle or Linear Fusion Rifle against that combatant for a short duration. This effect stacks up to 5 times.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6c7e0b01275bdc6140468c0ac2fb7ca5.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3947616003": {
-    "name": "Focusing Lens",
-    "type": "Legendary Class Item Mod",
-    "description": "Your Light abilities do bonus damage to combatants affected by Stasis.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/96d23ec884ad446f76a5f7fab9b076f5.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3947616004": {
-    "name": "Thermoclastic Blooming",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Defeating a combatant with a Solar or Stasis melee creates an Orb of Power.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5f14aa4d771db52080460cbadfd4b292.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3947616005": {
-    "name": "Pyretic Embrace",
-    "type": "Legendary Class Item Mod",
-    "description": "Casting a Solar Super restores you to full health and shields.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/c9eabd974a03b1f8b5d07b42710e5848.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3947616006": {
-    "name": "Well of Potency",
-    "type": "Legendary Elemental Well Mod",
-    "description": "Picking up a matching elemental well grants you Super energy.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/27c5fe33cdabefa77d276ee11526c4ce.png"
-  },
-  "3947692146": {
-    "name": "Prey Mod: High Celebrant",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the High Celebrant, leader of the Wrathborn.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/dec0791a561b175160c2bb5442a334ee.jpg"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3961599962": {
     "name": "Mobility Mod",
@@ -3777,34 +3795,34 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png"
   },
   "4157626656": {
-    "name": "Thermoclastic Strike",
-    "type": "Legendary Class Item Mod",
-    "description": "Solar and Stasis melees disrupt combatants, stunning them, delaying ability regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions. Refresh your melee ability whenever you or a member of your fireteam stuns an Overload Champion.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2c8c4f5e0b44b52e292aaf142ceea16b.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4157626657": {
-    "name": "Fire and Ice",
-    "type": "Legendary Elemental Well Mod",
-    "description": "Defeating a Champion spawns multiple Solar and Stasis wells.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bfa892bffc900cb2af13ab5671a6d626.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4157626661": {
-    "name": "Unstoppable Fusion Rifles",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Aiming down Fusion Rifle and Linear Fusion Rifle sights loads a high-impact burst that stuns unshielded combatants. Strong against [Stagger] Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/fe20857fcbe8b70d4af7c1cb4bf806db.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4157626662": {
-    "name": "Withering Heat",
-    "type": "Legendary Class Item Mod",
-    "description": "Causing damage with a Solar ability weakens Champions for a short duration.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/52a2e1e8fc0fe8b53d51a37b512c31fa.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4157626663": {
-    "name": "Resonance Siphon",
-    "type": "Legendary Class Item Mod",
-    "description": "Gain [Stasis] Stasis ability energy whenever you or a member of your fireteam stuns a Champion.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/8728825bdc897e96876a84e0ade4abc6.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4160547565": {
     "name": "Kinetic Damage Mod",
@@ -3819,34 +3837,34 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/fcb0686407d40ba05a4029d20c2ff4dd.png"
   },
   "4184328256": {
-    "name": "Anti-Barrier Auto Rifle",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Auto Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nAuto Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/022136ff1ba2ad30aeb9d0c06df81631.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4184328258": {
-    "name": "Unstoppable Pulse Rifle",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Aiming down Pulse Rifle sights loads a high-impact burst that stuns unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a7ae12d255f2d8d1aadd184036d84588.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4184328259": {
-    "name": "Overload Bow",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Damage by fully drawn arrows disrupts combatants, stunning them, delaying ability energy regeneration and lowering combatant damage output. Strong against [Disruption] Overload Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/dcbc827311479a0c17bea6e14ad997c0.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4184328260": {
-    "name": "Disrupting Blade",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Landing consecutive hits with any Sword you are wielding disrupts combatants, stunning them, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption]  Overload Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/89cc197ffa140557c27a4a9f40c622a4.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4184328261": {
-    "name": "Unstoppable Sidearm",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Aiming down sights with any Sidearm you are wielding loads a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger]  Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6ef403a775894c4f91ca7b48509e2cd9.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "4185864113": {
     "name": "Embraced Largesse",
@@ -3872,12 +3890,6 @@
     "description": "This mod has been deprecated. Dismantle to clear space and reclaim useful components.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7821effdc9ed9bc4aec04f6e3c955a08.jpg"
   },
-  "4210842269": {
-    "name": "Prey Mod: High Celebrant",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the High Celebrant, leader of the Wrathborn.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/dec0791a561b175160c2bb5442a334ee.jpg"
-  },
   "4213142382": {
     "name": "Melee Wellmaker",
     "type": "Elemental Well Mod",
@@ -3889,36 +3901,6 @@
     "type": "Common Experience Ghost Mod",
     "description": "Experience mods increase global experience gains.",
     "icon": "https://bungie.net/common/destiny2_content/icons/751771b32659570cf0fccc4426177157.png"
-  },
-  "4222449832": {
-    "name": "Prey Mod: Dul Arath",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Dul Arath.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6d7a435a7d214815e1cb956ada1e1ef3.jpg"
-  },
-  "4222449833": {
-    "name": "Prey Mod: Dul Arath",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Dul Arath.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6d7a435a7d214815e1cb956ada1e1ef3.jpg"
-  },
-  "4222449834": {
-    "name": "Prey Mod: Dul Arath",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Dul Arath.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6d7a435a7d214815e1cb956ada1e1ef3.jpg"
-  },
-  "4222449835": {
-    "name": "Prey Mod: Dul Arath",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Dul Arath.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6d7a435a7d214815e1cb956ada1e1ef3.jpg"
-  },
-  "4222449837": {
-    "name": "Prey Mod: Dul Arath",
-    "type": "Legendary Prey Mod",
-    "description": "This mod enables the Lure to attract the Hive Wrathborn, Dul Arath.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6d7a435a7d214815e1cb956ada1e1ef3.jpg"
   },
   "4235763716": {
     "name": "Enhanced Scout Rifle Dexterity",

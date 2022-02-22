@@ -105,7 +105,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
     for (const key of Object.keys(vendorSalesData)) {
       const itemHash = vendorSalesData[key].itemHash
       const isArmor = vendorArmorStats[key]?.stats["2996146975"]
-      const isMod = vendorSalesData[key].costs[0]?.itemHash === 4046539562
+      const isMod = cachedMods[vendorSalesData[key].itemHash]
       // eslint-disable-next-line max-len
       const isWeapon = vendorWeaponPerks[key]?.plugs["1"]?.[0].plugItemHash || vendorWeaponSockets[key]?.sockets[0].plugHash
 
