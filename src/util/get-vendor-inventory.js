@@ -99,7 +99,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
 
     const vendorSalesData = vendorData.Response.sales.data
     const vendorArmorStats = vendorData.Response.itemComponents.stats.data
-    const vendorWeaponPerks = vendorData.Response.itemComponents.reusablePlugs.data
+    const vendorWeaponPlugs = vendorData.Response.itemComponents.reusablePlugs.data
     const vendorWeaponSockets = vendorData.Response.itemComponents.sockets.data
 
     for (const key of Object.keys(vendorSalesData)) {
@@ -107,7 +107,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
       const isArmor = vendorArmorStats[key]?.stats["2996146975"]
       const isMod = cachedMods[vendorSalesData[key].itemHash]
       // eslint-disable-next-line max-len
-      const isWeapon = vendorWeaponPerks[key]?.plugs["1"]?.[0].plugItemHash || vendorWeaponSockets[key]?.sockets[0].plugHash
+      const isWeapon = vendorWeaponPlugs[key]?.plugs["1"]?.[0].plugItemHash || vendorWeaponSockets[key]?.sockets[0].plugHash
 
       if (isArmor) {
         const armor = {}
@@ -170,48 +170,37 @@ module.exports.getVendorInventory = async (vendorHash) => {
         }
 
         weapon.perks = []
-        let perk1
-        let perk2
-        let perk3
-        let perk4
-        let perk5
-        let perk6
+        const perkHashes = []
 
-        const isSword = weapon.type.endsWith("Sword")
+        const plugs = vendorWeaponPlugs[key]?.plugs
+        let sockets = vendorWeaponSockets[key]?.sockets
 
-        if (isSword) {
-          if (vendorWeaponPerks[key] && Object.keys(vendorWeaponPerks[key].plugs).length > 2) {
-            perk1 = vendorWeaponPerks[key].plugs["1"][0].plugItemHash
-            perk2 = vendorWeaponPerks[key].plugs["1"][1].plugItemHash
-            // Swords perk locations are weird :(
-            // eslint-disable-next-line max-len
-            perk3 = vendorWeaponPerks[key].plugs["1"]?.[2]?.plugItemHash || vendorWeaponPerks[key].plugs["2"][0].plugItemHash
-            // eslint-disable-next-line max-len
-            perk4 = vendorWeaponSockets[key].sockets?.[2]?.plugHash || vendorWeaponPerks[key].plugs["2"][1].plugItemHash
-            perk5 = vendorWeaponPerks[key].plugs["3"][0].plugItemHash
-            perk6 = vendorWeaponPerks[key].plugs["4"][0].plugItemHash
+        if (plugs && !weapon.type.startsWith("Exotic")) {
+          if (plugs?.["5"]) {
+            delete plugs["5"]
+          }
+          if (plugs?.["7"]) {
+            delete plugs["7"]
+          }
+          // eslint-disable-next-line max-len
+          Object.values(plugs).map((plug) => plug.map(({ plugItemHash }) => perkHashes.push(plugItemHash)))
+          if (itemHash === 2782325302) {
+            perkHashes.push(2349202967)
+          }
+          if (itemHash === 2782325300) {
+            perkHashes.push(269888150)
+          }
+          if (itemHash === 2782325301) {
+            perkHashes.push(2363751990)
           }
         } else {
-          if (vendorWeaponPerks[key] && !weapon.type.startsWith("Exotic")) {
-            perk1 = vendorWeaponPerks[key].plugs["1"][0].plugItemHash
-            perk2 = vendorWeaponPerks[key].plugs["1"][1].plugItemHash
-            perk3 = vendorWeaponPerks[key].plugs["2"][0].plugItemHash
-            perk4 = vendorWeaponPerks[key].plugs["2"][1].plugItemHash
-            perk5 = vendorWeaponPerks[key].plugs["3"][0].plugItemHash
-            perk6 = vendorWeaponPerks[key].plugs["4"][0].plugItemHash
-          } else {
-            perk1 = vendorWeaponSockets[key].sockets[0].plugHash
-            perk2 = vendorWeaponSockets[key].sockets[1].plugHash
-            perk3 = vendorWeaponSockets[key].sockets[2].plugHash
-            perk4 = vendorWeaponSockets[key].sockets[3].plugHash
-            perk5 = vendorWeaponSockets[key].sockets[4].plugHash
-          }
+          sockets = sockets.splice(0, 5)
+          perkHashes.push(...sockets.filter((item) => item.plugHash).map((item) => item.plugHash))
         }
 
         const arePerksCached = () => {
           let cacheFound = true
-          const perks = [perk1, perk2, perk3, perk4, perk5, perk6]
-          for (const perk of perks) {
+          for (const perk of perkHashes) {
             if (perk && !cachedItems[perk]) {
               cacheFound = false
             }
@@ -222,45 +211,14 @@ module.exports.getVendorInventory = async (vendorHash) => {
         const perksCached = arePerksCached()
 
         if (perksCached) {
-          if (perk1) {
-            weapon.perks.push(cachedItems[perk1].name)
-          }
-          if (perk2) {
-            weapon.perks.push(cachedItems[perk2].name)
-          }
-          if (perk3) {
-            weapon.perks.push(cachedItems[perk3].name)
-          }
-          if (perk4) {
-            weapon.perks.push(cachedItems[perk4].name)
-          }
-          if (perk5) {
-            weapon.perks.push(cachedItems[perk5].name)
-          }
-          if (perk6) {
-            weapon.perks.push(cachedItems[perk6].name)
+          for (const perk of perkHashes) {
+            weapon.perks.push(cachedItems[perk].name)
           }
         } else {
           usedCachedData = false
           await getItemDefinitions()
-
-          if (perk1) {
-            weapon.perks.push(itemDefinitions[perk1].displayProperties.name)
-          }
-          if (perk2) {
-            weapon.perks.push(itemDefinitions[perk2].displayProperties.name)
-          }
-          if (perk3) {
-            weapon.perks.push(itemDefinitions[perk3].displayProperties.name)
-          }
-          if (perk4) {
-            weapon.perks.push(itemDefinitions[perk4].displayProperties.name)
-          }
-          if (perk5) {
-            weapon.perks.push(itemDefinitions[perk5].displayProperties.name)
-          }
-          if (perk6) {
-            weapon.perks.push(itemDefinitions[perk6].displayProperties.name)
+          for (const perk of perkHashes) {
+            weapon.perks.push(itemDefinitions[perk].displayProperties.name)
           }
         }
 
@@ -268,23 +226,8 @@ module.exports.getVendorInventory = async (vendorHash) => {
           const wishLists = cachedWeaponWishLists[itemHash]
           // eslint-disable-next-line max-len
           const currentRoll = []
-          if (perk1) {
-            currentRoll.push(perk1.toString())
-          }
-          if (perk2) {
-            currentRoll.push(perk2.toString())
-          }
-          if (perk3) {
-            currentRoll.push(perk3.toString())
-          }
-          if (perk4) {
-            currentRoll.push(perk4.toString())
-          }
-          if (perk5) {
-            currentRoll.push(perk5.toString())
-          }
-          if (perk6) {
-            currentRoll.push(perk6.toString())
+          for (const perk of perkHashes) {
+            currentRoll.push(perk.toString())
           }
 
           const wishList = isWishList(wishLists.rolls, currentRoll)
