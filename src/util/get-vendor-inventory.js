@@ -184,6 +184,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
           }
           // eslint-disable-next-line max-len
           Object.values(plugs).map((plug) => plug.map(({ plugItemHash }) => perkHashes.push(plugItemHash)))
+          // Add class specific sword guards that are not in Bungie API plug response :/
           if (itemHash === 2782325302) {
             perkHashes.push(2349202967)
           }
