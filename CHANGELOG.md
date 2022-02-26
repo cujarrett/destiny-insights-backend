@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.52.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.52.0...v1.52.1) (2022-02-26)
+
+
+### Bug Fixes
+
+* weapon perk logic ([#234](https://github.com/cujarrett/destiny-insights-backend/issues/234)) ([5fe953a](https://github.com/cujarrett/destiny-insights-backend/commit/5fe953adc29ff1b96aaa1b2ff6ac5f49c8ca8516))
+
 # [1.52.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.51.0...v1.52.0) (2022-02-25)
 
 
