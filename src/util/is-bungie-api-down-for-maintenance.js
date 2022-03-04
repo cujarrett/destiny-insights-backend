@@ -1,6 +1,6 @@
-const fetch = require("node-fetch")
+import fetch from "node-fetch"
 
-module.exports.isBungieApiDownForMaintenance = async (auth) => {
+export const isBungieApiDownForMaintenance = async (auth) => {
   console.log("isBungieApiDownForMaintenance called")
   const { accessToken, apiKey } = auth
   const options = {

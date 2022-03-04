@@ -1,8 +1,8 @@
-const { getAuth } = require("../integrations/dynamodb.js")
-const { checkIfTokenRefreshNeeded } = require("./check-if-token-refresh-needed.js")
-const { refreshToken } = require("./refresh-token.js")
+import { getAuth } from "../integrations/dynamodb.js"
+import { checkIfTokenRefreshNeeded } from "./check-if-token-refresh-needed.js"
+import { refreshToken } from "./refresh-token.js"
 
-module.exports.getValidAuth = async () => {
+export const getValidAuth = async () => {
   console.log("getValidAuth called")
   let auth = await getAuth()
   const isTokenRefreshNeeded = checkIfTokenRefreshNeeded(auth)

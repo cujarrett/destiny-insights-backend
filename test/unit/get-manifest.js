@@ -1,5 +1,5 @@
-const test = require("ava")
-const { getManifest } = require("../../src/util/get-manifest.js")
+import test from "ava"
+import { getManifest } from "../../src/util/get-manifest.js"
 
 test("Unit - getManifest", async (assert) => {
   const { manifest, manifestRetries } = await getManifest()

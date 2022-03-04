@@ -1,4 +1,4 @@
-module.exports.getInventoryItemDefinitionEndpoint = (manifestData) => {
+export const getInventoryItemDefinitionEndpoint = (manifestData) => {
   console.log("getInventoryItemDefinitionEndpoint called")
   // eslint-disable-next-line max-len
   const inventoryItemDefinitionPath = manifestData.Response.jsonWorldComponentContentPaths.en.DestinyInventoryItemDefinition

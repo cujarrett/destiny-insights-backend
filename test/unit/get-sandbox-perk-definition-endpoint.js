@@ -1,6 +1,6 @@
-const test = require("ava")
+import test from "ava"
 // eslint-disable-next-line max-len
-const { getSandboxPerkDefinitionEndpoint } = require("../../src/util/get-sandbox-perk-definition-endpoint.js")
+import { getSandboxPerkDefinitionEndpoint } from "../../src/util/get-sandbox-perk-definition-endpoint.js"
 
 test("Unit - getInventoryItemDefinitionEndpoint", async (assert) => {
   const mockedManifestData = {

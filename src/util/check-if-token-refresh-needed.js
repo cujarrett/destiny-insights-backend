@@ -1,4 +1,4 @@
-module.exports.checkIfTokenRefreshNeeded = (auth) => {
+export const checkIfTokenRefreshNeeded = (auth) => {
   console.log("checkIfTokenRefreshNeeded called")
   const { lastTokenRefresh, expiresIn } = auth
 

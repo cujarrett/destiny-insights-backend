@@ -1,107 +1,133 @@
-const AWS = require("aws-sdk")
-const { name } = require("../../package.json")
+import { createRequire } from "module"
+const require = createRequire(import.meta.url)
 
-module.exports.getAuth = async () => {
+const { DynamoDBClient, QueryCommand, ScanCommand } = require("@aws-sdk/client-dynamodb")
+const { DynamoDBDocumentClient, UpdateCommand } = require("@aws-sdk/lib-dynamodb")
+import { getJson } from "../util/json.js"
+
+export const getAuth = async () => {
   console.log("getAuth called")
-  AWS.config.update({ region: "us-east-1" })
-  const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
 
-  const params = {
-    TableName: "destiny-insights-backend-bungie-api-auth",
-    KeyConditionExpression: "app = :app",
-    ExpressionAttributeValues: { ":app": { "S": name } }
+  try {
+    const { name } = await getJson("../../package.json")
+    const client = new DynamoDBClient({ region: "us-east-1" })
+    const params = {
+      TableName: "destiny-insights-backend-bungie-api-auth",
+      KeyConditionExpression: "app = :app",
+      ExpressionAttributeValues: { ":app": { "S": name } }
+    }
+    const command = new QueryCommand(params)
+    const response = await client.send(command)
+    const authObject = response.Items[0]
+    const result = {}
+    for (const key of Object.keys(authObject)) {
+      result[key] = authObject[key].S || authObject[key].N
+    }
+
+    return result
+  } catch (error) {
+    console.log(error)
   }
-
-  const response = await ddb.query(params).promise()
-  const authObject = response.Items[0]
-  const result = {}
-  for (const key of Object.keys(authObject)) {
-    result[key] = authObject[key].S || authObject[key].N
-  }
-
-  return result
 }
 
-module.exports.setAuth = async (newAuth) => {
+export const setAuth = async (newAuth) => {
   console.log("setAuth called")
-  AWS.config.update({ region: "us-east-1" })
-  const docClient = new AWS.DynamoDB.DocumentClient()
 
-  const params = {
-    TableName: "destiny-insights-backend-bungie-api-auth",
-    Key: { app: name },
-    // eslint-disable-next-line max-len
-    UpdateExpression: "set #ei = :expiresIn, #ltr = :lastTokenRefresh, #mi = :membershipId, #at = :accessToken, #tt = :tokenType, #rt = :refreshToken, #rei = :refreshExpiresIn",
-    ExpressionAttributeValues: {
-      ":expiresIn": newAuth.expiresIn,
-      ":lastTokenRefresh": newAuth.lastTokenRefresh,
-      ":membershipId": newAuth.membershipId,
-      ":accessToken": newAuth.accessToken,
-      ":tokenType": newAuth.tokenType,
-      ":refreshToken": newAuth.refreshToken,
-      ":refreshExpiresIn": newAuth.refreshExpiresIn
-    },
-    ExpressionAttributeNames: {
-      "#ei": "expiresIn",
-      "#ltr": "lastTokenRefresh",
-      "#mi": "membershipId",
-      "#at": "accessToken",
-      "#tt": "tokenType",
-      "#rt": "refreshToken",
-      "#rei": "refreshExpiresIn"
+  try {
+    const ddbClient = new DynamoDBClient({ region: "us-east-1" })
+    const marshallOptions = {
+      convertEmptyValues: false,
+      removeUndefinedValues: false,
+      convertClassInstanceToMap: false
     }
+    const unmarshallOptions = {
+      wrapNumbers: false
+    }
+
+    const translateConfig = { marshallOptions, unmarshallOptions }
+
+    const params = {
+      TableName: "destiny-insights-backend-bungie-api-auth",
+      Key: { app: "destiny-insights-backend" },
+      // eslint-disable-next-line max-len
+      UpdateExpression: "set #ei = :expiresIn, #ltr = :lastTokenRefresh, #mi = :membershipId, #at = :accessToken, #tt = :tokenType, #rt = :refreshToken, #rei = :refreshExpiresIn",
+      ExpressionAttributeValues: {
+        ":expiresIn": newAuth.expiresIn,
+        ":lastTokenRefresh": newAuth.lastTokenRefresh,
+        ":membershipId": newAuth.membershipId,
+        ":accessToken": newAuth.accessToken,
+        ":tokenType": newAuth.tokenType,
+        ":refreshToken": newAuth.refreshToken,
+        ":refreshExpiresIn": newAuth.refreshExpiresIn
+      },
+      ExpressionAttributeNames: {
+        "#ei": "expiresIn",
+        "#ltr": "lastTokenRefresh",
+        "#mi": "membershipId",
+        "#at": "accessToken",
+        "#tt": "tokenType",
+        "#rt": "refreshToken",
+        "#rei": "refreshExpiresIn"
+      }
+    }
+    const ddbDocClient = DynamoDBDocumentClient.from(ddbClient, translateConfig)
+    await ddbDocClient.send(new UpdateCommand(params))
+  } catch (error) {
+    console.log(error)
   }
-  await docClient.update(params).promise()
 }
 
-module.exports.getModDataForLastYear = async () => {
+export const getModDataForLastYear = async () => {
   console.log("getModDataForLastYear called")
-  AWS.config.update({ region: "us-east-1" })
-  const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
-  const responses = []
-  const results = []
 
-  // eslint-disable-next-line newline-per-chained-call
-  const now = new Date().toISOString().split("T")[0]
-  let oneYearAgo = new Date(now)
-  oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
-  oneYearAgo = oneYearAgo.toISOString().split("T")[0]
+  try {
+    const client = new DynamoDBClient({ region: "us-east-1" })
+    const now = new Date().toISOString().split("T")[0]
+    let oneYearAgo = new Date(now)
+    oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
+    oneYearAgo = oneYearAgo.toISOString().split("T")[0]
 
-  const query = {
-    TableName: "destiny-insights-items",
-    // eslint-disable-next-line max-len
-    FilterExpression: "#ts > :startDate AND (#type = :armorType OR #type = :combatSyleType OR #type = :weaponType)",
-    ExpressionAttributeValues: {
-      // AWS DynamoDB uses single char for types
-      // eslint-disable-next-line id-length
-      ":startDate": { S: oneYearAgo },
-      // eslint-disable-next-line id-length
-      ":armorType": { S: "Armor Mod" },
-      // eslint-disable-next-line id-length
-      ":weaponType": { S: "Weapon Mod" },
-      // eslint-disable-next-line id-length
-      ":combatSyleType": { S: "Combat Style Mod" }
-    },
-    ExpressionAttributeNames: {
-      "#ts": "timestamp",
-      "#type": "type"
+    const input = {
+      TableName: "destiny-insights-items",
+      // eslint-disable-next-line max-len
+      FilterExpression: "#ts > :startDate AND (#type = :armorType OR #type = :combatSyleType OR #type = :weaponType)",
+      ExpressionAttributeValues: {
+        // AWS DynamoDB uses single char for types
+        // eslint-disable-next-line id-length
+        ":startDate": { S: oneYearAgo },
+        // eslint-disable-next-line id-length
+        ":armorType": { S: "Armor Mod" },
+        // eslint-disable-next-line id-length
+        ":weaponType": { S: "Weapon Mod" },
+        // eslint-disable-next-line id-length
+        ":combatSyleType": { S: "Combat Style Mod" }
+      },
+      ExpressionAttributeNames: {
+        "#ts": "timestamp",
+        "#type": "type"
+      }
     }
-  }
+    const command = new ScanCommand(input)
+    const response = await client.send(command)
+    const responses = []
+    const results = []
 
-  const response = await ddb.scan(query).promise()
-  responses.push(...response.Items)
+    responses.push(...response.Items)
 
-  for (const mod of responses) {
-    results.push({
-      timestamp: mod.timestamp.S,
-      name: mod.name.S,
-      type: mod.type.S
+    for (const mod of responses) {
+      results.push({
+        timestamp: mod.timestamp.S,
+        name: mod.name.S,
+        type: mod.type.S
+      })
+    }
+
+    const sortedResults = results.sort((first, second) => {
+      return new Date(second.timestamp) - new Date(first.timestamp)
     })
+
+    return sortedResults
+  } catch (error) {
+    console.log(error)
   }
-
-  const sortedResults = results.sort((first, second) => {
-    return new Date(second.timestamp) - new Date(first.timestamp)
-  })
-
-  return sortedResults
 }

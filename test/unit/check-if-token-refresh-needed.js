@@ -1,5 +1,5 @@
-const test = require("ava")
-const { checkIfTokenRefreshNeeded } = require("../../src/util/check-if-token-refresh-needed.js")
+import test from "ava"
+import { checkIfTokenRefreshNeeded } from "../../src/util/check-if-token-refresh-needed.js"
 
 test("Unit - checkIfTokenRefreshNeeded no refresh needed", async (assert) => {
   const now = new Date()

@@ -1,6 +1,6 @@
-const fetch = require("node-fetch")
+import fetch from "node-fetch"
 
-module.exports.getManifest = async () => {
+export const getManifest = async () => {
   console.log("getManifest called")
   const manifestEndpoint = "https://www.bungie.net/Platform/Destiny2/Manifest/"
   let rawManifest = await fetch(manifestEndpoint)

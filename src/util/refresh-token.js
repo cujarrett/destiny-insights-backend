@@ -1,7 +1,7 @@
-const fetch = require("node-fetch")
-const { setAuth } = require("../integrations/dynamodb.js")
+import fetch from "node-fetch"
+import { setAuth } from "../integrations/dynamodb.js"
 
-module.exports.refreshToken = async (auth) => {
+export const refreshToken = async (auth) => {
   console.log("refreshToken called")
   const { apiKey, clientId, clientSecret, refreshToken } = auth
   const basicAuth = Buffer.from(`${clientId}:${clientSecret}`).toString("base64")

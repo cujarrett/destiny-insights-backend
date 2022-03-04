@@ -1,5 +1,5 @@
-const test = require("ava")
-const { buildCachedMods } = require("../../src/util/build-cached-mods.js")
+import test from "ava"
+import { buildCachedMods } from "../../src/util/build-cached-mods.js"
 
 test("Integration - buildCachedMods", async (assert) => {
   const cachedMods = await buildCachedMods()

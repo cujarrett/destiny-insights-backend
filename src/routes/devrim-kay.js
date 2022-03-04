@@ -1,6 +1,6 @@
-const { getVendorInventory } = require ("../util/get-vendor-inventory.js")
+import { getVendorInventory } from "../util/get-vendor-inventory.js"
 
-module.exports = async (api) => {
+export default async (api) => {
   api.get("/devrim-kay", async (request, response) => {
     console.log("/devrim-kay called")
     let result

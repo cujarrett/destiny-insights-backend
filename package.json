@@ -2,17 +2,21 @@
   "name": "destiny-insights-backend",
   "version": "1.52.2",
   "description": "Backend for destiny-insights apps",
-  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "scripts": {
     "lint": "eslint .",
     "fix-lint": "eslint . --fix",
-    "test": "nyc ava",
-    "test-exclude-vendors": "nyc ava --match='!*Vendor*'",
-    "update-cached-mods": "node -e 'require(\"./src/util/build-cached-mods.js\").updateCachedMods()'",
-    "update-cached-items": "node -e 'require(\"./src/util/build-cached-items.js\").updateCachedItems()'",
-    "update-cached-weapon-wish-lists": "node -e 'require(\"./src/util/build-cached-weapon-wish-lists.js\").updateCachedItems()'",
+    "test": "c8 ava --timeout=60s",
+    "test-exclude-vendors": "c8 ava --match='!*Vendor*'",
+    "update-cached-items": "node './src/util/write-cached-items.js'",
+    "update-cached-mods": "node './src/util/write-cached-mods.js'",
+    "update-cached-weapon-wish-lists": "node './src/util/write-cached-weapon-wish-lists.js'",
     "update-cache": "npm run update-cached-mods && npm run update-cached-items && npm run update-cached-weapon-wish-lists",
-    "build": "npm set-script prepare '' && npm install --production && rm -rf build && mkdir build && zip -r -q -x='*test*' -x='package-lock.json' -x='*media*' -x='*terraform*' -x=*coverage* -x='*.md' -x='LICENSE' -x='*build*' -x='*.DS_Store*' -x='*.git*' -x='*.nyc*' -x='./.husky*'-x='*node_modules/.cache*' -x='release.config.js' -x='commitlint.config.js' build/destiny-insights-backend.zip . && du -sh build && npm set-script prepare 'husky install'",
+    "build": "npm set-script prepare '' && npm install --production && rm -rf build && mkdir build && zip -r -q -x='*test*' -x='package-lock.json' -x='*media*' -x='*terraform*' -x=*coverage* -x='*.md' -x='LICENSE' -x='*build*' -x='*.DS_Store*' -x='*.git*' -x='./.husky*' -x='release.config.js' -x='commitlint.config.js' build/destiny-insights-backend.zip . && du -sh build && npm set-script prepare 'husky install'",
     "deploy": "aws lambda update-function-code --function-name=destiny-insights-backend --zip-file=fileb://build/destiny-insights-backend.zip --region=us-east-1 1> /dev/null",
     "semantic-release": "semantic-release",
     "ci": "npm run lint && npm run test",
@@ -36,8 +40,10 @@
   },
   "homepage": "https://github.com/cujarrett/destiny-insights-backend#readme",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "~3.53.0",
+    "@aws-sdk/lib-dynamodb": "~3.53.0",
     "lambda-api": "~0.11.2",
-    "node-fetch": "~2.6.7"
+    "node-fetch": "~3.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "~16.2.1",
@@ -50,12 +56,11 @@
     "@semantic-release/npm": "~9.0.1",
     "@semantic-release/release-notes-generator": "~10.0.3",
     "ava": "~4.0.1",
-    "aws-sdk": "~2.1085.0",
+    "c8": "~7.11.0",
     "commitizen": "~4.2.4",
     "cz-conventional-changelog": "~3.3.0",
     "eslint": "~8.10.0",
-    "husky": "~7.0.4",
-    "nyc": "~15.1.0"
+    "husky": "~7.0.4"
   },
   "husky": {
     "hooks": {

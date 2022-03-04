@@ -1,11 +1,12 @@
-const { getModDataForLastYear } = require("../integrations/dynamodb.js")
-const { name } = require("../../package.json")
+import { getModDataForLastYear } from "../integrations/dynamodb.js"
+import { getJson } from "../util/json.js"
 
-module.exports = async (api) => {
+export default async (api) => {
   api.get("/mod-data-for-last-year", async (request, response) => {
     console.log("/mod-data-for-last-year called")
     response.header("Access-Control-Allow-Origin", "*")
     const data = await getModDataForLastYear()
+    const { name } = await getJson("../../package.json")
     const result = {
       data: [
         ...data

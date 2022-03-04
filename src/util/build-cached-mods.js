@@ -1,11 +1,10 @@
-const fetch = require("node-fetch")
-const fs = require("fs")
-const { getManifest } = require("./get-manifest")
+import fetch from "node-fetch"
+import { getManifest } from "./get-manifest.js"
 // eslint-disable-next-line max-len
-const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
-const { getSandboxPerkDefinitionEndpoint } = require("./get-sandbox-perk-definition-endpoint.js")
+import { getInventoryItemDefinitionEndpoint } from "./get-inventory-item-definition-endpoint.js"
+import { getSandboxPerkDefinitionEndpoint } from "./get-sandbox-perk-definition-endpoint.js"
 
-module.exports.buildCachedMods = async () => {
+export const buildCachedMods = async () => {
   const { manifest } = await getManifest()
   const inventoryItemDefinitionEndpoint = getInventoryItemDefinitionEndpoint(manifest)
   const sandboxPerkDefinitionEndpoint = getSandboxPerkDefinitionEndpoint(manifest)
@@ -42,10 +41,4 @@ module.exports.buildCachedMods = async () => {
   }
 
   return output
-}
-
-module.exports.updateCachedMods = async () => {
-  const cachedMods = await this.buildCachedMods()
-  const data = JSON.stringify(cachedMods, null, "  ")
-  await fs.writeFileSync("./src/data/cached-mods.json", data)
 }
