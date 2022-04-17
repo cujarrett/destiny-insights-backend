@@ -2,11 +2,8 @@ name: update-cache
 
 on:
   schedule:
-    # Daily at 13:00 UTC, 07:00 US Central
     - cron: "0 13 * * *"
 
-  # Enables the web UI manual trigger, handy for oneoff runs
-  # https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#workflow_dispatch
   workflow_dispatch:
 
 jobs:
