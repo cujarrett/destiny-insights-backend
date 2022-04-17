@@ -1,4 +1,4 @@
-const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args))
+const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fetch(...args))
 const { setAuth } = require("../integrations/dynamodb.js")
 
 module.exports.refreshToken = async (auth) => {

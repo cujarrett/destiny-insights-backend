@@ -1,4 +1,4 @@
-const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args))
+const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fetch(...args))
 const cachedItems = require("../data/cached-items.json")
 const cachedMods = require("../data/cached-mods.json")
 const classMapping = require("../data/class-mapping.json")

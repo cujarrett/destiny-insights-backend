@@ -1,4 +1,4 @@
-const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args))
+const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fetch(...args))
 const fs = require("fs")
 const { getManifest } = require("./get-manifest")
 // eslint-disable-next-line max-len

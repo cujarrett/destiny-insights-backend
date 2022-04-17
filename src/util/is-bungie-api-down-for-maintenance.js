@@ -1,4 +1,4 @@
-const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args))
+const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fetch(...args))
 
 module.exports.isBungieApiDownForMaintenance = async (auth) => {
   console.log("isBungieApiDownForMaintenance called")
