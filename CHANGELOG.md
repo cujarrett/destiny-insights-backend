@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.61.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.61.0...v1.61.1) (2022-04-17)
+
+
+### Bug Fixes
+
+* removes trackers from perks listed ([#265](https://github.com/cujarrett/destiny-insights-backend/issues/265)) ([399db0e](https://github.com/cujarrett/destiny-insights-backend/commit/399db0eb796c2432e9846310d77963e511489a9a))
+
 # [1.61.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.60.0...v1.61.0) (2022-04-15)
 
 
