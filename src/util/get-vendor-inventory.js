@@ -199,6 +199,15 @@ module.exports.getVendorInventory = async (vendorHash) => {
           perkHashes.push(...sockets.filter((item) => item.plugHash).map((item) => item.plugHash))
         }
 
+        const pveKillTracker = 2302094943
+        if (perkHashes.includes(pveKillTracker)) {
+          perkHashes.splice(perkHashes.indexOf(pveKillTracker, 1))
+        }
+        const pvpKillTracker = 38912240
+        if (perkHashes.includes(pvpKillTracker)) {
+          perkHashes.splice(perkHashes.indexOf(pvpKillTracker, 1))
+        }
+
         const arePerksCached = () => {
           let cacheFound = true
           for (const perk of perkHashes) {
