@@ -1,0 +1,42 @@
+name: update-cache
+
+on:
+  schedule:
+    - cron: "0 13 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  update-cache:
+    name: update-cache
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        persist-credentials: false
+
+    - name: Node setup
+      uses: actions/setup-node@v2
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Update cached data
+      run: |
+        npm run update-cached-mods
+        npm run update-cached-items
+        npm run update-cached-weapon-wish-lists
+
+    - name: Create pull request
+      id: cpr
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "feat: updates cached data"
+        committer: GitHub <noreply@github.com>
+        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+        title: "feat: update cached data"
+        reviewers: "@cujarrett"
