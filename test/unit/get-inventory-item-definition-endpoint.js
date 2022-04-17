@@ -1,6 +1,6 @@
-const test = require("ava")
+import test from "ava"
 // eslint-disable-next-line max-len
-const { getInventoryItemDefinitionEndpoint } = require("../../src/util/get-inventory-item-definition-endpoint.js")
+import { getInventoryItemDefinitionEndpoint } from "../../src/util/get-inventory-item-definition-endpoint.js"
 
 test("Unit - getInventoryItemDefinitionEndpoint", async (assert) => {
   const mockedManifestData = {

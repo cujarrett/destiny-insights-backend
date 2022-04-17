@@ -1,4 +1,4 @@
-module.exports.getSandboxPerkDefinitionEndpoint = (manifestData) => {
+export const getSandboxPerkDefinitionEndpoint = (manifestData) => {
   console.log("getSandboxPerkDefinitionEndpoint called")
   // eslint-disable-next-line max-len
   const sandboxPerkDefinitionPath = manifestData.Response.jsonWorldComponentContentPaths.en.DestinySandboxPerkDefinition

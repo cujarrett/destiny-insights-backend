@@ -1,5 +1,5 @@
-const test = require("ava")
-const { getVendorInventory } = require("../../src/util/get-vendor-inventory.js")
+import test from "ava"
+import { getVendorInventory } from "../../src/util/get-vendor-inventory.js"
 
 test("Integration - ada-1 Vendor", async (assert) => {
   const vendorInventory = await getVendorInventory("350061650")

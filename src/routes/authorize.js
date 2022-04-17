@@ -1,7 +1,7 @@
-const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fetch(...args))
-const { getAuth, setAuth } = require("../integrations/dynamodb.js")
+import fetch from "node-fetch"
+import { getAuth, setAuth } from "../integrations/dynamodb.js"
 
-module.exports = async (api) => {
+export default async (api) => {
   api.get("/authorize", async (request, response) => {
     try {
       console.log("/authorize called")

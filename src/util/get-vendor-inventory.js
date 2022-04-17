@@ -1,14 +1,9 @@
-const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fetch(...args))
-const cachedItems = require("../data/cached-items.json")
-const cachedMods = require("../data/cached-mods.json")
-const classMapping = require("../data/class-mapping.json")
-const cachedWeaponWishLists = require("../data/cached-weapon-wish-lists.json")
-// eslint-disable-next-line max-len
-const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
-const { getManifest } = require("./get-manifest.js")
-const { getValidAuth } = require("../util/get-valid-auth.js")
-const { isBungieApiDownForMaintenance } = require("./is-bungie-api-down-for-maintenance.js")
-const { name } = require("../../package.json")
+import fetch from "node-fetch"
+import { getInventoryItemDefinitionEndpoint } from "./get-inventory-item-definition-endpoint.js"
+import { getManifest } from "./get-manifest.js"
+import { getValidAuth } from "../util/get-valid-auth.js"
+import { isBungieApiDownForMaintenance } from "./is-bungie-api-down-for-maintenance.js"
+import { getJson } from "../util/json.js"
 
 const characterClasses = {
   titan: "2305843009300765518",
@@ -49,8 +44,14 @@ const isWishList = (wishLists, currentRoll) => {
   return false
 }
 
-module.exports.getVendorInventory = async (vendorHash) => {
+export const getVendorInventory = async (vendorHash) => {
   console.log("getVendorInventory called")
+  const cachedItems = await getJson("../data/cached-items.json")
+  const cachedMods = await getJson("../data/cached-mods.json")
+  const classMapping = await getJson("../data/class-mapping.json")
+  const cachedWeaponWishLists = await getJson("../data/cached-weapon-wish-lists.json")
+  const { name } = await getJson("../../package.json")
+
   const { auth, isTokenRefreshNeeded } = await getValidAuth()
   const { accessToken, apiKey } = auth
   const options = {

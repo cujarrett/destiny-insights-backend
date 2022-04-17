@@ -1,5 +1,5 @@
-const test = require("ava")
-const { buildWeaponWishLists } = require("../../src/util/build-cached-weapon-wish-lists.js")
+import test from "ava"
+import { buildWeaponWishLists } from "../../src/util/build-cached-weapon-wish-lists.js"
 
 test("Integration - buildWeaponWishLists", async (assert) => {
   const cachedWeaponWishLists = await buildWeaponWishLists()

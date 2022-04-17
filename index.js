@@ -1,15 +1,17 @@
-const api = require("lambda-api")()
-const ada1 = require("./src/routes/ada-1.js")
-const authorize = require("./src/routes/authorize.js")
-const banshee44 = require("./src/routes/banshee-44.js")
-const commanderZavala = require("./src/routes/commander-zavala.js")
-const devrimKay = require("./src/routes/devrim-kay.js")
-const failsafe = require("./src/routes/failsafe.js")
-const init = require("./src/routes/init.js")
-const lordShaxx = require("./src/routes/lord-shaxx.js")
-const modDataForLastYear = require("./src/routes/mod-data-for-last-year.js")
-const theDrifter = require("./src/routes/the-drifter.js")
-const xur = require("./src/routes/xur.js")
+import createApi from "lambda-api"
+import ada1 from "./src/routes/ada-1.js"
+import authorize from "./src/routes/authorize.js"
+import banshee44 from "./src/routes/banshee-44.js"
+import commanderZavala from "./src/routes/commander-zavala.js"
+import devrimKay from "./src/routes/devrim-kay.js"
+import failsafe from "./src/routes/failsafe.js"
+import init from "./src/routes/init.js"
+import lordShaxx from "./src/routes/lord-shaxx.js"
+import modDataForLastYear from "./src/routes/mod-data-for-last-year.js"
+import theDrifter from "./src/routes/the-drifter.js"
+import xur from "./src/routes/xur.js"
+
+const api = createApi()
 
 api.register(ada1)
 api.register(authorize)

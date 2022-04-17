@@ -1,11 +1,9 @@
-const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fetch(...args))
-const fs = require("fs")
-const classMapping = require("../data/class-mapping.json")
-// eslint-disable-next-line max-len
-const { getInventoryItemDefinitionEndpoint } = require("./get-inventory-item-definition-endpoint.js")
-const { getManifest } = require("./get-manifest")
+import fetch from "node-fetch"
+import { getJson } from "./json.js"
+import { getInventoryItemDefinitionEndpoint } from "./get-inventory-item-definition-endpoint.js"
+import { getManifest } from "./get-manifest.js"
 
-module.exports.buildCachedItems = async () => {
+export const buildCachedItems = async () => {
   const { manifest } = await getManifest()
   const inventoryItemDefinitionEndpoint = getInventoryItemDefinitionEndpoint(manifest)
   const itemDefinitionsResponse = await fetch(inventoryItemDefinitionEndpoint)
@@ -15,6 +13,7 @@ module.exports.buildCachedItems = async () => {
   for (const item in itemDefinitions) {
     const name = itemDefinitions[item].displayProperties.name
     const type = itemDefinitions[item].itemTypeAndTierDisplayName
+    const classMapping = await getJson("../data/class-mapping.json")
     const classType = classMapping[itemDefinitions[item].classType]
     const icon = `https://bungie.net${itemDefinitions[item].displayProperties.icon}`
 
@@ -29,10 +28,4 @@ module.exports.buildCachedItems = async () => {
   }
 
   return output
-}
-
-module.exports.updateCachedItems = async () => {
-  const cachedItems = await this.buildCachedItems()
-  const data = JSON.stringify(cachedItems, null, "  ")
-  await fs.writeFileSync("./src/data/cached-items.json", data)
 }

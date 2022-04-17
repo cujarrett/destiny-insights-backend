@@ -1,6 +1,6 @@
-const { getAuth } = require("../integrations/dynamodb.js")
+import { getAuth } from "../integrations/dynamodb.js"
 
-module.exports = async (api) => {
+export default async (api) => {
   api.get("/init", async (request, response) => {
     console.log("/init called")
     const { clientId } = await getAuth()
