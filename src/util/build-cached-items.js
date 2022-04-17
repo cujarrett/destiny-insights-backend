@@ -1,4 +1,4 @@
-const fetch = require("node-fetch")
+const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args))
 const fs = require("fs")
 const classMapping = require("../data/class-mapping.json")
 // eslint-disable-next-line max-len

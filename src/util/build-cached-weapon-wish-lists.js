@@ -1,4 +1,4 @@
-const fetch = require("node-fetch")
+const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args))
 const fs = require("fs")
 const cachedItems = require("../data/cached-items.json")
 
