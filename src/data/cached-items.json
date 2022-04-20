@@ -852,7 +852,7 @@
   "51945187": {
     "name": "Water Break",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/507cb2ee946c10442c3ecb065e1ea9ae.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/a3c2dedd7763ae19155014bbc174f037.jpg"
   },
   "52039562": {
     "name": "Filigree of Light",
@@ -1271,11 +1271,6 @@
     "name": "Excited Dance",
     "type": "Legendary Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/13738bfdc81edc3181624fbd3620e3dc.jpg"
-  },
-  "80878913": {
-    "name": "Laurels",
-    "type": "Rare Event Currency",
-    "icon": "https://bungie.net/common/destiny2_content/icons/fcec3f94f9df58a5b59ddc7578c0919f.jpg"
   },
   "81485105": {
     "name": "Couturier Titan Bundle",
@@ -3573,7 +3568,7 @@
   "214374661": {
     "name": "Reigning Champion",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bc6cf12ef7a9b5cf50e3edf5abe8940c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b070e41c6159da8d9dd5ba67579b5a37.jpg"
   },
   "215292674": {
     "name": "Praetorian Ornament",
@@ -4780,6 +4775,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/488116495acb228611887b377cc1fbeb.jpg"
   },
+  "274483007": {
+    "name": "Unerring Contender",
+    "type": "Rare Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/adcf8bbdca0735b5980d38b7cc6839aa.jpg"
+  },
   "274659609": {
     "name": "Illicit Collector Plate",
     "type": "Legendary Chest Armor",
@@ -5518,16 +5518,6 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/0b5bf3cf4958a949a195595596552538.jpg"
   },
-  "309227798": {
-    "name": "Wreathed in Laurels",
-    "type": "Exotic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ef776b19efb6498f6589168e528640ba.jpg"
-  },
-  "309227799": {
-    "name": "Machine-Gun Focused",
-    "type": "Exotic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ef776b19efb6498f6589168e528640ba.jpg"
-  },
   "309687341": {
     "name": "Shadow's Greaves",
     "type": "Legendary Leg Armor",
@@ -5992,11 +5982,6 @@
     "type": "Legendary Quest",
     "icon": "https://bungie.net/common/destiny2_content/icons/ce069062fa2c5925858f1b0101cc984e.jpg"
   },
-  "334888567": {
-    "name": "Homestretch Ceremony",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
-  },
   "335317194": {
     "name": "Vigil of Heroes",
     "type": "Legendary Chest Armor",
@@ -6162,11 +6147,6 @@
     "name": "Chill Clip",
     "type": "Uncommon Enhanced Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/166c98f42220eda8bb68a9cd3123c80d.png"
-  },
-  "344489854": {
-    "name": "Daily Focus",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "344548395": {
     "name": "Reverie Dawn Strides",
@@ -6772,6 +6752,11 @@
     "name": "Reagent Resourcing",
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/395f048c378157e5e30dcb9b2e60e869.jpg"
+  },
+  "379839409": {
+    "name": "Platinum Plunderer",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2d249f47249ca5203cfb3b0879f0bf11.jpg"
   },
   "381390892": {
     "name": "Skeletal Hunter Bundle",
@@ -7780,11 +7765,6 @@
     "type": "Legendary Titan Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/0ba395c200c2bf13b975d7783f287bda.jpg"
   },
-  "429152515": {
-    "name": "Arc Super Games",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
   "430065393": {
     "name": "Praetorian Ornament",
     "type": "Legendary Armor Ornament",
@@ -7831,6 +7811,16 @@
     "type": "Legendary Helmet",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/c8957feda7eef6e90385dd6b663c5e66.jpg"
+  },
+  "431488442": {
+    "name": "Machine-Gun Focused",
+    "type": "Exotic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ef776b19efb6498f6589168e528640ba.jpg"
+  },
+  "431488443": {
+    "name": "Wreathed in Laurels",
+    "type": "Exotic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ef776b19efb6498f6589168e528640ba.jpg"
   },
   "431984069": {
     "name": "Splintered",
@@ -8217,51 +8207,6 @@
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/282368bc00ada44619215c98a1e279fe.jpg"
   },
-  "446341456": {
-    "name": "Quick-Draw Competition",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "446341457": {
-    "name": "Competitive Conquest",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "446341458": {
-    "name": "Burnished Rewards",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "446341459": {
-    "name": "Rapacious Competitor",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "446341461": {
-    "name": "Light Catcher",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "446341462": {
-    "name": "Elemental Opposition",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "446341463": {
-    "name": "Big-Play Ability",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "446341466": {
-    "name": "Power of Finesse",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "446341467": {
-    "name": "Hot Mettle",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
   "446438979": {
     "name": "Sovereign Hood",
     "type": "Legendary Helmet",
@@ -8543,7 +8488,7 @@
   "465351846": {
     "name": "Power Nap",
     "type": "Legendary Multiplayer Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/507cb2ee946c10442c3ecb065e1ea9ae.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/301ab0208a8b4488416665378f116a4f.jpg"
   },
   "465838244": {
     "name": "Giant Expectations",
@@ -8658,6 +8603,16 @@
     "type": "Legendary Chest Armor",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/071f2deb02a03accd24c3836c3748d1d.jpg"
+  },
+  "469935026": {
+    "name": "Show Your Colors",
+    "type": "Rare Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
+  },
+  "469935027": {
+    "name": "Go for Gold",
+    "type": "Rare Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
   },
   "471049456": {
     "name": "Small XP Boost",
@@ -10543,6 +10498,11 @@
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/9e7dffccc730d93b61b0f4d82f9ed125.jpg"
   },
+  "570095891": {
+    "name": "Master Class",
+    "type": "Quest",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
+  },
   "570143750": {
     "name": "The Outlander's Steps",
     "type": "Rare Leg Armor",
@@ -10591,6 +10551,11 @@
     "name": "Sagira's Shell",
     "type": "Exotic Ghost Shell",
     "icon": "https://bungie.net/common/destiny2_content/icons/1a47780bf0faceb5b93122c9000960ff.jpg"
+  },
+  "573585794": {
+    "name": "Lost History",
+    "type": "Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/504660264975b8f052f6ad55950cf54c.png"
   },
   "574137192": {
     "name": "Shadow's Mark",
@@ -10783,6 +10748,11 @@
     "type": "Legendary Hand Cannon",
     "icon": "https://bungie.net/common/destiny2_content/icons/afb1990faab261adba4968982b40b05e.jpg"
   },
+  "582726933": {
+    "name": "Entropic Advance",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/228b8485a6b291a3eeb87cfabf2d2a89.jpg"
+  },
   "583145321": {
     "name": "Gunsmith's Devotion Crown",
     "type": "Legendary Helmet",
@@ -10889,11 +10859,6 @@
     "type": "Legendary Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/1c83613c9196549957369182c0045325.jpg"
-  },
-  "590574059": {
-    "name": "Daily Focus",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "591441816": {
     "name": "Nostalgic Engram",
@@ -11072,6 +11037,16 @@
     "name": "Chain Reaction",
     "type": "Uncommon Enhanced Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/3826c3af844cc97534cf1a64cec2f6b2.png"
+  },
+  "598776284": {
+    "name": "Guardian Games Medallion Code",
+    "type": "Legendary Bungie Store Reward",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab9161e8e8337eedafb6efaeea0e44b7.jpg"
+  },
+  "598776287": {
+    "name": "Guardian Games Tankard Code",
+    "type": "Legendary Bungie Store Reward",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab9161e8e8337eedafb6efaeea0e44b7.jpg"
   },
   "599007201": {
     "name": "Enduring Guard",
@@ -11442,11 +11417,6 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/ab3946cce3d61c738ea08adbfd04f0c1.jpg"
   },
-  "617199187": {
-    "name": "Silver Guardian Games Reward",
-    "type": "Rare Daily Reward",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ed15024b0d8df550a91cf8afe9b1146f.png"
-  },
   "617314000": {
     "name": "Mark of the Longest Line",
     "type": "Uncommon Titan Mark",
@@ -11565,6 +11535,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/7839c2cd094c407e2846b331953a2d58.jpg"
   },
+  "624716099": {
+    "name": "Volume or Volume",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a29fd54618bcc13eff246e0fa5019584.jpg"
+  },
   "624775194": {
     "name": "Vernal Growth Strides",
     "type": "Legendary Hunter Universal Ornament",
@@ -11666,11 +11641,6 @@
     "type": "Legendary Helmet",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/e3fd54036f3d5a56e502782cd8ef4408.jpg"
-  },
-  "630163485": {
-    "name": "Guardian Games",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "630329983": {
     "name": "Ride the Bull",
@@ -11955,56 +11925,6 @@
     "name": "Emperor's Shock",
     "type": "Legendary Opulent Armor Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
-  },
-  "652612096": {
-    "name": "Primal Scream",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "652612097": {
-    "name": "Meteoric Competitor",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "652612098": {
-    "name": "ReMote Control",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "652612099": {
-    "name": "Burnished Reputation",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "652612100": {
-    "name": "Primordial Predator",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "652612101": {
-    "name": "Primordial Competitor",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "652612102": {
-    "name": "Lethal Ability",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "652612103": {
-    "name": "Lead Blocker",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "652612106": {
-    "name": "Range Finder",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "652612107": {
-    "name": "Burst Fire Fighter",
-    "type": "Common Gambit Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
   },
   "653350778": {
     "name": "Legacy's Oath Cowl",
@@ -13252,6 +13172,11 @@
     "type": "Legendary Rocket Launcher",
     "icon": "https://bungie.net/common/destiny2_content/icons/9d13a669be1d0e76c43bd0c3d3004364.jpg"
   },
+  "725993895": {
+    "name": "Strategic Spelunking",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fec2c8daaddc898a78787c4873004cb3.jpg"
+  },
   "726145097": {
     "name": "Lichen Crown",
     "type": "Legendary Shader",
@@ -13920,6 +13845,51 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/04ccd7c769a9e353a529bafc3669c854.jpg"
   },
+  "757621718": {
+    "name": "Return the Conquering Hero",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21a40a378a000674de014176c87982e8.jpg"
+  },
+  "757621719": {
+    "name": "Let the Games Begin",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21a40a378a000674de014176c87982e8.jpg"
+  },
+  "757621720": {
+    "name": "Scoring Strikes Again",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21a40a378a000674de014176c87982e8.jpg"
+  },
+  "757621721": {
+    "name": "The Medals Strike Back",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21a40a378a000674de014176c87982e8.jpg"
+  },
+  "757621722": {
+    "name": "Class Contribution",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21a40a378a000674de014176c87982e8.jpg"
+  },
+  "757621723": {
+    "name": "Rallying for Medallions",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21a40a378a000674de014176c87982e8.jpg"
+  },
+  "757621724": {
+    "name": "Medal Lion",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21a40a378a000674de014176c87982e8.jpg"
+  },
+  "757621725": {
+    "name": "Triumphant Return",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21a40a378a000674de014176c87982e8.jpg"
+  },
+  "757621727": {
+    "name": "Championship Contender",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/21a40a378a000674de014176c87982e8.jpg"
+  },
   "757630934": {
     "name": "Solstice Gauntlets (Rekindled)",
     "type": "Rare Gauntlets",
@@ -14526,7 +14496,7 @@
   "787024992": {
     "name": "A Good Sport",
     "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1278344ed0b8bcf11e66d60122b1a8ac.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b1ec7a6b1b4065bae0d98d1fea3423ee.jpg"
   },
   "787024993": {
     "name": "Life for Life",
@@ -14584,6 +14554,16 @@
     "type": "Legendary Leg Armor",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/b6cbcd20ab710223d2cac6c216f954c7.jpg"
+  },
+  "789180134": {
+    "name": "Match Point",
+    "type": "Rare Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
+  },
+  "789180135": {
+    "name": "Represent",
+    "type": "Rare Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
   },
   "789384557": {
     "name": "Atonement Tau",
@@ -16798,6 +16778,11 @@
     "type": "Legendary Discovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/2a8bc721fc847d64afa1c12af9f524df.jpg"
   },
+  "923616510": {
+    "name": "Crackle and Burn",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/228b8485a6b291a3eeb87cfabf2d2a89.jpg"
+  },
   "924779391": {
     "name": "Sick",
     "type": "Rare Emote",
@@ -16882,7 +16867,7 @@
   "928070392": {
     "name": "Give Me a \"G\"",
     "type": "Exotic Multiplayer Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bc6cf12ef7a9b5cf50e3edf5abe8940c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/0b765c3e0df73105f1c569001cccc32a.jpg"
   },
   "928095168": {
     "name": "Another Inspired Idea",
@@ -16970,11 +16955,6 @@
     "type": "Exotic Titan Ornament",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/af35ccc9273c9f14dc97dd250aeaeb35.jpg"
-  },
-  "933767505": {
-    "name": "Rivalry Game",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
   },
   "934145080": {
     "name": "Crushing Plate",
@@ -17510,7 +17490,7 @@
   "969568580": {
     "name": "The Signal Renewed",
     "type": "Exotic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b6afcbcca0a9353ae7f8e2b17bc780e6.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/9ce6cfc82e419fbcd61affe233c318ce.jpg"
   },
   "969863968": {
     "name": "Victorious Veteran",
@@ -17598,11 +17578,6 @@
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/395f048c378157e5e30dcb9b2e60e869.jpg"
   },
-  "974048771": {
-    "name": "Laurels",
-    "type": "Rare Event Currency",
-    "icon": "https://bungie.net/common/destiny2_content/icons/fcec3f94f9df58a5b59ddc7578c0919f.jpg"
-  },
   "974507844": {
     "name": "Insight Rover Grips",
     "type": "Legendary Gauntlets",
@@ -17664,6 +17639,11 @@
     "type": "Legendary Leg Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/af71a52305221a59f1b90d4712abb631.jpg"
+  },
+  "978192344": {
+    "name": "Light the Depths",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fec2c8daaddc898a78787c4873004cb3.jpg"
   },
   "978215630": {
     "name": "Viperidax Greaves",
@@ -18541,41 +18521,6 @@
     "type": "Legendary Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/75daf7e5f839dada15bc1c0fa1177365.jpg"
-  },
-  "1021103464": {
-    "name": "Heavy-Handed Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1021103465": {
-    "name": "Rocket-Propelled Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1021103466": {
-    "name": "Hard-Charging Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1021103467": {
-    "name": "Big Bang Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1021103468": {
-    "name": "Deep-Strike Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1021103469": {
-    "name": "Deadeye Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1021103470": {
-    "name": "Full-Auto Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
   },
   "1021165796": {
     "name": "Vernal Growth Hood",
@@ -20038,11 +19983,6 @@
     "type": "Legendary Sniper Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/598ba79fa674715321add68c7a8af896.jpg"
   },
-  "1115261524": {
-    "name": "Solar Super Games",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
   "1115291847": {
     "name": "Premium Titan Rewards",
     "type": "Legendary Package",
@@ -21065,6 +21005,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/89b3a35926c7fcce01ad8e2aab057595.jpg"
   },
+  "1169876080": {
+    "name": "Laurels",
+    "type": "Rare Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fcec3f94f9df58a5b59ddc7578c0919f.jpg"
+  },
   "1170148132": {
     "name": "Scout Rifle Dexterity",
     "type": "Legendary Armor Perk",
@@ -21448,6 +21393,11 @@
     "name": "Ding",
     "type": "Legendary Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/a6c98fb785719c446440738b4c835c40.jpg"
+  },
+  "1188598960": {
+    "name": "Steadfast Contender",
+    "type": "Rare Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/adcf8bbdca0735b5980d38b7cc6839aa.jpg"
   },
   "1188605139": {
     "name": "Season of the Hunt Projections Bundle",
@@ -21894,51 +21844,6 @@
     "name": "Fatebringer (Timelost)",
     "type": "Legendary Hand Cannon",
     "icon": "https://bungie.net/common/destiny2_content/icons/2679a29c524de017046d338b1c1de3c7.jpg"
-  },
-  "1217171744": {
-    "name": "Heavy-Hitting Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1217171745": {
-    "name": "Stylish Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1217171746": {
-    "name": "Apex Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1217171747": {
-    "name": "High-Ex Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1217171748": {
-    "name": "Close-Quarters Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1217171749": {
-    "name": "Ice-Cold Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1217171750": {
-    "name": "Prime-Time Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1217171751": {
-    "name": "Pinpoint Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
-  },
-  "1217171757": {
-    "name": "Clutch Competitor",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
   },
   "1217364045": {
     "name": "Fire-Forged Titan Head Ornament",
@@ -24821,16 +24726,6 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/971b76a822ef5232bf38e32065e73c29.jpg"
   },
-  "1362091940": {
-    "name": "All-Around Competitor",
-    "type": "Rare Weekly Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
-  },
-  "1362091941": {
-    "name": "All-for-One Competitor",
-    "type": "Rare Weekly Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
-  },
   "1362221859": {
     "name": "Coin Trick",
     "type": "Legendary Emote",
@@ -25556,11 +25451,6 @@
     "type": "Common Ghost Module",
     "icon": "https://bungie.net/common/destiny2_content/icons/58090c2f7dbb9778e2f7e96ffa9b7bd4.png"
   },
-  "1400452240": {
-    "name": "Void Grenade Games",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
   "1400453406": {
     "name": "Vanguard Unity",
     "type": "Legendary Shader",
@@ -26180,6 +26070,11 @@
     "name": "A Gift from Tess",
     "type": "Legendary Bright Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/ce3849e99d81b182e4cf7343a81b429c.png"
+  },
+  "1434474460": {
+    "name": "The Call of Competition",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "1434870610": {
     "name": "Shadow's Helm",
@@ -27422,11 +27317,6 @@
     "name": "Phenotype Plasticity Mark",
     "type": "Legendary Titan Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/1bf824867bbbf6b970e0dc5b21893215.jpg"
-  },
-  "1491964077": {
-    "name": "Making the Cut",
-    "type": "Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "1492613344": {
     "name": "En Garde",
@@ -28738,11 +28628,6 @@
     "type": "Exotic Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/97a13970572bee7e4b14232563d93787.jpg"
   },
-  "1563284768": {
-    "name": "Backstretch Ceremony",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
-  },
   "1563455254": {
     "name": "Rewind Rounds",
     "type": "Uncommon Enhanced Trait",
@@ -29121,11 +29006,6 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/27c8bd4c3bf3c816e707a9a6ca9ade66.jpg"
   },
-  "1586077290": {
-    "name": "Gold Guardian Games Reward",
-    "type": "Legendary Daily Reward",
-    "icon": "https://bungie.net/common/destiny2_content/icons/aac27157b2be425d6109d9a12f50daa5.png"
-  },
   "1586730542": {
     "name": "Season of the Risen Projections Bundle",
     "type": "Legendary Package",
@@ -29319,6 +29199,11 @@
     "name": "Forbidden Visage Mask",
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/452b1e4b0520a7d4564037ce399a2cba.jpg"
+  },
+  "1596833658": {
+    "name": "Aurelian Contender",
+    "type": "Rare Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b5b8d1d2f2cbba59016f740b5158874c.jpg"
   },
   "1597235361": {
     "name": "Solstice Mask (Majestic)",
@@ -31268,6 +31153,16 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/2534ec78fafa88984fabb6af9e6d72aa.jpg"
   },
+  "1704664688": {
+    "name": "Fly the Flag",
+    "type": "Rare Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
+  },
+  "1704664689": {
+    "name": "Ceremonials",
+    "type": "Rare Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
+  },
   "1704861826": {
     "name": "Scatterhorn Boots",
     "type": "Legendary Leg Armor",
@@ -31616,11 +31511,6 @@
     "type": "Legendary Chest Armor",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/92c1e4b60fa4b2f8a39b70f0257a1970.jpg"
-  },
-  "1723091344": {
-    "name": "Arc Grenade Games",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
   },
   "1723273963": {
     "name": "Festival Reward Bundle",
@@ -32168,16 +32058,6 @@
     "type": "Common Warlock Subclass",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/83c478558665bbadd251d80d3d05bc2e.png"
-  },
-  "1751823168": {
-    "name": "Long-Running Competitor",
-    "type": "Rare Weekly Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
-  },
-  "1751823169": {
-    "name": "Big-Game Competitor",
-    "type": "Rare Weekly Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
   },
   "1752028469": {
     "name": "Gensym Knight Bond",
@@ -32756,6 +32636,11 @@
     "name": "Lock It Down",
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/619ac29fe998248f84e10ea906d4eda0.jpg"
+  },
+  "1791833453": {
+    "name": "Neutral Element",
+    "type": "Legendary Resonant Material",
+    "icon": "https://bungie.net/common/destiny2_content/icons/52564834fb8d40b8ffa3a2492c36d9d7.jpg"
   },
   "1792090952": {
     "name": "Dawning Delivery",
@@ -33573,6 +33458,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/eb0ce7cc6b16b0266236cc9235126f8b.jpg"
   },
+  "1837837272": {
+    "name": "Daily Focus",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
+  },
   "1838096576": {
     "name": "Solstice Mask (Renewed)",
     "type": "Rare Helmet",
@@ -33880,6 +33770,11 @@
     "name": "Particle Accelerator",
     "type": "Exotic Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/e8c34a1632ba473bbc737ec7a96b27da.jpg"
+  },
+  "1857004647": {
+    "name": "Guardian Games",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "1858216083": {
     "name": "Paperwork",
@@ -34515,6 +34410,56 @@
     "name": "Dragonfly Regalia Mask",
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/9b7db82f86191f2e4f91699b837ed204.jpg"
+  },
+  "1888689808": {
+    "name": "Scout's Honor",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
+  },
+  "1888689809": {
+    "name": "Lethal Propulsion",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
+  },
+  "1888689816": {
+    "name": "Wall of Bullets",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
+  },
+  "1888689817": {
+    "name": "Bronze Rage",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
+  },
+  "1888689818": {
+    "name": "Aim Twice, Shoot Once",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
+  },
+  "1888689819": {
+    "name": "Power Generator",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
+  },
+  "1888689820": {
+    "name": "Titan Slayer",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
+  },
+  "1888689821": {
+    "name": "Lethal Abilities",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
+  },
+  "1888689822": {
+    "name": "Master the Old Ways",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
+  },
+  "1888689823": {
+    "name": "One with the Elements",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
   },
   "1889037296": {
     "name": "Solstice Bond (Majestic)",
@@ -35347,6 +35292,11 @@
     "name": "Omega Mechanos Greaves",
     "type": "Legendary Titan Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/56b777c60a49d5f34f6337059abd2f84.jpg"
+  },
+  "1924537148": {
+    "name": "Daily Focus",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "1925778651": {
     "name": "Dreambane Cowl",
@@ -36767,7 +36717,7 @@
   "2000295559": {
     "name": "Turnabout",
     "type": "Uncommon Enhanced Trait",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f5deb8560905fd86ef8416da762098d6.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8447b35032df361a5275c534ed29f46f.png"
   },
   "2000319334": {
     "name": "Restorative Titan Armor",
@@ -37102,11 +37052,6 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/4312cd1b2b1dabf6f8554b8a474d3f3f.jpg"
   },
-  "2019519386": {
-    "name": "Master Class",
-    "type": "Quest",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
-  },
   "2019952880": {
     "name": "Serve the Colony",
     "type": "Exotic Trait",
@@ -37217,6 +37162,11 @@
     "name": "Gambit Shattered Cipher Scrounger",
     "type": "Common Seasonal Bonus",
     "icon": "https://bungie.net/common/destiny2_content/icons/ccea3cf0772528c8dfd3d33dc1ccc6cb.png"
+  },
+  "2025249669": {
+    "name": "Laurels",
+    "type": "Rare Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fcec3f94f9df58a5b59ddc7578c0919f.jpg"
   },
   "2025523685": {
     "name": "Mindbreaker Boots",
@@ -37966,6 +37916,11 @@
     "type": "Legendary Helmet",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/771a27c3b3e3848cef192f0450f2e796.jpg"
+  },
+  "2067003617": {
+    "name": "Specimen Contender",
+    "type": "Rare Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b5b8d1d2f2cbba59016f740b5158874c.jpg"
   },
   "2067155809": {
     "name": "Tattered Titan Mark",
@@ -40299,11 +40254,6 @@
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/64a9ddba91316ab8847cee9e2a5cf8b8.jpg"
   },
-  "2201934788": {
-    "name": "Alluring Looks Bundle",
-    "type": "Legendary Package",
-    "icon": "https://bungie.net/common/destiny2_content/icons/8dc1ce4ee93bb31ca1cd74b16f65a959.png"
-  },
   "2202871232": {
     "name": "Small XP Boost",
     "type": "Common Seasonal Bonus",
@@ -40495,7 +40445,7 @@
   "2209918983": {
     "name": "Turnabout",
     "type": "Common Trait",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f5deb8560905fd86ef8416da762098d6.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8447b35032df361a5275c534ed29f46f.png"
   },
   "2210147491": {
     "name": "Phenotype Plasticity Plate",
@@ -41138,6 +41088,11 @@
     "name": "A Hard Rain Falls",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/d04347ecd12061c8a3aa7adae50cf9d2.jpg"
+  },
+  "2243109627": {
+    "name": "Anniversary Shader Bundle",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ddd0b765ff89944e3d51581456c4529c.png"
   },
   "2243444841": {
     "name": "Scatterhorn Greaves",
@@ -41790,11 +41745,6 @@
     "name": "Burning Silicon",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/117290741cc3f3b930926520ace4ee5b.jpg"
-  },
-  "2276233814": {
-    "name": "Laurels",
-    "type": "Rare Event Currency",
-    "icon": "https://bungie.net/common/destiny2_content/icons/fcec3f94f9df58a5b59ddc7578c0919f.jpg"
   },
   "2276266837": {
     "name": "Honor's Edge",
@@ -42682,7 +42632,7 @@
   "2322288518": {
     "name": "Vox Revelata",
     "type": "Exotic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/634511ffdb0866f0fb2abee5b0c8752d.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/9ce6cfc82e419fbcd61affe233c318ce.jpg"
   },
   "2322700704": {
     "name": "Europan Gear I",
@@ -43055,11 +43005,6 @@
     "name": "Solstice Gloves (Resplendent)",
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/298990cb272cc1cd965fae0303922c83.jpg"
-  },
-  "2346358523": {
-    "name": "Carpe Podium",
-    "type": "Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "2346609008": {
     "name": "Cringe",
@@ -44833,6 +44778,11 @@
     "type": "Legendary Special",
     "icon": "https://bungie.net/common/destiny2_content/icons/b854d8d389f8ddd7ff7c8ea798cde800.jpg"
   },
+  "2446406046": {
+    "name": "Carpe Podium",
+    "type": "Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
+  },
   "2446946147": {
     "name": "Taken Armaments",
     "type": "Legendary Armor Mod",
@@ -46025,11 +45975,6 @@
     "type": "Legendary Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/723f197ccb4fe01149ebe23cbb93741a.jpg"
-  },
-  "2518922544": {
-    "name": "Bronze Guardian Games Reward",
-    "type": "Uncommon Daily Reward",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4fa285b801e2fdf0d3f7e94a75f56570.png"
   },
   "2519280691": {
     "name": "Eater of Worlds Ornament",
@@ -47468,6 +47413,11 @@
     "type": "Exotic Combat Bow",
     "icon": "https://bungie.net/common/destiny2_content/icons/f062142edf3a76e89920f34147d69947.jpg"
   },
+  "2591939892": {
+    "name": "Pin Pointed",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a29fd54618bcc13eff246e0fa5019584.jpg"
+  },
   "2592351697": {
     "name": "Vigil of Heroes",
     "type": "Legendary Leg Armor",
@@ -47586,11 +47536,6 @@
     "name": "Alkane Dragée Cookies",
     "type": "Rare Undiscovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/858fdf8633cc141f1736f0033ac3f4f0.jpg"
-  },
-  "2597249002": {
-    "name": "Daily Focus",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "2597269762": {
     "name": "Daring Hunter Strides",
@@ -47811,16 +47756,6 @@
     "name": "Heavy Slug Thrower",
     "type": "Common Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/653012d0d76014430f6688e254e36b67.png"
-  },
-  "2609433570": {
-    "name": "The Guardian Games",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
-  },
-  "2609433571": {
-    "name": "The Guardian Games",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "2610012052": {
     "name": "Golden Tricorn",
@@ -48156,11 +48091,6 @@
     "type": "Legendary Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/cbb287df7941e48e27b685147a212a98.jpg"
-  },
-  "2629143508": {
-    "name": "Rivalry Game",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
   },
   "2629204288": {
     "name": "Vigil of Heroes",
@@ -49421,6 +49351,11 @@
     "type": "Legendary Shotgun",
     "icon": "https://bungie.net/common/destiny2_content/icons/f181842262f2da40d79474a3a623e7ff.jpg"
   },
+  "2707722364": {
+    "name": "Daily Focus",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
+  },
   "2708128607": {
     "name": "Drowned Alloy",
     "type": "Uncommon Material",
@@ -49879,11 +49814,6 @@
     "name": "Empyrean Cartographer Boots",
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/8c83bc732224303c2072ecdc74d6f438.jpg"
-  },
-  "2731635990": {
-    "name": "Void Melee Games",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
   },
   "2731650749": {
     "name": "Gunsmith Arsenal",
@@ -50921,11 +50851,6 @@
     "name": "Enhanced Unflinching Scout Rifle Aim",
     "type": "Legendary Armor Perk",
     "icon": "https://bungie.net/common/destiny2_content/icons/cbd3dcbaf2e4882c4c90d24fd7ca4835.png"
-  },
-  "2789281616": {
-    "name": "Rivalry Game",
-    "type": "Common Crucible Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
   },
   "2789946583": {
     "name": "Hot Crossfire Buns",
@@ -54804,11 +54729,6 @@
     "type": "Legendary Package",
     "icon": "https://bungie.net/common/destiny2_content/icons/2b8259fdab42712d948a954cbf91b9ba.png"
   },
-  "2983466243": {
-    "name": "Prismatic",
-    "type": "Exotic Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/168094d21c92394d254a03a627c18531.jpg"
-  },
   "2983961673": {
     "name": "Primal Siege Type 1",
     "type": "Rare Helmet",
@@ -55813,56 +55733,6 @@
     "type": "Uncommon Helmet",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/4e571872ad3e4890f9d3b338c1c87966.jpg"
-  },
-  "3040599780": {
-    "name": "Arcus Competitor",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "3040599781": {
-    "name": "Distant Competitor",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "3040599784": {
-    "name": "Relentless Competitor",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "3040599785": {
-    "name": "High-Potential Competitor",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "3040599786": {
-    "name": "Elemental Competitor",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "3040599787": {
-    "name": "12-Gauge Competitor",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "3040599788": {
-    "name": "Competitor's Mettle",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "3040599789": {
-    "name": "Hot-Handed Competitor",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "3040599790": {
-    "name": "Eagle-Eyed Competitor",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
-  "3040599791": {
-    "name": "Power Harvest",
-    "type": "Common Vanguard Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
   },
   "3040742682": {
     "name": "Nameless Midnight",
@@ -57444,6 +57314,11 @@
     "type": "Legendary Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/7f562ee6b4c386efdec1e808d3b3f3c7.jpg"
   },
+  "3129726469": {
+    "name": "Daily Focus",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
+  },
   "3130110908": {
     "name": "Complete Bounties",
     "type": "Quest Step",
@@ -58108,6 +57983,11 @@
     "type": "Legendary Grenade Launcher",
     "icon": "https://bungie.net/common/destiny2_content/icons/ec0fc34b7199005aeaa415adedb8f63b.jpg"
   },
+  "3165931105": {
+    "name": "Umbral Engram",
+    "type": "Legendary Umbral Engram",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b5ef9d68636d142b3f05628a2e7947a8.png"
+  },
   "3166431581": {
     "name": "War Simulator Ornament",
     "type": "Legendary Armor Ornament",
@@ -58717,6 +58597,11 @@
     "type": "Uncommon Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/de8b30ff942c3f060346c713e0c9f999.jpg"
+  },
+  "3192405013": {
+    "name": "Decisive Contender",
+    "type": "Rare Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/adcf8bbdca0735b5980d38b7cc6839aa.jpg"
   },
   "3192591867": {
     "name": "Solstice Robes (Renewed)",
@@ -60565,6 +60450,41 @@
     "type": "Legendary Ghost Projection",
     "icon": "https://bungie.net/common/destiny2_content/icons/4f31e34cde05c68c0a849f805c7b9d7c.jpg"
   },
+  "3293127920": {
+    "name": "Guardian Games: Hand Cannons",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3293127921": {
+    "name": "Guardian Games: Rocket Launchers",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3293127922": {
+    "name": "Guardian Games: SMGs",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3293127923": {
+    "name": "Guardian Games: Glaives",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3293127924": {
+    "name": "Guardian Games: Scout Rifles",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3293127925": {
+    "name": "Guardian Games: Bows",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3293127926": {
+    "name": "Guardian Games: Auto Rifles",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
   "3293251509": {
     "name": "Dendrite Shimmer Grips",
     "type": "Legendary Hunter Universal Ornament",
@@ -61704,11 +61624,6 @@
     "type": "Common Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/3324891b5d90c263b31595023e05ea49.png"
   },
-  "3351200278": {
-    "name": "Arc Melee Games",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
   "3351378128": {
     "name": "Void Effects",
     "type": "Rare Transmat Effect",
@@ -61977,6 +61892,11 @@
     "type": "Common Arms Armor Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/11e2f4844a9cffd30dfc1b1e065a6ef0.png"
   },
+  "3362229664": {
+    "name": "The Title",
+    "type": "Legendary Focused Umbral Engram",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7eea47cc31d9b065213f85169e668b6e.png"
+  },
   "3363267119": {
     "name": "Souldrinker",
     "type": "Common Origin Trait",
@@ -62134,6 +62054,11 @@
     "type": "Legendary Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/a1f7c31c91c1a2a1e0588a5d62e268f6.jpg"
+  },
+  "3371255315": {
+    "name": "Laurels",
+    "type": "Rare Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fcec3f94f9df58a5b59ddc7578c0919f.jpg"
   },
   "3371366804": {
     "name": "Abhorrent Imperative Strides",
@@ -62909,6 +62834,46 @@
     "type": "Legendary Pulse Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/a592859f7dcb35d9a12ec75191a44d0a.jpg"
   },
+  "3410134264": {
+    "name": "Silver Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3410134265": {
+    "name": "Gold Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3410134266": {
+    "name": "Platinum Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3410134267": {
+    "name": "Platinum-Plated",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3410134268": {
+    "name": "Platinum Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3410134269": {
+    "name": "Platinum-Plated",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3410134270": {
+    "name": "Warming Up",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3410134271": {
+    "name": "Bronze Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
   "3410721600": {
     "name": "Subtle Calamity",
     "type": "Legendary Combat Bow",
@@ -62987,6 +62952,11 @@
     "name": "Relay Defender",
     "type": "Common Garden of Salvation Raid Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/9f71b7b4e5d75c12b11d4691b462d8ac.png"
+  },
+  "3415629942": {
+    "name": "Backstretch Ceremony",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "3416263037": {
     "name": "Contender Boots",
@@ -63529,6 +63499,11 @@
     "name": "Nailbiter",
     "type": "Legendary Shader",
     "icon": "https://bungie.net/common/destiny2_content/icons/529da5ed299ff4ef01398cd520bbdf7e.jpg"
+  },
+  "3446924342": {
+    "name": "Making the Cut",
+    "type": "Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "3447587684": {
     "name": "Improved Arc Analyzer",
@@ -64162,16 +64137,6 @@
     "type": "Legendary Gauntlets",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/3bf07b9f798484326d7e0373abc928e7.jpg"
-  },
-  "3493377158": {
-    "name": "Ferocious Competitor",
-    "type": "Rare Weekly Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
-  },
-  "3493377159": {
-    "name": "Tenacious Competitor",
-    "type": "Rare Weekly Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5d51c3ad60ececa652de01005248f3c1.jpg"
   },
   "3493464614": {
     "name": "Large Weapon Loader",
@@ -65075,6 +65040,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/fa9533152d87697d1268641b3fad5a0c.jpg"
   },
+  "3530566409": {
+    "name": "War Table Focusing",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6702850a3536b9edc1477bbd11a382a2.jpg"
+  },
   "3530997750": {
     "name": "Plasteel Reinforcement Mod",
     "type": "Rare Trait",
@@ -65863,6 +65833,11 @@
     "type": "Exotic Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/797ae67060f1582d8e611f082e089db9.jpg"
   },
+  "3564121682": {
+    "name": "Unfocused Decryption",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6702850a3536b9edc1477bbd11a382a2.jpg"
+  },
   "3564452901": {
     "name": "Warlock's Wisdom",
     "type": "Rare Emblem",
@@ -65887,6 +65862,11 @@
     "name": "Prototype Engram",
     "type": "Legendary Bright Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/808a182699336b525e01ac8ffdd4ae64.png"
+  },
+  "3565939985": {
+    "name": "Homestretch Ceremony",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ced9acee3e24b777f57c95c07efa0f2.png"
   },
   "3566017743": {
     "name": "Active Duty",
@@ -67704,11 +67684,6 @@
     "type": "Legendary Pulse Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/5be3911505b3e65062c75537e725beed.jpg"
   },
-  "3658765719": {
-    "name": "Solar Grenade Games",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
   "3658937452": {
     "name": "Anniversary Pose",
     "type": "Exotic Emote",
@@ -68087,11 +68062,6 @@
     "name": "Dendrite Shimmer Greaves",
     "type": "Legendary Titan Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/60bb64e2750d36d46947752fd44f7a2a.jpg"
-  },
-  "3675498641": {
-    "name": "Solar Melee Games",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
   },
   "3675595381": {
     "name": "Crucible Threader",
@@ -68580,6 +68550,41 @@
     "name": "Welcoming Committee",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/ff5d00bfb7ff2ff6f5d331dc1815213a.jpg"
+  },
+  "3706896632": {
+    "name": "Hand to Fist",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3706896634": {
+    "name": "Far and Away",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3706896635": {
+    "name": "Super Strength",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3706896636": {
+    "name": "Kinetic Connoisseur",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3706896637": {
+    "name": "Energy Executioner",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3706896638": {
+    "name": "Power Performer",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
+  },
+  "3706896639": {
+    "name": "Mad Bomber",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1d763ef506a36ab68f56c2e72b45a7e5.jpg"
   },
   "3707800132": {
     "name": "Strike Brass Attacks Scrounger",
@@ -69868,6 +69873,11 @@
     "type": "Legendary Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/7eea47cc31d9b065213f85169e668b6e.png"
   },
+  "3785032442": {
+    "name": "The Title",
+    "type": "Legendary Focused Umbral Engram",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0464626a92a1ccd1ef50ab3d4a9299af.jpg"
+  },
   "3785035696": {
     "name": "New Pacific Access",
     "type": "Rare Emblem",
@@ -70869,6 +70879,56 @@
     "type": "Legendary Warlock Bond",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/f518ba0e9ae11b87bbe37e28812959f3.jpg"
+  },
+  "3839661952": {
+    "name": "Platinum-Plated",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3839661953": {
+    "name": "Platinum Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3839661954": {
+    "name": "Bronze Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3839661955": {
+    "name": "Warming Up",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3839661956": {
+    "name": "Bronze Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3839661957": {
+    "name": "Warming Up",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3839661958": {
+    "name": "Gold Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3839661959": {
+    "name": "Silver Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3839661964": {
+    "name": "Gold Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
+  },
+  "3839661965": {
+    "name": "Silver Threshold",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2c4d2ed6b78c544a52816b29e8df636d.jpg"
   },
   "3840083172": {
     "name": "Solstice Robes (Rekindled)",
@@ -73160,6 +73220,11 @@
     "type": "Legendary Helmet",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/f0f263c55b39e456d0434be0fc761773.jpg"
+  },
+  "3956285603": {
+    "name": "The Relic Conduit",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8a8137006cfdb476d8a78408cd8aeb55.png"
   },
   "3956402085": {
     "name": "Intrepid Inquiry Robes",
@@ -76398,11 +76463,6 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/b61d0924691d04379248b5943579db46.jpg"
   },
-  "4104555523": {
-    "name": "Void Super Games",
-    "type": "Common Daily Bounty",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ebf60a6b83c39284f12a3e967d2a18b.jpg"
-  },
   "4104729172": {
     "name": "Virtuous Gauntlets",
     "type": "Legendary Titan Universal Ornament",
@@ -76419,6 +76479,11 @@
     "type": "Legendary Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/54a233548c1c3738636fab9344734ddd.jpg"
+  },
+  "4105236029": {
+    "name": "The Relic Conduit",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8a8137006cfdb476d8a78408cd8aeb55.png"
   },
   "4105447486": {
     "name": "Nox Veneris II",
