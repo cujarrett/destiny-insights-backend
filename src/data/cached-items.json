@@ -2097,6 +2097,21 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/ee96fc4754ef4a1427994dce6e5dcf3c.jpg"
   },
+  "134085740": {
+    "name": "Pistol Pose",
+    "type": "Exotic Vehicle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8f853bc0b7622f1bcec1addf7dae0cf9.jpg"
+  },
+  "134085741": {
+    "name": "The Lawn Mower",
+    "type": "Exotic Vehicle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/949384c77cc81b72b7b0c9ec2c08bc75.jpg"
+  },
+  "134085743": {
+    "name": "The Wedge",
+    "type": "Exotic Vehicle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/28332a3890a40b952f1313f2138ca6ef.jpg"
+  },
   "134357953": {
     "name": "Imperial Engram",
     "type": "Legendary Engram",
@@ -3693,6 +3708,12 @@
     "type": "Rare Shader",
     "icon": "https://bungie.net/common/destiny2_content/icons/8383e6c79cf9aad29354d0fbf22e7c84.jpg"
   },
+  "223597399": {
+    "name": "Medal Mantle",
+    "type": "Legendary Hunter Cloak",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f8cb09efa9ed6936e3c1abed8811724d.jpg"
+  },
   "223681332": {
     "name": "Notorious Reaper Helm",
     "type": "Legendary Helmet",
@@ -5223,6 +5244,11 @@
     "name": "Strange Parcel",
     "type": "Legendary Package",
     "icon": "https://bungie.net/common/destiny2_content/icons/c044f7b9e3a4ec9e09eaa2738f45db0d.jpg"
+  },
+  "294129361": {
+    "name": "The Title",
+    "type": "Legendary Submachine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0464626a92a1ccd1ef50ab3d4a9299af.jpg"
   },
   "294409479": {
     "name": "Enhanced Shotgun Dexterity",
@@ -6869,6 +6895,11 @@
     "type": "Legendary Leg Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/e8c59ae384189fe10ff911a545da5ab7.jpg"
+  },
+  "386610725": {
+    "name": "Hot Commodity",
+    "type": "Exotic Ship",
+    "icon": "https://bungie.net/common/destiny2_content/icons/417b533e450742b691f61e0628d04a43.jpg"
   },
   "386631815": {
     "name": "Gambit Armor Scrounger",
@@ -8894,6 +8925,11 @@
     "type": "Rare Gauntlets",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/eb0bbb632a751658d077cf382016c217.jpg"
+  },
+  "484260847": {
+    "name": "Survival of the Strong Mark",
+    "type": "Legendary Titan Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2d8ebe9265d1847654b0000659a39b10.jpg"
   },
   "484425890": {
     "name": "Dawn of Invention",
@@ -11422,6 +11458,12 @@
     "type": "Uncommon Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/3bb279ee5f9195420e8502cf9959e63a.jpg"
+  },
+  "617617371": {
+    "name": "Mark of Medal",
+    "type": "Legendary Titan Mark",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/51a29b15af96abd3f8d401acaecbc3b5.jpg"
   },
   "617772226": {
     "name": "Tag Team",
@@ -15346,6 +15388,11 @@
     "type": "Common Barrel",
     "icon": "https://bungie.net/common/destiny2_content/icons/7a0a23f9622636cea92387d50d368333.png"
   },
+  "839734684": {
+    "name": "Whisper of the Victor Bundle",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8dc1ce4ee93bb31ca1cd74b16f65a959.png"
+  },
   "839740147": {
     "name": "Arc Armor Glow",
     "type": "Legendary Arms Armor Glow",
@@ -16613,6 +16660,11 @@
     "name": "Corvo SS2",
     "type": "Common Scope",
     "icon": "https://bungie.net/common/destiny2_content/icons/c556998b9882afd0163bee7ff2d150cc.png"
+  },
+  "911061359": {
+    "name": "Cunning of the Contender Bundle",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8dc1ce4ee93bb31ca1cd74b16f65a959.png"
   },
   "911356576": {
     "name": "Competitive Spirit Cloak",
@@ -19469,6 +19521,11 @@
     "name": "Dread Purification",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/58899de16af7612f523db049f2f45743.jpg"
+  },
+  "1074758434": {
+    "name": "Survival of the Strong Gauntlets",
+    "type": "Legendary Titan Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f39b0acf3de5a6adcbc67a725dbe5bc2.jpg"
   },
   "1075647353": {
     "name": "Vanguard Terminus",
@@ -25577,6 +25634,11 @@
     "type": "Exotic Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/98c67b9cb123c2cb48c111239712a998.png"
   },
+  "1409035582": {
+    "name": "Survival of the Strong Bundle",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8dc1ce4ee93bb31ca1cd74b16f65a959.png"
+  },
   "1409078654": {
     "name": "Void of Information",
     "type": "Common Daily Bounty",
@@ -27822,6 +27884,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/b28baad4f01f2ff57611486e18943e9c.jpg"
   },
+  "1514358116": {
+    "name": "Cunning of the Contender Bond",
+    "type": "Legendary Warlock Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3c69c784821f996b49f34c8f12015d9e.jpg"
+  },
   "1514841742": {
     "name": "Mark of Shelter",
     "type": "Legendary Titan Mark",
@@ -29248,6 +29315,12 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/b9fa98eb8eda2b60ff23058117bc2707.jpg"
   },
+  "1599443272": {
+    "name": "Medal Bond",
+    "type": "Legendary Warlock Bond",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cf28238da4c76757bbd3a865dcaf51c6.jpg"
+  },
   "1599898966": {
     "name": "Arcadian Valley",
     "type": "Legendary Emblem",
@@ -29611,6 +29684,11 @@
     "type": "Legendary Hand Cannon",
     "icon": "https://bungie.net/common/destiny2_content/icons/cab528b700c4d8fc79f5ebeb436e146a.jpg"
   },
+  "1623332175": {
+    "name": "Cunning of the Contender Gloves",
+    "type": "Legendary Warlock Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d7a7d393be0a11d9ba1907ec8e20215e.jpg"
+  },
   "1623653768": {
     "name": "Last Love",
     "type": "Legendary Vehicle",
@@ -29651,6 +29729,11 @@
     "type": "Legendary Helmet",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/7fffa82aea62ced37f16b4f09cad0d3b.jpg"
+  },
+  "1625014740": {
+    "name": "Whisper of the Victor Vest",
+    "type": "Legendary Hunter Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/00bf4d7166367a13d948925c24324ffd.jpg"
   },
   "1625672312": {
     "name": "Atlantis Shell",
@@ -31146,6 +31229,11 @@
     "type": "Legendary Leg Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/53ac842072cd39e4a3cb7a7f70c6071a.jpg"
+  },
+  "1702976605": {
+    "name": "Classy Contender",
+    "type": "Common Origin Trait",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ca855d250bb449c3e7239308312ae2d6.png"
   },
   "1703551922": {
     "name": "Blight Ranger",
@@ -40219,6 +40307,11 @@
     "type": "Legendary Armor Perk",
     "icon": "https://bungie.net/common/destiny2_content/icons/78e924707fc07a1ce5c2f490b375380a.png"
   },
+  "2197832433": {
+    "name": "Cunning of the Contender Boots",
+    "type": "Legendary Warlock Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6f0b2bf56d60bda71c5a70fa2d971771.jpg"
+  },
   "2199055252": {
     "name": "Io Cache Detector",
     "type": "Common Ghost Module",
@@ -40248,6 +40341,21 @@
     "name": "SCRAP CF-717-91",
     "type": "Exotic Ship",
     "icon": "https://bungie.net/common/destiny2_content/icons/966e8dae9533489e88c865f9d627d542.jpg"
+  },
+  "2200729532": {
+    "name": "Champion Shell",
+    "type": "Exotic Ghost Shell",
+    "icon": "https://bungie.net/common/destiny2_content/icons/700286c7718c218fadcd84f93f5c654d.jpg"
+  },
+  "2200729533": {
+    "name": "#Sponsored Shell",
+    "type": "Exotic Ghost Shell",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6eb9fbb33a37d9f80806ec66d0eadc85.jpg"
+  },
+  "2200729535": {
+    "name": "Backstroke Shell",
+    "type": "Exotic Ghost Shell",
+    "icon": "https://bungie.net/common/destiny2_content/icons/44b140e60ac96f65ddaf832010a1ecb3.jpg"
   },
   "2201628119": {
     "name": "Represent",
@@ -43134,6 +43242,11 @@
     "type": "Legendary Ghost Shell",
     "icon": "https://bungie.net/common/destiny2_content/icons/5edcddd417acc786441b4134b21ed71a.jpg"
   },
+  "2353359390": {
+    "name": "Cunning of the Contender Hood",
+    "type": "Legendary Warlock Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/396b1e35a8e5aab0941eda55084b7131.jpg"
+  },
   "2353477480": {
     "name": "Rapid-Fire Frame",
     "type": "Legendary Intrinsic",
@@ -44159,6 +44272,11 @@
     "type": "Common Sight",
     "icon": "https://bungie.net/common/destiny2_content/icons/43ffd338e67c18c493d164ae7fce1a67.png"
   },
+  "2410421545": {
+    "name": "Whisper of the Victor Cloak",
+    "type": "Legendary Hunter Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/bd24da52ec5fa8ec0e19dafc573d943f.jpg"
+  },
   "2410819063": {
     "name": "Pinpoint Slug Frame",
     "type": "Legendary Enhanced Intrinsic",
@@ -44853,6 +44971,11 @@
     "type": "Legendary Helmet",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/6a8e4b3d1a95571548bd8b35c883c222.jpg"
+  },
+  "2450544934": {
+    "name": "Photo Finish",
+    "type": "Legendary Shader",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2e222deb6a3f48c3531cfc6bce565b6c.jpg"
   },
   "2450788523": {
     "name": "Killing Wind",
@@ -47183,6 +47306,11 @@
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/a64425d34567f1019135a2a8c41d8b48.jpg"
   },
+  "2580533670": {
+    "name": "The Spins",
+    "type": "Legendary Finisher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3c29485470aaab06ded1a75e5b28f0a6.jpg"
+  },
   "2580727437": {
     "name": "Solstice Shader Bundle",
     "type": "Legendary Package",
@@ -47664,6 +47792,11 @@
     "type": "Legendary Leg Armor",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/c9ba5a72459bcfcfe3c22f71e870188c.jpg"
+  },
+  "2603400972": {
+    "name": "Whisper of the Victor Grips",
+    "type": "Legendary Hunter Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c8ae936aa6457bee18a85638ece368b9.jpg"
   },
   "2603483885": {
     "name": "Cloudstrike",
@@ -50352,6 +50485,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/e0b0112cd2cde61b873a7b4a3568d710.jpg"
   },
+  "2760449282": {
+    "name": "Pole Position",
+    "type": "Legendary Shader",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9541bae035d5d6a4e3c3f2b89fd8c077.jpg"
+  },
   "2760478958": {
     "name": "Book of the Dead",
     "type": "Exotic Weapon Ornament",
@@ -52596,6 +52734,11 @@
     "type": "Legendary Clan Banner",
     "icon": "https://bungie.net/common/destiny2_content/icons/dae1683dc61a7cf657963c68d47316d8.jpg"
   },
+  "2873488357": {
+    "name": "Unauthorized Departure",
+    "type": "Exotic Ship",
+    "icon": "https://bungie.net/common/destiny2_content/icons/649347a7902c77e1e13e9f4601f585e8.jpg"
+  },
   "2873960175": {
     "name": "Anti-Extinction Robes",
     "type": "Legendary Chest Armor",
@@ -53730,6 +53873,16 @@
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/6146ce6f4a11dd34adbf5b0988a50aac.jpg"
   },
+  "2934252066": {
+    "name": "Trophy Projection",
+    "type": "Legendary Ghost Projection",
+    "icon": "https://bungie.net/common/destiny2_content/icons/928831bac7ef4090b6226bf478d5497a.jpg"
+  },
+  "2934252067": {
+    "name": "Laurel Wreath Projection",
+    "type": "Legendary Ghost Projection",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5ce99ea3e84c3622a2ba323d7a9dd9a0.jpg"
+  },
   "2934509775": {
     "name": "Solstice Grasps (Majestic)",
     "type": "Legendary Hunter Universal Ornament",
@@ -54687,6 +54840,11 @@
     "name": "Radiant Light",
     "type": "Common Charged with Light Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/b6649b05c177d25a0faae24fe727fbb9.png"
+  },
+  "2979942996": {
+    "name": "Guardian Games Glory Pack",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8dc1ce4ee93bb31ca1cd74b16f65a959.png"
   },
   "2980516861": {
     "name": "Forbidden Visage Plate",
@@ -59658,6 +59816,11 @@
     "name": "Decode Runic Chests",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/c3204ce06ed5c4a7a84b468db32667b5.jpg"
+  },
+  "3249133238": {
+    "name": "Whisper of the Victor Strides",
+    "type": "Legendary Hunter Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/33582458b8fd3dc73f76d580f4f8250e.jpg"
   },
   "3249407402": {
     "name": "Rapid-Fire Frame",
@@ -66102,6 +66265,11 @@
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/5fb1ac2100ad9693b3cf9d2ea757cd63.jpg"
   },
+  "3581751827": {
+    "name": "Survival of the Strong Helmet",
+    "type": "Legendary Titan Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/44e0545552f10ff91b2794bd4f4fb162.jpg"
+  },
   "3581932739": {
     "name": "Tools of the Risen",
     "type": "Legendary Focused Umbral Engram",
@@ -66145,6 +66313,11 @@
     "type": "Legendary Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/1cf23145a683c3f0dd0070fb95f16673.jpg"
+  },
+  "3584938332": {
+    "name": "Survival of the Strong Greaves",
+    "type": "Legendary Titan Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0fa6c8ffe6511eea999ae083255e8460.jpg"
   },
   "3585730968": {
     "name": "Shadow Specter",
@@ -74792,6 +74965,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/33e42238f412163e741e81acb8753bda.jpg"
   },
+  "4029022121": {
+    "name": "Cunning of the Contender Robes",
+    "type": "Legendary Warlock Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c15c7d42f1d2d0a4edc5c158c7f15a48.jpg"
+  },
   "4029224226": {
     "name": "Kabr's Battlecage",
     "type": "Legendary Helmet",
@@ -74890,6 +75068,11 @@
     "name": "Solstice of Heroes Titan Armor Upgrade",
     "type": "Legendary Package",
     "icon": "https://bungie.net/common/destiny2_content/icons/8854ebcb99c0ae067bf828ee9baf4733.png"
+  },
+  "4036779270": {
+    "name": "Survival of the Strong Plate",
+    "type": "Legendary Titan Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/13cf8f815a142994afcaab0a7943313e.jpg"
   },
   "4037745684": {
     "name": "Bonechiller",
@@ -77167,6 +77350,11 @@
     "name": "The Kellbreaker",
     "type": "Legendary Finisher",
     "icon": "https://bungie.net/common/destiny2_content/icons/c2786e1145ab2e297d4de778f280a022.jpg"
+  },
+  "4140869021": {
+    "name": "Whisper of the Victor Mask",
+    "type": "Legendary Hunter Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c41586dc6539afaa7d2e8c7e561a1b9b.jpg"
   },
   "4141029260": {
     "name": "Mihaylova's Choice",
@@ -79905,5 +80093,10 @@
     "name": "Victory Dance",
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/ef26e971e9fdff07db862574956b439e.jpg"
+  },
+  "4294938474": {
+    "name": "Clast of Its Own",
+    "type": "Exotic Weapon Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4614bec84e034227450467d86b075ceb.jpg"
   }
 }
