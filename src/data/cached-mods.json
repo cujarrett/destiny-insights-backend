@@ -61,7 +61,7 @@
   },
   "104193101": {
     "name": "Power Overwhelming",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -85,15 +85,9 @@
   },
   "126924337": {
     "name": "Recovery Mod",
-    "type": "Legendary Armor Mod",
-    "description": "Grants increased recovery.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ffc0f01051331a708aa2efba932a6924.jpg"
-  },
-  "127731051": {
-    "name": "Fusion Rifle Scavenger",
     "type": "Legendary Deprecated Armor Mod",
-    "description": "Fusion Rifles get bonus reserves when picking up ammo used by that Fusion Rifle.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/04ed1af3fe82e47c8b787d266e7c5586.png"
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "130615063": {
     "name": "Enhanced Scout Rifle Targeting",
@@ -241,9 +235,9 @@
   },
   "275671171": {
     "name": "Mobility Mod",
-    "type": "Legendary Armor Mod",
-    "description": "Grants increased mobility.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/31af931cbec60fc43f0daf05ac0fba4d.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "275904576": {
     "name": "Ultimate Glimmer Booster",
@@ -282,34 +276,34 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/cc67a4517e3546dcc672647c4ef34b6d.png"
   },
   "288409040": {
-    "name": "Psionic Forging I",
-    "type": "Legendary Helmet Armor Mod",
-    "description": "Increases the duration of the Psychohack Origin Trait and the effect of the Suros Synergy Origin Trait.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/e612949aca53dc77e1beefddbf21c9b1.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "288409041": {
-    "name": "Rocket Launcher Scavenger",
-    "type": "Legendary Leg Armor Mod",
-    "description": "Rocket Launchers get bonus reserves when picking up Heavy ammo.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6b5170ab64873e6bc88bf1e1d5668cbc.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "288409042": {
-    "name": "Glaive Dexterity",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Faster ready and stow speed for Glaives.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/04417f580ef0a55c78f5114dfef3e621.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "288409046": {
-    "name": "Hand Cannon Targeting",
-    "type": "Legendary Helmet Armor Mod",
-    "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Hand Cannons.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d0e3f850d0ad8f9ee05f7c17d42cf1b9.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "288409047": {
-    "name": "Melee Wellmaker",
-    "type": "Legendary Elemental Well Mod",
-    "description": "Powered melee combatant final blows spawn elemental wells matching your subclass energy type.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9180f58afc897cd6adba69dba51e51e7.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "294409479": {
     "name": "Enhanced Shotgun Dexterity",
@@ -409,7 +403,7 @@
   "399528760": {
     "name": "Taken Invigoration",
     "type": "Common Last Wish Raid Mod",
-    "description": "Defeating a challenging Taken combatant refreshes your class ability.\n\nThis mod's abilities cannot stack across multiple copies.",
+    "description": "This perk has been deprecated and no longer functions.",
     "icon": "https://bungie.net/common/destiny2_content/icons/932b9937f783cb0e61061684c40592a1.png"
   },
   "403494087": {
@@ -456,9 +450,9 @@
   },
   "444600262": {
     "name": "Super Mod",
-    "type": "Legendary Armor Mod",
-    "description": "Increases Super regeneration speed.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/c5b0e2e2f60e80d2bc2eb94fb5e9d996.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "445559589": {
     "name": "Utility Kickstart",
@@ -654,7 +648,7 @@
   },
   "652359832": {
     "name": "Emperor's Shock",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -687,6 +681,36 @@
     "type": "Common Garden of Salvation Raid Mod",
     "description": "No mod currently selected.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6bf9ba37386b907ddb514ec422fc74c9.png"
+  },
+  "706723264": {
+    "name": "Overload Trace Rifles",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Uninterrupted fire from your equipped Trace Rifles causes the beam to stun combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/eee4ee2b9d38249d9bf319e99e0925ce.png"
+  },
+  "706723266": {
+    "name": "Withering Heat",
+    "type": "Legendary Class Item Mod",
+    "description": "Causing damage with a Solar ability weakens Champions for a short duration.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/52a2e1e8fc0fe8b53d51a37b512c31fa.png"
+  },
+  "706723267": {
+    "name": "Revitalizing Blast",
+    "type": "Legendary Class Item Mod",
+    "description": "Stunning a Champion causes it to ignite and clears your shield stun.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f43b37e8f8e8995f7de909c8d458864b.png"
+  },
+  "706723268": {
+    "name": "Glaive of Dreams",
+    "type": "Legendary Arms Armor Mod",
+    "description": "While you have a Glaive equipped, the Unstable Essence buff gained by picking up objects dropped by Nightmares has double its normal duration.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0aa9ab66445c41cb6a746c7822f3eb0f.png"
+  },
+  "706723269": {
+    "name": "Molten Overload",
+    "type": "Legendary Class Item Mod",
+    "description": "Solar grenades cause [Disruption] disruption, delaying ability regeneration and lowering combatant damage output.\n\nStrong against Overload Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/87cceb0e38a34316ebc60ea723562e70.png"
   },
   "712951940": {
     "name": "Glaive Ammo Finder",
@@ -834,7 +858,7 @@
   },
   "784492908": {
     "name": "Hive Armaments",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -846,7 +870,7 @@
   },
   "791435474": {
     "name": "Empty Activity Mod Socket",
-    "type": "Common Opulent Armor Mod",
+    "type": "Common Deprecated Armor Mod",
     "description": "No activity mod currently selected",
     "icon": "https://bungie.net/common/destiny2_content/icons/39cbea7ed3fcd53085cbc42a3e6565dd.png"
   },
@@ -876,9 +900,9 @@
   },
   "817770433": {
     "name": "Ordnance Mod",
-    "type": "Legendary Armor Mod",
-    "description": "Increases grenade regeneration speed.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/23ca0338b46338bb714f48d935d9b711.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "819191764": {
     "name": "Mask Upgrade",
@@ -916,6 +940,42 @@
     "description": "Gain an overshield after you collect 5 Motes. This mod's effect does not stack with other copies of this mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/cd34a7894d5ff58a61f407956f27e191.png"
   },
+  "875346616": {
+    "name": "Armor of the Dying Star",
+    "type": "Legendary Chest Armor Mod",
+    "description": "Reduces incoming Solar damage from combatants.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/eb7937945b5a4588d0b44c3a3dba47f5.png"
+  },
+  "875346617": {
+    "name": "Sidearm Dexterity",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Faster ready and stow speed for Sidearms.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/20198ffe9c9a86f29db2683f9284691b.png"
+  },
+  "875346621": {
+    "name": "Shotgun Dexterity",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Faster ready and stow speed for Shotguns.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0e36764e0e423ee5a32966c0a73476ad.png"
+  },
+  "875346622": {
+    "name": "Trace Rifle Reserves",
+    "type": "Legendary Chest Armor Mod",
+    "description": "Increases the amount of Trace Rifle ammo you can carry.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b4d9514cb7f4cb84817df7a83a62f049.png"
+  },
+  "875346623": {
+    "name": "Unquenchable Thirst",
+    "type": "Legendary Helmet Armor Mod",
+    "description": "Increases the buff effect of the To Excess Origin Trait and the healing effect of the Souldrinker Origin Trait.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/24cd611e1bb3b9cd2d9011e822098375.png"
+  },
+  "899058084": {
+    "name": "Stagnant Glyphkeeper",
+    "type": "Common Vow of the Disciple Raid Mod",
+    "description": "Damaging a Glyphkeeper with a grenade causes your equipped Bows, Fusion Rifles, Swords, and Trace Rifles to deal additional damage.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/05a903ee187cf09205ccd7ce01571cb1.png"
+  },
   "910975608": {
     "name": "Embraced Largesse",
     "type": "Legendary Helmet Armor Mod",
@@ -943,7 +1003,7 @@
   "941997506": {
     "name": "Icarus Grip",
     "type": "Legendary Weapon Mod",
-    "description": "Improves accuracy while airborne.",
+    "description": "Moderately increases airborne effectiveness.",
     "icon": "https://bungie.net/common/destiny2_content/icons/87283ef665c15177108da57f33551a3b.jpg"
   },
   "945523359": {
@@ -1078,6 +1138,12 @@
     "description": "Enemies are less aggressive toward you while you are riding this Sparrow.",
     "icon": "https://bungie.net/common/destiny2_content/icons/8b7e4d7bebf630b4c38fc61f8fe58de3.png"
   },
+  "1098978103": {
+    "name": "Distorted Glyphkeeper",
+    "type": "Common Vow of the Disciple Raid Mod",
+    "description": "Damaging a Glyphkeeper with a grenade causes your equipped Auto Rifles, Linear Fusion Rifles, Scout Rifles, and Sniper Rifles to deal additional damage.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/40cf6aa6bc3792324480eff142cdb17b.png"
+  },
   "1127642993": {
     "name": "Machine Gun Holster",
     "type": "Common Leg Armor Mod",
@@ -1194,9 +1260,9 @@
   },
   "1310852683": {
     "name": "Major Resist",
-    "type": "Legendary Armor Mod",
-    "description": "Gain extra damage resistance against powerful combatants.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a718ca6cc93367ba0d3cd66db09a109e.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "1312062056": {
     "name": "Auto Rifle Dexterity",
@@ -1374,9 +1440,9 @@
   },
   "1512056643": {
     "name": "Impact Mod",
-    "type": "Legendary Armor Mod",
-    "description": "Increases melee regeneration speed.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1d18f09339594b5a20040c2b9f5dcd90.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "1513326571": {
     "name": "Taken Spec",
@@ -1435,13 +1501,13 @@
   "1560574695": {
     "name": "Nightmare Breaker",
     "type": "Common Nightmare Mod",
-    "description": "Grants additional damage against shields created by Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+    "description": "Grants additional damage against shields created by Nightmare Hunt bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b68eee67333534132179cd96f6690d0e.png"
   },
   "1565861116": {
     "name": "Enhanced Nightmare Crusher",
     "type": "Common Nightmare Mod",
-    "description": "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+    "description": "Grants additional damage to your melee and grenade abilities against Nightmare Hunt bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/a9b2abd92cbe6b8c6129a74438cb173a.png"
   },
   "1576148509": {
@@ -1798,34 +1864,34 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/e42e42a3846155c12f00657dd4ab1581.png"
   },
   "1861426408": {
-    "name": "Inferno Whip",
-    "type": "Legendary Class Item Mod",
-    "description": "Solar melee abilities stun unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d52bf97156a06bcd389f3a58c477e226.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "1861426409": {
-    "name": "Overload Grenades",
-    "type": "Legendary Class Item Mod",
-    "description": "Void grenades disrupt combatants, stunning them, delaying ability energy regeneration and lowering combatant damage output. Strong against [Disruption] Overload Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2a4174eb0340aaaec02f35b64ce99a2a.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "1861426412": {
-    "name": "Unstoppable Glaive",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Glaives you wield fire a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1cdefcb06bcf21384c308cc156f0eba1.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "1861426414": {
-    "name": "Suppressing Glaive",
-    "type": "Legendary Class Item Mod",
-    "description": "Damaging combatants with your Glaive suppresses them, preventing them from using abilities for a short time.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/90a64e375c1c69305c528f642e4f6334.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "1861426415": {
-    "name": "Lucent Finisher",
-    "type": "Legendary Class Item Mod",
-    "description": "Defeating a Lucent Hive Lightbearer or Champion with your finisher spawns Heavy ammo for you and your allies.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3664d1ee2b3e914f21c32e9ab72a2656.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "1871240627": {
     "name": "Enhanced Hand Cannon Targeting",
@@ -1844,6 +1910,42 @@
     "type": "Rare Sparrow Mod",
     "description": "This vehicle reloads weapons while you ride.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6f4d8b781a7e6ee6798cfc2a0f7a19ff.png"
+  },
+  "1942359016": {
+    "name": "Overload Rounds",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Uninterrupted fire from your equipped Auto Rifles and Submachine Guns grants bullets that stun combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e9a51ca00573ba6d4efa02c91dc49349.png"
+  },
+  "1942359017": {
+    "name": "Unstoppable Scout Rifle",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Aiming down sights for a short time causes Scout Rifles you wield to fire a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e8c53b4174628a8e8d841e6701e19839.png"
+  },
+  "1942359019": {
+    "name": "Piercing Sidearms",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Sidearms gain shield-piercing rounds, which bypass combatant defenses.\n\nStrong against [Shield-Piercing] Barrier Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c32ef1b2c9f53c7196dd071d8b656095.png"
+  },
+  "1942359022": {
+    "name": "Unstoppable Glaive",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Glaives you wield fire a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1cdefcb06bcf21384c308cc156f0eba1.png"
+  },
+  "1942359023": {
+    "name": "Anti-Barrier Pulse Rifle",
+    "type": "Legendary Arms Armor Mod",
+    "description": "Pulse Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nPulse Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1cc8a43a8d2b4cf0e72992081859997b.png"
+  },
+  "1956421814": {
+    "name": "Umbral Recharge",
+    "type": "Common Vow of the Disciple Raid Mod",
+    "description": "While you have several stacks of Pervading Darkness, your class ability recharges quicker.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/98eabb2acac665e9c3aebdf92035605f.png"
   },
   "1957851633": {
     "name": "Bleeding Edge",
@@ -1890,7 +1992,7 @@
   "1996040463": {
     "name": "Enhanced Nightmare Banisher",
     "type": "Common Nightmare Mod",
-    "description": "Grants additional damage to your Super against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+    "description": "Grants additional damage to your Super against Nightmare Hunt bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/32e006cca4673a95d2c408f81521c774.png"
   },
   "1997025201": {
@@ -1914,7 +2016,7 @@
   "2023980600": {
     "name": "Supreme Nightmare Breaker",
     "type": "Common Nightmare Mod",
-    "description": "Grants additional damage against shields created by Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+    "description": "Grants additional damage against shields created by Nightmare Hunt bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/aaafc510dde4a0e443fa21d93cd713c9.png"
   },
   "2037533514": {
@@ -1938,7 +2040,7 @@
   "2045123179": {
     "name": "Supreme Nightmare Crusher",
     "type": "Common Nightmare Mod",
-    "description": "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+    "description": "Grants additional damage to your melee and grenade abilities against Nightmare Hunt bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6d8794fb92f311a47ebd4b50f613303b.png"
   },
   "2051366208": {
@@ -1955,7 +2057,7 @@
   },
   "2073462546": {
     "name": "Empowering Largesse",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -1966,70 +2068,70 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/a5121e051f0aeaa9eb39c90652ae68c6.png"
   },
   "2081977513": {
-    "name": "Anti-Barrier Scout Rifle",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Scout Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nScout Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/fd16f0cc5e5d6d92036b6d91a5c012e3.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2081977514": {
-    "name": "Overload Rounds",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Uninterrupted fire from your equipped Auto Rifles and Submachine Guns grants bullets that stun combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/e9a51ca00573ba6d4efa02c91dc49349.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2081977515": {
-    "name": "Unstoppable Hand Cannon",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Aiming down sights with any Hand Cannon you are wielding loads a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger]  Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1ca1f26de176d2c9c0bee72b864440ce.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2081977516": {
-    "name": "Piercing Bowstring",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Bows gain shield-piercing arrows, which bypass combatant defenses.\n\nStrong against [Shield-Piercing] Barrier Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a4738f504d3cbf3668c93e25d3e1f916.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2081977517": {
-    "name": "Unstoppable Pulse Rifle",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Aiming down Pulse Rifle sights loads a high-impact burst that stuns unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a7ae12d255f2d8d1aadd184036d84588.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2119661521": {
-    "name": "Glaive Scavenger",
-    "type": "Legendary Leg Armor Mod",
-    "description": "Glaives get bonus reserves when picking up ammo used by that Glaive.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/c7d2af0216ff46acaa5ac57461052426.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2119661522": {
-    "name": "Thermoshock Plating",
-    "type": "Legendary Chest Armor Mod",
-    "description": "Reduces incoming Arc damage from combatants.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/950112d2fcdf470108fa58b274abcf3b.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2119661523": {
-    "name": "Auto Rifle Loader",
-    "type": "Legendary Arms Armor Mod",
-    "description": "Increases reload speed of Auto Rifles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/212d746af951f3a2d5d27f48e8ceefde.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2119661524": {
-    "name": "Font of Might",
-    "type": "Legendary Elemental Well Mod",
-    "description": "Picking up an elemental well that matches your subclass energy type grants a temporary bonus to weapon damage of that same elemental type.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d58faf7a54b7e2310d1d2574b61126d8.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2119661525": {
-    "name": "Psionic Forging II",
-    "type": "Legendary Helmet Armor Mod",
-    "description": "Increases the duration of the Land Tank Origin Trait and the effect of the Häkke Breach Armaments Origin Trait.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/e41c4f12c2ff78ff21256ab74630fc60.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2127327637": {
     "name": "Boss Resist",
-    "type": "Legendary Armor Mod",
-    "description": "Gain extra damage resistance against bosses and vehicles.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b7ed887570b4dd9cd779fcb6c8c69a68.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2128395292": {
     "name": "Machine Gun Ammo Finder",
@@ -2038,34 +2140,34 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/492ddb35255ab0c8a9969b9e9e5075d6.png"
   },
   "2129265544": {
-    "name": "Devouring Depths",
-    "type": "Legendary Class Item Mod",
-    "description": "Casting your Void Super while you are critically wounded or benefitting from Devour increases your damage with that Super.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ace1a29e570f185ded73e9a74b640a4e.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2129265545": {
-    "name": "Volatile Flow",
-    "type": "Legendary Elemental Well Mod",
-    "description": "Picking up a Void elemental well grants your Void weapons Volatile rounds.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/397bcce313af1799dfc2c4dc9d47a32e.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2129265547": {
-    "name": "Suppression Mastery",
-    "type": "Legendary Class Item Mod",
-    "description": "Suppression effects you create have increased duration.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/7a0af045fb8efbb683cd1b3f3d13959d.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2129265550": {
-    "name": "Energy Vampirism",
-    "type": "Legendary Class Item Mod",
-    "description": "Gain energy for your least-charged ability when you suppress a target.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/43d69665bd75a5f45987714bc39994fd.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2129265551": {
-    "name": "Suppressive Darkness",
-    "type": "Legendary Class Item Mod",
-    "description": "Whenever you suppress a combatant, you also weaken them, causing them to take additional damage for a short time.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/7c9e09e4f1d07870beb05879f2d7ed72.png"
+    "name": "Deprecated Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "2142852459": {
     "name": "Herd Thinner",
@@ -2175,9 +2277,39 @@
     "description": "Gradually reloads your stowed Linear Fusion Rifles over time. Multiple copies of this perk stack to reduce the time taken to fully reload.",
     "icon": "https://bungie.net/common/destiny2_content/icons/2c4b29bb798040b2f889877276a89b52.png"
   },
+  "2240395226": {
+    "name": "Flame Harvesting",
+    "type": "Legendary Class Item Mod",
+    "description": "Solar Exotic final blows create Solar elemental wells.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6c25cb5fcfa6afa0882f4e9d2af87373.png"
+  },
+  "2240395227": {
+    "name": "Solar Fulmination",
+    "type": "Legendary Class Item Mod",
+    "description": "Your ignitions do increased damage in an increased radius.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5420f61429e1a9bf4f90814bf93be66a.png"
+  },
+  "2240395228": {
+    "name": "Radiant Orbs",
+    "type": "Legendary Class Item Mod",
+    "description": "Picking up an Orb of Power makes you radiant.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4ca52d181db8fc2e0becb0801a6c029a.png"
+  },
+  "2240395229": {
+    "name": "Rays of Precision",
+    "type": "Legendary Class Item Mod",
+    "description": "While radiant, Solar precision final blows cause combatants to ignite.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/711fbe68954466a2285ca389730efae5.png"
+  },
+  "2240395231": {
+    "name": "Classy Restoration",
+    "type": "Legendary Class Item Mod",
+    "description": "Activating your Solar class abilities grants you restoration.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d07626aa8f8371561e5c177ad416ba90.png"
+  },
   "2249025553": {
     "name": "Hive Invigoration",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -2314,9 +2446,15 @@
   },
   "2446946147": {
     "name": "Taken Armaments",
-    "type": "Legendary Armor Mod",
-    "description": "Defeating a Taken combatant with a grenade grants Heavy ammo.\n\nThis mod's abilities cannot stack across multiple copies.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/682056292ad761f200bf3676fcfe5db0.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "2447143568": {
+    "name": "Empty Mod Socket",
+    "type": "Vow of the Disciple Raid Mod",
+    "description": "No mod currently selected.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/bb0507de3f99dce3c0810b0110fc6325.png"
   },
   "2474886440": {
     "name": "Unique Transmat",
@@ -2410,7 +2548,7 @@
   "2589105944": {
     "name": "Taken Repurposing",
     "type": "Common Last Wish Raid Mod",
-    "description": "Destroying a Taken shield refreshes your grenade ability.",
+    "description": "This perk has been deprecated and no longer functions.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9d54e2149f945b2c298020da443b70fa.png"
   },
   "2597888506": {
@@ -2505,7 +2643,7 @@
   },
   "2665314006": {
     "name": "Emperor's Balance",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -2539,6 +2677,12 @@
     "description": "Hand Cannons that use Special ammo get bonus reserves when picking up Special ammo.",
     "icon": "https://bungie.net/common/destiny2_content/icons/deb9ea8b84e7b15620d8a31d1755c76f.png"
   },
+  "2779468392": {
+    "name": "Siphoned Glyphkeeper",
+    "type": "Common Vow of the Disciple Raid Mod",
+    "description": "Killing a Glyphkeeper grants some grenade, class, and Super energy.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/552c045e46cd113a03a8c5c300f75ed4.png"
+  },
   "2788909693": {
     "name": "Boss Spec",
     "type": "Legendary Weapon Mod",
@@ -2550,6 +2694,12 @@
     "type": "Common Arms Armor Mod",
     "description": "Increases reload speed of Submachine Guns.",
     "icon": "https://bungie.net/common/destiny2_content/icons/0cf177981705d5633f9ace696c4d9f39.png"
+  },
+  "2804214704": {
+    "name": "Umbral Sharpening",
+    "type": "Common Vow of the Disciple Raid Mod",
+    "description": "While you have several stacks of Pervading Darkness, you deal increased weapon damage.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/52d8d4b8ccbf125e61cbc0b81377cc72.png"
   },
   "2816649701": {
     "name": "Striking Hand",
@@ -2565,7 +2715,7 @@
   },
   "2823324314": {
     "name": "Shielding Hand",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -2593,16 +2743,22 @@
     "description": "+10 Resilience ▲",
     "icon": "https://bungie.net/common/destiny2_content/icons/195f4f173adb52b336b4ecd67101004d.png"
   },
+  "2851458940": {
+    "name": "Smoldering Glyphkeeper",
+    "type": "Common Vow of the Disciple Raid Mod",
+    "description": "Damaging a Glyphkeeper with a grenade causes your equipped Hand Cannons, Shotguns, Grenade Launchers, and Rocket Launchers to deal additional damage.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c7cb79ce83aec0c4271c7e40839159e3.png"
+  },
   "2859541905": {
     "name": "Taken Armaments",
     "type": "Common Last Wish Raid Mod",
-    "description": "Defeating a Taken combatant with a grenade grants Heavy ammo.\n\nThis mod's abilities cannot stack across multiple copies.",
+    "description": "This perk has been deprecated and no longer functions.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d365907deee1024944e9bc405a5c4bba.png"
   },
   "2874957617": {
     "name": "Nightmare Banisher",
     "type": "Common Nightmare Mod",
-    "description": "Grants additional damage to your Super against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+    "description": "Grants additional damage to your Super against Nightmare Hunt bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/e4c934e966caa5468288c8cec4b2a452.png"
   },
   "2877127585": {
@@ -2649,7 +2805,7 @@
   },
   "2954087609": {
     "name": "Energized",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -2751,13 +2907,13 @@
   },
   "3068964149": {
     "name": "Taken Barrier",
-    "type": "Legendary Armor Mod",
-    "description": "Receiving Taken damage gives a 20% reduction in damage for 10 seconds.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/cd9c932ac7cc38eb64b16f27a167b8be.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3069892475": {
     "name": "Emperor's Blaze",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -2889,7 +3045,7 @@
   },
   "3222801796": {
     "name": "Embraced Largesse",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -2919,9 +3075,9 @@
   },
   "3232982826": {
     "name": "Taken Invigoration",
-    "type": "Legendary Armor Mod",
-    "description": "Defeating a challenging Taken combatant refreshes your class ability.\n\nThis mod's abilities cannot stack across multiple copies.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/fd2c28cdc523ec3e38e786456cae66fb.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3234602043": {
     "name": "Enhanced Unflinching Sidearm Aim",
@@ -2937,9 +3093,9 @@
   },
   "3255036626": {
     "name": "Transcendent Blessing",
-    "type": "Legendary Armor Mod",
-    "description": "While in the Dreaming City, you deal more damage to all targets.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d07c41f126da7f1d91bf6eddf257ac29.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3268255645": {
     "name": "Sect of Force",
@@ -2960,15 +3116,15 @@
   },
   "3299329650": {
     "name": "Taken Repurposing",
-    "type": "Legendary Armor Mod",
-    "description": "Destroying a Taken shield refreshes your grenade ability.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9f9b10d5d3f27a87535cbf6cee00e588.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3300281544": {
     "name": "Riven's Curse",
-    "type": "Legendary Armor Mod",
-    "description": "While in the Dreaming City, you deal more damage, but also take more damage from all sources.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a5084a54dbfb63fa05080db6e8e84723.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3302924434": {
     "name": "Hive Repurposing",
@@ -3024,6 +3180,36 @@
     "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Linear Fusion Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/0b0ee64a72b55e981bc3f7259ac2d590.png"
   },
+  "3339644634": {
+    "name": "Sidearm Holster",
+    "type": "Legendary Leg Armor Mod",
+    "description": "Gradually reloads your stowed Sidearms over time. Multiple copies of this perk stack to reduce the time taken to fully reload.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8156a08d432dfdac63afe9f274105fb6.png"
+  },
+  "3339644635": {
+    "name": "Pulse Rifle Targeting",
+    "type": "Legendary Helmet Armor Mod",
+    "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Pulse Rifles.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f63a443098fe3503d7a7056c10592047.png"
+  },
+  "3339644636": {
+    "name": "Nightmarish Opulence",
+    "type": "Legendary Helmet Armor Mod",
+    "description": "Increases the duration of the Psychohack Origin Trait and the effect of the Extrovert Origin Trait.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d93c26ac5b8e0fac97ce33fcc677f86b.png"
+  },
+  "3339644637": {
+    "name": "Trace Rifle Ammo Finder",
+    "type": "Legendary Helmet Armor Mod",
+    "description": "Increases your chance of finding Special ammo while you have a Trace Rifle equipped.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f36b96b94587563c0539d315fc2a30e7.png"
+  },
+  "3339644638": {
+    "name": "Shotgun Holster",
+    "type": "Legendary Leg Armor Mod",
+    "description": "Gradually reloads your stowed Shotguns over time. Multiple copies of this perk stack to reduce the time taken to fully reload.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/459e3cc5919342596b104edd50aee885.png"
+  },
   "3355995799": {
     "name": "Intellect Mod",
     "type": "Common General Armor Mod",
@@ -3056,7 +3242,7 @@
   },
   "3405588809": {
     "name": "Radiant Largesse",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -3074,7 +3260,7 @@
   },
   "3425422485": {
     "name": "Hive Repurposing",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -3092,9 +3278,9 @@
   },
   "3454491031": {
     "name": "Minor Resist",
-    "type": "Legendary Armor Mod",
-    "description": "Gain extra damage resistance against rank-and-file combatants.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ec901be25d6e156ecd206e214ba392ea.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3470562293": {
     "name": "Impact Induction",
@@ -3140,7 +3326,7 @@
   },
   "3512340080": {
     "name": "Striking Hand",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -3225,7 +3411,7 @@
   "3570105787": {
     "name": "Taken Barrier",
     "type": "Common Last Wish Raid Mod",
-    "description": "Receiving Taken damage gives a 20% reduction in damage for 10 seconds.",
+    "description": "This perk has been deprecated and no longer functions.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6e112c563ecc78c1a674ef9edb8cb727.png"
   },
   "3581121455": {
@@ -3296,9 +3482,9 @@
   },
   "3649276740": {
     "name": "Paragon Mod",
-    "type": "Legendary Armor Mod",
-    "description": "Increases class ability regeneration speed.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/13b728eacc029a79422a1b021f095564.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3651607301": {
     "name": "Sect of Insight",
@@ -3373,7 +3559,7 @@
   "3736152098": {
     "name": "Nightmare Crusher",
     "type": "Common Nightmare Mod",
-    "description": "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+    "description": "Grants additional damage to your melee and grenade abilities against Nightmare Hunt bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/f29b9b0a7d561cb107aa42c9edaae8df.png"
   },
   "3738398030": {
@@ -3396,7 +3582,7 @@
   },
   "3750808664": {
     "name": "Giving Hand",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
@@ -3427,14 +3613,20 @@
   "3789184904": {
     "name": "Adept Icarus Grip",
     "type": "Legendary Weapon Mod",
-    "description": "Improves accuracy while airborne. Slightly increases weapon range.",
+    "description": "Moderately increases airborne effectiveness. Slightly increases handling.",
     "icon": "https://bungie.net/common/destiny2_content/icons/98d53a5e969ee80bcba5e656e8986f7e.jpg"
   },
   "3790655795": {
     "name": "Resilience Mod",
-    "type": "Legendary Armor Mod",
-    "description": "Grants increased resilience.",
-    "icon": "https://bungie.net/common/destiny2_content/icons/7192b8c8b404cf0ec1aa192ed6695caa.jpg"
+    "type": "Legendary Deprecated Armor Mod",
+    "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "3808234135": {
+    "name": "Shocked Glyphkeeper",
+    "type": "Common Vow of the Disciple Raid Mod",
+    "description": "Damaging a Glyphkeeper with a grenade causes your equipped Pulse Rifles, Sidearms, Machine Guns, and Submachine Guns to deal additional damage.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/04e4250d2475e80a4ff4bf8fe1ccfe39.png"
   },
   "3809244044": {
     "name": "Well of Tenacity",
@@ -3451,7 +3643,7 @@
   "3829100654": {
     "name": "Supreme Nightmare Banisher",
     "type": "Common Nightmare Mod",
-    "description": "Grants additional damage to your Super against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+    "description": "Grants additional damage to your Super against Nightmare Hunt bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/690dfdf2c7feb86e7652c1956fbb2482.png"
   },
   "3835132158": {
@@ -3504,14 +3696,14 @@
   },
   "3888848980": {
     "name": "Hive Barrier",
-    "type": "Legendary Opulent Armor Mod",
+    "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
   "3895804619": {
     "name": "Dreambane Mod",
     "type": "Common Nightmare Mod",
-    "description": "Reduces the damage you take from Nightmare bosses. Multiple copies of this mod stack for greater effect.",
+    "description": "Reduces the damage you take from Nightmare Hunt bosses. Multiple copies of this mod stack for greater effect.",
     "icon": "https://bungie.net/common/destiny2_content/icons/90b3fc6134cc1d7db551138fa221e109.png"
   },
   "3899134858": {
@@ -3525,6 +3717,12 @@
     "type": "Common Helmet Armor Mod",
     "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Fusion Rifles.",
     "icon": "https://bungie.net/common/destiny2_content/icons/43d53063d48ec188c3a6c0287403608c.png"
+  },
+  "3922904113": {
+    "name": "Umbral Hastening",
+    "type": "Common Vow of the Disciple Raid Mod",
+    "description": "While you have several stacks of Pervading Darkness, you gain increased mobility.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/08a4b84ab6f83a32819db68c0ec88476.png"
   },
   "3926976952": {
     "name": "Sniper Rifle Reserves",
@@ -3881,7 +4079,7 @@
   "4193902249": {
     "name": "Enhanced Nightmare Breaker",
     "type": "Common Nightmare Mod",
-    "description": "Grants additional damage against shields created by Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+    "description": "Grants additional damage against shields created by Nightmare Hunt bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
     "icon": "https://bungie.net/common/destiny2_content/icons/7a237a0f09d5e96639f59c85dcdbb743.png"
   },
   "4207478320": {
@@ -3901,6 +4099,12 @@
     "type": "Common Experience Ghost Mod",
     "description": "Experience mods increase global experience gains.",
     "icon": "https://bungie.net/common/destiny2_content/icons/751771b32659570cf0fccc4426177157.png"
+  },
+  "4230067633": {
+    "name": "Into the Light",
+    "type": "Common Vow of the Disciple Raid Mod",
+    "description": "Your grenades recharge quicker and deal more damage when you are not under the effects of Pervading Darkness.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c99e7a4a7d882d8c32020216aaf22423.png"
   },
   "4235763716": {
     "name": "Enhanced Scout Rifle Dexterity",
