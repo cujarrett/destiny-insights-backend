@@ -1844,7 +1844,7 @@
   "114225848": {
     "name": "Springtime Scales",
     "type": "Exotic Weapon Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/7c7fd694e47a7c8e4b60a375a02cfcda.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/2cd72fbcc4ec805dda8176587b828b50.jpg"
   },
   "115580637": {
     "name": "Phoenixfall",
@@ -2413,6 +2413,12 @@
     "type": "Exotic Vehicle",
     "icon": "https://bungie.net/common/destiny2_content/icons/28987616d46fa1c7dbe104f7671b1be3.jpg"
   },
+  "145651147": {
+    "name": "Deep Explorer Vest",
+    "type": "Legendary Chest Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/089969db19adaffc850b2e56351b6beb.jpg"
+  },
   "146223817": {
     "name": "Phobos Warden Grasps",
     "type": "Legendary Gauntlets",
@@ -2777,6 +2783,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/0e23219e95b61b265c09732646a32b92.jpg"
   },
+  "164725160": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "164776724": {
     "name": "The Hateful Wish",
     "type": "Exotic Warlock Ornament",
@@ -3036,6 +3047,11 @@
     "name": "Dance the Demons Away",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/52d56f0ecd2e8277abd226b4ea617081.jpg"
+  },
+  "181502747": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "181754010": {
     "name": "Hunter Sit",
@@ -3372,6 +3388,11 @@
     "type": "Legendary Helmet",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/0cef13b5700238afa7b8d44c50fcfedd.jpg"
+  },
+  "198280334": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "198889228": {
     "name": "Enhanced Sniper Rifle Targeting",
@@ -3714,6 +3735,11 @@
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/b070e41c6159da8d9dd5ba67579b5a37.jpg"
   },
+  "215058017": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "215292674": {
     "name": "Praetorian Ornament",
     "type": "Legendary Armor Ornament",
@@ -4042,6 +4068,11 @@
     "name": "Iron Strength",
     "type": "Legendary Shader",
     "icon": "https://bungie.net/common/destiny2_content/icons/9f8ba525d12b769baf89cf85fabcdffc.jpg"
+  },
+  "231835604": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "232928045": {
     "name": "Under Your Skin",
@@ -4459,6 +4490,11 @@
     "type": "Rare Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/b9fd6a06e044330d620da14688a275cb.jpg"
   },
+  "248613191": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "249373318": {
     "name": "Auto Rifle Targeting",
     "type": "Legendary Deprecated Perk",
@@ -4839,6 +4875,11 @@
     "type": "Legendary Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/41df4704f24ab53f181cc34bbe712872.jpg"
+  },
+  "265390906": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "265428940": {
     "name": "Funky Dance",
@@ -5985,6 +6026,12 @@
     "type": "Common Ghost Module",
     "icon": "https://bungie.net/common/destiny2_content/icons/a8e26c00e87b80f1bd4140c501ab5b4a.png"
   },
+  "322599957": {
+    "name": "Deep Explorer Grasps",
+    "type": "Legendary Gauntlets",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0d80cb21a9f5faaacacc64805dad35af.jpg"
+  },
   "322752304": {
     "name": "Ashes to Assets",
     "type": "Common Helmet Armor Mod",
@@ -7084,6 +7131,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/035fe760f305f4361563e445951adb66.jpg"
   },
+  "383734232": {
+    "name": "Untouched by Opulence",
+    "type": "Legendary Emblem",
+    "icon": "https://bungie.net/common/destiny2_content/icons/de052aec1306777be98e7a8050bcbfb4.jpg"
+  },
   "383734233": {
     "name": "Sunward Ordeal",
     "type": "Legendary Emblem",
@@ -7108,6 +7160,11 @@
     "name": "Iron Core",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/d0d8a24c8a8143747adb192caaa43a5f.jpg"
+  },
+  "383734239": {
+    "name": "The Deepest Truth",
+    "type": "Legendary Emblem",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7ca933ecdf6f9f08c3b6711190cce7a8.jpg"
   },
   "383742277": {
     "name": "Cloak of Feltroc",
@@ -7988,6 +8045,12 @@
     "type": "Legendary Chest Armor",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/c1f60cf785c361bed89d9699d9c7a46d.jpg"
+  },
+  "420895300": {
+    "name": "Deep Explorer Mark",
+    "type": "Legendary Titan Mark",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4aeb9787e37baadba3106c558d66627e.jpg"
   },
   "420937712": {
     "name": "War Mantis Cloak",
@@ -9409,6 +9472,11 @@
     "name": "Pinpoint Accuracy",
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/f4fc02a85039961f836af9a8cde185b2.jpg"
+  },
+  "488052106": {
+    "name": "Mandate of Strength",
+    "type": "Exotic Ship",
+    "icon": "https://bungie.net/common/destiny2_content/icons/22c54dff059a4476dfe0778371dea752.jpg"
   },
   "488759084": {
     "name": "Without Remorse",
@@ -10836,6 +10904,12 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/062c2fe3207d2b503454a1e5128a3698.jpg"
   },
+  "561897072": {
+    "name": "Deep Explorer Vestments",
+    "type": "Legendary Chest Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/874b10bda6f3c041f9ffbeb9318d9aae.jpg"
+  },
   "561964760": {
     "name": "Future War Cult Armor",
     "type": "Legendary Armor Set",
@@ -11212,7 +11286,7 @@
   "581152885": {
     "name": "Electromagnetic Execution",
     "type": "Exotic Weapon Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/cc4bb266eccd967fe2e08fa6246ce2f1.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/02541497d6d86aaae32f9d083c8b43a1.jpg"
   },
   "581237363": {
     "name": "Rainmaker",
@@ -12139,6 +12213,12 @@
     "type": "Exotic Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/7bc8bdf93404f730cf506db85f23d69d.png"
   },
+  "630469185": {
+    "name": "Deep Explorer Hood",
+    "type": "Legendary Helmet",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/aab485177301103a8ce67f410a16998c.jpg"
+  },
   "630719097": {
     "name": "Seventh Seraph Plate",
     "type": "Legendary Chest Armor",
@@ -12243,7 +12323,7 @@
   "636680704": {
     "name": "Firefright",
     "type": "Legendary Auto Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/cfa1ab0143bc5631460f1cbc47c8c026.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4802eb6f933eb100cd1ff76b50b2785e.jpg"
   },
   "636912560": {
     "name": "Dust Rock Blues",
@@ -13995,6 +14075,12 @@
     "name": "Valkyrie Zero",
     "type": "Legendary Shader",
     "icon": "https://bungie.net/common/destiny2_content/icons/c64a14cc647a1165646d45adea8eecc7.jpg"
+  },
+  "737550160": {
+    "name": "Deep Explorer Mark",
+    "type": "Legendary Titan Mark",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4aeb9787e37baadba3106c558d66627e.jpg"
   },
   "737634704": {
     "name": "Auto Rifle Scavenger",
@@ -17942,7 +18028,7 @@
   "945540117": {
     "name": "Hollow Denial",
     "type": "Legendary Trace Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6a1026a7a2bf4b022b5acae071cfd7e.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8ba0f2ee7af8896b99629fd3154b4ebd.jpg"
   },
   "945907382": {
     "name": "Flowing Grips",
@@ -18562,6 +18648,11 @@
     "name": "Hard Launch",
     "type": "Common Launcher Barrel",
     "icon": "https://bungie.net/common/destiny2_content/icons/823b8ae4f48bca3bb5586167c1666781.png"
+  },
+  "981988968": {
+    "name": "A Single Thread",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d3ca9dee479a5e6e9d9bdd2744e15ca8.png"
   },
   "982229638": {
     "name": "Allied Demand",
@@ -21629,6 +21720,12 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/cfc3c391ac6f53118ed4c615125a8f6b.jpg"
   },
+  "1148597205": {
+    "name": "Deep Explorer Grasps",
+    "type": "Legendary Gauntlets",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0d80cb21a9f5faaacacc64805dad35af.jpg"
+  },
   "1148638263": {
     "name": "Starfire Alignment",
     "type": "Rare Weekly Trials Bounty",
@@ -21962,7 +22059,7 @@
   "1166506616": {
     "name": "Bump in the Night",
     "type": "Legendary Rocket Launcher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/751fbbd86400356b4dd77815528ddb84.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/73f6ad9f1bee5896d91d066faef9dd34.jpg"
   },
   "1166603202": {
     "name": "Solstice Vest (Renewed)",
@@ -23253,7 +23350,7 @@
   "1234150730": {
     "name": "Trespasser",
     "type": "Exotic Sidearm",
-    "icon": "https://bungie.net/common/destiny2_content/icons/696d9cb753333a094b8072d5a8c4c903.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab6869c879dfe8c2df3802ecde21b3a6.jpg"
   },
   "1234228360": {
     "name": "Iron Will Mark",
@@ -23564,7 +23661,7 @@
   "1252358093": {
     "name": "Firefright",
     "type": "Legendary Auto Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/cfa1ab0143bc5631460f1cbc47c8c026.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4802eb6f933eb100cd1ff76b50b2785e.jpg"
   },
   "1252957702": {
     "name": "Celestial Strides",
@@ -27981,6 +28078,12 @@
     "name": "Rocketing to Prominence",
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/91121c659c5cc0d8938dfe004426c3fd.jpg"
+  },
+  "1468388696": {
+    "name": "Deep Explorer Gloves",
+    "type": "Legendary Gauntlets",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/29000f2fdb7a3517f6967ed51a0ae3e4.jpg"
   },
   "1469050017": {
     "name": "Iron Will Boots",
@@ -33940,6 +34043,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/13f033670450283899155231bee54e40.jpg"
   },
+  "1780464822": {
+    "name": "New Purpose",
+    "type": "Legendary Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e9acc52c1148eb36c6d43668a8d7d057.jpg"
+  },
   "1781294872": {
     "name": "Moonfang-X7 Boots",
     "type": "Legendary Leg Armor",
@@ -35034,7 +35142,7 @@
   },
   "1840231679": {
     "name": "Razor's Edge",
-    "type": "Legendary Linear Fusion Rifle",
+    "type": "Legendary Sword",
     "icon": "https://bungie.net/common/destiny2_content/icons/107a370571ab5099fbb0c8983499610d.jpg"
   },
   "1840239774": {
@@ -37158,7 +37266,7 @@
   "1934353448": {
     "name": "One False Step",
     "type": "Exotic Weapon Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/251fed11d6ab5af8834dec332a136c3a.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/102d8f8eae2f96ad8317c7f7aca8d1f7.jpg"
   },
   "1934647691": {
     "name": "Shadow's Mask",
@@ -37657,7 +37765,7 @@
   "1959650777": {
     "name": "Bump in the Night",
     "type": "Legendary Rocket Launcher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/751fbbd86400356b4dd77815528ddb84.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/73f6ad9f1bee5896d91d066faef9dd34.jpg"
   },
   "1959672649": {
     "name": "Iron Truage Grips",
@@ -39070,6 +39178,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/67dfec1fc8acf2dbba341ba9d765b1a7.jpg"
   },
+  "2026087437": {
+    "name": "Lingering Dread",
+    "type": "Legendary Grenade Launcher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b703aecbf987fa45013379db54d3a2b4.jpg"
+  },
   "2026285619": {
     "name": "Errant Knight 1.0",
     "type": "Legendary Gauntlets",
@@ -39667,6 +39780,12 @@
     "name": "The Warrior",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/4c37a50a4c14a339f1830b962480ef88.jpg"
+  },
+  "2057955626": {
+    "name": "Deep Explorer Vestments",
+    "type": "Legendary Chest Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/874b10bda6f3c041f9ffbeb9318d9aae.jpg"
   },
   "2058055880": {
     "name": "Solstice Grasps (Majestic)",
@@ -40315,7 +40434,7 @@
   "2090638254": {
     "name": "Firefright",
     "type": "Legendary Auto Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/cfa1ab0143bc5631460f1cbc47c8c026.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4802eb6f933eb100cd1ff76b50b2785e.jpg"
   },
   "2091001077": {
     "name": "Cluster Bomb",
@@ -40663,7 +40782,7 @@
   "2115513552": {
     "name": "Bump in the Night",
     "type": "Legendary Rocket Launcher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/751fbbd86400356b4dd77815528ddb84.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/73f6ad9f1bee5896d91d066faef9dd34.jpg"
   },
   "2116702321": {
     "name": "Collateral",
@@ -42160,6 +42279,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/9f0f0e200f99d9c4adabcb4040020efc.jpg"
   },
+  "2194955522": {
+    "name": "Fixed Odds",
+    "type": "Legendary Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/799b05bf3ada59735cb74241be92e7a0.jpg"
+  },
   "2195305504": {
     "name": "MIDA Tactical",
     "type": "Exotic Weapon Ornament",
@@ -43501,6 +43625,11 @@
     "type": "Legendary Enhanced Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
   },
+  "2263839058": {
+    "name": "The Epicurean",
+    "type": "Legendary Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6c49bc44e03008661e77c11dfd1bacb4.jpg"
+  },
   "2263885190": {
     "name": "Frostveil Grasps",
     "type": "Legendary Hunter Universal Ornament",
@@ -44812,7 +44941,7 @@
   "2323544076": {
     "name": "Hollow Denial",
     "type": "Legendary Trace Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6a1026a7a2bf4b022b5acae071cfd7e.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8ba0f2ee7af8896b99629fd3154b4ebd.jpg"
   },
   "2323865727": {
     "name": "Wing Theorem",
@@ -45275,6 +45404,12 @@
     "type": "Legendary Vehicle",
     "icon": "https://bungie.net/common/destiny2_content/icons/473e2f54f7e63d0ff1a1e27e1d320ce1.jpg"
   },
+  "2351264197": {
+    "name": "Deep Explorer Greaves",
+    "type": "Legendary Leg Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8c3b1644612779c9cf73ef0761e9ecd3.jpg"
+  },
   "2351747816": {
     "name": "Cuboid ARu",
     "type": "Rare Auto Rifle",
@@ -45525,6 +45660,12 @@
     "type": "Legendary Chest Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/53707e38928a9b4af8dbd151d4061995.jpg"
+  },
+  "2364756343": {
+    "name": "Deep Explorer Strides",
+    "type": "Legendary Leg Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6fb897f19d14d7e937657072afb85ad8.jpg"
   },
   "2365135029": {
     "name": "Legatus Cover",
@@ -47849,6 +47990,12 @@
     "type": "Rare Arms Armor Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/d955780680b22e2d39eaff575ae4161e.jpg"
   },
+  "2499351855": {
+    "name": "Deep Explorer Gauntlets",
+    "type": "Legendary Gauntlets",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/31ab093810511d92b3172583c92a382a.jpg"
+  },
   "2500308040": {
     "name": "Marc's Man",
     "type": "Common Daily Bounty",
@@ -48611,6 +48758,11 @@
     "type": "Legendary Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/a1fd158dbe91ee5ba52de0aec9336f7e.jpg"
+  },
+  "2529410397": {
+    "name": "A Single Thread",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d3ca9dee479a5e6e9d9bdd2744e15ca8.png"
   },
   "2529412083": {
     "name": "Blunt Execution Rounds",
@@ -50084,6 +50236,12 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/3053f664de6b10e5323c4280ce846b51.jpg"
   },
+  "2610749098": {
+    "name": "Deep Explorer Helmet",
+    "type": "Legendary Helmet",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/10437c4895f7692544903686f0e9727c.jpg"
+  },
   "2610757989": {
     "name": "Collaborative Dance",
     "type": "Legendary Emote",
@@ -50192,6 +50350,12 @@
     "type": "Legendary Leg Armor",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/78238d1119e0f30806579a692e396dc4.jpg"
+  },
+  "2616310259": {
+    "name": "Deep Explorer Gauntlets",
+    "type": "Legendary Gauntlets",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/31ab093810511d92b3172583c92a382a.jpg"
   },
   "2616464530": {
     "name": "Atonement Tau",
@@ -50597,7 +50761,7 @@
   },
   "2641491802": {
     "name": "Trinary System",
-    "type": "Legendary Linear Fusion Rifle",
+    "type": "Legendary Fusion Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/1d3c809602472ad249e9bf0e40fef4ba.jpg"
   },
   "2641591726": {
@@ -50722,6 +50886,12 @@
     "name": "Full Auto Trigger System",
     "type": "Uncommon Enhanced Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/c995638d381d6ff46df5606f49abd7b3.png"
+  },
+  "2649394513": {
+    "name": "Deep Explorer Greaves",
+    "type": "Legendary Leg Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8c3b1644612779c9cf73ef0761e9ecd3.jpg"
   },
   "2649911453": {
     "name": "Dancy Dance",
@@ -51523,6 +51693,12 @@
     "type": "Exotic Rocket Launcher",
     "icon": "https://bungie.net/common/destiny2_content/icons/db73528358622aca68f3606390bd7f27.jpg"
   },
+  "2694773307": {
+    "name": "Deep Explorer Bond",
+    "type": "Legendary Warlock Bond",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/886db5f8e1eea409769761d2dd9864fb.jpg"
+  },
   "2695042788": {
     "name": "Void Striker",
     "type": "Common Vanguard Bounty",
@@ -52011,7 +52187,7 @@
   "2720745558": {
     "name": "Dream of the Sky",
     "type": "Exotic Weapon Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d4085be89091c96ea4efa17e97fc729f.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4d00fff06baa92ec492714a8b60faabe.jpg"
   },
   "2721036673": {
     "name": "A Guardian Rises",
@@ -52146,6 +52322,12 @@
     "type": "Legendary Chest Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/0721d9351100875f69d68f74c9b299a3.jpg"
+  },
+  "2724719415": {
+    "name": "Deep Explorer Strides",
+    "type": "Legendary Leg Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6fb897f19d14d7e937657072afb85ad8.jpg"
   },
   "2725422375": {
     "name": "Precision Frame",
@@ -53149,7 +53331,7 @@
   "2778013407": {
     "name": "Firefright",
     "type": "Legendary Auto Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/cfa1ab0143bc5631460f1cbc47c8c026.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4802eb6f933eb100cd1ff76b50b2785e.jpg"
   },
   "2778321483": {
     "name": "Gensym Knight Plate",
@@ -53465,6 +53647,12 @@
     "type": "Rare Chest Armor",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/6b935f5f138a9d95f57ff66c374acdd7.jpg"
+  },
+  "2797334754": {
+    "name": "Deep Explorer Cloak",
+    "type": "Legendary Hunter Cloak",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1327fc087be26a84cebccaa23b468de5.jpg"
   },
   "2797445293": {
     "name": "Competitive Spirit Vest",
@@ -54093,6 +54281,12 @@
     "type": "Legendary Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/9c9b3f23e02870daf6d55918bbee69dd.jpg"
+  },
+  "2819810688": {
+    "name": "Deep Explorer Boots",
+    "type": "Legendary Leg Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a9148c68e30441f107545cd920976b1f.jpg"
   },
   "2819858798": {
     "name": "Forged Machinist Gauntlets",
@@ -55986,7 +56180,7 @@
   },
   "2918278213": {
     "name": "Frontier's Cry",
-    "type": "Legendary Submachine Gun",
+    "type": "Legendary Hand Cannon",
     "icon": "https://bungie.net/common/destiny2_content/icons/a28c3203389ad69800f742c5776a206d.jpg"
   },
   "2919334548": {
@@ -56373,6 +56567,12 @@
     "type": "Legendary Titan Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/380b12658dff8e50926e777d9b21c3fd.jpg"
   },
+  "2935559305": {
+    "name": "Deep Explorer Plate",
+    "type": "Legendary Chest Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8d98de30ea07587579b6de00e6d2a4c7.jpg"
+  },
   "2935851862": {
     "name": "Struck a Nerve",
     "type": "Legendary Emblem",
@@ -56471,7 +56671,7 @@
   "2939035481": {
     "name": "Bump in the Night",
     "type": "Legendary Rocket Launcher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/751fbbd86400356b4dd77815528ddb84.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/73f6ad9f1bee5896d91d066faef9dd34.jpg"
   },
   "2939480229": {
     "name": "Report: SCORN-ORDER",
@@ -57384,7 +57584,7 @@
   "2981139519": {
     "name": "Hollow Denial",
     "type": "Legendary Trace Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6a1026a7a2bf4b022b5acae071cfd7e.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8ba0f2ee7af8896b99629fd3154b4ebd.jpg"
   },
   "2982054284": {
     "name": "Sidearm Holster",
@@ -57759,6 +57959,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/258808bf2fd823b7ecb9ea1e30a1c4fd.jpg"
   },
+  "3000847393": {
+    "name": "Unforgiven",
+    "type": "Legendary Submachine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/779bb60bfdf687b7f0c71ddd877d9639.jpg"
+  },
   "3000852559": {
     "name": "Precision Frame",
     "type": "Legendary Enhanced Intrinsic",
@@ -57854,7 +58059,7 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/d1e33790ac71743a83859077227d85df.png"
   },
   "3004041686": {
-    "name": "Eidolon Pursuant Plate",
+    "name": "Eidolon Pursuant Mark",
     "type": "Legendary Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/457649bcce771344f94d6e26232355e6.jpg"
@@ -59009,6 +59214,12 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/075804889dcef5d8887224813d332123.jpg"
   },
+  "3070295330": {
+    "name": "Deep Explorer Cloak",
+    "type": "Legendary Hunter Cloak",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1327fc087be26a84cebccaa23b468de5.jpg"
+  },
   "3070357340": {
     "name": "Getaway Artist",
     "type": "Exotic Gauntlets",
@@ -59742,7 +59953,7 @@
   "3105930175": {
     "name": "Chain of Command",
     "type": "Legendary Machine Gun",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a3bce160e48f0ec33c41236c23f538cc.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/2a91a90fbbbfe3550bee553107b68d3f.jpg"
   },
   "3105935002": {
     "name": "Sunbreaker",
@@ -61187,7 +61398,7 @@
   "3180017038": {
     "name": "Hollow Denial",
     "type": "Legendary Trace Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6a1026a7a2bf4b022b5acae071cfd7e.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8ba0f2ee7af8896b99629fd3154b4ebd.jpg"
   },
   "3180169828": {
     "name": "Steeplechase Gauntlets",
@@ -62821,6 +63032,12 @@
     "type": "Exotic Combat Bow",
     "icon": "https://bungie.net/common/destiny2_content/icons/7301e9d948c8f56dd9f972eea2a7ccd2.jpg"
   },
+  "3260781446": {
+    "name": "Deep Explorer Gloves",
+    "type": "Legendary Gauntlets",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/29000f2fdb7a3517f6967ed51a0ae3e4.jpg"
+  },
   "3260789875": {
     "name": "Fieldplate Type 10",
     "type": "Uncommon Gauntlets",
@@ -62859,6 +63076,12 @@
     "name": "Restorative Warlock Armor",
     "type": "Common Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/d1e33790ac71743a83859077227d85df.png"
+  },
+  "3262689948": {
+    "name": "Deep Explorer Mask",
+    "type": "Legendary Helmet",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0003342acb2cef0a8ab872e3846de471.jpg"
   },
   "3262865291": {
     "name": "Technosaurus Titan Bundle",
@@ -62961,6 +63184,12 @@
     "name": "Turbulent Weather",
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/07da06dce01820adc08a42e03d776e2e.jpg"
+  },
+  "3270955774": {
+    "name": "Deep Explorer Helmet",
+    "type": "Legendary Helmet",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/10437c4895f7692544903686f0e9727c.jpg"
   },
   "3271153032": {
     "name": "Illicit Collector Gloves",
@@ -64009,6 +64238,12 @@
     "type": "Legendary Sniper Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/45892619a8917d8bd44684547f0b1e6f.jpg"
   },
+  "3326914239": {
+    "name": "Deep Explorer Hood",
+    "type": "Legendary Helmet",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/aab485177301103a8ce67f410a16998c.jpg"
+  },
   "3327512302": {
     "name": "Benevolence of the Nine",
     "type": "Legendary Shader",
@@ -64436,7 +64671,7 @@
   "3344467069": {
     "name": "Phosphorescent Prism Vest",
     "type": "Legendary Hunter Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/7e5d606b50af924789dcf38d42a770b9.jpg"
   },
   "3344732822": {
     "name": "Void-Tinged Leg Glow",
@@ -64844,7 +65079,7 @@
   "3363257468": {
     "name": "Corporate Sponsorship",
     "type": "Exotic Weapon Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/93c9f10c54e23c7def365727e90a3c8c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/c7b35932e7485e1cc740a126b9bb504b.jpg"
   },
   "3363267119": {
     "name": "Souldrinker",
@@ -65397,7 +65632,7 @@
   "3388974843": {
     "name": "Scintillant Prism Bond",
     "type": "Legendary Warlock Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f601dc764da904909140247b9ad183b7.jpg"
   },
   "3389066870": {
     "name": "Solstice Helm (Drained)",
@@ -68697,6 +68932,11 @@
     "type": "Exotic Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/986d9ef3c6bfa097c3131ba0178658b1.jpg"
   },
+  "3549635825": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3550280545": {
     "name": "Couturier Gauntlets",
     "type": "Legendary Titan Universal Ornament",
@@ -68964,6 +69204,11 @@
     "type": "Exotic Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/6144b4eb582f8a6bdb3b011d8e9d9e4e.jpg"
   },
+  "3566413412": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3566745556": {
     "name": "Sniper Damage Resistance",
     "type": "Common Chest Armor Mod",
@@ -69048,6 +69293,12 @@
     "type": "Legendary Gauntlets",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/755268dfb9f75fa481ea505552f4e582.jpg"
+  },
+  "3570529565": {
+    "name": "Deep Explorer Plate",
+    "type": "Legendary Chest Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8d98de30ea07587579b6de00e6d2a4c7.jpg"
   },
   "3570900471": {
     "name": "Calamity Rig Vest",
@@ -69599,6 +69850,11 @@
     "type": "Exotic Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/679073fcb4dfa99d4fb195cc6a154441.jpg"
   },
+  "3599968586": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3600144112": {
     "name": "Psionic Strangler Helmet",
     "type": "Legendary Titan Universal Ornament",
@@ -70050,6 +70306,11 @@
     "type": "Legendary Shotgun",
     "icon": "https://bungie.net/common/destiny2_content/icons/e2184277170b7a5f507f817c2b02fdff.jpg"
   },
+  "3616746301": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3617024265": {
     "name": "Exodus Down Boots",
     "type": "Legendary Leg Armor",
@@ -70202,12 +70463,12 @@
   "3626242165": {
     "name": "Sea Shell",
     "type": "Exotic Ghost Shell",
-    "icon": "https://bungie.net/common/destiny2_content/icons/08df336686ad98721c2c00719c8cd50c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/30fc627b64ec17268660f4f169827b5f.jpg"
   },
   "3626242166": {
     "name": "Sweet Sprinkles Shell",
     "type": "Exotic Ghost Shell",
-    "icon": "https://bungie.net/common/destiny2_content/icons/08df336686ad98721c2c00719c8cd50c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/7310fc4ccda1ebbc5247e8276d94ca71.jpg"
   },
   "3626376648": {
     "name": "Unflinching Submachine Gun Aim",
@@ -70787,6 +71048,11 @@
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/c7b6c9c10606414aa5db9f730b3069ae.jpg"
   },
+  "3652506829": {
+    "name": "Stormchaser",
+    "type": "Legendary Linear Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8c9170b2446b3d5c690456cffa91bd59.jpg"
+  },
   "3653573172": {
     "name": "Praedyth's Revenge",
     "type": "Legendary Sniper Rifle",
@@ -71017,6 +71283,11 @@
     "name": "Void Calibration",
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/32be4b45bf0019e182d0d53547d7d30f.jpg"
+  },
+  "3664831848": {
+    "name": "Heartshadow",
+    "type": "Exotic Sword",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f69d471dedae15bfb4a42fe82b66c14e.jpg"
   },
   "3664962348": {
     "name": "Legendary Shard Dismantler",
@@ -72439,6 +72710,12 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/8feb5798b62251d3a33df9696eb8a436.jpg"
   },
+  "3742442925": {
+    "name": "Deep Explorer Bond",
+    "type": "Legendary Warlock Bond",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/886db5f8e1eea409769761d2dd9864fb.jpg"
+  },
   "3742741341": {
     "name": "Solstice Mask (Magnificent)",
     "type": "Legendary Helmet",
@@ -73518,6 +73795,12 @@
     "type": "Legendary Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/ac6a224c594be75ee17dd3f945c60e16.jpg"
+  },
+  "3798520466": {
+    "name": "Deep Explorer Boots",
+    "type": "Legendary Leg Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a9148c68e30441f107545cd920976b1f.jpg"
   },
   "3798852852": {
     "name": "Smart Drift Control",
@@ -78670,6 +78953,12 @@
     "type": "Legendary Material",
     "icon": "https://bungie.net/common/destiny2_content/icons/fc38540b4feeaaf2bf853bd67e525bdf.jpg"
   },
+  "4047213660": {
+    "name": "Deep Explorer Mask",
+    "type": "Legendary Helmet",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0003342acb2cef0a8ab872e3846de471.jpg"
+  },
   "4047893141": {
     "name": "Hand Cannon Scavenger",
     "type": "Legendary Deprecated Perk",
@@ -80724,7 +81013,7 @@
   },
   "4139892463": {
     "name": "Peacebond",
-    "type": "Legendary Hand Cannon",
+    "type": "Legendary Sidearm",
     "icon": "https://bungie.net/common/destiny2_content/icons/067eefdf127c32b4ffd4724be408fdb2.jpg"
   },
   "4140705235": {
@@ -81012,6 +81301,11 @@
     "type": "Rare Armor Ornament",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/235d1d953b1a8a6fa168a49aceaa6cf1.jpg"
+  },
+  "4154828211": {
+    "name": "Bitterspite",
+    "type": "Common Origin Trait",
+    "icon": "https://bungie.net/common/destiny2_content/icons/67ab37ffd005b9bc5ed6fa3ff1b33a5b.png"
   },
   "4155106369": {
     "name": "Trials Ornament",
@@ -83531,6 +83825,12 @@
     "name": "Heaven's Vigil",
     "type": "Exotic Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/c4420987590a3d52d37db854076d6428.jpg"
+  },
+  "4289018379": {
+    "name": "Deep Explorer Vest",
+    "type": "Legendary Chest Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/089969db19adaffc850b2e56351b6beb.jpg"
   },
   "4289096107": {
     "name": "Scorn Slayer",
