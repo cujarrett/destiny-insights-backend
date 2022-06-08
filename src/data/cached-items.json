@@ -895,7 +895,7 @@
   "51945187": {
     "name": "Water Break",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a3c2dedd7763ae19155014bbc174f037.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f385fda03b8ab139f6c2179844685fcf.jpg"
   },
   "52039562": {
     "name": "Filigree of Light",
@@ -1852,6 +1852,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/2da4bf0eaa99361def96e61d8cb6d410.jpg"
   },
+  "115672088": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "115830999": {
     "name": "Omega Mechanos Gauntlets",
     "type": "Legendary Titan Universal Ornament",
@@ -1997,7 +2002,7 @@
   "125508792": {
     "name": "Live Disco Dance",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/aea8454f14b6d9a48d8ceaac77cdc2ec.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/67bcf6cbe4ef958e7cfbeeba5352dac7.jpg"
   },
   "125824834": {
     "name": "Closed Circuit",
@@ -2156,6 +2161,11 @@
     "name": "All Alone",
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/34cc3290dd1c91fd8cb818b7a3027924.jpg"
+  },
+  "132449675": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "132486706": {
     "name": "Clutch Extol Boots",
@@ -2483,6 +2493,11 @@
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/27e7282a7cbc6ca2d545e247ce747115.jpg"
   },
+  "149227390": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "149775185": {
     "name": "Empire Hunt II",
     "type": "Rare Quest",
@@ -2805,6 +2820,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/76fa312e56027d5b246db80bf47ad170.jpg"
   },
+  "166004945": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "166517309": {
     "name": "Large XP Boost",
     "type": "Common Seasonal Bonus",
@@ -3068,6 +3088,11 @@
     "name": "Energy Weapon Loader",
     "type": "Legendary Deprecated Perk",
     "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+  },
+  "182782532": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "183125260": {
     "name": "Blast from the Past",
@@ -3411,6 +3436,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/53f8013c1bddfda688164d2ddc2bd0cf.jpg"
   },
+  "199560247": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "199733460": {
     "name": "Masquerader's Helm",
     "type": "Legendary Festival Mask",
@@ -3733,7 +3763,7 @@
   "214374661": {
     "name": "Reigning Champion",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b070e41c6159da8d9dd5ba67579b5a37.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/e9c721941caeabd1831a4b1e3521e26b.jpg"
   },
   "215058017": {
     "name": "Bound in Sorrow",
@@ -3762,6 +3792,11 @@
     "type": "Legendary Leg Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/8f6911f7337a17fc86be70040be53078.jpg"
+  },
+  "216337834": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "216781713": {
     "name": "Häkke Precision Frame",
@@ -4078,6 +4113,11 @@
     "name": "Under Your Skin",
     "type": "Legendary Combat Bow",
     "icon": "https://bungie.net/common/destiny2_content/icons/c8ed67389c4b61ae53e41b554b5c1485.jpg"
+  },
+  "233115421": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "233423981": {
     "name": "Warden's Law",
@@ -8703,7 +8743,7 @@
   "448812068": {
     "name": "Paper Windmill",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d5ee0b25868320ea6f5ebb2eb96d4a28.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/c54b689da3e3c9bf8789144901a76dfd.jpg"
   },
   "449088607": {
     "name": "Mihaylova's Warlock Bundle",
@@ -8948,7 +8988,7 @@
   "465351846": {
     "name": "Power Nap",
     "type": "Legendary Multiplayer Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/301ab0208a8b4488416665378f116a4f.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/52d85f8b4f6b62d1424e7bf9242be6f4.jpg"
   },
   "465838244": {
     "name": "Lost Lament",
@@ -9577,7 +9617,7 @@
   "493352427": {
     "name": "Cabal Loyalty",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/88888be91f2f6683e44a569629a059d9.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/bc49257e4a4a12e1abc26c6a243f86a6.jpg"
   },
   "493448176": {
     "name": "Illicit Invader Mask",
@@ -12401,7 +12441,7 @@
   "644942096": {
     "name": "Buzz Off",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3a5a69001e6b6e672cc68944e73494bb.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/dbac9d59165526d92190b37ba8079ced.jpg"
   },
   "646467119": {
     "name": "Prime Engram",
@@ -12563,7 +12603,7 @@
   "655492558": {
     "name": "Sharp Aim",
     "type": "Legendary Hunter Finisher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2ed75c06e273eb834ec8034fd311e7f4.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/cb79668c199887e39473d92e84b1fed2.jpg"
   },
   "655964556": {
     "name": "Mimetic Savior Gauntlets",
@@ -16590,7 +16630,7 @@
   "862318366": {
     "name": "Finger Heart",
     "type": "Rare Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/492ecb3432379cec40a90e66922cd1b0.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/282299e3ddc4287b11d4a3e4e0a4dbb8.jpg"
   },
   "862848869": {
     "name": "Polymer Grip",
@@ -17605,7 +17645,7 @@
   "918947620": {
     "name": "Tee Ball",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b67176b2833dfed5fb4731d61054891e.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f337b10094c5715a563dcd291b4ddb3d.jpg"
   },
   "919186882": {
     "name": "Tangled Web Mark",
@@ -17736,7 +17776,7 @@
   "928070392": {
     "name": "Give Me a \"G\"",
     "type": "Exotic Multiplayer Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/0b765c3e0df73105f1c569001cccc32a.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/005cacbf8c5eb641ddb8db3fd42b9482.jpg"
   },
   "928095168": {
     "name": "Another Inspired Idea",
@@ -19572,7 +19612,7 @@
   "1026128010": {
     "name": "Happy Smiles",
     "type": "Rare Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/183c907e0da389dc3e93d941bdfc5a70.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/d7682b4073ab8aad2b0cc1dd9a641b89.jpg"
   },
   "1026141694": {
     "name": "Gambit Armor Scrounger",
@@ -20643,7 +20683,7 @@
   "1086362290": {
     "name": "Thunderous Sword",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/225bb894fed17e225196341a8604bc5c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b522043ef590a35916eb20f029d798fd.jpg"
   },
   "1087426260": {
     "name": "Appended Mag",
@@ -21832,7 +21872,7 @@
   "1155950691": {
     "name": "Knitting Project",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/8330cd627f5b4605fd360df7ea571711.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/2e0c26818734f66927443a3e16b0d7f3.jpg"
   },
   "1156439528": {
     "name": "Insigne Shade Cover",
@@ -26235,11 +26275,6 @@
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/9ac24d50c508a83afc68e69baaa33250.jpg"
   },
-  "1374246204": {
-    "name": "Water Gun",
-    "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bc6cf12ef7a9b5cf50e3edf5abe8940c.jpg"
-  },
   "1375679173": {
     "name": "Couturier Bond",
     "type": "Legendary Warlock Universal Ornament",
@@ -27202,7 +27237,7 @@
   "1425490449": {
     "name": "Solar Snap",
     "type": "Legendary Warlock Finisher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4b66f279f1f08d9ab40ae3b9d4eb5a6f.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/d2b69dff2d50bc663c1ef12baf591117.jpg"
   },
   "1425558127": {
     "name": "Iron Remembrance Greaves",
@@ -35586,7 +35621,7 @@
   "1864834357": {
     "name": "Glow Stick Dance",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/8832c20ab497a685c6cc2d70e465c812.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ced5f34a3646f931489c1f818f034224.jpg"
   },
   "1865351684": {
     "name": "The Hero's Burden",
@@ -38090,7 +38125,7 @@
   "1972565160": {
     "name": "Flaming Hula Hoop",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d755ffb6043a86114043719b1c361825.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab69d64cdf423a821ec3171f478a7f9e.jpg"
   },
   "1972851364": {
     "name": "Eidolon Pursuant Robe",
@@ -48593,7 +48628,7 @@
   "2523952013": {
     "name": "Swing of the Scythe",
     "type": "Legendary Finisher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/43c5d124897bbaa7da74d18db824a47d.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f1014ca6bd5ecf77b83fd2829e43a2d5.jpg"
   },
   "2523963837": {
     "name": "Empyrean Cartographer Mask",
@@ -49653,7 +49688,7 @@
   "2580533670": {
     "name": "The Spins",
     "type": "Legendary Finisher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3c29485470aaab06ded1a75e5b28f0a6.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/2e9f1e91d7112d7d82e1075edb3a3e98.jpg"
   },
   "2580727437": {
     "name": "Solstice Shader Bundle",
@@ -51095,7 +51130,7 @@
   "2660284125": {
     "name": "First Gig",
     "type": "Exotic Multiplayer Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bca23fe5edd6fdf79a2ef0b076ea3d75.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/d6279ebda4df3242ba0404d18758d1de.jpg"
   },
   "2660623764": {
     "name": "Solstice Greaves (Magnificent)",
@@ -51926,11 +51961,6 @@
     "name": "Drowned Alloy",
     "type": "Uncommon Material",
     "icon": "https://bungie.net/common/destiny2_content/icons/5a9b4b5f7bdf2f165932f78dc9d8eacf.jpg"
-  },
-  "2708497504": {
-    "name": "Bound in Sorrow",
-    "type": "Legendary Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "2708806099": {
     "name": "BxR-55 Battler",
@@ -53560,7 +53590,7 @@
   "2790810426": {
     "name": "Force Squad Display",
     "type": "Rare Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d21574354a945d078df9626d6bb427ff.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ee13421e2ab80cab7fb33358c8d5da42.jpg"
   },
   "2791042569": {
     "name": "Gift: Gjallardoodles",
@@ -53960,11 +53990,6 @@
     "name": "Void Wall",
     "type": "Void Grenade",
     "icon": "https://bungie.net/common/destiny2_content/icons/e1fe72608ed560d20f81ff41c8997fb7.jpg"
-  },
-  "2809163250": {
-    "name": "Bound in Sorrow",
-    "type": "Legendary Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "2809748888": {
     "name": "Veritas Strides",
@@ -54671,7 +54696,7 @@
   "2839364423": {
     "name": "Rocket Stomp",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a6f1583977fd8d1e1e3f29af7c2be364.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/0eebcc170f0ff37e6c4a970c08a1520a.jpg"
   },
   "2839604521": {
     "name": "Intrepid Exploit Greaves",
@@ -55523,7 +55548,7 @@
   "2884238702": {
     "name": "Perfect Catch",
     "type": "Legendary Titan Finisher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/aa7d38bb1069182492db0ec8c3e0420a.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8c5cd0f3b73de6b2b3b64afbeaf65c63.jpg"
   },
   "2884285698": {
     "name": "Helmet Masterwork Bonus",
@@ -57770,7 +57795,7 @@
   "2989179500": {
     "name": "Shower of Wealth",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/945266641338a9efffa1784f10eb8356.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/da015b0207d8cf5b0cab0f932e450927.jpg"
   },
   "2990047042": {
     "name": "Succession",
@@ -59892,7 +59917,7 @@
   "3104486761": {
     "name": "Celebrated and Elevated",
     "type": "Legendary Multiplayer Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ae0cd97c27ee27e46cb8c6e55952cb2d.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/0c5320d6987b2b96ce03a338e1c5cae2.jpg"
   },
   "3104539653": {
     "name": "Destination Resource Bundle",
@@ -62470,7 +62495,7 @@
   "3233781546": {
     "name": "Loyal Companion",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/147c395022b91c6d9134f9c15531d525.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/03b36b60100f6bc2e8d1389407f4980f.jpg"
   },
   "3233866074": {
     "name": "Insight Vikti Gloves",
@@ -66537,7 +66562,7 @@
   "3434490958": {
     "name": "Hot Dog Eating Champ",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/86e78a45f36d0d04c41653b14a89eb38.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/36109324c512dbcb3778d42f6c264d18.jpg"
   },
   "3434507093": {
     "name": "Occluded Finality",
@@ -67368,7 +67393,7 @@
   "3491209107": {
     "name": "Guarding Glaive",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/507cb2ee946c10442c3ecb065e1ea9ae.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/aa1396812deb84c866b9011fe96a94da.jpg"
   },
   "3491371766": {
     "name": "Trials Prestige Ornament",
@@ -70618,7 +70643,7 @@
   "3633178755": {
     "name": "Skateboarding",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/507cb2ee946c10442c3ecb065e1ea9ae.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/aa1396812deb84c866b9011fe96a94da.jpg"
   },
   "3633235162": {
     "name": "Selfie",
@@ -74043,7 +74068,7 @@
   "3811499292": {
     "name": "Conductor",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f734c2e52ac67037829274902f64a16f.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/46763d2457de9cdf8618043d2a320b77.jpg"
   },
   "3811760832": {
     "name": "Gallop",
@@ -78657,7 +78682,7 @@
   "4035006667": {
     "name": "Sparrow Getaway",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9a86b7a92904609f732e97a6cfed070b.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8b49c7cd4f06a81866f5d6f6df3b76d0.jpg"
   },
   "4035217656": {
     "name": "Atonement Tau",
@@ -78803,7 +78828,7 @@
   "4041621012": {
     "name": "Hacky Sack Pack",
     "type": "Exotic Multiplayer Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/38cd41167fb165431fffddf82ef38e42.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/02c472b1e2c3fe9e0b9bdc511220a83c.jpg"
   },
   "4041767206": {
     "name": "Fried Sha-dough",
@@ -79162,7 +79187,7 @@
   "4053390172": {
     "name": "Happy Stars",
     "type": "Rare Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3d3ba505e9a98e5bcfbe9cf3bef459a7.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/95331b4a285323970903bbb347dbc199.jpg"
   },
   "4053460984": {
     "name": "Prodigal Steps",
