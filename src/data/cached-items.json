@@ -51962,6 +51962,11 @@
     "type": "Uncommon Material",
     "icon": "https://bungie.net/common/destiny2_content/icons/5a9b4b5f7bdf2f165932f78dc9d8eacf.jpg"
   },
+  "2708497504": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "2708806099": {
     "name": "BxR-55 Battler",
     "type": "Legendary Pulse Rifle",
@@ -52359,6 +52364,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/6fb897f19d14d7e937657072afb85ad8.jpg"
   },
+  "2725275091": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "2725422375": {
     "name": "Precision Frame",
     "type": "Legendary Enhanced Intrinsic",
@@ -52652,6 +52662,11 @@
     "name": "Slug Rifle",
     "type": "Common Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/b7196816a403f91760150ea926c1a091.png"
+  },
+  "2742052678": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "2742490609": {
     "name": "Death Adder",
@@ -53007,6 +53022,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/46241159c48bdea021327f57ca6eb108.jpg"
   },
+  "2758830393": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "2758832455": {
     "name": "Hand Cannon Scavenger",
     "type": "Common Leg Armor Mod",
@@ -53300,6 +53320,11 @@
     "type": "Legendary Helmet",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/b8025a8d16086b3c5b5b34c9c1a7c299.jpg"
+  },
+  "2775607980": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "2775819545": {
     "name": "Awaken the Warmind",
@@ -53628,6 +53653,11 @@
     "name": "Tiebreaker",
     "type": "Legendary Rocket Launcher",
     "icon": "https://bungie.net/common/destiny2_content/icons/05e7d8c5328af85807ad82024715b651.jpg"
+  },
+  "2792385567": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "2792397615": {
     "name": "Arms Masterwork Bonus",
@@ -53990,6 +54020,11 @@
     "name": "Void Wall",
     "type": "Void Grenade",
     "icon": "https://bungie.net/common/destiny2_content/icons/e1fe72608ed560d20f81ff41c8997fb7.jpg"
+  },
+  "2809163250": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "2809748888": {
     "name": "Veritas Strides",
@@ -54412,6 +54447,16 @@
     "type": "Legendary Fusion Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/c3aac38d549d07f9cdaaa8f99fdae008.jpg"
   },
+  "2825940832": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
+  "2825940837": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "2825949957": {
     "name": "Unflinching Rifle Aim",
     "type": "Legendary Deprecated Perk",
@@ -54757,6 +54802,11 @@
     "type": "Rare Scout Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/d04bc1dc4d7fb65a0e45c542d73818a6.jpg"
   },
+  "2842718424": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "2843067693": {
     "name": "Legendary Shard Dismantler",
     "type": "Common Seasonal Bonus",
@@ -55064,6 +55114,11 @@
     "type": "Legendary Chest Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/b2ff9e20c057f3b880198d296314decc.jpg"
+  },
+  "2859496011": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "2859541905": {
     "name": "Taken Armaments",
@@ -69062,6 +69117,11 @@
     "type": "Exotic Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/65236aff72b2de9cd34c1c02b1428611.png"
   },
+  "3556572656": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3556600478": {
     "name": "Seasonal Eververse Gift",
     "type": "Legendary Package",
@@ -69353,6 +69413,11 @@
     "name": "Dragonfly Regalia Mandible",
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/abf4e36411b261a587b8567a48da8c82.jpg"
+  },
+  "3573350243": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "3573764622": {
     "name": "Precision Frame",
@@ -69680,6 +69745,11 @@
     "name": "Solstice Bond (Resplendent)",
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/4cd6ded239b8de008fc4e84fed368912.jpg"
+  },
+  "3590127830": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "3590171412": {
     "name": "Serpent's Ruin",
@@ -70125,6 +70195,11 @@
     "type": "Rare Transmat Effect",
     "icon": "https://bungie.net/common/destiny2_content/icons/d74248196b483f885ac11f294bf4aa40.jpg"
   },
+  "3606905417": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3607521808": {
     "name": "Woven Firesmith Mask",
     "type": "Legendary Helmet",
@@ -70428,6 +70503,11 @@
     "name": "Valkyrian Bond",
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/8eb477e3ce889e06d2fc7a5d37629679.jpg"
+  },
+  "3623683132": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "3624199242": {
     "name": "Iron Fellowship Casque",
@@ -71156,6 +71236,11 @@
     "type": "Exotic Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/797ae67060f1582d8e611f082e089db9.jpg"
   },
+  "3657238274": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3658188704": {
     "name": "The Messenger",
     "type": "Legendary Pulse Rifle",
@@ -71534,6 +71619,11 @@
     "name": "Adagio",
     "type": "Common Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/71b48407a3276cf4e8ddbdcb88efe8a0.png"
+  },
+  "3674015989": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "3674673997": {
     "name": "Immovable Object",
