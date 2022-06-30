@@ -38432,7 +38432,7 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/756242d0ef5b42d343abdabaae941ff7.jpg"
   },
   "1985773549": {
-    "name": "G-Type",
+    "name": "Operation Caliente",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/ccc021f5df7e3f06ff8f2d4a18023f6e.jpg"
   },
@@ -67448,7 +67448,7 @@
   "3491209107": {
     "name": "Guarding Glaive",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/aa1396812deb84c866b9011fe96a94da.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f8922953549ebcac33a22cecbec7f89e.jpg"
   },
   "3491371766": {
     "name": "Trials Prestige Ornament",
@@ -70723,7 +70723,7 @@
   "3633178755": {
     "name": "Skateboarding",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/aa1396812deb84c866b9011fe96a94da.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/6767c32a15a907794002214593d3bbb8.jpg"
   },
   "3633235162": {
     "name": "Selfie",
@@ -71246,6 +71246,11 @@
     "type": "Legendary Pulse Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/5be3911505b3e65062c75537e725beed.jpg"
   },
+  "3658450184": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3658937452": {
     "name": "Anniversary Pose",
     "type": "Exotic Emote",
@@ -71635,6 +71640,11 @@
     "type": "Legendary Titan Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/60bb64e2750d36d46947752fd44f7a2a.jpg"
   },
+  "3675227899": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3675595381": {
     "name": "Crucible Threader",
     "type": "Legendary Armor Synthesis Bounty",
@@ -71953,6 +71963,11 @@
     "name": "Sins of the Past",
     "type": "Legendary Rocket Launcher",
     "icon": "https://bungie.net/common/destiny2_content/icons/db7d8ce45381db4067dabae557126624.jpg"
+  },
+  "3692005486": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "3692187003": {
     "name": "Dreambane Robes",
@@ -72472,6 +72487,11 @@
     "type": "Legendary Enhanced Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
   },
+  "3725560756": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3725654227": {
     "name": "Devastation Complex",
     "type": "Legendary Helmet",
@@ -72819,6 +72839,11 @@
     "type": "Common Seasonal Bonus",
     "icon": "https://bungie.net/common/destiny2_content/icons/ccea3cf0772528c8dfd3d33dc1ccc6cb.png"
   },
+  "3742338343": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "3742350309": {
     "name": "Exodus Down Boots",
     "type": "Legendary Leg Armor",
@@ -73151,6 +73176,11 @@
     "name": "Report: RESONANCE-COMP",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/9ac24d50c508a83afc68e69baaa33250.jpg"
+  },
+  "3759115930": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "3759327055": {
     "name": "Opulent Stalker Vest",
@@ -73485,6 +73515,11 @@
     "name": "Iris Pulsator Shell",
     "type": "Exotic Ghost Shell",
     "icon": "https://bungie.net/common/destiny2_content/icons/d0102e7eb682c6315e7edb6aa26b8f57.jpg"
+  },
+  "3775893517": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "3776129137": {
     "name": "Zenobia-D",

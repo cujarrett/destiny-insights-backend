@@ -403,7 +403,7 @@
   "399528760": {
     "name": "Taken Invigoration",
     "type": "Common Last Wish Raid Mod",
-    "description": "This perk has been deprecated and no longer functions.",
+    "description": "Defeating a challenging Taken combatant refreshes your class ability.\n\nThis mod's abilities cannot stack across multiple copies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/932b9937f783cb0e61061684c40592a1.png"
   },
   "403494087": {
@@ -2548,7 +2548,7 @@
   "2589105944": {
     "name": "Taken Repurposing",
     "type": "Common Last Wish Raid Mod",
-    "description": "This perk has been deprecated and no longer functions.",
+    "description": "Destroying a Taken shield refreshes your grenade ability.",
     "icon": "https://bungie.net/common/destiny2_content/icons/9d54e2149f945b2c298020da443b70fa.png"
   },
   "2597888506": {
@@ -2752,7 +2752,7 @@
   "2859541905": {
     "name": "Taken Armaments",
     "type": "Common Last Wish Raid Mod",
-    "description": "This perk has been deprecated and no longer functions.",
+    "description": "Defeating a Taken combatant with a grenade grants Heavy ammo.\n\nThis mod's abilities cannot stack across multiple copies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/d365907deee1024944e9bc405a5c4bba.png"
   },
   "2874957617": {
@@ -3411,7 +3411,7 @@
   "3570105787": {
     "name": "Taken Barrier",
     "type": "Common Last Wish Raid Mod",
-    "description": "This perk has been deprecated and no longer functions.",
+    "description": "Receiving Taken damage gives a 20% reduction in damage for 10 seconds.",
     "icon": "https://bungie.net/common/destiny2_content/icons/6e112c563ecc78c1a674ef9edb8cb727.png"
   },
   "3581121455": {
