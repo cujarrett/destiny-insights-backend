@@ -75,7 +75,7 @@
   "7471106": {
     "name": "Submachine Gun Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "7665310": {
     "name": "Passage of Ferocity",
@@ -113,6 +113,11 @@
     "type": "Legendary Chest Armor",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/e53c9d114dc2cdc15bd75ab84dae744b.jpg"
+  },
+  "10308616": {
+    "name": "Small Kindling",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1cd02c074a36c5d2f89efdf5bb8ac805.png"
   },
   "10493725": {
     "name": "The Pyramidion",
@@ -997,6 +1002,12 @@
     "type": "Legendary Focused Umbral Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/b1c6382e8f67f7d50cc7f88842637d33.png"
   },
+  "58945355": {
+    "name": "Candescent Plate",
+    "type": "Legendary Chest Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ff5b23339b9c243966efe55e0471f7da.jpg"
+  },
   "59990642": {
     "name": "Refugee Plate",
     "type": "Common Chest Armor",
@@ -1159,6 +1170,11 @@
     "name": "Adequate Dawning Presents",
     "type": "Rare Holiday Gift",
     "icon": "https://bungie.net/common/destiny2_content/icons/e476c036ce55d81d5d57c787f6489869.jpg"
+  },
+  "69244761": {
+    "name": "Kindling",
+    "type": "Legendary Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c7e4a2cbe7b0aa08fcdf726b783f1305.jpg"
   },
   "71883942": {
     "name": "Edge of Concurrence",
@@ -1566,6 +1582,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/99b3005bbba916ec023fcda02382c221.jpg"
   },
+  "92673593": {
+    "name": "A Guardian in Shining Armor",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4e2103bc51af27c991e78c391e634804.png"
+  },
   "93029342": {
     "name": "Flip Out",
     "type": "Exotic Emote",
@@ -1755,6 +1776,11 @@
     "type": "Rare Holiday Gift",
     "icon": "https://bungie.net/common/destiny2_content/icons/c7a561faa09866bbf9d8d2e325e4fc92.jpg"
   },
+  "105911828": {
+    "name": "Power Pitch",
+    "type": "Legendary Finisher",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4c7ac46e6ba63c04b767c13a118aaa8b.jpg"
+  },
   "106359434": {
     "name": "Coronation Mark",
     "type": "Legendary Titan Mark",
@@ -1830,6 +1856,11 @@
     "name": "Season of the Hunt Starter Pack",
     "type": "Legendary Package",
     "icon": "https://bungie.net/common/destiny2_content/icons/c236f6fb9c6848bb4396e7f37b33bcc6.png"
+  },
+  "112995350": {
+    "name": "Fully Rekindled",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a2f4484d71b774a1b8c0dcc0e39be818.png"
   },
   "113061891": {
     "name": "Empire's Fall",
@@ -2056,7 +2087,7 @@
   "127731051": {
     "name": "Fusion Rifle Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "128145011": {
     "name": "Armor Scrounger",
@@ -2219,7 +2250,7 @@
   "136210645": {
     "name": "Hand Cannon Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "136291991": {
     "name": "Unfocused Solar Energy",
@@ -2310,6 +2341,11 @@
     "type": "Legendary Discovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/510a4671d21565baa1c1b18f0f10f291.jpg"
   },
+  "140599435": {
+    "name": "Silver Leaves",
+    "type": "Legendary Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/dc6d84e1f14387b6a732579b4d880021.jpg"
+  },
   "140778505": {
     "name": "Generous Dawning Presents",
     "type": "Legendary Holiday Gift",
@@ -2364,7 +2400,7 @@
   "143442373": {
     "name": "Primary Ammo Finder",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "143821939": {
     "name": "Illicit Invader Strides",
@@ -2457,6 +2493,11 @@
     "type": "Legendary Leg Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/15d76228b72857d6ef2da1409a027b9c.jpg"
+  },
+  "147394433": {
+    "name": "Spark of Mobility",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/091a19f346a7145fd52c8d4cff7efeba.png"
   },
   "147536131": {
     "name": "The Dawning",
@@ -2695,7 +2736,7 @@
   "159084247": {
     "name": "Submachine Gun Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "159907007": {
     "name": "Ayrin's Swagger",
@@ -2874,7 +2915,7 @@
   "168673710": {
     "name": "Unflinching Shotgun Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "169755979": {
     "name": "Dragonfly",
@@ -2928,6 +2969,11 @@
     "type": "Legendary Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/84f662af55684ba154b5362293b5e798.jpg"
+  },
+  "172434220": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
   },
   "174192097": {
     "name": "CALUS Mini-Tool",
@@ -3087,7 +3133,7 @@
   "182444936": {
     "name": "Energy Weapon Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "182782532": {
     "name": "Bound in Sorrow",
@@ -3172,17 +3218,17 @@
   "187655372": {
     "name": "Trapper's Ambush",
     "type": "Void Aspect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1a94c18b2d1923c9cea7933e2da765a9.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/e91760df2b81d191da9e2c62cb3fcda7.jpg"
   },
   "187655373": {
     "name": "Vanishing Step",
     "type": "Void Aspect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/08eaf11c2cd35476f9eebaf6dbfa27f4.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f23323d11f0ad79781f91c70f4c644ac.jpg"
   },
   "187655374": {
     "name": "Stylish Executioner",
     "type": "Void Aspect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5c004f084b11c3cf6a3967f579482af2.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ed7f8c49b77fa46f4eec87a3c167c4b1.jpg"
   },
   "188778964": {
     "name": "Reverie Dawn Boots",
@@ -4538,7 +4584,7 @@
   "249373318": {
     "name": "Auto Rifle Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "249655104": {
     "name": "Outlawed Invader Grips",
@@ -5077,6 +5123,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/81264143c8493de7e7f63c54bee2cc9d.jpg"
   },
+  "275205260": {
+    "name": "Solstice Package",
+    "type": "Rare Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/92200976b4a95ef796b2207065db74de.png"
+  },
   "275645401": {
     "name": "Case of Energized Armor Mods",
     "type": "Rare Package",
@@ -5441,7 +5492,7 @@
   "290114209": {
     "name": "Perpetuation",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "290136582": {
     "name": "Wing Theorem",
@@ -5712,7 +5763,7 @@
   "301115145": {
     "name": "Light Arms Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "301151651": {
     "name": "Emperor's Balance",
@@ -5740,6 +5791,16 @@
     "type": "Legendary Grenade Launcher",
     "icon": "https://bungie.net/common/destiny2_content/icons/06b4ae6a640e536a1e9933366952f36e.jpg"
   },
+  "301419413": {
+    "name": "Large Kindling",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c5829e1654cf8f00b662a0ecb536f6f7.png"
+  },
+  "301877475": {
+    "name": "Spark of Discipline",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2fce4e286bf8b48e48720cee2cf6d541.png"
+  },
   "302488496": {
     "name": "Spirit of Competition",
     "type": "Exotic Intrinsic",
@@ -5758,7 +5819,7 @@
   "304186389": {
     "name": "Hand Cannon Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "304659313": {
     "name": "Ignition Code",
@@ -5833,7 +5894,7 @@
   "310410239": {
     "name": "Better Already",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "310708513": {
     "name": "Survivor's Epitaph",
@@ -6038,7 +6099,7 @@
   "320680844": {
     "name": "Momentum Transfer",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "320750826": {
     "name": "Eira's Grace",
@@ -6233,7 +6294,7 @@
   "330650351": {
     "name": "Grenade Launcher Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "331602521": {
     "name": "Retro-Grade TG2",
@@ -6590,7 +6651,7 @@
   "351326616": {
     "name": "Energy Weapon Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "351522029": {
     "name": "Eventful Moments",
@@ -7082,7 +7143,7 @@
   "377666359": {
     "name": "Energy Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "377681571": {
     "name": "X Marks the Spot",
@@ -7184,7 +7245,7 @@
   "383734234": {
     "name": "A Single Spark",
     "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1278344ed0b8bcf11e66d60122b1a8ac.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/9f05f0f6c269a32029e7507d6557c38a.jpg"
   },
   "383734236": {
     "name": "Severance Package",
@@ -7264,7 +7325,7 @@
   "385402729": {
     "name": "Candescent Prism Plate",
     "type": "Legendary Titan Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/6e0c325d4deeca2983b611d099518d1f.jpg"
   },
   "385985080": {
     "name": "Devastation Complex",
@@ -7497,7 +7558,7 @@
   "395489854": {
     "name": "Sniper Rifle Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "395528177": {
     "name": "Mihaylova's Instruments",
@@ -8269,7 +8330,7 @@
   "430361065": {
     "name": "Unflinching Grenade Launcher Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "430387801": {
     "name": "Chrysopelea-S",
@@ -8381,7 +8442,7 @@
   "433323503": {
     "name": "Enhanced Heavy Lifting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "433469519": {
     "name": "Precision Frame",
@@ -8396,7 +8457,7 @@
   "433757560": {
     "name": "Shotgun Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "434092458": {
     "name": "Gensym Knight Mark",
@@ -9114,6 +9175,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/071f2deb02a03accd24c3836c3748d1d.jpg"
   },
+  "469563262": {
+    "name": "Spark of Strength",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ae12d6ef5abe8636a5eac3a8e9ce065.png"
+  },
   "469935026": {
     "name": "Show Your Colors",
     "type": "Rare Weekly Bounty",
@@ -9239,6 +9305,16 @@
     "type": "Exotic Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/e7ccbff166a5a543df4f475f69f3ebf8.jpg"
+  },
+  "475887210": {
+    "name": "Incendiary Rounds",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "475887211": {
+    "name": "Crash, and Burn",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
   },
   "476007934": {
     "name": "Enhanced Unflinching Machine Gun Aim",
@@ -9708,7 +9784,12 @@
   "500185866": {
     "name": "Bitten Cookie Projection",
     "type": "Legendary Ghost Projection",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1a7c8da17d77226c84527b7ab66d6bcb.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/048c244095ded964d9c4b7a68eaff882.jpg"
+  },
+  "500185867": {
+    "name": "Seashell Projection",
+    "type": "Legendary Ghost Projection",
+    "icon": "https://bungie.net/common/destiny2_content/icons/528e17daf33eac167a57df0d8a1d0551.jpg"
   },
   "500363457": {
     "name": "Iron Symmachy Grips",
@@ -9925,6 +10006,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/7a83b2537ab5d42aba2af6243852ba5c.jpg"
   },
+  "511487664": {
+    "name": "Candescent Prism Cloak",
+    "type": "Legendary Hunter Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/039d94a81938b4b956cdc9011d0e3781.jpg"
+  },
   "511686498": {
     "name": "Dawning Delivery",
     "type": "Rare Holiday Gift",
@@ -9983,7 +10069,7 @@
   "514613051": {
     "name": "Light Reactor",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "515071961": {
     "name": "Tiger Effects",
@@ -10047,6 +10133,12 @@
     "type": "Legendary Leg Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/6e4b5b0879e8fddbfd9b03e2128c98ce.jpg"
+  },
+  "516735972": {
+    "name": "Candescent Gloves",
+    "type": "Legendary Gauntlets",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/456295b517169463a4964c299b54f991.jpg"
   },
   "517124228": {
     "name": "Lightkin Mark",
@@ -10114,7 +10206,7 @@
   "522919985": {
     "name": "Unflinching Hand Cannon Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "523189761": {
     "name": "Ravager's Ride",
@@ -10170,7 +10262,7 @@
   "527286589": {
     "name": "Unflinching Kinetic Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "527342912": {
     "name": "Eidolon Pursuant Helm",
@@ -10637,7 +10729,7 @@
   "546936951": {
     "name": "Fusion Rifle Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "547716782": {
     "name": "Steadfast Warlock Ornament",
@@ -11037,7 +11129,12 @@
   "568667342": {
     "name": "Fusion Rifle Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
+  },
+  "568769546": {
+    "name": "Candescent Prism Mask",
+    "type": "Legendary Hunter Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7541dc591d405499d195fc44ece6cb50.jpg"
   },
   "568877018": {
     "name": "Scrimshander's Song",
@@ -11182,6 +11279,11 @@
     "name": "Dendrite Shimmer Strides",
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/aeb37577b03343c834ffa20a893ce03d.jpg"
+  },
+  "574433875": {
+    "name": "Candescent Prism Grips",
+    "type": "Legendary Hunter Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d6e227e057c7c61870893ecb783dddf2.jpg"
   },
   "574694085": {
     "name": "Arc Armor Glow",
@@ -11371,6 +11473,11 @@
     "type": "Legendary Helmet",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/7fffa82aea62ced37f16b4f09cad0d3b.jpg"
+  },
+  "583504042": {
+    "name": "Small Kindling",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1cd02c074a36c5d2f89efdf5bb8ac805.png"
   },
   "583723938": {
     "name": "Deprecated Armor Mod",
@@ -11932,6 +12039,11 @@
     "type": "Legendary Grenade Launcher",
     "icon": "https://bungie.net/common/destiny2_content/icons/70036e994bd7b8d41b40969330c15b38.jpg"
   },
+  "613523606": {
+    "name": "Glowing Embers",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/24e97318284a93d56e52bcbbb67f4c05.png"
+  },
   "613601972": {
     "name": "Symphony of Death",
     "type": "Exotic Quest Step",
@@ -11957,6 +12069,11 @@
     "name": "Threatening Stance",
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/da4c582345f34d3444da4a79ab147468.jpg"
+  },
+  "614917190": {
+    "name": "Spark of Resilience",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0a67583832ce4c7f0639999e53fd7f6.png"
   },
   "615077791": {
     "name": "Refugee Cloak",
@@ -12438,6 +12555,11 @@
     "type": "Common Deprecated Armor Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "643802973": {
+    "name": "Spark of Intellect",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9b91123f1bc0062c2e127f5e7d65fbdd.png"
+  },
   "644942096": {
     "name": "Buzz Off",
     "type": "Legendary Emote",
@@ -12731,6 +12853,11 @@
     "type": "Common Scope",
     "icon": "https://bungie.net/common/destiny2_content/icons/29519ba1bd98e15765f90227befa3d76.png"
   },
+  "663527469": {
+    "name": "Silver Ash",
+    "type": "Legendary Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e50608a567accdc407718c544ead82ca.jpg"
+  },
   "664042851": {
     "name": "Cranking Dance",
     "type": "Legendary Emote",
@@ -12866,6 +12993,11 @@
     "type": "Legendary Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/85d3d0a19a4a7dda6f40d754a2b45377.jpg"
   },
+  "670527162": {
+    "name": "Shining Embers",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cc802dfb54100962678b69ca8d4cf343.png"
+  },
   "670866461": {
     "name": "Insight",
     "type": "Legendary Material",
@@ -12925,7 +13057,7 @@
   "673846245": {
     "name": "Invigoration",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "674128952": {
     "name": "Inspector's Gloves",
@@ -13413,6 +13545,11 @@
     "type": "Legendary Hand Cannon",
     "icon": "https://bungie.net/common/destiny2_content/icons/c0d8d9a34bcac362d37fda83bed09f9c.jpg"
   },
+  "696639528": {
+    "name": "Rekindle the Spark",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/73303cff6b4c2abbf4f5f8ac446f6cf1.png"
+  },
   "696808195": {
     "name": "Refugee Mark",
     "type": "Common Titan Mark",
@@ -13460,7 +13597,7 @@
   "699706967": {
     "name": "Submachine Gun Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "699889753": {
     "name": "Fire-Forged Warlock Chest Ornament",
@@ -14000,6 +14137,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/53707e38928a9b4af8dbd151d4061995.jpg"
   },
+  "732079556": {
+    "name": "Spark of Resilience",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0a67583832ce4c7f0639999e53fd7f6.png"
+  },
   "732149466": {
     "name": "Lost Pacific Cape",
     "type": "Legendary Hunter Cloak",
@@ -14052,7 +14194,7 @@
   "735778136": {
     "name": "Arrow Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "735898482": {
     "name": "Recurrent Impact",
@@ -14099,7 +14241,7 @@
   "737144025": {
     "name": "Outreach",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "737156186": {
     "name": "The Witch Queen",
@@ -14864,6 +15006,11 @@
     "type": "Uncommon Consumable",
     "icon": "https://bungie.net/common/destiny2_content/icons/ef22cf81132b1241e6df95fd12de9c19.jpg"
   },
+  "771361061": {
+    "name": "Spark of Discipline",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2fce4e286bf8b48e48720cee2cf6d541.png"
+  },
   "771946386": {
     "name": "Report: RESONANCE-COMP",
     "type": "Legendary Quest Step",
@@ -15373,7 +15520,7 @@
   "790090923": {
     "name": "Machine Gun Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "790092644": {
     "name": "The Dark Priestess",
@@ -15923,6 +16070,11 @@
     "type": "Legendary Auto Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/c4509acb76551495deac51bb29b61248.jpg"
   },
+  "821631683": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
   "821841934": {
     "name": "Bond of the Great Hunt",
     "type": "Legendary Warlock Bond",
@@ -15932,7 +16084,7 @@
   "821844118": {
     "name": "Solstice Engram",
     "type": "Legendary Bright Engram",
-    "icon": "https://bungie.net/common/destiny2_content/icons/dde22f7e9b3cee9c133442b2b0c249f6.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8e3cafe8b264c22a5654317e80b48963.png"
   },
   "822537185": {
     "name": "Scatterhorn Helm",
@@ -16041,7 +16193,7 @@
   "833036833": {
     "name": "Hand Cannon Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "833626649": {
     "name": "Chiron's Cure",
@@ -16257,7 +16409,7 @@
   "846801292": {
     "name": "Unflinching Pulse Rifle Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "847329160": {
     "name": "Edgewise",
@@ -16464,7 +16616,7 @@
   "854794537": {
     "name": "Enhanced Unflinching Sniper Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "854833035": {
     "name": "Quick Hug",
@@ -16528,6 +16680,11 @@
     "name": "Skerren Corvus Vest",
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/e3296509203731b7094bf58a6ec1bfc2.jpg"
+  },
+  "856630464": {
+    "name": "Fully Rekindled",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a2f4484d71b774a1b8c0dcc0e39be818.png"
   },
   "856633363": {
     "name": "Solstice Cloak (Renewed)",
@@ -16690,7 +16847,7 @@
   "866518141": {
     "name": "Grenade Launcher Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "866590993": {
     "name": "Astrocyte Verse",
@@ -16931,7 +17088,7 @@
   "877194565": {
     "name": "Rifle Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "877839380": {
     "name": "Gambit Sniper Rifle Scrounger",
@@ -17332,7 +17489,7 @@
   "901125364": {
     "name": "Machine Gun Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "901647822": {
     "name": "Heiro Camo",
@@ -17803,6 +17960,11 @@
     "type": "Common Garden of Salvation Raid Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/9311f85548666d1cca5f58ac911695c0.png"
   },
+  "928568694": {
+    "name": "Spark of Mobility",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/091a19f346a7145fd52c8d4cff7efeba.png"
+  },
   "929148730": {
     "name": "Solstice Vest (Drained)",
     "type": "Uncommon Chest Armor",
@@ -18035,7 +18197,7 @@
   "942541111": {
     "name": "Machine Gun Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "942888402": {
     "name": "Solstice Robes (Drained)",
@@ -18179,7 +18341,7 @@
   "952165152": {
     "name": "Power Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "952444125": {
     "name": "Radiant Largesse",
@@ -18875,7 +19037,7 @@
   "994729458": {
     "name": "Enhanced Grenade Launcher Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "995248967": {
     "name": "Makeshift Suit",
@@ -19176,6 +19338,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/88d66c1ddc9beea6e21fa9bd32f63cd5.jpg"
   },
+  "1007815300": {
+    "name": "Spark of Intellect",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9b91123f1bc0062c2e127f5e7d65fbdd.png"
+  },
   "1008128453": {
     "name": "Cornered",
     "type": "Uncommon Enhanced Trait",
@@ -19200,6 +19367,11 @@
     "name": "Enhanced Unflinching Submachine Gun Aim",
     "type": "Common Deprecated Armor Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "1009251610": {
+    "name": "Spark of Discipline",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2fce4e286bf8b48e48720cee2cf6d541.png"
   },
   "1009368854": {
     "name": "New Subclass: Voidwalker",
@@ -19257,6 +19429,11 @@
     "type": "Exotic Titan Ornament",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/60802c9b5f5e2928b23e45691b1c4873.jpg"
+  },
+  "1012109549": {
+    "name": "Small Kindling",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1cd02c074a36c5d2f89efdf5bb8ac805.png"
   },
   "1012254326": {
     "name": "The Outlander's Steps",
@@ -19574,7 +19751,7 @@
   "1023341166": {
     "name": "Shotgun Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1023632589": {
     "name": "Submachine Gun Scavenger",
@@ -19849,7 +20026,7 @@
   "1036754881": {
     "name": "Shotgun Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1036776535": {
     "name": "Denial Dance",
@@ -19926,6 +20103,12 @@
     "type": "Legendary Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/3156bf40d57e01ca633e4026192bdf7f.jpg"
+  },
+  "1043609040": {
+    "name": "Candescent Cloak",
+    "type": "Legendary Hunter Cloak",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/039d94a81938b4b956cdc9011d0e3781.jpg"
   },
   "1043617959": {
     "name": "Hand Cannon Reserves",
@@ -20237,7 +20420,7 @@
   "1057027095": {
     "name": "Pulse Rifle Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1057038659": {
     "name": "Nightfall",
@@ -20371,7 +20554,7 @@
   "1066067378": {
     "name": "Shotgun Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1066605642": {
     "name": "Illicit Invader Mark",
@@ -20399,10 +20582,16 @@
     "type": "Legendary Enhanced Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/d1ff65162c4a9d54a9612d9874b9fa88.png"
   },
+  "1068450901": {
+    "name": "Candescent Gauntlets",
+    "type": "Legendary Gauntlets",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c7635bc4d5d105351258ee1f87550632.jpg"
+  },
   "1068909436": {
     "name": "Shotgun Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1068954417": {
     "name": "Strange Key",
@@ -20412,7 +20601,7 @@
   "1068982181": {
     "name": "Large Weapon Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1069002790": {
     "name": "Cinder Pinion Strides",
@@ -20645,7 +20834,7 @@
   "1084281489": {
     "name": "Enhanced Unflinching Bow Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1084411177": {
     "name": "Draws Nigh",
@@ -21023,7 +21212,7 @@
   "1107740237": {
     "name": "Ashes to Assets",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1108278178": {
     "name": "Vigil of Heroes",
@@ -21157,7 +21346,7 @@
   "1122363303": {
     "name": "Bomber",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1123124244": {
     "name": "Purification Ritual",
@@ -21206,6 +21395,16 @@
     "type": "Uncommon Helmet",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/1ee737e5232912a8cd94d25c20c67e94.jpg"
+  },
+  "1126354272": {
+    "name": "Iris Gossamer",
+    "type": "Legendary Shader",
+    "icon": "https://bungie.net/common/destiny2_content/icons/f04a09a472358af424a8897f6e3b0c99.jpg"
+  },
+  "1126354273": {
+    "name": "Regal Daring",
+    "type": "Legendary Shader",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a8f72dc49d77e95934fdd9cea774a328.jpg"
   },
   "1126789516": {
     "name": "Woven Firesmith Vest",
@@ -21437,7 +21636,7 @@
   "1134884869": {
     "name": "Sidearm Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1135037794": {
     "name": "Gensym Knight Mark",
@@ -22171,7 +22370,7 @@
   "1170148132": {
     "name": "Scout Rifle Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1170891373": {
     "name": "Tranquility",
@@ -22355,7 +22554,7 @@
   "1180144002": {
     "name": "Sniper Rifle Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1180270692": {
     "name": "Quickfang",
@@ -22463,6 +22662,11 @@
     "type": "Rare Weekly Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/903a6272fe166bfa11260b8d94da3f7c.png"
   },
+  "1183399262": {
+    "name": "Shining Embers",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cc802dfb54100962678b69ca8d4cf343.png"
+  },
   "1183436451": {
     "name": "Firefly",
     "type": "Uncommon Enhanced Trait",
@@ -22471,7 +22675,7 @@
   "1183779334": {
     "name": "Enhanced Shotgun Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1183790050": {
     "name": "Seasonal Focusing",
@@ -22829,7 +23033,7 @@
   "1204062917": {
     "name": "Unflinching Power Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1204101093": {
     "name": "Luminous Vanguard Engram",
@@ -22897,6 +23101,31 @@
     "type": "Legendary Helmet",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/632bf4679125659657acfaf33b031ced.jpg"
+  },
+  "1207887088": {
+    "name": "Rekindle the Spark",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/73303cff6b4c2abbf4f5f8ac446f6cf1.png"
+  },
+  "1207887089": {
+    "name": "Rekindle the Spark",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/73303cff6b4c2abbf4f5f8ac446f6cf1.png"
+  },
+  "1207887090": {
+    "name": "Rekindle the Spark",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/73303cff6b4c2abbf4f5f8ac446f6cf1.png"
+  },
+  "1207887091": {
+    "name": "Rekindle the Spark",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/73303cff6b4c2abbf4f5f8ac446f6cf1.png"
+  },
+  "1207887095": {
+    "name": "Rekindle the Spark",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/73303cff6b4c2abbf4f5f8ac446f6cf1.png"
   },
   "1207945315": {
     "name": "Prodigal Bond",
@@ -22998,6 +23227,11 @@
     "type": "Legendary Armor Ornament",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/52c72ce2e8aa9c5a3cc7f34d1418d800.jpg"
+  },
+  "1215331696": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "1215952756": {
     "name": "Legs of the Exile",
@@ -23220,7 +23454,7 @@
   "1227994396": {
     "name": "Enhanced Sniper Rifle Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1229016681": {
     "name": "Zeus-Like Physique",
@@ -23305,6 +23539,11 @@
     "type": "Rare Helmet",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/273eb578d13a88e9eda8781ff74c90d0.jpg"
+  },
+  "1232109283": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
   "1232226503": {
     "name": "Dawning Delivery",
@@ -23640,6 +23879,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/2b11c0cf39c71614a5e97862c4160020.jpg"
   },
+  "1248886870": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "1249334869": {
     "name": "Dawning Parade",
     "type": "Rare Sparrow Mod",
@@ -23671,16 +23915,6 @@
     "type": "Legendary Warlock Bond",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/7b4acd4760120a6636c94e720b19039b.jpg"
-  },
-  "1251358270": {
-    "name": "Rare Armor Accelerator I",
-    "type": "Uncommon Armor Accelerators",
-    "icon": "https://bungie.net/common/destiny2_content/icons/481511375fcd849773b822ea60ab7fb7.jpg"
-  },
-  "1251358271": {
-    "name": "Rare Armor Accelerator II",
-    "type": "Rare Armor Accelerators",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3b26856eca83c84733c2da380b3febb3.jpg"
   },
   "1251692004": {
     "name": "Lost Pacific Gloves",
@@ -23932,6 +24166,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/2337652b6c8ecd74c734d62cdcdaee56.jpg"
   },
+  "1265664457": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "1266060945": {
     "name": "Prodigal Mark",
     "type": "Legendary Titan Mark",
@@ -24001,6 +24240,12 @@
     "name": "Starwort Thins",
     "type": "Rare Undiscovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/858fdf8633cc141f1736f0033ac3f4f0.jpg"
+  },
+  "1270288709": {
+    "name": "Candescent Strides",
+    "type": "Legendary Leg Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ae055af6aec838cd3d2531748c166e7.jpg"
   },
   "1270948323": {
     "name": "Nasreddin",
@@ -24456,7 +24701,7 @@
   "1287012273": {
     "name": "Solstice Engram",
     "type": "Legendary Bright Engram",
-    "icon": "https://bungie.net/common/destiny2_content/icons/dde22f7e9b3cee9c133442b2b0c249f6.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8e3cafe8b264c22a5654317e80b48963.png"
   },
   "1287422957": {
     "name": "Moon Combo Detector",
@@ -24815,6 +25060,11 @@
     "type": "Common Obelisk Enhancement",
     "icon": "https://bungie.net/common/destiny2_content/icons/5dfbf7929ce2e6b145e0f7b7ce4e2bc2.jpg"
   },
+  "1309291113": {
+    "name": "Glowing Embers",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/24e97318284a93d56e52bcbbb67f4c05.png"
+  },
   "1309834898": {
     "name": "Trials Prestige Ornament",
     "type": "Legendary Armor Ornament",
@@ -24978,7 +25228,7 @@
   "1316177012": {
     "name": "Insulation",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1316205184": {
     "name": "Exodus Down Plate",
@@ -25255,7 +25505,7 @@
   "1325595568": {
     "name": "Enhanced Unflinching Linear Fusion Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1325838922": {
     "name": "Iron Symmachy Gauntlets",
@@ -25457,6 +25707,11 @@
     "type": "Common Barrel",
     "icon": "https://bungie.net/common/destiny2_content/icons/d119dcbd56799bdbaa79d1d6ea4c270c.png"
   },
+  "1332775029": {
+    "name": "Bound in Sorrow",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
+  },
   "1332836182": {
     "name": "Unbridled Enthusiasm",
     "type": "Exotic Emote",
@@ -25467,6 +25722,51 @@
     "type": "Legendary Chest Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/10b9be4c5ca933712d9911f66e0488ae.jpg"
+  },
+  "1333113328": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "1333113329": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "1333113330": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "1333113331": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "1333113332": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "1333113334": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "1333113335": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "1333113340": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "1333113341": {
+    "name": "A Glowing Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
   },
   "1333212979": {
     "name": "Ready for Anything",
@@ -25491,7 +25791,7 @@
   "1334592906": {
     "name": "Rocket Launcher Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1334842411": {
     "name": "Vengeful Dance",
@@ -25898,7 +26198,7 @@
   "1356474366": {
     "name": "Enhanced Hand Cannon Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1356657785": {
     "name": "Vernal Growth Hood",
@@ -26263,7 +26563,7 @@
   "1371918942": {
     "name": "Machine Gun Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1372151242": {
     "name": "Silly Salute",
@@ -26274,6 +26574,11 @@
     "name": "Report: RESONANCE-COMP",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/9ac24d50c508a83afc68e69baaa33250.jpg"
+  },
+  "1374246204": {
+    "name": "Water Gun",
+    "type": "Exotic Emote",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1f3cc9b87af5203f120d2b6ea264f69f.jpg"
   },
   "1375679173": {
     "name": "Couturier Bond",
@@ -26374,6 +26679,11 @@
     "type": "Rare Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/06d941d80592a83d55e86ac9afff13f8.jpg"
   },
+  "1380061575": {
+    "name": "Dream Work",
+    "type": "Common Origin Trait",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c28c145ba3e2b67635fb48f50d157dc5.png"
+  },
   "1380253176": {
     "name": "High-Explosive Ordnance",
     "type": "Common Magazine",
@@ -26458,6 +26768,11 @@
     "name": "Swift Ride XE8375",
     "type": "Legendary Pulse Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/123900686f489157922b9777b5d06f36.jpg"
+  },
+  "1387360760": {
+    "name": "Fully Rekindled",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a2f4484d71b774a1b8c0dcc0e39be818.png"
   },
   "1387688628": {
     "name": "The Gate Lord's Eye",
@@ -27424,11 +27739,6 @@
     "type": "Exotic Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/f18b7e9e76f55bdfaf3e1823ca47ef2c.png"
   },
-  "1437386097": {
-    "name": "Solstice T-Shirt",
-    "type": "Legendary Bungie Store Reward",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ab9161e8e8337eedafb6efaeea0e44b7.jpg"
-  },
   "1437735332": {
     "name": "Solstice Vest (Majestic)",
     "type": "Legendary Chest Armor",
@@ -28015,13 +28325,33 @@
   "1463486301": {
     "name": "Enhanced Impact Induction",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1464207979": {
     "name": "Wing Discipline",
     "type": "Legendary Gauntlets",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/41b7d647a1b7bda4d61f5656d322b3b1.jpg"
+  },
+  "1464543204": {
+    "name": "Bonfire Boss",
+    "type": "Legendary Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/43fd404906c04dcf13582b3a4a894244.jpg"
+  },
+  "1464543205": {
+    "name": "Takes All Kinds",
+    "type": "Legendary Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/43fd404906c04dcf13582b3a4a894244.jpg"
+  },
+  "1464543206": {
+    "name": "Power Basher",
+    "type": "Legendary Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/43fd404906c04dcf13582b3a4a894244.jpg"
+  },
+  "1464543207": {
+    "name": "It Was a Bonfire Bash",
+    "type": "Legendary Weekly Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/43fd404906c04dcf13582b3a4a894244.jpg"
   },
   "1465145848": {
     "name": "Light Horde Slayer",
@@ -28149,12 +28479,12 @@
   "1470370538": {
     "name": "Incinerator Snap",
     "type": "Solar Melee",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6a658f0e6f7acc638ae36e424d35b0d.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/983f2ee371714ff7f70be898f57b64e1.jpg"
   },
   "1470370539": {
     "name": "Celestial Fire",
     "type": "Solar Melee",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f7dee78239cffdea1ab0cdd1502f80ff.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ea7006fa8a79b74b5cc9868b759d98bf.jpg"
   },
   "1471193607": {
     "name": "Opulent Stalker Grips",
@@ -28471,6 +28801,11 @@
     "type": "Legendary Discovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/a32bb837abbc51c04a13240c18f89b28.jpg"
   },
+  "1481726473": {
+    "name": "Shining Embers",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cc802dfb54100962678b69ca8d4cf343.png"
+  },
   "1481751647": {
     "name": "Shadow's Mind",
     "type": "Legendary Helmet",
@@ -28511,6 +28846,11 @@
     "name": "Ionized Battery",
     "type": "Common Battery",
     "icon": "https://bungie.net/common/destiny2_content/icons/51460192e92adf82869709d44073774c.png"
+  },
+  "1483633423": {
+    "name": "Candescent Prism Gauntlets",
+    "type": "Legendary Titan Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/eb8537b6a94a7be1aa2159142b22dbcd.jpg"
   },
   "1484009400": {
     "name": "RPC Valiant",
@@ -28738,7 +29078,7 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/08245286e419679b2c1ea1be85f3017f.jpg"
   },
   "1493877378": {
-    "name": "Solstice of Heroes Hunter Armor Upgrade",
+    "name": "Solstice Hunter Armor Upgrade",
     "type": "Legendary Package",
     "icon": "https://bungie.net/common/destiny2_content/icons/8854ebcb99c0ae067bf828ee9baf4733.png"
   },
@@ -29077,7 +29417,7 @@
   "1507173193": {
     "name": "Scout Rifle Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1507733275": {
     "name": "Any 7-Win Passage",
@@ -29451,6 +29791,12 @@
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/a667a48c34019c78bd05a1dc2e867ac2.jpg"
   },
+  "1529773610": {
+    "name": "Candescent Mask",
+    "type": "Legendary Helmet",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7541dc591d405499d195fc44ece6cb50.jpg"
+  },
   "1530147650": {
     "name": "Blade's Blast",
     "type": "Legendary Emblem",
@@ -29549,6 +29895,12 @@
     "name": "Climate Change",
     "type": "Exotic Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/7ddf779ce1e4b1ab7251d77a0b6c37dc.jpg"
+  },
+  "1535334771": {
+    "name": "Candescent Grips",
+    "type": "Legendary Gauntlets",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d6e227e057c7c61870893ecb783dddf2.jpg"
   },
   "1536798515": {
     "name": "Land Tank",
@@ -30157,7 +30509,7 @@
   "1567314459": {
     "name": "Hands-On",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1568622656": {
     "name": "Crucible Shattered Cipher Scrounger",
@@ -30213,7 +30565,7 @@
   "1572280253": {
     "name": "Light Arms Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1572896086": {
     "name": "Recurrent Impact",
@@ -30301,7 +30653,7 @@
   "1576700957": {
     "name": "Enhanced Bow Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1576992137": {
     "name": "Farseeker's Intuition",
@@ -30627,7 +30979,7 @@
   "1592543661": {
     "name": "Sidearm Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1592984110": {
     "name": "Thorium Holt Hood",
@@ -30804,17 +31156,17 @@
   "1602994568": {
     "name": "Controlled Demolition",
     "type": "Void Aspect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/eb73c8191f4d62625611451d2d4a5634.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab2545998f350de7b29549d2b19996e2.jpg"
   },
   "1602994569": {
     "name": "Bastion",
     "type": "Void Aspect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/85eb52709b3e6194a21b5e0ecdd4bd38.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/5428b311ff07d2bacb073e551ed2bea1.jpg"
   },
   "1602994570": {
     "name": "Offensive Bulwark",
     "type": "Void Aspect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4a4643e5c6aae16c4cda7576ae9ba80d.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/68683d4544848844a1fe0acdf7417019.jpg"
   },
   "1604601714": {
     "name": "Iron Truage Vestments",
@@ -30904,7 +31256,7 @@
   "1608112177": {
     "name": "Pump Action",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1608119540": {
     "name": "Default Emblem",
@@ -30975,6 +31327,46 @@
     "type": "Legendary Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/dae2543396e966ff5f10ea443d96c82a.jpg"
+  },
+  "1614078888": {
+    "name": "Auto Rifle Bash",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "1614078889": {
+    "name": "Rocket Launcher Bash",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "1614078890": {
+    "name": "Glaive Bash",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "1614078891": {
+    "name": "Shotgun Bash",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "1614078892": {
+    "name": "Sword Bash",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "1614078893": {
+    "name": "Scout Rifle Bash",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "1614078894": {
+    "name": "Finisher Bash",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "1614078895": {
+    "name": "Hand Cannon Bash",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
   },
   "1614326414": {
     "name": "Runner Up",
@@ -31066,6 +31458,11 @@
     "type": "Legendary Helmet",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/07bb3aca328ad2dc8ddd09a0913381a8.jpg"
+  },
+  "1618197450": {
+    "name": "Large Kindling",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c5829e1654cf8f00b662a0ecb536f6f7.png"
   },
   "1618208178": {
     "name": "Eager Edge",
@@ -31834,7 +32231,7 @@
   "1659799750": {
     "name": "Pulse Rifle Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1660085336": {
     "name": "A Guardian Rises",
@@ -32595,7 +32992,7 @@
   "1699568676": {
     "name": "Candescent Prism Mark",
     "type": "Legendary Titan Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4afac8437f9c10dcff8fdf6f088aee5c.jpg"
   },
   "1699724249": {
     "name": "Big-Game Hunter",
@@ -33220,6 +33617,11 @@
     "type": "Legendary Transmat Effect",
     "icon": "https://bungie.net/common/destiny2_content/icons/d9c21299a86b2e64e56d89c3ffbedb53.jpg"
   },
+  "1729626466": {
+    "name": "Candescent Prism Warlock Bundle",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8dc1ce4ee93bb31ca1cd74b16f65a959.png"
+  },
   "1730090752": {
     "name": "The Technocrat",
     "type": "Legendary Quest Step",
@@ -33622,7 +34024,7 @@
   "1749896152": {
     "name": "Grenade Launcher Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1750228747": {
     "name": "Strike Armor Scrounger",
@@ -33719,7 +34121,7 @@
   "1757762246": {
     "name": "Unflinching Sniper Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1758950396": {
     "name": "Enhanced Auto Rifle Targeting",
@@ -33930,6 +34332,11 @@
     "type": "Common Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/d20201c3a2512d582af9be538f29d4f8.png"
   },
+  "1771608805": {
+    "name": "Key to Power",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/766bee9ee9ee133547e0e2733c677ac3.png"
+  },
   "1771869768": {
     "name": "Spectral Projection",
     "type": "Rare Ghost Projection",
@@ -33989,7 +34396,7 @@
   "1772682177": {
     "name": "Unflinching Machine Gun",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1773217860": {
     "name": "Ice-Cold Contender",
@@ -34428,6 +34835,11 @@
     "type": "Common Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/37444a59c38da0852a99c7c47bb0e01c.png"
   },
+  "1800094035": {
+    "name": "Compass Rose",
+    "type": "Legendary Shotgun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a62c8a60c85adc36eb7bd99725ea3a6e.jpg"
+  },
   "1800422906": {
     "name": "Report: RELIC-DATA",
     "type": "Legendary Quest Step",
@@ -34444,6 +34856,11 @@
     "type": "Legendary Helmet",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/cca740a1549c42bf924a2d23b588b6e4.jpg"
+  },
+  "1801388483": {
+    "name": "Candescent Prism Titan Bundle",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8dc1ce4ee93bb31ca1cd74b16f65a959.png"
   },
   "1801625827": {
     "name": "Swordflight 4.1",
@@ -34523,7 +34940,7 @@
   "1808134965": {
     "name": "Linear Fusion Rifle Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1808288037": {
     "name": "Tools of the Risen",
@@ -34538,7 +34955,7 @@
   "1809014285": {
     "name": "Grenade Launcher Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1809130913": {
     "name": "Fangs of Shun'Gath",
@@ -34614,7 +35031,7 @@
   "1812356167": {
     "name": "Rocket Launcher Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1812385586": {
     "name": "Winterhart Bond",
@@ -34693,7 +35110,7 @@
   "1818103563": {
     "name": "Traction",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1818257532": {
     "name": "Phenotype Plasticity Cloak",
@@ -34716,16 +35133,6 @@
     "type": "Rare Armor Ornament",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/abb9ad3b4224c9fac56546520878a4ea.jpg"
-  },
-  "1819690073": {
-    "name": "Solstice Packages: Tier II",
-    "type": "Legendary Solstice Package Upgrade",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9e49fd7ceb14341c9b6e4c1008eee65d.jpg"
-  },
-  "1819690074": {
-    "name": "Solstice Packages: Compass Rose",
-    "type": "Rare Solstice Package Upgrade",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4e298c12f9ea6b5ea2e6ba7b3a71deb7.jpg"
   },
   "1819905153": {
     "name": "Superior's Vision Gauntlets",
@@ -35170,6 +35577,11 @@
     "type": "Legendary Auto Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/ef97d3db7a888b09d06b90d1547aaac2.jpg"
   },
+  "1839775175": {
+    "name": "Spark of Intellect",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9b91123f1bc0062c2e127f5e7d65fbdd.png"
+  },
   "1839911272": {
     "name": "Focusing Strike",
     "type": "Common Arms Armor Mod",
@@ -35184,6 +35596,12 @@
     "name": "Fluted Barrel",
     "type": "Common Barrel",
     "icon": "https://bungie.net/common/destiny2_content/icons/c2a4355c8db7eac12d6dec52d09a20fe.png"
+  },
+  "1840892693": {
+    "name": "Candescent Hood",
+    "type": "Legendary Helmet",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/5e72f36d8ca5922ee8c179a8e39ba5f9.jpg"
   },
   "1840919274": {
     "name": "Unique Shader",
@@ -35464,6 +35882,11 @@
     "type": "Legendary Chest Armor",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/0f54da9d809fc66d4e69f26e0f160214.jpg"
+  },
+  "1856262127": {
+    "name": "Something New",
+    "type": "Legendary Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2f1965e43b5bb5095030bbfe6731b25a.jpg"
   },
   "1856805547": {
     "name": "Particle Accelerator",
@@ -35829,6 +36252,11 @@
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/73819c52be4d6d983470c16141d4ea59.jpg"
   },
+  "1872421614": {
+    "name": "Key to Power",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/766bee9ee9ee133547e0e2733c677ac3.png"
+  },
   "1872887954": {
     "name": "Atonement Tau",
     "type": "Rare Helmet",
@@ -35849,16 +36277,6 @@
     "name": "Fizzled Iron Banner Token",
     "type": "Uncommon Redeemable",
     "icon": "https://bungie.net/common/destiny2_content/icons/63a672ad6acf6ef61c635e02443efabf.jpg"
-  },
-  "1874277072": {
-    "name": "Legendary Armor Accelerator II",
-    "type": "Exotic Armor Accelerators",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4ab933057d2b45e764dbb4a1a1932430.jpg"
-  },
-  "1874277073": {
-    "name": "Legendary Armor Accelerator I",
-    "type": "Legendary Armor Accelerators",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ef31bcdd3452a77b8a372c0f5ca96fac.jpg"
   },
   "1875323682": {
     "name": "High-Impact Frame",
@@ -35935,7 +36353,7 @@
   "1879053658": {
     "name": "Bow Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1879172711": {
     "name": "One at a Time",
@@ -36328,7 +36746,7 @@
   "1891880743": {
     "name": "Unflinching Fusion Rifle Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1891964978": {
     "name": "Iron Fellowship Greaves",
@@ -37760,6 +38178,11 @@
     "type": "Common Obelisk Enhancement",
     "icon": "https://bungie.net/common/destiny2_content/icons/908dbca827bdb848a6b5318ae240bf31.jpg"
   },
+  "1955998315": {
+    "name": "Fully Rekindled",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a2f4484d71b774a1b8c0dcc0e39be818.png"
+  },
   "1956273477": {
     "name": "Winterhart Gloves",
     "type": "Legendary Gauntlets",
@@ -38359,7 +38782,7 @@
   "1983861079": {
     "name": "Enhanced Sniper Rifle Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "1983967360": {
     "name": "Exodus Down Gloves",
@@ -38771,7 +39194,7 @@
   "2002130360": {
     "name": "Sidearm Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2002293765": {
     "name": "Europan Protector III",
@@ -39153,6 +39576,12 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/f1cc9bd68339e9bb91ca72e705ad1ef0.jpg"
   },
+  "2022821262": {
+    "name": "Candescent Boots",
+    "type": "Legendary Leg Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/411217d8e78459bbc9354317bf833d80.jpg"
+  },
   "2022923313": {
     "name": "Channeling Treads (CODA)",
     "type": "Legendary Leg Armor",
@@ -39367,7 +39796,7 @@
   "2034622599": {
     "name": "Sword Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2034817450": {
     "name": "Distant Relation",
@@ -39497,11 +39926,6 @@
     "type": "Legendary Titan Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/6649c7a012eb367edc2703afbb7298f9.jpg"
   },
-  "2040499064": {
-    "name": "Solstice Helm (Renewed)",
-    "type": "Rare Helmet",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4d35225459d46cad67b765a45d6b5039.jpg"
-  },
   "2040680321": {
     "name": "Solstice Mark (Renewed)",
     "type": "Rare Titan Mark",
@@ -39532,7 +39956,7 @@
   "2042848612": {
     "name": "Heavy Lifting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2043215681": {
     "name": "EDZ Engram",
@@ -39665,7 +40089,12 @@
   "2052426051": {
     "name": "Rocket Launcher Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
+  },
+  "2053928016": {
+    "name": "Spark of Strength",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ae12d6ef5abe8636a5eac3a8e9ce065.png"
   },
   "2054118356": {
     "name": "Strider's Slash",
@@ -40136,7 +40565,7 @@
   "2073167962": {
     "name": "Enhanced Linear Fusion Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2073462546": {
     "name": "Empowering Largesse",
@@ -40613,6 +41042,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/4a38497c1e8dcc6c5571f2c518c4eefb.jpg"
   },
+  "2099710385": {
+    "name": "Candescent Prism Greaves",
+    "type": "Legendary Titan Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4f33fc6124e5b2238f0382f5a59c5df0.jpg"
+  },
   "2101490074": {
     "name": "Aggressive Frame",
     "type": "Legendary Enhanced Intrinsic",
@@ -40758,7 +41192,7 @@
   "2111651017": {
     "name": "Rifle Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2111956477": {
     "name": "Insight Rover Boots",
@@ -40928,6 +41362,11 @@
     "type": "Legendary Leg Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/5c00ba51d0527e215bd0e4c838b39065.jpg"
+  },
+  "2124618324": {
+    "name": "Spark of Mobility",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/091a19f346a7145fd52c8d4cff7efeba.png"
   },
   "2124666626": {
     "name": "Wing Discipline",
@@ -41145,7 +41584,7 @@
   "2138431565": {
     "name": "Fusion Rifle Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2138599001": {
     "name": "Optative",
@@ -41609,7 +42048,7 @@
   "2163383276": {
     "name": "Hand Cannon Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2163610255": {
     "name": "Solstice Gloves (Majestic)",
@@ -41911,6 +42350,11 @@
     "type": "Exotic Helmet",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/16634beca2ccdda00a47e8615dbc89f7.jpg"
+  },
+  "2177680704": {
+    "name": "Candescent Prism Boots",
+    "type": "Legendary Warlock Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a9a5fb2f4936ef873f508a3914eb4b8e.jpg"
   },
   "2177824503": {
     "name": "Steeplechase Vestment",
@@ -42308,6 +42752,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/6f9d651a6ab8d2ba19c902818b00092a.jpg"
   },
+  "2194193990": {
+    "name": "Candescent Prism Gloves",
+    "type": "Legendary Warlock Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c84ac7369ebfcfaad0e482832ca398a8.jpg"
+  },
   "2194479195": {
     "name": "Penumbral Bond",
     "type": "Legendary Warlock Bond",
@@ -42359,7 +42808,7 @@
   "2196878528": {
     "name": "Remote Connection",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2197832433": {
     "name": "Cunning of the Contender Boots",
@@ -42749,6 +43198,11 @@
     "type": "Common Helmet",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/567ba1358e11231ed78e1d91f0df4f47.jpg"
+  },
+  "2214469173": {
+    "name": "Peach Spotlight Effects",
+    "type": "Legendary Transmat Effect",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ae5c88255a239be6d1fd46dd7fc8fba0.jpg"
   },
   "2214585028": {
     "name": "Malibeaux Bronze",
@@ -43576,6 +44030,11 @@
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/f116d749265b76b499b7db38bc935f57.jpg"
   },
+  "2260326783": {
+    "name": "Candescent Prism Cover",
+    "type": "Legendary Warlock Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/dd1b906dc8306c917ff40fe1753cd0f7.jpg"
+  },
   "2260395287": {
     "name": "The Leviathan Returns",
     "type": "Legendary Quest Step",
@@ -43896,52 +44355,52 @@
   "2272984656": {
     "name": "Echo of Dilation",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/0cb7fca157654a21c825b0870383ec49.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/029faa3dc0d82eefef581dec7820d643.jpg"
   },
   "2272984657": {
     "name": "Echo of Domineering",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b359091f755ab1830f9a1c0660b46509.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/958ff340ae4ce16d7cf71c5268a13919.jpg"
   },
   "2272984664": {
     "name": "Echo of Provision",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/421fd1ee5d9d32a9115eb5cfde7b5297.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/1c16b5205d6a648b9898cce6ac3a01b3.jpg"
   },
   "2272984665": {
     "name": "Echo of Expulsion",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/215cebf629d65bb295f24f18eb8b5248.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/d6500235bb175f0fc3752cab0a170fd2.jpg"
   },
   "2272984666": {
     "name": "Echo of Remnants",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/057a93c49e7e4e0de745c5fb712716b5.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ce12bd0f246e834c8f7e102079814bf9.jpg"
   },
   "2272984667": {
     "name": "Echo of Exchange",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d9ee0ac5cb4843c2b1cac3c084fec054.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/e5a6ac0f38df212a40dc541bb46f354f.jpg"
   },
   "2272984668": {
     "name": "Echo of Undermining",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/98077cec6f4d57546cebcffa5e78eea8.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b114e9d97c42a68b19ab7876a221b354.jpg"
   },
   "2272984669": {
     "name": "Echo of Reprisal",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/fa55b916fbcc523bac668c0c4dd492f9.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/6a0118280ba432e796048648993d7765.jpg"
   },
   "2272984670": {
     "name": "Echo of Leeching",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4a12f8f953f93e32bc4f92e8e2feab2b.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/6aa22ca5ba309f264af5231969ec840a.jpg"
   },
   "2272984671": {
     "name": "Echo of Persistence",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/051a0f5b387571a1a3db312eb85b287e.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/914309029085289921f77d8207765150.jpg"
   },
   "2273483223": {
     "name": "Solar Damage Mod",
@@ -44797,12 +45256,12 @@
   "2317587052": {
     "name": "Unflinching Energy Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2318225451": {
     "name": "Sword Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2318360800": {
     "name": "Rising Tensions",
@@ -44941,17 +45400,17 @@
   "2321824284": {
     "name": "Feed the Void",
     "type": "Void Aspect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/80d56d414c5cd7e54ed4a2c2e893a309.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/178bb0e78e55c5b960aa6f42660b9b66.jpg"
   },
   "2321824285": {
     "name": "Chaos Accelerant",
     "type": "Void Aspect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/934bb61b2d44a2099c9f9b27f338896e.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/5a8a03d4876d34a89db6aedf6189ab86.jpg"
   },
   "2321824287": {
     "name": "Child of the Old Gods",
     "type": "Void Aspect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/65d5098c7adc3871fb8f022e6ea32b50.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ced6965ddcda23fdc728639aaf0ebd4d.jpg"
   },
   "2321971501": {
     "name": "Internal Combustion",
@@ -45037,7 +45496,7 @@
   "2326218464": {
     "name": "Kinetic Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2326396534": {
     "name": "Severance Enclosure",
@@ -45317,7 +45776,7 @@
   "2344113285": {
     "name": "Enhanced Momentum Transfer",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2344353519": {
     "name": "Iron Forerunner Plate",
@@ -45696,6 +46155,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/53707e38928a9b4af8dbd151d4061995.jpg"
   },
+  "2364463238": {
+    "name": "Small Kindling",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1cd02c074a36c5d2f89efdf5bb8ac805.png"
+  },
   "2364756343": {
     "name": "Deep Explorer Strides",
     "type": "Legendary Leg Armor",
@@ -45799,7 +46263,7 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/b11495469fcd1bdd69d9f91debc00afc.jpg"
   },
   "2370303981": {
-    "name": "Solstice of Heroes Warlock Armor Upgrade",
+    "name": "Solstice Warlock Armor Upgrade",
     "type": "Legendary Package",
     "icon": "https://bungie.net/common/destiny2_content/icons/8854ebcb99c0ae067bf828ee9baf4733.png"
   },
@@ -46598,7 +47062,7 @@
   "2413867249": {
     "name": "Scout Rifle Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2414093918": {
     "name": "Hearing Whispers",
@@ -46655,7 +47119,7 @@
   "2414923993": {
     "name": "Precision Weapon Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2415517654": {
     "name": "Bastion",
@@ -46679,6 +47143,11 @@
     "type": "Legendary Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/91ac2c48c58cb9bd6b901d75b49982b4.jpg"
+  },
+  "2416416860": {
+    "name": "Shining Embers",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/cc802dfb54100962678b69ca8d4cf343.png"
   },
   "2416634317": {
     "name": "Damaged Warlock Robe",
@@ -46716,6 +47185,11 @@
     "name": "Hood of Optimacy",
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/03548c0aee5188e162ca0388cb5eb108.jpg"
+  },
+  "2418666667": {
+    "name": "Large Kindling",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c5829e1654cf8f00b662a0ecb536f6f7.png"
   },
   "2419100474": {
     "name": "Solstice Grasps (Renewed)",
@@ -47001,12 +47475,12 @@
   "2433223313": {
     "name": "Sidearm Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2433229738": {
     "name": "Enhanced Rocket Launcher Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2433436300": {
     "name": "Hi-5 Heart",
@@ -47954,7 +48428,7 @@
   "2493794080": {
     "name": "Bow Reloader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2494610695": {
     "name": "Kabr's Forceful Greaves",
@@ -49207,6 +49681,11 @@
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/2b933572481e9ee62aa7a518d325d7ff.jpg"
   },
+  "2551752345": {
+    "name": "Spark of Intellect",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9b91123f1bc0062c2e127f5e7d65fbdd.png"
+  },
   "2552158692": {
     "name": "Equitis Shade Rig",
     "type": "Legendary Chest Armor",
@@ -49414,6 +49893,12 @@
     "type": "Legendary Gauntlets",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/e28a51eb4cc2a0970906c05346df9547.jpg"
+  },
+  "2566083804": {
+    "name": "Candescent Robes",
+    "type": "Legendary Chest Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/475836e6c517a239024757f851e42fb4.jpg"
   },
   "2566498639": {
     "name": "For the Audience",
@@ -50090,7 +50575,7 @@
   "2600330634": {
     "name": "Sniper Rifle Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2600899007": {
     "name": "Empty Mod Socket",
@@ -50243,7 +50728,7 @@
   "2607559478": {
     "name": "Sniper Rifle Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2608508147": {
     "name": "Heavy Slug Thrower",
@@ -50263,7 +50748,7 @@
   "2610215900": {
     "name": "Distribution",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2610240827": {
     "name": "Prodigal Gauntlets",
@@ -50477,7 +50962,7 @@
   "2620835322": {
     "name": "Special Ammo Finder",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2620967748": {
     "name": "Empty Mod Socket",
@@ -50545,7 +51030,7 @@
   "2625406776": {
     "name": "Pulse Rifle Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2625782212": {
     "name": "Haunted Earth",
@@ -50842,6 +51327,12 @@
     "type": "Common Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/5a52f1cc4430787b92a1dc14d4969556.jpg"
+  },
+  "2644573111": {
+    "name": "Candescent Greaves",
+    "type": "Legendary Leg Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c83cf2f736ab27690a25bd8d653a5bd8.jpg"
   },
   "2644588986": {
     "name": "Deep-Sea Jaunt",
@@ -51151,22 +51642,22 @@
   "2661180600": {
     "name": "Echo of Instability",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/28e36797ac67b3d695182abbfc71cf1c.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/0ad46f9c0c14535c4d5776daf48e871e.jpg"
   },
   "2661180601": {
     "name": "Echo of Harvest",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/abe1d58bdd63e893a23d74c33861b52e.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/6bd23524f7129761043724acbe90c7b5.jpg"
   },
   "2661180602": {
     "name": "Echo of Obscurity",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/8264f42d6c2287a2f900a3bf695df99f.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/7d711ce4bcfb264da29c289ff70b9876.jpg"
   },
   "2661180603": {
     "name": "Echo of Starvation",
     "type": "Void Fragment",
-    "icon": "https://bungie.net/common/destiny2_content/icons/a542ec7d6f0f3c604b617d82cfa9753b.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/19219ecd56fef82e9ead65aed8fea63a.jpg"
   },
   "2661223204": {
     "name": "Fieldwork",
@@ -51445,7 +51936,7 @@
   "2675237434": {
     "name": "Unflinching Auto Rifle Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2675361166": {
     "name": "Wellspring",
@@ -51497,6 +51988,11 @@
     "type": "Common Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/9e8b9d285c5064ad85a0b7dbcb911f36.png"
   },
+  "2679694814": {
+    "name": "Candescent Prism Helm",
+    "type": "Legendary Titan Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/604da0f288b61e8ef6a0522766628c3e.jpg"
+  },
   "2680121939": {
     "name": "Enhanced Battery",
     "type": "Common Battery",
@@ -51543,6 +52039,16 @@
     "name": "Forgiveness (Adept)",
     "type": "Legendary Sidearm",
     "icon": "https://bungie.net/common/destiny2_content/icons/12e4d08b108148965fe643d8d360e9d7.jpg"
+  },
+  "2683352144": {
+    "name": "Crab Cycle",
+    "type": "Exotic Vehicle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/a059dbe8da1de7bf735df3fc7c0589ff.jpg"
+  },
+  "2683352145": {
+    "name": "Quadracycle",
+    "type": "Exotic Vehicle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0b1deac94234b14091e27a92a7e43ed2.jpg"
   },
   "2683598861": {
     "name": "Beyond Light",
@@ -52007,6 +52513,12 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/fbe1c1945a48567697e2e59971d7b230.jpg"
   },
+  "2710628962": {
+    "name": "Candescent Mark",
+    "type": "Legendary Titan Mark",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0545bdc3bc161cdb638410465208c4dd.jpg"
+  },
   "2710956576": {
     "name": "Winds of Change",
     "type": "Exotic Ship",
@@ -52026,6 +52538,31 @@
     "name": "Bygones",
     "type": "Legendary Pulse Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/39e3b8c3dc66f301386c3bf70f812e8f.jpg"
+  },
+  "2712678232": {
+    "name": "A Guardian in Shining Armor",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4e2103bc51af27c991e78c391e634804.png"
+  },
+  "2712678233": {
+    "name": "A Guardian in Shining Armor",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4e2103bc51af27c991e78c391e634804.png"
+  },
+  "2712678234": {
+    "name": "A Guardian in Shining Armor",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4e2103bc51af27c991e78c391e634804.png"
+  },
+  "2712678235": {
+    "name": "A Guardian in Shining Armor",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4e2103bc51af27c991e78c391e634804.png"
+  },
+  "2712678238": {
+    "name": "A Guardian in Shining Armor",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4e2103bc51af27c991e78c391e634804.png"
   },
   "2713678205": {
     "name": "Low-Impedance Windings",
@@ -52890,6 +53427,11 @@
     "type": "Exotic Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/2410914f624e79b5e8ac8d48edf9436a.jpg"
   },
+  "2752157162": {
+    "name": "Candescent Prism Robes",
+    "type": "Legendary Warlock Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/35adb0527c378e05ec685ad9030be962.jpg"
+  },
   "2752838425": {
     "name": "Mythos Hack 4.1",
     "type": "Rare Leg Armor",
@@ -53068,7 +53610,7 @@
   "2760701299": {
     "name": "Innervation",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2760841051": {
     "name": "Snow Bunny",
@@ -53330,6 +53872,11 @@
     "name": "Awaken the Warmind",
     "type": "Legendary Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/acb2febf7aa8444ce4363d93f7487bbd.jpg"
+  },
+  "2776126751": {
+    "name": "Spark of Recovery",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b8b5cb738042a12d91670ca2c43ab3c7.png"
   },
   "2776503072": {
     "name": "Royal Chase",
@@ -53594,7 +54141,7 @@
   "2788953856": {
     "name": "Enhanced Unflinching Scout Rifle Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2789946583": {
     "name": "Hot Crossfire Buns",
@@ -53707,6 +54254,11 @@
     "type": "Rare Chest Armor",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/6b935f5f138a9d95f57ff66c374acdd7.jpg"
+  },
+  "2796813156": {
+    "name": "A Guardian in Shining Armor",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4e2103bc51af27c991e78c391e634804.png"
   },
   "2797334754": {
     "name": "Deep Explorer Cloak",
@@ -54460,7 +55012,7 @@
   "2825949957": {
     "name": "Unflinching Rifle Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2826719795": {
     "name": "Solstice Mask (Renewed)",
@@ -54731,7 +55283,7 @@
   "2839066781": {
     "name": "Kinetic Weapon Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2839173408": {
     "name": "Omolon Fluid Dynamics",
@@ -55184,6 +55736,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/da9df02fc6b35e21bf520b7c47e1c37f.jpg"
   },
+  "2862364046": {
+    "name": "Celebrating Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
   "2862488832": {
     "name": "Out of Dodge",
     "type": "Exotic Vehicle",
@@ -55302,7 +55859,7 @@
   "2867719094": {
     "name": "Heavy Ammo Finder",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2868013594": {
     "name": "Empyrean Cartographer Hood",
@@ -55406,6 +55963,11 @@
     "type": "Rare Leg Armor",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/0563ba9a83df633b0f66632ab6494f32.jpg"
+  },
+  "2871866476": {
+    "name": "The Treasure Hunt",
+    "type": "Basic Quest",
+    "icon": "https://bungie.net/common/destiny2_content/icons/766bee9ee9ee133547e0e2733c677ac3.png"
   },
   "2872765574": {
     "name": "Radiant Breaker Helm",
@@ -55589,6 +56151,11 @@
     "type": "Legendary Chest Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/5c13d599fffce98aad4a8a1cf06b6375.jpg"
+  },
+  "2883488539": {
+    "name": "Spark of Discipline",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2fce4e286bf8b48e48720cee2cf6d541.png"
   },
   "2883508761": {
     "name": "Strike Armor Scrounger",
@@ -56132,7 +56699,7 @@
   "2910842650": {
     "name": "Enhanced Ashes to Assets",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2911045457": {
     "name": "Vanguard Tactician Clan Engram",
@@ -56449,7 +57016,7 @@
   "2928640162": {
     "name": "Auto Rifle Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2929074377": {
     "name": "Tangled Web Mark",
@@ -56836,6 +57403,11 @@
     "type": "Rare Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/8182245407f53e818082fe131a191d47.jpg"
+  },
+  "2940627367": {
+    "name": "Glowing Embers",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/24e97318284a93d56e52bcbbb67f4c05.png"
   },
   "2941276665": {
     "name": "Hot Crossfire Buns",
@@ -57278,6 +57850,11 @@
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/7199f34429051b840b3b8c55c0af8eb4.jpg"
   },
+  "2963273367": {
+    "name": "Candescent Prism Hunter Bundle",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8dc1ce4ee93bb31ca1cd74b16f65a959.png"
+  },
   "2963292596": {
     "name": "Cry",
     "type": "Uncommon Emote",
@@ -57317,6 +57894,16 @@
     "name": "Staff of Destiny",
     "type": "Legendary Clan Staff",
     "icon": "https://bungie.net/common/destiny2_content/icons/bb2d50f68c55b141450d63a45b572987.jpg"
+  },
+  "2964031580": {
+    "name": "Platinum Osprey",
+    "type": "Exotic Ship",
+    "icon": "https://bungie.net/common/destiny2_content/icons/39320263e1d2aff3e8c665f4c6fa0071.jpg"
+  },
+  "2964031581": {
+    "name": "Final Instar",
+    "type": "Exotic Ship",
+    "icon": "https://bungie.net/common/destiny2_content/icons/880a6ee5a812f75ba45dd5987ba24e5a.jpg"
   },
   "2964059912": {
     "name": "Transpose JT-24-X",
@@ -57492,7 +58079,7 @@
   "2972736610": {
     "name": "Enhanced Bomber",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "2974378152": {
     "name": "Rite of Dawning",
@@ -57614,7 +58201,7 @@
   "2979486801": {
     "name": "Phoenix Dive",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/676e355bfc3ec70b94d8f301dde9bb89.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/85ef85819a19d528c86a6329ea895fb5.jpg"
   },
   "2979486802": {
     "name": "Empowering Rift",
@@ -58515,6 +59102,11 @@
     "type": "Legendary Transmat Effect",
     "icon": "https://bungie.net/common/destiny2_content/icons/4139422b079aaf0c851438c2b333159e.jpg"
   },
+  "3024213790": {
+    "name": "Solstice Event Bundle",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8dc1ce4ee93bb31ca1cd74b16f65a959.png"
+  },
   "3024740338": {
     "name": "Edge of Intent",
     "type": "Exotic Intrinsic",
@@ -58637,7 +59229,7 @@
   "3030206832": {
     "name": "Fastball",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3030715588": {
     "name": "Simulator Boots",
@@ -58734,7 +59326,7 @@
   "3035639340": {
     "name": "Enhanced Hand Cannon Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3036117446": {
     "name": "Hezen Vengeance (Timelost)",
@@ -59021,7 +59613,7 @@
   "3054567270": {
     "name": "Linear Fusion Rifle Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3054638345": {
     "name": "Arcing Helmet Glow",
@@ -59053,6 +59645,11 @@
     "name": "Pandemonic Helm",
     "type": "Legendary Titan Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/d1c77db437b3bcc112ca47dd13707270.jpg"
+  },
+  "3055728725": {
+    "name": "Spark of Strength",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ae12d6ef5abe8636a5eac3a8e9ce065.png"
   },
   "3055790362": {
     "name": "Austringer",
@@ -59281,7 +59878,7 @@
   "3069341742": {
     "name": "Bow Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3069892475": {
     "name": "Emperor's Blaze",
@@ -59525,7 +60122,7 @@
   "3081361536": {
     "name": "Pulse Rifle Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3081475235": {
     "name": "Nemean Casque",
@@ -59597,6 +60194,11 @@
     "type": "Exotic Gauntlets",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/673dfa5edf0723adf0275cf30281a123.jpg"
+  },
+  "3084316036": {
+    "name": "Epic Solstice Package",
+    "type": "Legendary Package",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9ce2cf29946590231ff1e48c7ae1e2db.png"
   },
   "3084633087": {
     "name": "Philomath Boots",
@@ -60501,7 +61103,7 @@
   "3131895545": {
     "name": "Unflinching Sidearm Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3133077199": {
     "name": "Adaptive Frame",
@@ -61026,6 +61628,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/0988b052822f2438ae7a9af6f435442f.jpg"
   },
+  "3160938464": {
+    "name": "No Kindling Added",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png"
+  },
   "3161505825": {
     "name": "Dreamer's Shell",
     "type": "Exotic Ghost Shell",
@@ -61446,7 +62053,7 @@
   "3177615969": {
     "name": "Auto Rifle Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3178157690": {
     "name": "Super Gamble",
@@ -61719,7 +62326,7 @@
   "3189772341": {
     "name": "Sniper Rifle Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3189943763": {
     "name": "Streetwear Hunter Bundle",
@@ -61940,7 +62547,7 @@
   "3201772785": {
     "name": "Power Weapon Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3201839676": {
     "name": "Nessus Token",
@@ -62448,11 +63055,6 @@
     "type": "Common Hunter Subclass",
     "icon": "https://bungie.net/common/destiny2_content/icons/fa3084d2798d59db7b3419a2fae1bf0c.png"
   },
-  "3226291529": {
-    "name": "Solstice Hood (Renewed)",
-    "type": "Rare Helmet",
-    "icon": "https://bungie.net/common/destiny2_content/icons/8a15ae04d4f76343926105eee9067f66.jpg"
-  },
   "3226552705": {
     "name": "Precision Frame",
     "type": "Legendary Enhanced Intrinsic",
@@ -62595,6 +63197,56 @@
     "type": "Rare Warlock Bond",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/529005783557ad0a8f7de0a169ee16c0.jpg"
+  },
+  "3235811446": {
+    "name": "Burning Bright",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "3235811447": {
+    "name": "Trigger Finger",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "3235811448": {
+    "name": "Boom Goes the Cannon",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "3235811449": {
+    "name": "Firing Range",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "3235811450": {
+    "name": "Explosive Salvage",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "3235811451": {
+    "name": "Forbidden Fire",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "3235811452": {
+    "name": "Caballistic Ordnance",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "3235811453": {
+    "name": "White-Hot Wizards",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "3235811454": {
+    "name": "Singed Centurions",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
+  },
+  "3235811455": {
+    "name": "Charred Captains",
+    "type": "Common Daily Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8386ac2ad4a9b57be0817f76e493e871.jpg"
   },
   "3236510875": {
     "name": "Solstice Grasps (Resplendent)",
@@ -64139,7 +64791,7 @@
   "3317098328": {
     "name": "Absolution",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3317837688": {
     "name": "Always on Time",
@@ -64749,7 +65401,7 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/a889cd1adab0b930df9e0210aaec1afe.jpg"
   },
   "3344467069": {
-    "name": "Phosphorescent Prism Vest",
+    "name": "Candescent Prism Vest",
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/7e5d606b50af924789dcf38d42a770b9.jpg"
   },
@@ -65710,7 +66362,7 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/b8c09857ffe7e5d3739e3a0adad193f7.jpg"
   },
   "3388974843": {
-    "name": "Scintillant Prism Bond",
+    "name": "Candescent Prism Bond",
     "type": "Legendary Warlock Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/f601dc764da904909140247b9ad183b7.jpg"
   },
@@ -66272,7 +66924,7 @@
   "3416944458": {
     "name": "Recuperation",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3417440716": {
     "name": "Kabr's Battlecage",
@@ -66665,6 +67317,11 @@
     "type": "Common Arms Armor Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/47df7780b705e2fc829ba28114e652c3.png"
   },
+  "3436698163": {
+    "name": "Large Kindling",
+    "type": "Legendary Kindling",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c5829e1654cf8f00b662a0ecb536f6f7.png"
+  },
   "3436750447": {
     "name": "Dreambane Gloves",
     "type": "Legendary Gauntlets",
@@ -66930,6 +67587,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/d42fa860738387521e9ccc5b49d784ee.jpg"
   },
+  "3451413473": {
+    "name": "Celebrating Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
   "3451543233": {
     "name": "Makeshift Suit",
     "type": "Uncommon Leg Armor",
@@ -66940,6 +67602,11 @@
     "name": "Echo Mesa",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/48a3809b6147e517167a1dd2c9f26d98.jpg"
+  },
+  "3452001797": {
+    "name": "Celebrating Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
   },
   "3452090911": {
     "name": "REVISION 7.2.2",
@@ -67014,6 +67681,11 @@
     "name": "Pride of Omolon",
     "type": "Exotic Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/f1e29f43b2793286f8cb77b041177d59.jpg"
+  },
+  "3458845364": {
+    "name": "Spark of Recovery",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b8b5cb738042a12d91670ca2c43ab3c7.png"
   },
   "3459379565": {
     "name": "Contender Cloak",
@@ -67415,7 +68087,7 @@
   "3489008282": {
     "name": "Auto Rifle Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3489657138": {
     "name": "Palmyra-B",
@@ -67550,7 +68222,7 @@
   "3494979213": {
     "name": "Scout Rifle Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3495257075": {
     "name": "Virulent Hunter Bundle",
@@ -67842,7 +68514,7 @@
   "3511642555": {
     "name": "Unflinching Submachine Gun Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3511698030": {
     "name": "Transmat Preloader",
@@ -67853,11 +68525,6 @@
     "name": "Lumina",
     "type": "Exotic Hand Cannon",
     "icon": "https://bungie.net/common/destiny2_content/icons/26e7f61d27a6d730336a5bfe33dd5532.jpg"
-  },
-  "3512208526": {
-    "name": "Solstice Packages: Superior Tier II",
-    "type": "Exotic Solstice Package Upgrade",
-    "icon": "https://bungie.net/common/destiny2_content/icons/4c84457d86acfef80e8c6c60b93f988f.jpg"
   },
   "3512215251": {
     "name": "Helmet Masterwork Bonus",
@@ -67923,7 +68590,7 @@
   "3515212050": {
     "name": "Oversize Weapon Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3516080555": {
     "name": "Bound in Sorrow",
@@ -68062,7 +68729,7 @@
   "3520605595": {
     "name": "Submachine Gun Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3520743048": {
     "name": "Traveler Donut Holes",
@@ -68716,6 +69383,11 @@
     "type": "Common Dares Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/fa94dbb6d228f764a5f5276a180d0ae4.jpg"
   },
+  "3539665058": {
+    "name": "Spark of Mobility",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/091a19f346a7145fd52c8d4cff7efeba.png"
+  },
   "3539781415": {
     "name": "New Subclass: Arcstrider",
     "type": "Hunter Subclass",
@@ -68979,7 +69651,7 @@
   "3547610540": {
     "name": "Unflinching Bow Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3547626308": {
     "name": "Death Comes Calling",
@@ -69781,7 +70453,7 @@
   "3591739443": {
     "name": "Bow Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3591989262": {
     "name": "Wastelander M5",
@@ -70004,6 +70676,11 @@
     "name": "In Medias Res",
     "type": "Legendary Ship",
     "icon": "https://bungie.net/common/destiny2_content/icons/5b6f34b03ea8f192e6be21254911f359.jpg"
+  },
+  "3600498390": {
+    "name": "Something New",
+    "type": "Legendary Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2f1965e43b5bb5095030bbfe6731b25a.jpg"
   },
   "3600621136": {
     "name": "Explosive Ops: Solar",
@@ -70442,7 +71119,7 @@
   "3621792645": {
     "name": "Linear Fusion Rifle Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3622137132": {
     "name": "Last Hope",
@@ -70564,6 +71241,11 @@
     "name": "Dark Chocolate Motes",
     "type": "Rare Discovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/c3c911f27084c1b5fb07ed3c7ccd3886.jpg"
+  },
+  "3626242164": {
+    "name": "Sunny Vacation Shell",
+    "type": "Exotic Ghost Shell",
+    "icon": "https://bungie.net/common/destiny2_content/icons/81b5d3067d5595a834a3298fbfbeb3f7.jpg"
   },
   "3626242165": {
     "name": "Sea Shell",
@@ -70783,7 +71465,7 @@
   "3636300852": {
     "name": "Acrobat's Dodge",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/95041803616a5906f1e8996649079cfc.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/18b507607e6971bb10fec7addc24786b.jpg"
   },
   "3636300854": {
     "name": "Marksman's Dodge",
@@ -70989,6 +71671,11 @@
     "type": "Common Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/e5d9d70aadec948e851d443c64ff5d9d.png"
   },
+  "3643706498": {
+    "name": "Spark of Recovery",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b8b5cb738042a12d91670ca2c43ab3c7.png"
+  },
   "3644638448": {
     "name": "Stasis Trigger",
     "type": "Exotic Quest Step",
@@ -71034,7 +71721,7 @@
   "3647557929": {
     "name": "Unflinching Large Arms",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3647777257": {
     "name": "Trials Ornament",
@@ -71518,7 +72205,7 @@
   "3670792765": {
     "name": "Sidearm Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3670960347": {
     "name": "Grenade Launcher Scavenger",
@@ -71670,7 +72357,7 @@
   "3676627761": {
     "name": "Unflinching Light Arms Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3676690659": {
     "name": "Gazing Into The Abyss",
@@ -71974,6 +72661,11 @@
     "type": "Legendary Chest Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/d94afbd0e0ff43b626c81c8965931f33.jpg"
+  },
+  "3692215122": {
+    "name": "Event Ticket",
+    "type": "Basic Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7793f8c52a86c90e73583a014208459a.png"
   },
   "3692259864": {
     "name": "Mnemonic Engram",
@@ -73311,6 +74003,56 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/73861b2749d91749acf189a5e19c9aa3.jpg"
   },
+  "3763516982": {
+    "name": "Taken Holiday",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "3763516983": {
+    "name": "Oryx Equinox",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "3763516984": {
+    "name": "Fall Solstice",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "3763516985": {
+    "name": "Legion Season",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "3763516986": {
+    "name": "Light Unleashed",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "3763516987": {
+    "name": "Fist of the Solstice",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "3763516988": {
+    "name": "Throwing Heat",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "3763516989": {
+    "name": "Power of the Sun",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "3763516990": {
+    "name": "A Very Special Solstice",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
+  "3763516991": {
+    "name": "Small Fires",
+    "type": "Common Solstice Bounty",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4cab52801eca63d9b4361db622f78e8.jpg"
+  },
   "3763521327": {
     "name": "Iron Fellowship Greaves",
     "type": "Legendary Leg Armor",
@@ -73651,7 +74393,7 @@
   "3784207446": {
     "name": "Auto Rifle Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3784292658": {
     "name": "Ironwood",
@@ -74068,7 +74810,7 @@
   "3803462520": {
     "name": "Linear Fusion Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3804360785": {
     "name": "Ancient Apocalypse Mark",
@@ -74079,7 +74821,7 @@
   "3804749722": {
     "name": "Pulse Rifle Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3805576189": {
     "name": "Points Piercing Forever",
@@ -74230,7 +74972,7 @@
   "3813989326": {
     "name": "Scatter Projectile Targeting",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3815391974": {
     "name": "Iron Symmachy Boots",
@@ -74833,6 +75575,11 @@
     "type": "Legendary Titan Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/1633c14c7d8c49c3a0db23bcf45c3f7a.jpg"
   },
+  "3846132356": {
+    "name": "No Ember Imbued",
+    "type": "Common Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png"
+  },
   "3846727856": {
     "name": "One-Inch Punch",
     "type": "Legendary Finisher",
@@ -74918,6 +75665,12 @@
     "name": "Europan Explorer III",
     "type": "Legendary Quest",
     "icon": "https://bungie.net/common/destiny2_content/icons/7b1b1b78bfb0c63f3c2e107674c3a1de.jpg"
+  },
+  "3851917393": {
+    "name": "Candescent Bond",
+    "type": "Legendary Warlock Bond",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4cd0095b5a508cdd702338ec16e26c50.jpg"
   },
   "3852389988": {
     "name": "Terra Concord Fists",
@@ -75049,7 +75802,7 @@
   "3856768043": {
     "name": "Enhanced Shotgun Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3856855806": {
     "name": "Phenotype Plasticity Boots",
@@ -75229,6 +75982,11 @@
     "name": "Heavy Ammo Scavenger",
     "type": "Common Deprecated Armor Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "3866280281": {
+    "name": "Rekindle the Spark",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/73303cff6b4c2abbf4f5f8ac446f6cf1.png"
   },
   "3866356643": {
     "name": "IKELOS_HC_v1.0.1",
@@ -75420,6 +76178,12 @@
     "name": "Collectible Detector II",
     "type": "Rare Quest",
     "icon": "https://bungie.net/common/destiny2_content/icons/f6ad512102f6c53b7797e7f8698ea174.jpg"
+  },
+  "3876588445": {
+    "name": "Candescent Vest",
+    "type": "Legendary Chest Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7e5d606b50af924789dcf38d42a770b9.jpg"
   },
   "3876745998": {
     "name": "Nessus Engram",
@@ -76129,7 +76893,7 @@
   "3910640537": {
     "name": "Scout Rifle Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3911008533": {
     "name": "Solstice Helm (Resplendent)",
@@ -76731,6 +77495,11 @@
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/33ebc414c1209abee4b10a3386dfd08c.jpg"
   },
+  "3936838052": {
+    "name": "Hyperborean Pinion",
+    "type": "Exotic Vehicle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/30e919b4ac44c2e547ce0d7a635ee89f.jpg"
+  },
   "3937103377": {
     "name": "Intrepid Exploit Plate",
     "type": "Legendary Chest Armor",
@@ -76770,13 +77539,18 @@
   "3938115510": {
     "name": "Impact Induction",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3938714858": {
     "name": "Helm of Optimacy",
     "type": "Legendary Helmet",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/093abacafa7d85f1d9dbe6a00c5867dd.jpg"
+  },
+  "3939474156": {
+    "name": "Spark of Recovery",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b8b5cb738042a12d91670ca2c43ab3c7.png"
   },
   "3939524004": {
     "name": "Crucible Brass Attacks Scrounger",
@@ -76836,6 +77610,11 @@
     "type": "Exotic Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/2e98cefd54e09b7383c000e2501358e0.jpg"
+  },
+  "3942686354": {
+    "name": "Spark of Resilience",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0a67583832ce4c7f0639999e53fd7f6.png"
   },
   "3943394479": {
     "name": "Solstice Plate (Scorched)",
@@ -77332,6 +78111,12 @@
     "type": "Exotic Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/0a7939ae91c87cda5a0ac08234035760.jpg"
   },
+  "3967067356": {
+    "name": "Candescent Helm",
+    "type": "Legendary Helmet",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/abbc23ef88a6aa05f7858e2c5a686706.jpg"
+  },
   "3967155859": {
     "name": "The Last Dance",
     "type": "Legendary Sidearm",
@@ -77629,7 +78414,7 @@
   "3975312523": {
     "name": "Submachine Gun Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "3976073347": {
     "name": "Crushing Helm (CODA)",
@@ -78213,7 +78998,7 @@
   "4007230256": {
     "name": "Linear Fusion Rifle Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4007396243": {
     "name": "Exodus Down Gloves",
@@ -78246,7 +79031,7 @@
   "4008779013": {
     "name": "Unflinching Scout Rifle Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4008973208": {
     "name": "Lightweight Frame",
@@ -78802,7 +79587,7 @@
   "4034210761": {
     "name": "Fusion Rifle Reserves",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4035006667": {
     "name": "Sparrow Getaway",
@@ -78842,7 +79627,7 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/d1ff65162c4a9d54a9612d9874b9fa88.png"
   },
   "4036562374": {
-    "name": "Solstice of Heroes Titan Armor Upgrade",
+    "name": "Solstice Titan Armor Upgrade",
     "type": "Legendary Package",
     "icon": "https://bungie.net/common/destiny2_content/icons/8854ebcb99c0ae067bf828ee9baf4733.png"
   },
@@ -79013,7 +79798,7 @@
   "4043093993": {
     "name": "Kinetic Weapon Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4043146243": {
     "name": "No Worries",
@@ -79112,7 +79897,7 @@
   "4047893141": {
     "name": "Hand Cannon Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4048186065": {
     "name": "Solstice Greaves (Scorched)",
@@ -79154,7 +79939,7 @@
   "4048902980": {
     "name": "Dynamo",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4049365947": {
     "name": "Popping Dance",
@@ -79695,7 +80480,7 @@
   "4070193907": {
     "name": "Machine Gun Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4070309619": {
     "name": "Reverie Dawn Plate",
@@ -79747,6 +80532,11 @@
     "type": "Legendary Gauntlets",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/8dc14065dd8b3334a91b71b2211ab17b.jpg"
+  },
+  "4072145359": {
+    "name": "Glowing Embers",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/24e97318284a93d56e52bcbbb67f4c05.png"
   },
   "4072587059": {
     "name": "Whoa There",
@@ -80273,6 +81063,11 @@
     "type": "Common Origin Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/823bf29510b2720dd561835d5192c47a.png"
   },
+  "4092356497": {
+    "name": "Spark of Resilience",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0a67583832ce4c7f0639999e53fd7f6.png"
+  },
   "4092373800": {
     "name": "Gunsmith's Devotion Robes",
     "type": "Legendary Chest Armor",
@@ -80402,7 +81197,7 @@
   "4100222493": {
     "name": "A Gift from Tess",
     "type": "Legendary Bright Engram",
-    "icon": "https://bungie.net/common/destiny2_content/icons/c544a3363902252bd41cead8678614e7.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/26ae3ab100e4ccc0fb580630bf14f4b4.png"
   },
   "4101386442": {
     "name": "Fizzled Fireteam Medallion",
@@ -80839,7 +81634,7 @@
   "4124601641": {
     "name": "Unflinching Linear Fusion Aim",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4124984448": {
     "name": "Hard Light",
@@ -81169,7 +81964,7 @@
   "4140705235": {
     "name": "Enhanced Hand Cannon Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4140815674": {
     "name": "Grenade Launcher Loader",
@@ -81843,6 +82638,11 @@
     "type": "Legendary Armor Ornament",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/2adafdc30fb3115215114ba261a8d73b.jpg"
+  },
+  "4179794597": {
+    "name": "Candescent Prism Strides",
+    "type": "Legendary Hunter Universal Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ae055af6aec838cd3d2531748c166e7.jpg"
   },
   "4179974574": {
     "name": "Tainted Water",
@@ -82760,6 +83560,36 @@
     "type": "Legendary Shader",
     "icon": "https://bungie.net/common/destiny2_content/icons/0b904803eac6df15f92a61f5d29887e0.jpg"
   },
+  "4225083601": {
+    "name": "Celebrating Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "4225083602": {
+    "name": "Celebrating Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "4225083603": {
+    "name": "Celebrating Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "4225083604": {
+    "name": "Celebrating Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "4225083605": {
+    "name": "Celebrating Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
+  "4225083606": {
+    "name": "Celebrating Solstice",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/322979583f66b967def1d3b132a793d0.png"
+  },
   "4225322581": {
     "name": "Ragnhild-D",
     "type": "Legendary Shotgun",
@@ -83200,7 +84030,7 @@
   "4245438319": {
     "name": "Rocket Launcher Scavenger",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4245441464": {
     "name": "Scorned Baron Robes",
@@ -83370,11 +84200,6 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/68700db0ffd390d8e7fe261da9bcf6b7.jpg"
   },
-  "4252515564": {
-    "name": "Solstice Mask (Renewed)",
-    "type": "Rare Helmet",
-    "icon": "https://bungie.net/common/destiny2_content/icons/235d1d953b1a8a6fa168a49aceaa6cf1.jpg"
-  },
   "4252684909": {
     "name": "Blood Lineage Gloves",
     "type": "Legendary Warlock Universal Ornament",
@@ -83414,7 +84239,7 @@
   "4255886137": {
     "name": "Power Weapon Loader",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4256272077": {
     "name": "Tangled Web Bond",
@@ -83743,6 +84568,11 @@
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/569486fb363c654bc178ea4d5abbfab0.jpg"
   },
+  "4274639602": {
+    "name": "Spark of Strength",
+    "type": "Legendary Solstice Embers",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3ae12d6ef5abe8636a5eac3a8e9ce065.png"
+  },
   "4275207037": {
     "name": "For the Public Good",
     "type": "Common Daily Bounty",
@@ -83835,7 +84665,7 @@
   "4282096169": {
     "name": "Enhanced Rocket Launcher Dexterity",
     "type": "Legendary Deprecated Perk",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9b6a1006088aa6d643fd918a3b580f57.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
   "4282498224": {
     "name": "Solstice Plate (Drained)",
