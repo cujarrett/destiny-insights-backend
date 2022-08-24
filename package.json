@@ -6,8 +6,8 @@
   "scripts": {
     "lint": "eslint .",
     "fix-lint": "eslint . --fix",
-    "test": "nyc ava",
-    "test-exclude-vendors": "nyc ava --match='!*Vendor*'",
+    "test": "nyc ava --timeout=60s",
+    "test-exclude-vendors": "nyc ava --match='!*Vendor*' --timeout=60s",
     "update-cached-mods": "node -e 'require(\"./src/util/build-cached-mods.js\").updateCachedMods()'",
     "update-cached-items": "node -e 'require(\"./src/util/build-cached-items.js\").updateCachedItems()'",
     "update-cached-weapon-wish-lists": "node -e 'require(\"./src/util/build-cached-weapon-wish-lists.js\").updateCachedItems()'",
