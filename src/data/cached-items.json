@@ -429,6 +429,12 @@
     "type": "Legendary Enhanced Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/90c4f7f35c9d24f4add016722a78404e.png"
   },
+  "26254737": {
+    "name": "War Numen's Crown",
+    "type": "Legendary Helmet",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b53b0dac28e4c980609358e0c686a181.jpg"
+  },
   "26544805": {
     "name": "Cry Defiance",
     "type": "Uncommon Helmet",
@@ -2159,6 +2165,11 @@
     "type": "Common Seasonal Bonus",
     "icon": "https://bungie.net/common/destiny2_content/icons/ccea3cf0772528c8dfd3d33dc1ccc6cb.png"
   },
+  "126468112": {
+    "name": "Defiance of Yasmin",
+    "type": "Legendary Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ffcefdec1ea538b5c96ef800ae3b58fd.jpg"
+  },
   "126602378": {
     "name": "Primal Siege Type 1",
     "type": "Rare Leg Armor",
@@ -3059,6 +3070,12 @@
     "name": "Unflinching Shotgun Aim",
     "type": "Legendary Deprecated Perk",
     "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
+  },
+  "169689932": {
+    "name": "Darkhollow Chiton",
+    "type": "Legendary Chest Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab9c1fd28c54c2700d312e1d6927591a.jpg"
   },
   "169755979": {
     "name": "Dragonfly",
@@ -4425,6 +4442,11 @@
     "type": "Legendary Hand Cannon",
     "icon": "https://bungie.net/common/destiny2_content/icons/48cc688e5189a7718babe26d591fb966.jpg"
   },
+  "236545423": {
+    "name": "Midha's Reckoning",
+    "type": "Legendary Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/80532397a1e78bef44ae9862b4ce95c3.jpg"
+  },
   "236605015": {
     "name": "Vanishing Execution",
     "type": "Exotic Intrinsic",
@@ -5702,6 +5724,11 @@
     "type": "Legendary Gauntlets",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/c3f689864113620624335f1155a5d771.jpg"
+  },
+  "291092617": {
+    "name": "Zaouli's Bane (Harrowed)",
+    "type": "Legendary Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/07286a999bf5a980d1064be48b0736f9.jpg"
   },
   "291437034": {
     "name": "Lost Pacific Cape",
@@ -7375,6 +7402,12 @@
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/8950deb366d6f83bf75e5e392cf8b2e1.jpg"
   },
+  "376168733": {
+    "name": "War Numen's Mark",
+    "type": "Legendary Titan Mark",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/da6d767509faa17d37da713e81a85e64.jpg"
+  },
   "376283350": {
     "name": "Starwort Thins",
     "type": "Legendary Discovered Recipe",
@@ -7558,6 +7591,12 @@
     "name": "Casual Sit",
     "type": "Uncommon Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/d92e1424e283951319b59407289817ff.jpg"
+  },
+  "384006367": {
+    "name": "War Numen's Boots",
+    "type": "Legendary Leg Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fe5d1a323da2579df68a50afceca280c.jpg"
   },
   "384272571": {
     "name": "Precision Frame",
@@ -8684,6 +8723,11 @@
     "name": "Top of Class",
     "type": "Exotic Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/ef776b19efb6498f6589168e528640ba.jpg"
+  },
+  "431721920": {
+    "name": "Zaouli's Bane",
+    "type": "Legendary Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/07286a999bf5a980d1064be48b0736f9.jpg"
   },
   "431984069": {
     "name": "Beyond Light",
@@ -10694,6 +10738,11 @@
     "type": "Exotic Ghost Shell",
     "icon": "https://bungie.net/common/destiny2_content/icons/40b21394afc183306f5f24fe63ab0d9c.jpg"
   },
+  "528682407": {
+    "name": "Ossein Earthcarver",
+    "type": "Exotic Vehicle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e4b762e137aeddf4c101e087d9ebd68f.jpg"
+  },
   "528834068": {
     "name": "BrayTech Werewolf",
     "type": "Legendary Auto Rifle",
@@ -11673,7 +11722,7 @@
   "572069851": {
     "name": "Tortured Ivy",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6998ca39bf3b5dea434d5ac238ad4cfe.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f6cf840a47309998c2d54e6fe8ad4225.jpg"
   },
   "572122304": {
     "name": "Shattered Warlock Bond",
@@ -14013,6 +14062,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/c45a6e9104b3baeff15a8b21f16ce510.jpg"
   },
+  "694218974": {
+    "name": "Smite of Merain",
+    "type": "Legendary Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0288318ab6fbeaf7b97e442c170b355.jpg"
+  },
   "694399934": {
     "name": "Legendary Engram",
     "type": "Legendary Focused Umbral Engram",
@@ -14409,6 +14463,12 @@
     "type": "Uncommon Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/0aeaf0fd604b71f35bf93277348ac436.jpg"
+  },
+  "716885299": {
+    "name": "Darkhollow Treads",
+    "type": "Legendary Leg Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0e4fe700028dc7800711f1797c3d218c.jpg"
   },
   "717150101": {
     "name": "BrayTech RWP Mk. II",
@@ -15437,6 +15497,12 @@
     "name": "Seventh Seraph VY-7",
     "type": "Legendary Submachine Gun",
     "icon": "https://bungie.net/common/destiny2_content/icons/0121437a6b2939d9e340443e8c5a4f46.jpg"
+  },
+  "766618550": {
+    "name": "Bond of the Wormlore",
+    "type": "Legendary Warlock Bond",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4f05a6a00fe4e46958f0ad4fbceda3b.jpg"
   },
   "767281351": {
     "name": "Season of the Haunted Projections Bundle",
@@ -16762,6 +16828,11 @@
     "type": "Legendary Deprecated Perk",
     "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
   },
+  "833285241": {
+    "name": "Defiance of Yasmin (Harrowed)",
+    "type": "Legendary Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8eb53aeaa2695f96f9d0437a34426d44.jpg"
+  },
   "833626649": {
     "name": "Chiron's Cure",
     "type": "Rare Gauntlets",
@@ -17149,6 +17220,11 @@
     "type": "Rare Holiday Gift",
     "icon": "https://bungie.net/common/destiny2_content/icons/c7a561faa09866bbf9d8d2e325e4fc92.jpg"
   },
+  "852793406": {
+    "name": "Will of Light (Void)",
+    "type": "King's Fall Mod",
+    "icon": "https://bungie.net/common/destiny2_content/icons/994a13ef89e21cc80faf3ac3a7ec6c85.png"
+  },
   "853543290": {
     "name": "Greaves of Rull",
     "type": "Legendary Leg Armor",
@@ -17425,6 +17501,16 @@
     "name": "Neomuna Nights",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/2d0371ccfc7cf38022754496c38b38c0.jpg"
+  },
+  "866034300": {
+    "name": "Tyrant",
+    "type": "Legendary Emblem",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d791c4ac0dea5b4f9493f392908654df.jpg"
+  },
+  "866034301": {
+    "name": "King No More",
+    "type": "Legendary Emblem",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2ecd3b7e3ad6e64e80464b618a2409e4.jpg"
   },
   "866034302": {
     "name": "Lost at Sea",
@@ -17804,6 +17890,12 @@
     "type": "Rare Undiscovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/858fdf8633cc141f1736f0033ac3f4f0.jpg"
   },
+  "884969196": {
+    "name": "Grasp of Eir",
+    "type": "Legendary Gauntlets",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e95f944d75012a13c24697ccd4189060.jpg"
+  },
   "885220736": {
     "name": "Fist of Fury",
     "type": "Legendary Finisher",
@@ -18083,6 +18175,11 @@
     "name": "Stagnant Glyphkeeper",
     "type": "Common Vow of the Disciple Raid Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/05a903ee187cf09205ccd7ce01571cb1.png"
+  },
+  "899111755": {
+    "name": "Midha's Reckoning",
+    "type": "Legendary Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/80532397a1e78bef44ae9862b4ce95c3.jpg"
   },
   "899855954": {
     "name": "Drowned in Strife",
@@ -19553,12 +19650,12 @@
   "983194592": {
     "name": "Sundered Flesh",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ab18c10f9fccc1e5e3c6904a89a50e19.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4ed8dc1d419cabc1798627a26781ad97.jpg"
   },
   "983194593": {
     "name": "Ancient Wisdom",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/adfd40817f3baa1592e6a74701875012.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f035780aa889a54e706155214490987f.jpg"
   },
   "983635618": {
     "name": "Gjallarswift",
@@ -20585,6 +20682,11 @@
     "type": "Legendary Enhanced Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
   },
+  "1027966676": {
+    "name": "Sails of the Shipstealer",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/125dce9cfdb39b3a3550a5b01f009968.png"
+  },
   "1028582252": {
     "name": "The Comedian",
     "type": "Legendary Shotgun",
@@ -20891,6 +20993,11 @@
     "type": "Legendary Chest Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/0326a190e00dd713c37e6bfb2ec6f75c.jpg"
+  },
+  "1044744263": {
+    "name": "Sails of the Shipstealer",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/125dce9cfdb39b3a3550a5b01f009968.png"
   },
   "1045633725": {
     "name": "War Cult Rain",
@@ -21208,6 +21315,11 @@
     "type": "Legendary Machine Gun",
     "icon": "https://bungie.net/common/destiny2_content/icons/03184383d884c191b182b9b4e1de4de6.jpg"
   },
+  "1058857259": {
+    "name": "Qullim's Terminus",
+    "type": "Legendary Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1f87d4c8349f9d56278671bbd2036d19.jpg"
+  },
   "1058936857": {
     "name": "Iron Will Vest",
     "type": "Legendary Chest Armor",
@@ -21315,6 +21427,12 @@
     "name": "Shotgun Scavenger",
     "type": "Legendary Deprecated Perk",
     "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
+  },
+  "1066132704": {
+    "name": "War Numen's Chest",
+    "type": "Legendary Chest Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d6f3faa8f33cbba95378708e244f091c.jpg"
   },
   "1066605642": {
     "name": "Illicit Invader Mark",
@@ -23033,6 +23151,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/2e17b501b613c225728347e8da10723d.jpg"
   },
+  "1163414343": {
+    "name": "Qullim's Terminus",
+    "type": "Legendary Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1f87d4c8349f9d56278671bbd2036d19.jpg"
+  },
   "1163621614": {
     "name": "Victory Shout",
     "type": "Rare Emote",
@@ -23505,6 +23628,11 @@
     "type": "Legendary Shader",
     "icon": "https://bungie.net/common/destiny2_content/icons/7a39c35a884900eb9a79f45d83192efe.jpg"
   },
+  "1183120568": {
+    "name": "Midha's Reckoning",
+    "type": "Legendary Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/80532397a1e78bef44ae9862b4ce95c3.jpg"
+  },
   "1183240368": {
     "name": "Nightmare Hunter",
     "type": "Rare Weekly Bounty",
@@ -23545,6 +23673,11 @@
     "name": "Operation Elbrus",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/c3204ce06ed5c4a7a84b468db32667b5.jpg"
+  },
+  "1184692845": {
+    "name": "Doom of Chelchis (Harrowed)",
+    "type": "Legendary Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7bbc841a2c367cc04176d227dc3a56c4.jpg"
   },
   "1184965378": {
     "name": "Lake of Shadows",
@@ -24492,6 +24625,11 @@
     "name": "Gambit Clan Engram",
     "type": "Legendary Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/7eea47cc31d9b065213f85169e668b6e.png"
+  },
+  "1233066310": {
+    "name": "Zaouli's Bane",
+    "type": "Legendary Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/07286a999bf5a980d1064be48b0736f9.jpg"
   },
   "1233301693": {
     "name": "Notorious Reaper Strides",
@@ -25749,6 +25887,26 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/723f197ccb4fe01149ebe23cbb93741a.jpg"
   },
+  "1291268260": {
+    "name": "Will of Light (Kinetic)",
+    "type": "King's Fall Mod",
+    "icon": "https://bungie.net/common/destiny2_content/icons/32a3c29ef023ed99fecfbb5035c93e45.png"
+  },
+  "1291268261": {
+    "name": "Old Gods' Boon",
+    "type": "King's Fall Mod",
+    "icon": "https://bungie.net/common/destiny2_content/icons/07c554a7a7ffcf6e953ad809c982ac0a.png"
+  },
+  "1291268262": {
+    "name": "Run for Your Life",
+    "type": "King's Fall Mod",
+    "icon": "https://bungie.net/common/destiny2_content/icons/aa0dc859491a09a94b7c18bac3229a03.png"
+  },
+  "1291268263": {
+    "name": "Mortal Medicine",
+    "type": "King's Fall Mod",
+    "icon": "https://bungie.net/common/destiny2_content/icons/28655d219509cfbbfd0c8617d09a1f44.png"
+  },
   "1291586825": {
     "name": "Eystein-D",
     "type": "Legendary Pulse Rifle",
@@ -26388,6 +26546,11 @@
     "type": "Exotic Helmet",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/fa668959fe0812f22f277ac17d819747.jpg"
+  },
+  "1321506184": {
+    "name": "Qullim's Terminus",
+    "type": "Legendary Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1f87d4c8349f9d56278671bbd2036d19.jpg"
   },
   "1321546045": {
     "name": "European Dead Zone",
@@ -28980,7 +29143,7 @@
   "1443620695": {
     "name": "Scarlet Semblance",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b5d1e8b46acd65dd630920a7d0548f19.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/017ad72b9cffb73517e7aaa940fd50ce.jpg"
   },
   "1444655707": {
     "name": "Sadness",
@@ -29835,6 +29998,12 @@
     "type": "Rare Helmet",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/8a45d6ad055c0e5d09f9a93dffed9221.jpg"
+  },
+  "1479604326": {
+    "name": "Darkhollow Mantle",
+    "type": "Legendary Hunter Cloak",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/83b54f7c13ed2e8904d652261c009ea2.jpg"
   },
   "1479892134": {
     "name": "War Mantis",
@@ -30925,6 +31094,12 @@
     "type": "Legendary Titan Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/a858710814d4717e6ea80148cb775c6e.jpg"
   },
+  "1530701334": {
+    "name": "Path of Xol",
+    "type": "Legendary Leg Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/744ae51888317431a624e65754191922.jpg"
+  },
   "1530804125": {
     "name": "Superconductor",
     "type": "Common Trait",
@@ -31041,6 +31216,12 @@
     "type": "Legendary Helmet",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/91de64ffbb6b8935c37711a571d96d8e.jpg"
+  },
+  "1537426592": {
+    "name": "Mouth of Ur",
+    "type": "Legendary Helmet",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6b9664958fd73b863f64e123a73894be.jpg"
   },
   "1537581030": {
     "name": "Vernal Growth Plate",
@@ -32996,6 +33177,11 @@
     "type": "Exotic Ghost Shell",
     "icon": "https://bungie.net/common/destiny2_content/icons/7d7c860cf26c63b9c042a7b8da2ecf1a.jpg"
   },
+  "1642864320": {
+    "name": "Doom of Chelchis (Harrowed)",
+    "type": "Legendary Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7bbc841a2c367cc04176d227dc3a56c4.jpg"
+  },
   "1643575148": {
     "name": "Eternal Warrior",
     "type": "Exotic Helmet",
@@ -33309,6 +33495,12 @@
     "name": "Telemetry Tapioca",
     "type": "Rare Undiscovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/858fdf8633cc141f1736f0033ac3f4f0.jpg"
+  },
+  "1656833637": {
+    "name": "Darkhollow Mask",
+    "type": "Legendary Helmet",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/193ddeb37cb8b91cbc00974606292ac5.jpg"
   },
   "1656835365": {
     "name": "Plate of the Great Hunt",
@@ -34901,6 +35093,11 @@
     "type": "Common Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/a6a822bab0e92b908cb79f40ab123017.png"
   },
+  "1728096240": {
+    "name": "Empty Mod Socket",
+    "type": "King's Fall Mod",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+  },
   "1728121941": {
     "name": "Exotic Engram",
     "type": "Exotic Engram",
@@ -35181,6 +35378,11 @@
     "type": "Legendary Chest Armor",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/21f1b70c3a179912705e50074033c322.jpg"
+  },
+  "1741319917": {
+    "name": "Smite of Merain",
+    "type": "Legendary Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0288318ab6fbeaf7b97e442c170b355.jpg"
   },
   "1741396519": {
     "name": "Ancient Apocalypse Vest",
@@ -35639,6 +35841,11 @@
     "type": "Legendary Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/e7bc645ee4d8b35a955b8031ba1c09d5.jpg"
+  },
+  "1769856981": {
+    "name": "Zaouli's Bane",
+    "type": "Legendary Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/07286a999bf5a980d1064be48b0736f9.jpg"
   },
   "1770862260": {
     "name": "Sunstead Plate (Magnificent)",
@@ -36217,6 +36424,11 @@
     "name": "Viral Celebration",
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/31b925a85bfc373e837a0f3933141bc7.jpg"
+  },
+  "1802135586": {
+    "name": "Touch of Malice",
+    "type": "Exotic Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/74e65bda44975d1fc6c28a85e102be9c.jpg"
   },
   "1804192853": {
     "name": "Grips of Exaltation",
@@ -37611,22 +37823,22 @@
   "1869315388": {
     "name": "Ravensilk",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/90bfc1efa5b2b25ffbb6293c596d3896.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/25e463115f5cadf17c73500d971c7a41.jpg"
   },
   "1869315389": {
     "name": "Cursed Azure",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/076e000a4e10fb2ee0662ea661515f08.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f145a9fb4bb2e1c125b1d3efe9981b7f.jpg"
   },
   "1869315390": {
     "name": "Whispered Sheen",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ffc8da23d2ed080cf80fc056f7813978.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/a765ddd020055ed11849209f6dbe16e4.jpg"
   },
   "1869315391": {
     "name": "Breezy Clear",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bafb9f78bc9fd6d2a06a5f72bb91896c.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/929b5604adbdae790841c8c3d49da453.jpg"
   },
   "1869653095": {
     "name": "Kinetic Calibration",
@@ -38446,7 +38658,7 @@
   "1902811978": {
     "name": "Duskbloom",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ab4383c4a3b7d929ca9ff248d537ba5c.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/012c53aed661d1ad59a19043624b1b92.jpg"
   },
   "1903023095": {
     "name": "Reverie Dawn Grasps",
@@ -39300,6 +39512,11 @@
     "name": "Large XP Boost",
     "type": "Common Seasonal Bonus",
     "icon": "https://bungie.net/common/destiny2_content/icons/a5ece706d5795df6ad7e5d6c013debf0.png"
+  },
+  "1937552980": {
+    "name": "Doom of Chelchis",
+    "type": "Legendary Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d83ba2cc1553640e676faf9ae5869f1f.jpg"
   },
   "1937677973": {
     "name": "Premium Hunter Rewards",
@@ -41444,6 +41661,11 @@
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/90cb73c6a3bb36f56f2e8b8e4d4e4bf2.jpg"
   },
+  "2033447464": {
+    "name": "Zaouli's Bane (Harrowed)",
+    "type": "Legendary Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/07286a999bf5a980d1064be48b0736f9.jpg"
+  },
   "2033661183": {
     "name": "Xenos Shore Ornament",
     "type": "Legendary Armor Ornament",
@@ -42270,6 +42492,11 @@
     "type": "Exotic Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/6c457656e245b3fe1482c25e7a7214b9.jpg"
   },
+  "2074494595": {
+    "name": "Will of Light (Stasis)",
+    "type": "King's Fall Mod",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0522fc233469a0e91aaa0156137659e0.png"
+  },
   "2075703443": {
     "name": "Calamity Rig Strides",
     "type": "Legendary Leg Armor",
@@ -42672,6 +42899,11 @@
     "type": "Common Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/5de33c5c92acfe6f70107b4e9f95001e.png"
   },
+  "2095727101": {
+    "name": "Doom of Chelchis",
+    "type": "Legendary Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d83ba2cc1553640e676faf9ae5869f1f.jpg"
+  },
   "2096072732": {
     "name": "Moon Glimmer Scavenger",
     "type": "Common Ghost Module",
@@ -42769,7 +43001,7 @@
   "2102881346": {
     "name": "Emerald Splash",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/0075a6c338efbcb2616a453c393254b4.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/847e093073dda1dc386620064979534a.jpg"
   },
   "2103153350": {
     "name": "Refugee Gloves",
@@ -45149,6 +45381,11 @@
     "type": "Legendary Pulse Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/2440c09ea392e6b5fa254ed2861ca8ac.jpg"
   },
+  "2221264583": {
+    "name": "Smite of Merain",
+    "type": "Legendary Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0288318ab6fbeaf7b97e442c170b355.jpg"
+  },
   "2221552043": {
     "name": "Hardy's Control",
     "type": "Legendary Gauntlets",
@@ -47051,6 +47288,12 @@
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/7199f34429051b840b3b8c55c0af8eb4.jpg"
   },
+  "2313348029": {
+    "name": "War Numen's Fist",
+    "type": "Legendary Gauntlets",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3a6d23c5913d55298e16e6c435348ef7.jpg"
+  },
   "2313489324": {
     "name": "Trustee",
     "type": "Legendary Scout Rifle",
@@ -48089,6 +48332,12 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/cfc4e5328a535682fea0c6d346996bb5.jpg"
   },
+  "2366153444": {
+    "name": "War Numen's Crown",
+    "type": "Legendary Helmet",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b53b0dac28e4c980609358e0c686a181.jpg"
+  },
   "2367025562": {
     "name": "Hip to the Hop",
     "type": "Legendary Emote",
@@ -48411,6 +48660,12 @@
     "type": "Legendary Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/216c059a5f86266233aa4707e530089d.jpg"
+  },
+  "2380004282": {
+    "name": "War Numen's Mark",
+    "type": "Legendary Titan Mark",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/da6d767509faa17d37da713e81a85e64.jpg"
   },
   "2380263706": {
     "name": "Cryptic Quatrains III",
@@ -49222,6 +49477,12 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/d8794aeeab8173599e6d72446ded5026.jpg"
   },
+  "2422437245": {
+    "name": "Mouth of Ur",
+    "type": "Legendary Helmet",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6b9664958fd73b863f64e123a73894be.jpg"
+  },
   "2422643144": {
     "name": "Perfect Swing",
     "type": "Exotic Emote",
@@ -49485,6 +49746,12 @@
     "type": "Legendary Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/6cfbd7c276829ba5f276aa9e73a34745.jpg"
+  },
+  "2437510452": {
+    "name": "Darkhollow Grasps",
+    "type": "Legendary Gauntlets",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/914247de1045b89a15d1ea524e3cd825.jpg"
   },
   "2437968453": {
     "name": "Watch Your Back",
@@ -53352,12 +53619,12 @@
   "2639800744": {
     "name": "Rusted Coin",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/95a4c7f9f1f7aed5ae87b72257d43f6f.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/a14a131590fbf64cdfe8570da5197957.jpg"
   },
   "2639800745": {
     "name": "Dusted Tome",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/c523991c8e8399712d6dd04dc374aa32.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/c7232b5ac4d5262123c1a967f69e63a5.jpg"
   },
   "2640279229": {
     "name": "Arms of Optimacy",
@@ -55038,6 +55305,12 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/6fb897f19d14d7e937657072afb85ad8.jpg"
   },
+  "2725249086": {
+    "name": "Darkhollow Treads",
+    "type": "Legendary Leg Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0e4fe700028dc7800711f1797c3d218c.jpg"
+  },
   "2725275091": {
     "name": "Legacy: Bound in Sorrow",
     "type": "Legendary Quest Step",
@@ -56602,6 +56875,11 @@
     "type": "Common Vow of the Disciple Raid Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/52d8d4b8ccbf125e61cbc0b81377cc72.png"
   },
+  "2804704802": {
+    "name": "Midha's Reckoning (Harrowed)",
+    "type": "Legendary Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1fb177a14d844169a0f4aedbee911443.jpg"
+  },
   "2804868475": {
     "name": "Prime Example",
     "type": "Legendary Quest Step",
@@ -56789,6 +57067,11 @@
     "name": "Altrux Pura Mk1",
     "type": "Exotic Ship",
     "icon": "https://bungie.net/common/destiny2_content/icons/b4ab89c28aa9c4aff7ef2bfcad0a7a94.jpg"
+  },
+  "2811165950": {
+    "name": "Qullim's Terminus (Harrowed)",
+    "type": "Legendary Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/442b4dc90b94087977f094fff569becd.jpg"
   },
   "2811180959": {
     "name": "Tesseract Trace IV",
@@ -58139,6 +58422,12 @@
     "name": "Commemoration",
     "type": "Legendary Machine Gun",
     "icon": "https://bungie.net/common/destiny2_content/icons/5af4cd19933a9a7c77825f3cc23b72ff.jpg"
+  },
+  "2868448385": {
+    "name": "Darkhollow Mantle",
+    "type": "Legendary Hunter Cloak",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/83b54f7c13ed2e8904d652261c009ea2.jpg"
   },
   "2868525732": {
     "name": "Wheel of Fortune",
@@ -59571,6 +59860,12 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/f2fe7fc79006fe229eb0cd4a0c235387.jpg"
   },
+  "2937773672": {
+    "name": "War Numen's Fist",
+    "type": "Legendary Gauntlets",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3a6d23c5913d55298e16e6c435348ef7.jpg"
+  },
   "2938035991": {
     "name": "Illicit Collector Bond",
     "type": "Legendary Warlock Bond",
@@ -59673,6 +59968,12 @@
     "name": "For Wei",
     "type": "Exotic Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/7fb2fb05cf5a4aeed35168ae2bd88836.jpg"
+  },
+  "2939738676": {
+    "name": "Chasm of Yul",
+    "type": "Legendary Chest Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b3796fb51899922c5dbb2af4551aa5be.jpg"
   },
   "2940035732": {
     "name": "Wrath of the Colossus",
@@ -61107,6 +61408,11 @@
     "type": "Legendary Shader",
     "icon": "https://bungie.net/common/destiny2_content/icons/f1a6b54cd2e30a808a1dbfe276ee335f.jpg"
   },
+  "3004542196": {
+    "name": "Qullim's Terminus",
+    "type": "Legendary Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1f87d4c8349f9d56278671bbd2036d19.jpg"
+  },
   "3004625280": {
     "name": "Virtuous Vest",
     "type": "Legendary Hunter Universal Ornament",
@@ -61318,6 +61624,11 @@
     "type": "Legendary Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/a92302dba7992693b55e0c4a62be7e02.jpg"
+  },
+  "3013315457": {
+    "name": "Doom of Chelchis",
+    "type": "Legendary Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d83ba2cc1553640e676faf9ae5869f1f.jpg"
   },
   "3013363601": {
     "name": "Playin' the Odds",
@@ -61692,6 +62003,11 @@
     "name": "Enhanced Hand Cannon Loader",
     "type": "Legendary Deprecated Perk",
     "icon": "https://bungie.net/common/destiny2_content/icons/b32454cc1e017c4079b98f7c90b4fe1e.png"
+  },
+  "3036070042": {
+    "name": "Smite of Merain",
+    "type": "Legendary Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c0288318ab6fbeaf7b97e442c170b355.jpg"
   },
   "3036117446": {
     "name": "Hezen Vengeance (Timelost)",
@@ -62207,6 +62523,11 @@
     "type": "Legendary Gauntlets",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/a9b743e816ac60392340f57974dc30a7.jpg"
+  },
+  "3066440557": {
+    "name": "Threatening Breath",
+    "type": "Exotic Weapon Ornament",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4843453a112870d7751248f416fe40d2.jpg"
   },
   "3066593211": {
     "name": "Icarus Drifter Vest",
@@ -62827,6 +63148,12 @@
     "name": "Iron Grip",
     "type": "Uncommon Enhanced Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/0070d2be2fa0f2ea5b799c06f29564b8.png"
+  },
+  "3098300483": {
+    "name": "War Numen's Chest",
+    "type": "Legendary Chest Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d6f3faa8f33cbba95378708e244f091c.jpg"
   },
   "3098458331": {
     "name": "Ankaa Seeker IV",
@@ -64050,6 +64377,11 @@
     "type": "Rare Material",
     "icon": "https://bungie.net/common/destiny2_content/icons/5a25fb6a8dde8514da3258969d926bb0.jpg"
   },
+  "3156616985": {
+    "name": "Zaouli's Bane",
+    "type": "Legendary Hand Cannon",
+    "icon": "https://bungie.net/common/destiny2_content/icons/07286a999bf5a980d1064be48b0736f9.jpg"
+  },
   "3156820619": {
     "name": "Heavy Hunter Armor",
     "type": "Common Intrinsic",
@@ -64615,6 +64947,11 @@
     "type": "Legendary Chest Armor",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/c3e5d1b99539ad993a28d9158eec01c0.jpg"
+  },
+  "3182115262": {
+    "name": "Doom of Chelchis",
+    "type": "Legendary Scout Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d83ba2cc1553640e676faf9ae5869f1f.jpg"
   },
   "3182550856": {
     "name": "Heartbreaking Entrance",
@@ -65594,6 +65931,11 @@
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/125dce9cfdb39b3a3550a5b01f009968.png"
   },
+  "3228096719": {
+    "name": "Defiance of Yasmin",
+    "type": "Legendary Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ffcefdec1ea538b5c96ef800ae3b58fd.jpg"
+  },
   "3228149706": {
     "name": "Pulse Rifle Dexterity",
     "type": "Common Arms Armor Mod",
@@ -65625,6 +65967,12 @@
     "type": "Uncommon Helmet",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/47c8c4d5dd32551cde4c44793a90face.jpg"
+  },
+  "3229616835": {
+    "name": "Path of Xol",
+    "type": "Legendary Leg Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/744ae51888317431a624e65754191922.jpg"
   },
   "3230467553": {
     "name": "Sunstead Gauntlets",
@@ -65937,6 +66285,11 @@
     "name": "The Witch Queen",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/3cc974bd60e5054bbb50b983ce84b66b.jpg"
+  },
+  "3248429089": {
+    "name": "Qullim's Terminus (Harrowed)",
+    "type": "Legendary Machine Gun",
+    "icon": "https://bungie.net/common/destiny2_content/icons/442b4dc90b94087977f094fff569becd.jpg"
   },
   "3248921011": {
     "name": "Operation Elbrus",
@@ -69112,6 +69465,12 @@
     "type": "Exotic Ghost Shell",
     "icon": "https://bungie.net/common/destiny2_content/icons/f0d311b46df28cffd796f784cff9916d.jpg"
   },
+  "3398467185": {
+    "name": "Grasp of Eir",
+    "type": "Legendary Gauntlets",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/e95f944d75012a13c24697ccd4189060.jpg"
+  },
   "3399113824": {
     "name": "Europa Auto Rifle",
     "type": "Legendary Quest Step",
@@ -69337,6 +69696,11 @@
     "name": "Iron Engram",
     "type": "Legendary Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/7eea47cc31d9b065213f85169e668b6e.png"
+  },
+  "3407395594": {
+    "name": "Smite of Merain (Harrowed)",
+    "type": "Legendary Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2cc152a3e00d3c4285d396b879e4d4aa.jpg"
   },
   "3407940349": {
     "name": "Ascendant Oatmeal Raisin Cookies",
@@ -71026,6 +71390,11 @@
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/b57ea9cfac573c6757163f320ad8a38b.jpg"
   },
+  "3503019618": {
+    "name": "Defiance of Yasmin (Harrowed)",
+    "type": "Legendary Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/8eb53aeaa2695f96f9d0437a34426d44.jpg"
+  },
   "3503026437": {
     "name": "Vernal Growth Grips",
     "type": "Legendary Gauntlets",
@@ -72097,6 +72466,11 @@
     "name": "Filamentary, My Dear Ghost",
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/4a304e199f2adf9c12d03a19ef467666.png"
+  },
+  "3540739611": {
+    "name": "Will of Light (Solar)",
+    "type": "King's Fall Mod",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2aa23849de360413d69b18ce291925e2.png"
   },
   "3541049439": {
     "name": "30th Anniversary Starter Pack",
@@ -74421,6 +74795,11 @@
     "type": "Exotic Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/dcb6a9dca3f6b141e61fb9bdc6651460.png"
   },
+  "3643044286": {
+    "name": "Will of Light (Arc)",
+    "type": "King's Fall Mod",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ac400e82ae9c76ee5d58680bb0f365a7.png"
+  },
   "3643144047": {
     "name": "Wastelander Boots",
     "type": "Common Leg Armor",
@@ -74461,6 +74840,12 @@
     "name": "Starfarer's Mask",
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/d297ac42ac7221c3dd6297de049825ef.jpg"
+  },
+  "3646252183": {
+    "name": "Darkhollow Chiton",
+    "type": "Legendary Chest Armor",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab9c1fd28c54c2700d312e1d6927591a.jpg"
   },
   "3646674533": {
     "name": "Icarus Drifter Grips",
@@ -74993,6 +75378,11 @@
     "type": "Legendary Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/b1d2ca19a72279c48e38b81f4e5e6c83.jpg"
+  },
+  "3671347212": {
+    "name": "Defiance of Yasmin",
+    "type": "Legendary Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ffcefdec1ea538b5c96ef800ae3b58fd.jpg"
   },
   "3671665226": {
     "name": "Simulator Plate",
@@ -75585,6 +75975,11 @@
     "type": "Legendary Currency",
     "icon": "https://bungie.net/common/destiny2_content/icons/8eebed96114f256e0f754fd922412df0.jpg"
   },
+  "3702209459": {
+    "name": "Smite of Merain (Harrowed)",
+    "type": "Legendary Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2cc152a3e00d3c4285d396b879e4d4aa.jpg"
+  },
   "3702334623": {
     "name": "The Queen Beckons",
     "type": "Exotic Quest Step",
@@ -76017,6 +76412,11 @@
     "name": "Shaded Titan Mask",
     "type": "Legendary Mask Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/6b1dd6f3bfe0743c0bd664cb370b9310.jpg"
+  },
+  "3728258171": {
+    "name": "Defiance of Yasmin",
+    "type": "Legendary Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ffcefdec1ea538b5c96ef800ae3b58fd.jpg"
   },
   "3728676938": {
     "name": "Lightweight Frame",
@@ -79374,6 +79774,11 @@
     "type": "Legendary Deprecated Armor Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "3889064943": {
+    "name": "Ossified Skycarver",
+    "type": "Exotic Ship",
+    "icon": "https://bungie.net/common/destiny2_content/icons/83c3a40be7d5e0cb4b6a3d6c41aeab1c.jpg"
+  },
   "3889183906": {
     "name": "Chronoglass",
     "type": "Legendary Vehicle",
@@ -79705,6 +80110,11 @@
     "name": "Europa: Fusion Rifles",
     "type": "Common Repeatable Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/dc2fc75bf1798d0606fbbc59ca58f7cf.jpg"
+  },
+  "3904516037": {
+    "name": "Midha's Reckoning (Harrowed)",
+    "type": "Legendary Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/1fb177a14d844169a0f4aedbee911443.jpg"
   },
   "3904524734": {
     "name": "The Outlander's Cover",
@@ -80169,6 +80579,12 @@
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/f4fc02a85039961f836af9a8cde185b2.jpg"
   },
+  "3921733799": {
+    "name": "Chasm of Yul",
+    "type": "Legendary Chest Armor",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b3796fb51899922c5dbb2af4551aa5be.jpg"
+  },
   "3921851413": {
     "name": "Knife Trick",
     "type": "Exotic Emote",
@@ -80578,6 +80994,12 @@
     "type": "Common Warlock Subclass",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/fedcb91b7ab0584c12f0e9fec730702b.png"
+  },
+  "3941464513": {
+    "name": "Darkhollow Grasps",
+    "type": "Legendary Gauntlets",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/914247de1045b89a15d1ea524e3cd825.jpg"
   },
   "3941766715": {
     "name": "Get That Bread",
@@ -81201,6 +81623,11 @@
     "type": "Legendary Helmet",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/cc452c9c372e2216ea3da29f2bb11028.jpg"
+  },
+  "3969066556": {
+    "name": "Midha's Reckoning",
+    "type": "Legendary Fusion Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/80532397a1e78bef44ae9862b4ce95c3.jpg"
   },
   "3969205939": {
     "name": "Pacific Deception",
@@ -82715,6 +83142,12 @@
     "name": "Forbearance (Adept)",
     "type": "Legendary Grenade Launcher",
     "icon": "https://bungie.net/common/destiny2_content/icons/10cea6729a6711e371dde011565ac349.jpg"
+  },
+  "4039112898": {
+    "name": "War Numen's Boots",
+    "type": "Legendary Leg Armor",
+    "class": "titan",
+    "icon": "https://bungie.net/common/destiny2_content/icons/fe5d1a323da2579df68a50afceca280c.jpg"
   },
   "4039153625": {
     "name": "All Four Barrels",
@@ -85301,6 +85734,12 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/6eaad544943e457fd91490a9e46e136f.jpg"
   },
+  "4149499657": {
+    "name": "Bond of the Wormlore",
+    "type": "Legendary Warlock Bond",
+    "class": "warlock",
+    "icon": "https://bungie.net/common/destiny2_content/icons/d4f05a6a00fe4e46958f0ad4fbceda3b.jpg"
+  },
   "4149534912": {
     "name": "Cover of the Exile Projection",
     "type": "Legendary Ghost Projection",
@@ -85985,6 +86424,12 @@
     "name": "Might of Volundr",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/53fc7e5d1c549b1e77197afe3aff5153.jpg"
+  },
+  "4185257584": {
+    "name": "Darkhollow Mask",
+    "type": "Legendary Helmet",
+    "class": "hunter",
+    "icon": "https://bungie.net/common/destiny2_content/icons/193ddeb37cb8b91cbc00974606292ac5.jpg"
   },
   "4185339856": {
     "name": "Revolution",
