@@ -928,6 +928,12 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "852793406": {
+    "name": "Will of Light (Void)",
+    "type": "King's Fall Mod",
+    "description": "Your equipped weapons that deal Void damage deal increased damage to Taken combatants.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/994a13ef89e21cc80faf3ac3a7ec6c85.png"
+  },
   "865380761": {
     "name": "Enhanced Voltaic Mote Collector",
     "type": "Common Garden of Salvation Raid Mod",
@@ -1239,6 +1245,30 @@
     "type": "Common Arms Artifact Mod",
     "description": "No mod currently selected.",
     "icon": "https://bungie.net/common/destiny2_content/icons/18bb744532b78a20164f150c770c5f89.png"
+  },
+  "1291268260": {
+    "name": "Will of Light (Kinetic)",
+    "type": "King's Fall Mod",
+    "description": "Your equipped weapons that deal Kinetic damage deal increased damage to Taken combatants.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/32a3c29ef023ed99fecfbb5035c93e45.png"
+  },
+  "1291268261": {
+    "name": "Old Gods' Boon",
+    "type": "King's Fall Mod",
+    "description": "Gain damage reduction while carrying the King's Fall relic.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/07c554a7a7ffcf6e953ad809c982ac0a.png"
+  },
+  "1291268262": {
+    "name": "Run for Your Life",
+    "type": "King's Fall Mod",
+    "description": "Gain increased mobility and resilience while you are Torn Between Dimensions.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/aa0dc859491a09a94b7c18bac3229a03.png"
+  },
+  "1291268263": {
+    "name": "Mortal Medicine",
+    "type": "King's Fall Mod",
+    "description": "Gain increased recovery and weapon reload speed while you have a Brand or are in a pool of Reclaimed Light.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/28655d219509cfbbfd0c8617d09a1f44.png"
   },
   "1303690937": {
     "name": "Rocket Launcher Reserves",
@@ -1756,6 +1786,12 @@
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "1728096240": {
+    "name": "Empty Mod Socket",
+    "type": "King's Fall Mod",
+    "description": "No mod currently selected.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+  },
   "1740246051": {
     "name": "Font of Might",
     "type": "Elemental Well Mod",
@@ -2114,6 +2150,12 @@
     "type": "Legendary Deprecated Armor Mod",
     "description": "This mod has been deprecated and no longer functions. You may replace it with another mod.",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
+  },
+  "2074494595": {
+    "name": "Will of Light (Stasis)",
+    "type": "King's Fall Mod",
+    "description": "Your equipped weapons that deal Stasis damage deal increased damage to Taken combatants.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/0522fc233469a0e91aaa0156137659e0.png"
   },
   "2080519917": {
     "name": "Bow Targeting",
@@ -3456,6 +3498,12 @@
     "description": "Increases the amount of Fusion Rifle ammo you can carry.",
     "icon": "https://bungie.net/common/destiny2_content/icons/b79414f7866e5e2f307871acfbe86238.png"
   },
+  "3540739611": {
+    "name": "Will of Light (Solar)",
+    "type": "King's Fall Mod",
+    "description": "Your equipped weapons that deal Solar damage deal increased damage to Taken combatants.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/2aa23849de360413d69b18ce291925e2.png"
+  },
   "3543966269": {
     "name": "Sword Reserves",
     "type": "Common Chest Armor Mod",
@@ -3557,6 +3605,12 @@
     "type": "Common Helmet Armor Mod",
     "description": "Your Super final blows create extra Orbs of Power for your allies.",
     "icon": "https://bungie.net/common/destiny2_content/icons/bc234e3e21567070dd71b7143e4ea3e6.png"
+  },
+  "3643044286": {
+    "name": "Will of Light (Arc)",
+    "type": "King's Fall Mod",
+    "description": "Your equipped weapons that deal Arc damage deal increased damage to Taken combatants.",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ac400e82ae9c76ee5d58680bb0f365a7.png"
   },
   "3649276740": {
     "name": "Paragon Mod",
