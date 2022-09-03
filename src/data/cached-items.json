@@ -17515,7 +17515,7 @@
   "866034302": {
     "name": "Lost at Sea",
     "type": "Legendary Emblem",
-    "icon": "https://bungie.netundefined"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b50ef9962d16a792a1829a975d85a294.jpg"
   },
   "866034303": {
     "name": "A Bit of Coin",
@@ -59425,7 +59425,7 @@
   "2920072631": {
     "name": "Felsic Pyroclasm",
     "type": "Exotic Weapon Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/33f27f42404e5d1499b25cb96609b828.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/cac6fd68011c868183b48c5d634f3f05.jpg"
   },
   "2921090754": {
     "name": "Soul Devourer",
@@ -80080,10 +80080,20 @@
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/775aba88c3235c8a38d68ec69f1f810c.jpg"
   },
+  "3903070394": {
+    "name": "Newtonian Acceleration Crew",
+    "type": "Legendary Emblem",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6edfeb4eca8bbea0beb3d39ea687d702.jpg"
+  },
   "3903070396": {
     "name": "Light Keepers",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/8450f0ea6b87e298af1531da4485a9fd.jpg"
+  },
+  "3903070397": {
+    "name": "Eye of the Storm",
+    "type": "Legendary Emblem",
+    "icon": "https://bungie.net/common/destiny2_content/icons/3bd3715fd92350cf1f08cf69a3841320.jpg"
   },
   "3903070398": {
     "name": "Nyctophobia",
