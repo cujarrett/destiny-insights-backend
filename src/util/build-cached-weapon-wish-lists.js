@@ -15,18 +15,20 @@ module.exports.buildWeaponWishLists = async () => {
       // eslint-disable-next-line max-len
       const weaponItemHash = line.substring(line.indexOf("dimwishlist:item=") + 17, line.indexOf("&perks="))
 
-      const rollHashes = line.substring(line.indexOf("&perks=") + 7).split("#")[0].split(",")
+      if (cachedItems[weaponItemHash]) {
+        const rollHashes = line.substring(line.indexOf("&perks=") + 7).split("#")[0].split(",")
 
-      if (!result[weaponItemHash]) {
-        const { name, type } = cachedItems[weaponItemHash]
-        result[weaponItemHash] = {
-          name,
-          type,
-          rolls: []
+        if (!result[weaponItemHash]) {
+          const { name, type } = cachedItems[weaponItemHash]
+          result[weaponItemHash] = {
+            name,
+            type,
+            rolls: []
+          }
         }
+        roll.perkHashses = rollHashes
+        result[weaponItemHash].rolls.push(roll)
       }
-      roll.perkHashses = rollHashes
-      result[weaponItemHash].rolls.push(roll)
     }
   }
   return result
