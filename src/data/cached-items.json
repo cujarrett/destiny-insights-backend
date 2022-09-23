@@ -66010,6 +66010,11 @@
     "type": "Common Magazine",
     "icon": "https://bungie.net/common/destiny2_content/icons/ec1bca64fc9709678ea5c297c0e64c19.png"
   },
+  "3231606080": {
+    "name": "Sails of the Shipstealer",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/125dce9cfdb39b3a3550a5b01f009968.png"
+  },
   "3232143296": {
     "name": "Operation Elbrus",
     "type": "Legendary Quest Step",
@@ -66290,6 +66295,11 @@
     "name": "The Witch Queen",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/3cc974bd60e5054bbb50b983ce84b66b.jpg"
+  },
+  "3248383795": {
+    "name": "Sails of the Shipstealer",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/125dce9cfdb39b3a3550a5b01f009968.png"
   },
   "3248429089": {
     "name": "Qullim's Terminus (Harrowed)",
