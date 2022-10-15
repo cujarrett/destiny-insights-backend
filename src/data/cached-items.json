@@ -3135,6 +3135,11 @@
     "type": "Legendary Submachine Gun",
     "icon": "https://bungie.net/common/destiny2_content/icons/4808f4d7a62ffd1ea8856bc5476b33c5.jpg"
   },
+  "174286656": {
+    "name": "Sails of the Shipstealer",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/125dce9cfdb39b3a3550a5b01f009968.png"
+  },
   "174804902": {
     "name": "The Long Walk",
     "type": "Legendary Sniper Rifle",
@@ -3432,6 +3437,11 @@
     "type": "Legendary Chest Armor",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/09d508896190bf9713ef02439d17ae7e.jpg"
+  },
+  "191064371": {
+    "name": "Sails of the Shipstealer",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/125dce9cfdb39b3a3550a5b01f009968.png"
   },
   "191144788": {
     "name": "Slideshot",
@@ -81505,17 +81515,17 @@
     "icon": "https://bungie.net/common/destiny2_content/icons/091e9567a199b541750e79627ca7513e.jpg"
   },
   "3964346177": {
-    "name": "Intended Mischief",
+    "name": "Intended Authority",
     "type": "Legendary Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/410cd5f54ecaa7acfee2c36f27c6c2ce.jpg"
   },
   "3964346178": {
-    "name": "Intended Overthrow",
+    "name": "Intended Mischief",
     "type": "Legendary Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/42a52499b8f7bec36718da6b5b426d5e.jpg"
   },
   "3964346179": {
-    "name": "Intended Authority",
+    "name": "Intended Overthrow",
     "type": "Legendary Weapon Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/7cd8464a040206c28ed72893cc98ab15.jpg"
   },
