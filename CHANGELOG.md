@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.87.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.86.0...v1.87.0) (2022-10-17)
+
+
+### Features
+
+* updates cached data ([#301](https://github.com/cujarrett/destiny-insights-backend/issues/301)) ([147c25e](https://github.com/cujarrett/destiny-insights-backend/commit/147c25e667ca0641b6fbdf4cb4ba63b3269e298e))
+
 # [1.86.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.85.0...v1.86.0) (2022-09-27)
 
 
