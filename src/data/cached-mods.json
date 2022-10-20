@@ -3727,7 +3727,7 @@
   "3778343680": {
     "name": "Trace Evidence",
     "type": "Legendary Class Item Mod",
-    "description": "Defeating combatants affected by Arc debuffs spawns an Ionic Trace.",
+    "description": "Dealing precision damage to combatants affected by Arc debuffs spawns an Ionic Trace.",
     "icon": "https://bungie.net/common/destiny2_content/icons/05e1c0694134fb11016734ea50ad27a4.png"
   },
   "3778343681": {

@@ -396,12 +396,12 @@
   "25156514": {
     "name": "Empowering Rift",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5d874462f91e55c074d41c64ad475ade.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f631796f82ace46e7db45bac7ca69e88.jpg"
   },
   "25156515": {
     "name": "Healing Rift",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/feefb41e76f8d550b201c93e8d050cb1.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8b1e33b126c4b552ee232cd021fd21a3.jpg"
   },
   "25511490": {
     "name": "Lost Lament",
@@ -1211,6 +1211,11 @@
     "type": "Legendary Material",
     "icon": "https://bungie.net/common/destiny2_content/icons/bb699b60bf9b400e1e5131cfcf0b7780.jpg"
   },
+  "66809898": {
+    "name": "Sails of the Shipstealer",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/125dce9cfdb39b3a3550a5b01f009968.png"
+  },
   "66825403": {
     "name": "Legendary Engram",
     "type": "Legendary Engram",
@@ -1247,6 +1252,11 @@
     "name": "Adequate Dawning Presents",
     "type": "Rare Holiday Gift",
     "icon": "https://bungie.net/common/destiny2_content/icons/e476c036ce55d81d5d57c787f6489869.jpg"
+  },
+  "71567014": {
+    "name": "Legion Lost – 10",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "71883942": {
     "name": "Edge of Concurrence",
@@ -1391,6 +1401,11 @@
     "type": "Legendary Gauntlets",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/93a7bbf6b34b23b34c51c8e635fb174d.jpg"
+  },
+  "79582421": {
+    "name": "Mechabre",
+    "type": "Legendary Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/41cbbb69982bc0e5b93c5269ae66c347.jpg"
   },
   "79843948": {
     "name": "Empty Mod Socket",
@@ -1717,7 +1732,7 @@
   "95544328": {
     "name": "Triple Jump",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/78db4441ec50dc42411ac27a32d99d70.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/13e1068e1babdae984843510855568da.jpg"
   },
   "95544329": {
     "name": "Blink",
@@ -1727,12 +1742,12 @@
   "95544330": {
     "name": "High Jump",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/16a4b21bcf60643a3305f8fe32908632.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/fa5bd8e5ad6b1cdcfb8275e415fe9dc5.jpg"
   },
   "95544331": {
     "name": "Strafe Jump",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/0249bf706815f930cbdf78bc25e1732d.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/aadc24cd4922b00f1a33d9f48259a611.jpg"
   },
   "96170281": {
     "name": "Auto Rifle Holster",
@@ -2168,7 +2183,7 @@
   "126468112": {
     "name": "Defiance of Yasmin",
     "type": "Legendary Sniper Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ffcefdec1ea538b5c96ef800ae3b58fd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/c800f0ed7b8744ef739c3af62c68a380.jpg"
   },
   "126602378": {
     "name": "Primal Siege Type 1",
@@ -2860,6 +2875,11 @@
     "name": "Crucible Armor",
     "type": "Legendary Armor Set",
     "icon": "https://bungie.netundefined"
+  },
+  "157819984": {
+    "name": "The Drowned Captain – 5",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "158226755": {
     "name": "My Poor Friend",
@@ -3662,6 +3682,11 @@
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/caa8f96c8e6765198ba21ecb1fabaf17.png"
   },
+  "199656758": {
+    "name": "The Drowned Captain – 3",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
+  },
   "199733460": {
     "name": "Masquerader's Helm",
     "type": "Legendary Festival Mask",
@@ -3906,6 +3931,11 @@
     "name": "Report: PYRAMID-INSPECT",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/9ac24d50c508a83afc68e69baaa33250.jpg"
+  },
+  "209015644": {
+    "name": "The Drowned Captain – 1",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "209359253": {
     "name": "Steeplechase Helm",
@@ -4339,6 +4369,11 @@
     "type": "Legendary Warlock Bond",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/4cd6ded239b8de008fc4e84fed368912.jpg"
+  },
+  "231479291": {
+    "name": "Legion Lost – 15",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "231533811": {
     "name": "Iron Strength",
@@ -5738,7 +5773,7 @@
   "291092617": {
     "name": "Zaouli's Bane (Harrowed)",
     "type": "Legendary Hand Cannon",
-    "icon": "https://bungie.net/common/destiny2_content/icons/07286a999bf5a980d1064be48b0736f9.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ca33c749774f502457ebc24ba2e8ab41.jpg"
   },
   "291437034": {
     "name": "Lost Pacific Cape",
@@ -6429,6 +6464,11 @@
     "name": "Darkest Before",
     "type": "Legendary Pulse Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/2df421fab5928f2a322ab6852fccd21e.jpg"
+  },
+  "326003020": {
+    "name": "Legion Lost – 12",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "326149062": {
     "name": "Shadow's Mask",
@@ -8629,12 +8669,12 @@
   "426473316": {
     "name": "Marksman's Dodge",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ab0fd209b6bd5fe15b3c6d9d58ccb9b.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/42d04af758af600bc9116f4f76503463.jpg"
   },
   "426473317": {
     "name": "Gambler's Dodge",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3b3b077b3d01d0f1782982451815f770.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/edbabd1bdba4846ff5bfb0f7b272627a.jpg"
   },
   "427678793": {
     "name": "Tying It All Together",
@@ -9337,6 +9377,11 @@
     "type": "Legendary Focused Umbral Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/33a7d0164b2d51be92eb8de3da29d816.png"
   },
+  "459362887": {
+    "name": "The Drowned Captain – 2",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
+  },
   "459441288": {
     "name": "Harmonic Laser",
     "type": "Common Intrinsic",
@@ -9680,11 +9725,6 @@
     "name": "Lightweight Frame",
     "type": "Legendary Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
-  },
-  "474682227": {
-    "name": "Festival of the Lost",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6b064024024ecf2b6e2f7a283979bab2.png"
   },
   "474891181": {
     "name": "Roar of the Bear",
@@ -10057,12 +10097,12 @@
   "489583096": {
     "name": "Towering Barricade",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ac96e6784aee2e7011c720eca39fd531.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/d2fee1e6e74be34076ea6ea1a0943722.jpg"
   },
   "489583097": {
     "name": "Rally Barricade",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ced8899f7ff33bf58c0e0ec5c5da5666.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/511e28fd7b108633c836fac32a9ba05a.jpg"
   },
   "489583098": {
     "name": "Thruster",
@@ -10138,12 +10178,12 @@
   "494187468": {
     "name": "Starhorse Mask",
     "type": "Legendary Mask Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/69abcefa32cdefc528eb07eebd6d9a56.jpg"
   },
   "494187469": {
     "name": "Fynch Mask",
     "type": "Legendary Mask Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/1f23c3ae9ada5a45042dd3aec300e5d6.jpg"
   },
   "494493680": {
     "name": "Arcology Token",
@@ -11143,7 +11183,7 @@
   "542198399": {
     "name": "Machined Skirmisher Sleeves",
     "type": "Legendary Hunter Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/d0050e8a63eb5f74df65f45c2ead0490.jpg"
   },
   "542203595": {
     "name": "Edge of Concurrence",
@@ -11180,7 +11220,7 @@
   "544864743": {
     "name": "Mechanized Protector Plate",
     "type": "Legendary Titan Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/d300d37d2904389304dd77c6a1c4f56e.jpg"
   },
   "544905217": {
     "name": "The Dawning",
@@ -13082,6 +13122,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/52c6f2b57b02fff0e72c294375cd61b3.jpg"
   },
+  "642028779": {
+    "name": "Festival of the Lost T-Shirt Code",
+    "type": "Legendary Bungie Store Reward",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab9161e8e8337eedafb6efaeea0e44b7.jpg"
+  },
   "642468533": {
     "name": "Ketchkiller's Helmet",
     "type": "Legendary Helmet",
@@ -14575,6 +14620,11 @@
     "type": "Common Seasonal Bonus",
     "icon": "https://bungie.net/common/destiny2_content/icons/ad4c3af7aedb257a7dc162ae117fd3c2.png"
   },
+  "721988869": {
+    "name": "Sails of the Shipstealer",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/125dce9cfdb39b3a3550a5b01f009968.png"
+  },
   "722344176": {
     "name": "Illicit Reaper Gloves",
     "type": "Legendary Gauntlets",
@@ -14822,6 +14872,11 @@
     "type": "Legendary Warlock Bond",
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/390f55e566981ebda1e31bdaa3f1e568.jpg"
+  },
+  "737055529": {
+    "name": "Legion Lost – 17",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "737144025": {
     "name": "Outreach",
@@ -15984,7 +16039,7 @@
   "784603963": {
     "name": "No Escape",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/507cb2ee946c10442c3ecb065e1ea9ae.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f8a5c1026926d6c7accddc805b81c629.jpg"
   },
   "784751926": {
     "name": "Crushing Plate",
@@ -16205,6 +16260,11 @@
     "name": "Trailing Pyrotechnics",
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/b4894f4fdc5893d0a4d18c2e76bfb902.jpg"
+  },
+  "794352555": {
+    "name": "Findings of Eido – 20",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "794397480": {
     "name": "Sun's Apex Cloak",
@@ -17457,6 +17517,11 @@
     "name": "Finger Heart",
     "type": "Rare Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/282299e3ddc4287b11d4a3e4e0a4dbb8.jpg"
+  },
+  "862527413": {
+    "name": "Legion Lost – 13",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "862848869": {
     "name": "Polymer Grip",
@@ -19428,6 +19493,11 @@
     "type": "Legendary Transmat Effect",
     "icon": "https://bungie.net/common/destiny2_content/icons/aa90faa2511e217691310b66792b73f9.jpg"
   },
+  "971785346": {
+    "name": "Event Ticket",
+    "type": "Basic Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7793f8c52a86c90e73583a014208459a.png"
+  },
   "972689703": {
     "name": "Vest of the Great Hunt",
     "type": "Legendary Chest Armor",
@@ -19630,6 +19700,11 @@
     "name": "Deafening Whisper",
     "type": "Legendary Grenade Launcher",
     "icon": "https://bungie.net/common/destiny2_content/icons/1eb05261460c99e24f6000e3637cf24e.jpg"
+  },
+  "981830394": {
+    "name": "Findings of Eido – 21",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "981914802": {
     "name": "Hard Launch",
@@ -20082,6 +20157,11 @@
     "type": "Legendary Chest Armor",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/6330410475926c5987b3ec7ffffb5d99.jpg"
+  },
+  "1003379172": {
+    "name": "Manifested Page",
+    "type": "Legendary Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9564131654d2f220e2387da4b1fd0717.jpg"
   },
   "1003670741": {
     "name": "Five Steps Bundle",
@@ -20942,7 +21022,7 @@
   "1039460381": {
     "name": "Mobile Exoskeleton Bond",
     "type": "Legendary Warlock Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/e456541af05977b30d52fa5323d7e90d.jpg"
   },
   "1040474575": {
     "name": "Brave Titan's Mark",
@@ -20954,6 +21034,51 @@
     "name": "Vanilla Blades",
     "type": "Rare Discovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/7883551cf4219b3b454a2e7838c4fd2c.jpg"
+  },
+  "1041383472": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
+  },
+  "1041383473": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
+  },
+  "1041383474": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
+  },
+  "1041383475": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
+  },
+  "1041383476": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
+  },
+  "1041383477": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
+  },
+  "1041383478": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
+  },
+  "1041383479": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
+  },
+  "1041383483": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
   },
   "1041451527": {
     "name": "Public Performance",
@@ -22425,17 +22550,17 @@
   "1128768652": {
     "name": "Triple Jump",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/78db4441ec50dc42411ac27a32d99d70.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/20d562fee0aedfaff509282f590eef9d.jpg"
   },
   "1128768654": {
     "name": "High Jump",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/16a4b21bcf60643a3305f8fe32908632.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/5bd48666db37795fe730ffbab98bb46b.jpg"
   },
   "1128768655": {
     "name": "Strafe Jump",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/0249bf706815f930cbdf78bc25e1732d.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/87a63114de37a7c9c9f63139342b991d.jpg"
   },
   "1129634130": {
     "name": "Shadow's Helm",
@@ -23260,6 +23385,11 @@
     "type": "Legendary Consumable",
     "icon": "https://bungie.net/common/destiny2_content/icons/cbe32d280dd87d4ce48f8aecf94d3f68.jpg"
   },
+  "1166109944": {
+    "name": "Shrouded Page",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
+  },
   "1166152736": {
     "name": "Frostreach Hood",
     "type": "Legendary Warlock Universal Ornament",
@@ -23963,6 +24093,11 @@
     "type": "Exotic Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/1bbbf0f1e03d2ce8af5ddcba8dd9be41.png"
   },
+  "1199077630": {
+    "name": "Gone but Not Forgotten",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/b70f082023457a8fd6ad5ace5ba94b1b.jpg"
+  },
   "1200068467": {
     "name": "Opulent Duelist Gauntlets",
     "type": "Legendary Gauntlets",
@@ -24222,7 +24357,7 @@
   "1214401677": {
     "name": "Pulp Texture",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/168094d21c92394d254a03a627c18531.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/db282bf5f2f454ef905f6a717247004c.jpg"
   },
   "1214477175": {
     "name": "Holdfast Helm",
@@ -24256,6 +24391,11 @@
     "name": "Fatebringer (Timelost)",
     "type": "Legendary Hand Cannon",
     "icon": "https://bungie.net/common/destiny2_content/icons/2679a29c524de017046d338b1c1de3c7.jpg"
+  },
+  "1216573272": {
+    "name": "Manifested Page",
+    "type": "Legendary Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9564131654d2f220e2387da4b1fd0717.jpg"
   },
   "1217364045": {
     "name": "Fire-Forged Titan Head Ornament",
@@ -24346,7 +24486,7 @@
   "1221462631": {
     "name": "Bobbing for Apples",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bc6cf12ef7a9b5cf50e3edf5abe8940c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/350eda256d75478d24a2196331a95903.jpg"
   },
   "1222400007": {
     "name": "Wolf's Clothing",
@@ -24367,7 +24507,7 @@
   "1223564136": {
     "name": "Mobile Exoskeleton Gloves",
     "type": "Legendary Warlock Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/336f4676a15ecda6dbd85f8ff6e0b3a5.jpg"
   },
   "1224603527": {
     "name": "Solstice Boots (Scorched)",
@@ -25124,7 +25264,7 @@
   "1260362486": {
     "name": "Mechanized Protector Mark",
     "type": "Legendary Titan Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f5001bac4dc77d58dc8cc13b613d4a14.jpg"
   },
   "1260401931": {
     "name": "Hot Swap",
@@ -25218,6 +25358,11 @@
     "name": "Luna's Recall",
     "type": "Rare Weekly Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/8fa9c6de979801790c2cbdcb7a385448.png"
+  },
+  "1265334432": {
+    "name": "Candy",
+    "type": "Rare Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ef1a7f8bb5375219e80a71b58e160a00.jpg"
   },
   "1265513556": {
     "name": "Illicit Sentry Boots",
@@ -25524,6 +25669,11 @@
     "type": "Legendary Chest Armor",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/d2d2863da3e01af58be67b1d00fca66d.jpg"
+  },
+  "1280894514": {
+    "name": "Mechabre",
+    "type": "Legendary Sniper Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/41cbbb69982bc0e5b93c5269ae66c347.jpg"
   },
   "1280933460": {
     "name": "Claws of the Wolf",
@@ -26395,17 +26545,17 @@
   "1317763552": {
     "name": "Papercraft Aranea Shell",
     "type": "Exotic Ghost Shell",
-    "icon": "https://bungie.net/common/destiny2_content/icons/08df336686ad98721c2c00719c8cd50c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4e0becb7d1331f109240e87cd7512776.jpg"
   },
   "1317763554": {
     "name": "Caramel Apple Shell",
     "type": "Exotic Ghost Shell",
-    "icon": "https://bungie.net/common/destiny2_content/icons/08df336686ad98721c2c00719c8cd50c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8e91414037279b983ca708ab1b41d8da.jpg"
   },
   "1317763555": {
     "name": "Hazy Future Shell",
     "type": "Exotic Ghost Shell",
-    "icon": "https://bungie.net/common/destiny2_content/icons/08df336686ad98721c2c00719c8cd50c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b54c3ced1ad9be3a6ae72a0bdba743d7.jpg"
   },
   "1318547442": {
     "name": "Street Smarts Bundle",
@@ -28499,6 +28649,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/a2911daec229c75c357e8a20d1b20a56.jpg"
   },
+  "1412999460": {
+    "name": "Coffin Nail",
+    "type": "Exotic Ship",
+    "icon": "https://bungie.net/common/destiny2_content/icons/4d82ca7509e0d537ac3c176f74b386e8.jpg"
+  },
   "1413321694": {
     "name": "Wrath Trail Robes",
     "type": "Legendary Warlock Universal Ornament",
@@ -28727,6 +28882,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/c60735d9f57f8d8784085b66fc3f257e.jpg"
   },
+  "1424031341": {
+    "name": "Festival of the Lost",
+    "type": "Basic Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6b064024024ecf2b6e2f7a283979bab2.png"
+  },
   "1424280353": {
     "name": "Restless Slumber",
     "type": "Legendary Quest Step",
@@ -28747,11 +28907,6 @@
     "type": "Legendary Titan Mark",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/9fa4a61c9347a726852e5bc0aefc73b0.jpg"
-  },
-  "1425100824": {
-    "name": "Ascendant Lens",
-    "type": "Basic Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6b064024024ecf2b6e2f7a283979bab2.png"
   },
   "1425463779": {
     "name": "New Monarchy Armor",
@@ -30052,11 +30207,6 @@
     "name": "Smallbore",
     "type": "Common Barrel",
     "icon": "https://bungie.net/common/destiny2_content/icons/bc3d5d36c6b4627bdb8d37cd52711cf4.png"
-  },
-  "1482044324": {
-    "name": "Spectral Page",
-    "type": "Legendary Event Currency",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9c3f76c561d77b9255d519f58caf9353.jpg"
   },
   "1482087028": {
     "name": "Blueberry Crumblers",
@@ -33288,6 +33438,11 @@
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/39c96b3cbe9707e86621ac8164e3095d.jpg"
   },
+  "1648148682": {
+    "name": "Legion Lost – 14",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
+  },
   "1648238545": {
     "name": "Terra Concord Mark",
     "type": "Legendary Titan Mark",
@@ -33356,41 +33511,6 @@
     "name": "Long March",
     "type": "Common Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/44147c4368048229209e5b88463efc5d.png"
-  },
-  "1650917480": {
-    "name": "Gone but Not Forgotten",
-    "type": "Legendary Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2d730825291d5b01d663bf9a6d3fd701.jpg"
-  },
-  "1650917481": {
-    "name": "Gone but Not Forgotten",
-    "type": "Legendary Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2d730825291d5b01d663bf9a6d3fd701.jpg"
-  },
-  "1650917483": {
-    "name": "Gone but Not Forgotten",
-    "type": "Legendary Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2d730825291d5b01d663bf9a6d3fd701.jpg"
-  },
-  "1650917484": {
-    "name": "Gone but Not Forgotten",
-    "type": "Legendary Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2d730825291d5b01d663bf9a6d3fd701.jpg"
-  },
-  "1650917485": {
-    "name": "Gone but Not Forgotten",
-    "type": "Legendary Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2d730825291d5b01d663bf9a6d3fd701.jpg"
-  },
-  "1650917486": {
-    "name": "Gone but Not Forgotten",
-    "type": "Legendary Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2d730825291d5b01d663bf9a6d3fd701.jpg"
-  },
-  "1650917487": {
-    "name": "Gone but Not Forgotten",
-    "type": "Legendary Quest Step",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2d730825291d5b01d663bf9a6d3fd701.jpg"
   },
   "1651275175": {
     "name": "Solstice Helm (Renewed)",
@@ -33702,12 +33822,12 @@
   "1662794280": {
     "name": "Moonrise Projection",
     "type": "Legendary Ghost Projection",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1a7c8da17d77226c84527b7ab66d6bcb.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b2b4381b04cb3de575599db63c9222a7.jpg"
   },
   "1662794281": {
     "name": "Sweet Treat Projection",
     "type": "Legendary Ghost Projection",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1a7c8da17d77226c84527b7ab66d6bcb.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/1e29ba7e643f55ecc38bb22142968606.jpg"
   },
   "1663100296": {
     "name": "Iron Forerunner Plate",
@@ -34040,7 +34160,7 @@
   "1676763078": {
     "name": "It Was You",
     "type": "Rare Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/7a873282eb0336074256a1d46f0c70cd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/5786b6a7f7c4563ecd9aab5dc8161a4e.jpg"
   },
   "1677618961": {
     "name": "Mote Bank Projection",
@@ -34364,17 +34484,17 @@
   "1698387812": {
     "name": "Catapult Lift",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6af35cff95ec2c86847bfedcfe7fc62d.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/d2039c4b8a654e603bd09122802c65fc.jpg"
   },
   "1698387814": {
     "name": "High Lift",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9844e49a2c2aeba27fdf11075317b3b2.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8225917a4c5d299a9b7751b6d5725023.jpg"
   },
   "1698387815": {
     "name": "Strafe Lift",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/45a08dcdcdc4ebcc5690ab027027cb0a.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/0f093bdec1c14e6e0cae66f6dd6aab3d.jpg"
   },
   "1698434490": {
     "name": "Ego Talon Bond",
@@ -35128,7 +35248,7 @@
   "1729424352": {
     "name": "Mobile Exoskeleton Robes",
     "type": "Legendary Warlock Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ef726312a68b2a98162938f1e7f60040.jpg"
   },
   "1729618706": {
     "name": "Champion Entrance",
@@ -35607,6 +35727,11 @@
     "type": "Legendary Auto Rifle",
     "icon": "https://bungie.net/common/destiny2_content/icons/ae4e033432859f663e2c88b9f852cda8.jpg"
   },
+  "1753176120": {
+    "name": "BrayTech Werewolf",
+    "type": "Legendary Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/faf62702d674d3e5fd53b01fe6526ff1.jpg"
+  },
   "1753939276": {
     "name": "Infinity Door Projection",
     "type": "Legendary Ghost Projection",
@@ -35938,7 +36063,7 @@
   "1773000505": {
     "name": "Machined Skirmisher Vest",
     "type": "Legendary Hunter Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8cfc43e39fb12da71d3278a41a15dad0.jpg"
   },
   "1773217860": {
     "name": "Ice-Cold Contender",
@@ -35986,12 +36111,12 @@
   "1776174698": {
     "name": "Majestic Whinny",
     "type": "Exotic Vehicle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/69cef0a9eeaba16a98391a9f57806411.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/055771202d87a891b9bcd984c53102f0.jpg"
   },
   "1776174699": {
     "name": "Bold Chapalu",
     "type": "Exotic Vehicle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/69cef0a9eeaba16a98391a9f57806411.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/fbd90a4d5cd1d798e40381d49aa86e03.jpg"
   },
   "1776321292": {
     "name": "Take Shelter Ornament",
@@ -36045,7 +36170,7 @@
   "1781082581": {
     "name": "Wyrm Perilous",
     "type": "Exotic Weapon Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/c314565165f2fc75e0f175dfe163ebb2.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ee6d55c48c64518ad60f6dea201e41fa.jpg"
   },
   "1781294872": {
     "name": "Moonfang-X7 Boots",
@@ -37310,32 +37435,32 @@
   "1844904392": {
     "name": "Telesto Mask",
     "type": "Legendary Mask Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ccbc7cd4a7a7f33afd9a8c393797be0d.jpg"
   },
   "1844904393": {
     "name": "Blueberry Mask",
     "type": "Legendary Mask Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/6f3c9f755996b971c178bcb1cbf5dc53.jpg"
   },
   "1844904396": {
     "name": "Savathûn Mask",
     "type": "Legendary Mask Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/938734be8adfb95d669607df39d5623c.jpg"
   },
   "1844904397": {
     "name": "Riven Mask",
     "type": "Legendary Mask Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/b529a6f52cffc310daddc58d8e495d9b.jpg"
   },
   "1844904398": {
     "name": "Caiatl Mask",
     "type": "Legendary Mask Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/6930ee5ef5e899c63291eb5c05b46e0c.jpg"
   },
   "1844904399": {
     "name": "Bread Mask",
     "type": "Legendary Mask Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4211f6d38b92b8992f8e6f4265561a80.jpg"
   },
   "1845407457": {
     "name": "Intellect Armorer",
@@ -37547,7 +37672,7 @@
   "1858618510": {
     "name": "Hold Me",
     "type": "Legendary Multiplayer Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/507cb2ee946c10442c3ecb065e1ea9ae.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/6e6808c720c6dde867879e420dd75224.jpg"
   },
   "1858645823": {
     "name": "Legacy: Shadowkeep",
@@ -37581,6 +37706,11 @@
     "type": "Legendary Hunter Cloak",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/7f4e75db3f2763a0b33f9ff7652e5dd1.jpg"
+  },
+  "1861096999": {
+    "name": "Findings of Eido – 24",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "1861426408": {
     "name": "Deprecated Armor Mod",
@@ -39526,7 +39656,7 @@
   "1937552980": {
     "name": "Doom of Chelchis",
     "type": "Legendary Scout Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d83ba2cc1553640e676faf9ae5869f1f.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/88a198094148b0a1b859681356ed22f7.jpg"
   },
   "1937677973": {
     "name": "Premium Hunter Rewards",
@@ -39886,31 +40016,6 @@
     "name": "Parts of a Whole",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/30c97eaf0c0cdc2edae0cc9bd9b14e01.jpg"
-  },
-  "1952218243": {
-    "name": "Seraphim's Gauntlets",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/518e5957dac0a7470b86aea158abf29c.jpg"
-  },
-  "1952218244": {
-    "name": "Limitless Horizon",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/03a5acaf2b59910f2160fff4da2179cd.jpg"
-  },
-  "1952218245": {
-    "name": "Eye of Midnight",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f9d1e7254332af03c4a99a1ab1e3328b.jpg"
-  },
-  "1952218246": {
-    "name": "Field Recognition",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/c839d5d36e583375fbdea0abd2eec3b6.jpg"
-  },
-  "1952218247": {
-    "name": "Exospheric Voyage",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bca18b88747a3023e2247b9fa243576f.jpg"
   },
   "1952647501": {
     "name": "Gauntlets of the Great Hunt",
@@ -40296,26 +40401,6 @@
     "type": "Legendary Bright Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/24e95c8c930150ca56977d8133b5013a.png"
   },
-  "1968995954": {
-    "name": "Ever Forward",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/16f8a7bf9b5d5fe45a564803ec1dbaf7.jpg"
-  },
-  "1968995955": {
-    "name": "Pareidolia",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ba125d5a0ed8434c6ce04f1ba45d520f.jpg"
-  },
-  "1968995960": {
-    "name": "Magnetism",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/1aab2a40276caef567408ef2e293474b.jpg"
-  },
-  "1968995961": {
-    "name": "Starbirth",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/282ac244e296b533489a6939cc518d34.jpg"
-  },
   "1968995962": {
     "name": "Solar Flair",
     "type": "Legendary Emblem",
@@ -40325,21 +40410,6 @@
     "name": "соняшник",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/538d64b6a6c074f7426f515200dba835.jpg"
-  },
-  "1968995964": {
-    "name": "Network Established",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/7ce3132ec477a1f536b14f027f31e86f.jpg"
-  },
-  "1968995965": {
-    "name": "Forged in Grace",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/b35f6f2a7128dff5d13cefc4d29e9db4.jpg"
-  },
-  "1968995967": {
-    "name": "Seeds of Hope",
-    "type": "Legendary Emblem",
-    "icon": "https://bungie.net/common/destiny2_content/icons/28ef28ded696d1e3baeb5d1faec87b71.jpg"
   },
   "1969105489": {
     "name": "Hammer of the Gods",
@@ -41031,6 +41101,11 @@
     "type": "Common Gambit Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/33a8ace434680a0c97aa56895ab44c38.jpg"
   },
+  "2000465444": {
+    "name": "The Drowned Captain – 9",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
+  },
   "2000839529": {
     "name": "Lost Pacific Bond",
     "type": "Legendary Warlock Bond",
@@ -41057,6 +41132,11 @@
     "type": "Legendary Helmet",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/f3a08c603fffb2f2366e06986b0d2ebb.jpg"
+  },
+  "2001721035": {
+    "name": "The Drowned Captain – 6",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "2001788985": {
     "name": "Crucible Threaded Needle Scrounger",
@@ -41674,7 +41754,7 @@
   "2033447464": {
     "name": "Zaouli's Bane (Harrowed)",
     "type": "Legendary Hand Cannon",
-    "icon": "https://bungie.net/common/destiny2_content/icons/07286a999bf5a980d1064be48b0736f9.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ca33c749774f502457ebc24ba2e8ab41.jpg"
   },
   "2033661183": {
     "name": "Xenos Shore Ornament",
@@ -42912,7 +42992,7 @@
   "2095727101": {
     "name": "Doom of Chelchis",
     "type": "Legendary Scout Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d83ba2cc1553640e676faf9ae5869f1f.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/88a198094148b0a1b859681356ed22f7.jpg"
   },
   "2096072732": {
     "name": "Moon Glimmer Scavenger",
@@ -44634,7 +44714,7 @@
   "2190633952": {
     "name": "Mechanized Protector Helm",
     "type": "Legendary Titan Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/98f9c6c0f889c78a2790bf7ded6f1d57.jpg"
   },
   "2190858661": {
     "name": "Light Reforged",
@@ -45529,17 +45609,17 @@
   "2225231092": {
     "name": "High Lift",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9844e49a2c2aeba27fdf11075317b3b2.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/5cac3b6b2852d98f0971fa39728e58cb.jpg"
   },
   "2225231093": {
     "name": "Strafe Lift",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/45a08dcdcdc4ebcc5690ab027027cb0a.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/28231353b314aff7af699385982347b9.jpg"
   },
   "2225231094": {
     "name": "Catapult Lift",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/6af35cff95ec2c86847bfedcfe7fc62d.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f869b87927f1e7fa25000b589c32abcb.jpg"
   },
   "2225838050": {
     "name": "Cranking Dance",
@@ -45910,6 +45990,11 @@
     "type": "Legendary Gauntlets",
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/b4805ccc0b87ae86bcdaa5f31d20600c.jpg"
+  },
+  "2246224498": {
+    "name": "Spectral Page",
+    "type": "Legendary Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9c3f76c561d77b9255d519f58caf9353.jpg"
   },
   "2246957026": {
     "name": "Psionic Stalker Mask",
@@ -47579,7 +47664,7 @@
   "2324903362": {
     "name": "Mobile Exoskeleton Boots",
     "type": "Legendary Warlock Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/16de2d3f8a3c8b92b24c106c34bf80c6.jpg"
   },
   "2325054640": {
     "name": "Brilliant Bloom",
@@ -47681,6 +47766,11 @@
     "name": "Frostveil Mask",
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/a3178d667cfa133867ca058d5322b8a6.jpg"
+  },
+  "2330838007": {
+    "name": "Legion Lost – 11",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "2331063860": {
     "name": "Grind Underfoot",
@@ -47804,7 +47894,7 @@
   "2337196620": {
     "name": "Buster Ray",
     "type": "Exotic Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/bc6cf12ef7a9b5cf50e3edf5abe8940c.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/99a93359af010d7cc643aed74a08bad4.jpg"
   },
   "2337221567": {
     "name": "Vigil of Heroes",
@@ -48362,6 +48452,11 @@
     "name": "Report: SCORN-ORDER",
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/9ac24d50c508a83afc68e69baaa33250.jpg"
+  },
+  "2367588910": {
+    "name": "Horror Story",
+    "type": "Legendary Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/46649170971e5f606681c6fd0ac5dca1.jpg"
   },
   "2367713531": {
     "name": "Tincture of Queensfoil",
@@ -49411,7 +49506,7 @@
   "2418147569": {
     "name": "Pumpkin Bomb",
     "type": "Legendary Transmat Effect",
-    "icon": "https://bungie.net/common/destiny2_content/icons/55646532c08cc515897a49c62c8e0db4.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/9ab03e6e861b607d3abe06a2d0e05948.jpg"
   },
   "2419100474": {
     "name": "Solstice Grasps (Renewed)",
@@ -49561,7 +49656,7 @@
   "2424824187": {
     "name": "Investigative Dance",
     "type": "Legendary Emote",
-    "icon": "https://bungie.net/common/destiny2_content/icons/507cb2ee946c10442c3ecb065e1ea9ae.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/70ec842d1bdb8a2e908c2a063f5baa96.jpg"
   },
   "2425296638": {
     "name": "EDZ Glimmer Scavenger",
@@ -50708,12 +50803,12 @@
   "2495523340": {
     "name": "Towering Barricade",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ac96e6784aee2e7011c720eca39fd531.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/aca794c2a4ca7ee45bdb596c68243a89.jpg"
   },
   "2495523341": {
     "name": "Rally Barricade",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ced8899f7ff33bf58c0e0ec5c5da5666.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/a1e53d747b9eaf2e3cbb5db2b1963e48.jpg"
   },
   "2496242052": {
     "name": "Code Duello",
@@ -51940,7 +52035,7 @@
   "2549951962": {
     "name": "Rocket Punch",
     "type": "Legendary Finisher",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f1696043ac8e08a8bf2426b1dc35a1ff.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/911c76f69ec416ebceed420e26f07eb8.jpg"
   },
   "2550116544": {
     "name": "Robes of the Great Hunt",
@@ -52961,6 +53056,11 @@
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/c9ba5a72459bcfcfe3c22f71e870188c.jpg"
   },
+  "2603335652": {
+    "name": "Jurassic Green",
+    "type": "Legendary Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/84717e4b01aff2c28ba7cf4eff1d48ee.jpg"
+  },
   "2603400972": {
     "name": "Whisper of the Victor Grips",
     "type": "Legendary Hunter Universal Ornament",
@@ -53037,7 +53137,7 @@
   "2607012497": {
     "name": "Mobile Exoskeleton Hood",
     "type": "Legendary Warlock Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/306b3eb69f46ada324cb6427ea5ee519.jpg"
   },
   "2607304614": {
     "name": "Empirical Evidence",
@@ -54408,6 +54508,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/dc0ccaf2f50df6e27b75b8203eb6537d.jpg"
   },
+  "2680809160": {
+    "name": "Jurassic Green",
+    "type": "Legendary Pulse Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/84717e4b01aff2c28ba7cf4eff1d48ee.jpg"
+  },
   "2680833851": {
     "name": "Equator Shell",
     "type": "Exotic Ghost Shell",
@@ -54885,17 +54990,17 @@
   "2708585276": {
     "name": "Ballistic Slam",
     "type": "Arc Melee",
-    "icon": "https://bungie.net/common/destiny2_content/icons/f77b830430f5522ee47564b3b33e5035.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ce2bfab135eadca1936ebb37100fe8aa.jpg"
   },
   "2708585277": {
     "name": "Seismic Strike",
     "type": "Arc Melee",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ee94e210e84ff1d0b3e969205e0ad4f7.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/e89c1a843b2da5b43ef526ce79990914.jpg"
   },
   "2708585279": {
     "name": "Thunderclap",
     "type": "Arc Melee",
-    "icon": "https://bungie.net/common/destiny2_content/icons/7cd4d54c709dee898f8bee89d3855f14.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/0fa651ca1a85d443fc6dfec0712077e9.jpg"
   },
   "2708806099": {
     "name": "BxR-55 Battler",
@@ -55040,12 +55145,12 @@
   "2716335210": {
     "name": "Disorienting Blow",
     "type": "Arc Melee",
-    "icon": "https://bungie.net/common/destiny2_content/icons/512bf5353df73da7a34e0e885e9f9c40.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/e024d20dd2734aa63230651146ef8079.jpg"
   },
   "2716335211": {
     "name": "Combination Blow",
     "type": "Arc Melee",
-    "icon": "https://bungie.net/common/destiny2_content/icons/04122696634d1ec7290dd380434c45d3.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/19fcbeeb210725a3f92f854fbed6994e.jpg"
   },
   "2716373471": {
     "name": "Illicit Collector Gauntlets",
@@ -57098,12 +57203,12 @@
   "2811521172": {
     "name": "Retrograde Tourer",
     "type": "Exotic Ship",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2f277efbb875d22011ebec2b6e1e3964.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/5912b880f806ae3e92a8925fb39e2ef3.jpg"
   },
   "2811521173": {
     "name": "Manse Macabre",
     "type": "Exotic Ship",
-    "icon": "https://bungie.net/common/destiny2_content/icons/2f277efbb875d22011ebec2b6e1e3964.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/30b806b8d2d3d4452cd6aff141a25b0c.jpg"
   },
   "2811768631": {
     "name": "Crucible Peppermint",
@@ -57763,12 +57868,12 @@
   "2838582256": {
     "name": "Angel's Gleam",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/168094d21c92394d254a03a627c18531.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/895d2893afcffc3002d8e060cde5468b.jpg"
   },
   "2838582257": {
     "name": "Flower Child",
     "type": "Legendary Shader",
-    "icon": "https://bungie.net/common/destiny2_content/icons/168094d21c92394d254a03a627c18531.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/81e65ee331d52dac09268e1ae1bb2c2a.jpg"
   },
   "2839066781": {
     "name": "Kinetic Weapon Targeting",
@@ -58488,6 +58593,11 @@
     "name": "The Sentry",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/a07655d3184d0f2712f9a44b57cc3ca3.jpg"
+  },
+  "2869466318": {
+    "name": "BrayTech Werewolf",
+    "type": "Legendary Auto Rifle",
+    "icon": "https://bungie.net/common/destiny2_content/icons/faf62702d674d3e5fd53b01fe6526ff1.jpg"
   },
   "2869506899": {
     "name": "Piezoelectric Stratagem",
@@ -60024,11 +60134,6 @@
     "type": "Rare Undiscovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/858fdf8633cc141f1736f0033ac3f4f0.jpg"
   },
-  "2941301362": {
-    "name": "Manifested Page",
-    "type": "Legendary Event Currency",
-    "icon": "https://bungie.net/common/destiny2_content/icons/9564131654d2f220e2387da4b1fd0717.jpg"
-  },
   "2942269704": {
     "name": "Substitutional Alloy Gauntlets",
     "type": "Legendary Gauntlets",
@@ -60856,12 +60961,12 @@
   "2979486802": {
     "name": "Empowering Rift",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/5d874462f91e55c074d41c64ad475ade.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/f606abdd0247debab5073a48f71672df.jpg"
   },
   "2979486803": {
     "name": "Healing Rift",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/feefb41e76f8d550b201c93e8d050cb1.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/ab46c7eb6138308a593b396b389d75ce.jpg"
   },
   "2979726427": {
     "name": "Kintsugi",
@@ -61643,7 +61748,7 @@
   "3013315457": {
     "name": "Doom of Chelchis",
     "type": "Legendary Scout Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d83ba2cc1553640e676faf9ae5869f1f.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/88a198094148b0a1b859681356ed22f7.jpg"
   },
   "3013363601": {
     "name": "Playin' the Odds",
@@ -62954,7 +63059,7 @@
   "3087166452": {
     "name": "Machined Skirmisher Cloak",
     "type": "Legendary Hunter Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/44438a02ad5e8092b38bee8eb3283788.jpg"
   },
   "3087552232": {
     "name": "Heiro Camo",
@@ -64966,7 +65071,7 @@
   "3182115262": {
     "name": "Doom of Chelchis",
     "type": "Legendary Scout Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d83ba2cc1553640e676faf9ae5869f1f.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/88a198094148b0a1b859681356ed22f7.jpg"
   },
   "3182550856": {
     "name": "Heartbreaking Entrance",
@@ -65949,7 +66054,7 @@
   "3228096719": {
     "name": "Defiance of Yasmin",
     "type": "Legendary Sniper Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ffcefdec1ea538b5c96ef800ae3b58fd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/c800f0ed7b8744ef739c3af62c68a380.jpg"
   },
   "3228149706": {
     "name": "Pulse Rifle Dexterity",
@@ -68155,6 +68260,11 @@
     "type": "Legendary Discovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/5c1d4e4af15100f1e5b2154dd50927a9.jpg"
   },
+  "3334778510": {
+    "name": "Findings of Eido – 18",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
+  },
   "3334815691": {
     "name": "Lost Sector of Titan",
     "type": "Rare Emblem",
@@ -69294,7 +69404,7 @@
   "3387401614": {
     "name": "Machined Skirmisher Mask",
     "type": "Legendary Hunter Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/061c577819a6934d393a2d6e2fc40f31.jpg"
   },
   "3387402995": {
     "name": "Adaptive Frame",
@@ -72253,6 +72363,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/4b600b7a7e07a1d6c6a2d893c2f4db9c.jpg"
   },
+  "3536253446": {
+    "name": "Spectral Page",
+    "type": "Legendary Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/9c3f76c561d77b9255d519f58caf9353.jpg"
+  },
   "3536375792": {
     "name": "Exodus Down Bond",
     "type": "Legendary Warlock Bond",
@@ -73285,6 +73400,11 @@
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/f3d46f23a8c5dbf79128c53529def33b.jpg"
   },
+  "3578729114": {
+    "name": "The Drowned Captain – 7",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
+  },
   "3580122731": {
     "name": "On the Offensive",
     "type": "Legendary Quest Step",
@@ -73330,6 +73450,11 @@
     "name": "Survival of the Strong Helmet",
     "type": "Legendary Titan Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/44e0545552f10ff91b2794bd4f4fb162.jpg"
+  },
+  "3581900377": {
+    "name": "Findings of Eido – 22",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "3581932739": {
     "name": "Tools of the Risen",
@@ -74630,12 +74755,12 @@
   "3636300854": {
     "name": "Marksman's Dodge",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3ab0fd209b6bd5fe15b3c6d9d58ccb9b.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/fa8364dbc5fd5bf175bd2107c72dd171.jpg"
   },
   "3636300855": {
     "name": "Gambler's Dodge",
     "type": "Common Class Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3b3b077b3d01d0f1782982451815f770.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/8a6b9c02f527bfd3b5dba6ca9b88e9b0.jpg"
   },
   "3636568846": {
     "name": "Trials Triplet",
@@ -75334,6 +75459,11 @@
     "type": "Legendary Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/7eea47cc31d9b065213f85169e668b6e.png"
   },
+  "3668263044": {
+    "name": "Candy",
+    "type": "Rare Event Currency",
+    "icon": "https://bungie.net/common/destiny2_content/icons/ef1a7f8bb5375219e80a71b58e160a00.jpg"
+  },
   "3668669364": {
     "name": "Dreaming Spectrum",
     "type": "Legendary Shader",
@@ -75407,7 +75537,7 @@
   "3671347212": {
     "name": "Defiance of Yasmin",
     "type": "Legendary Sniper Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ffcefdec1ea538b5c96ef800ae3b58fd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/c800f0ed7b8744ef739c3af62c68a380.jpg"
   },
   "3671665226": {
     "name": "Simulator Plate",
@@ -75765,17 +75895,17 @@
   "3686638441": {
     "name": "Balanced Glide",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3d0b1e371face8fe7cd9e2646e2ecdea.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/fd30a9f64a327394e287e5f4418268ff.jpg"
   },
   "3686638442": {
     "name": "Burst Glide",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/26af42f4af7025280741b4c4a18eaacc.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/54dbbf57a71d4e9861c7109a433bd115.jpg"
   },
   "3686638443": {
     "name": "Strafe Glide",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/be1d77ea4eebee140ae0cdc93493ec34.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/4edc219472b1a0935e1eb394a81592ea.jpg"
   },
   "3688229984": {
     "name": "Insight Rover Mask",
@@ -76041,6 +76171,11 @@
     "name": "Stryker's Sure-Hand",
     "type": "Legendary Sword",
     "icon": "https://bungie.net/common/destiny2_content/icons/26714495c18dfbe678119c0a336b2512.jpg"
+  },
+  "3705133343": {
+    "name": "Findings of Eido – 19",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "3705817207": {
     "name": "Duelist's Trance",
@@ -76441,7 +76576,7 @@
   "3728258171": {
     "name": "Defiance of Yasmin",
     "type": "Legendary Sniper Rifle",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ffcefdec1ea538b5c96ef800ae3b58fd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/c800f0ed7b8744ef739c3af62c68a380.jpg"
   },
   "3728676938": {
     "name": "Lightweight Frame",
@@ -77108,7 +77243,7 @@
   "3758415809": {
     "name": "Machined Skirmisher Strides",
     "type": "Legendary Hunter Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/2cf6d7fe915bfb6205cfecaa4515a434.jpg"
   },
   "3758750375": {
     "name": "Resonant Fury Greaves",
@@ -77469,6 +77604,11 @@
     "name": "Precision Frame",
     "type": "Legendary Enhanced Intrinsic",
     "icon": "https://bungie.net/common/destiny2_content/icons/90c4f7f35c9d24f4add016722a78404e.png"
+  },
+  "3774900656": {
+    "name": "Findings of Eido – 23",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "3775013469": {
     "name": "Shattering Fist",
@@ -78475,6 +78615,11 @@
     "name": "Io Token",
     "type": "Uncommon Redeemable",
     "icon": "https://bungie.net/common/destiny2_content/icons/3c09dd5c1cd295073934de7f0db8350d.jpg"
+  },
+  "3826096316": {
+    "name": "Findings of Eido – 27",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "3826106192": {
     "name": "Festive Bundle",
@@ -80671,7 +80816,7 @@
   "3924400899": {
     "name": "Mechanized Protector Greaves",
     "type": "Legendary Titan Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/eeb6c557aa116ace461b246f773a90df.jpg"
   },
   "3924451282": {
     "name": "Atavistic Idol Gloves",
@@ -80811,6 +80956,11 @@
     "name": "Scourge of Nothing",
     "type": "Legendary Emblem",
     "icon": "https://bungie.net/common/destiny2_content/icons/35564e16cd31ad5f8c8933eb6e63fc9d.jpg"
+  },
+  "3931319781": {
+    "name": "Findings of Eido – 26",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "3931361416": {
     "name": "Righteous Robes",
@@ -81277,6 +81427,11 @@
     "name": "Mob Justice",
     "type": "Legendary Submachine Gun",
     "icon": "https://bungie.net/common/destiny2_content/icons/8620ef43de878ba6e8a4090ffecd5679.jpg"
+  },
+  "3954757142": {
+    "name": "Findings of Eido – 25",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "3954920295": {
     "name": "Exterminator",
@@ -82208,6 +82363,11 @@
     "type": "Legendary Armor Ornament",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/b7479481adb7e051d01f5ebfe91f1e82.jpg"
+  },
+  "3991534016": {
+    "name": "Legion Lost – 16",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "3991544422": {
     "name": "Sol Pariah 6",
@@ -84408,11 +84568,6 @@
     "type": "Legendary Quest Step",
     "icon": "https://bungie.net/common/destiny2_content/icons/03ee71f3a33e8173f934ea596e0dd5a0.jpg"
   },
-  "4084398230": {
-    "name": "Candy",
-    "type": "Rare Event Currency",
-    "icon": "https://bungie.net/common/destiny2_content/icons/ef1a7f8bb5375219e80a71b58e160a00.jpg"
-  },
   "4084428384": {
     "name": "Light Reactor",
     "type": "Common Deprecated Armor Mod",
@@ -84661,7 +84816,7 @@
   "4093148081": {
     "name": "Mechanized Protector Gauntlets",
     "type": "Legendary Titan Universal Ornament",
-    "icon": "https://bungie.net/common/destiny2_content/icons/d6e824fa980b9f07add9a0a7c6fa06bd.jpg"
+    "icon": "https://bungie.net/common/destiny2_content/icons/2b4a8b4226e143625c8ad918d4bd2af5.jpg"
   },
   "4094027156": {
     "name": "And Out Fly the Wolves",
@@ -84985,11 +85140,6 @@
     "name": "Häkke Weapon",
     "type": "Legendary Focused Umbral Engram",
     "icon": "https://bungie.net/common/destiny2_content/icons/28deef38c7a9128b77b90295780a30d1.png"
-  },
-  "4112660212": {
-    "name": "Bottomless Goody Bag",
-    "type": "Legendary Package",
-    "icon": "https://bungie.net/common/destiny2_content/icons/51cba6f03a7033b44f3176266dc72b57.jpg"
   },
   "4113317396": {
     "name": "Tangled Web Hood",
@@ -85894,17 +86044,17 @@
   "4154539168": {
     "name": "Burst Glide",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/26af42f4af7025280741b4c4a18eaacc.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/6c9cb11f4046fb8b2b042c18d68bf227.jpg"
   },
   "4154539169": {
     "name": "Strafe Glide",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/be1d77ea4eebee140ae0cdc93493ec34.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/d7c732ab72ba1737bc24f84a7c860ddd.jpg"
   },
   "4154539171": {
     "name": "Balanced Glide",
     "type": "Movement Ability",
-    "icon": "https://bungie.net/common/destiny2_content/icons/3d0b1e371face8fe7cd9e2646e2ecdea.png"
+    "icon": "https://bungie.net/common/destiny2_content/icons/235b22e79ddf716b1f51105f5ec74319.jpg"
   },
   "4154821248": {
     "name": "Solstice Mask (Rekindled)",
@@ -87934,6 +88084,11 @@
     "type": "Common Trait",
     "icon": "https://bungie.net/common/destiny2_content/icons/9a94c79ff34ddf86391ebe82dd4d249a.png"
   },
+  "4253198861": {
+    "name": "The Drowned Captain – 8",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
+  },
   "4254447778": {
     "name": "Bright-Dusted Snowballs",
     "type": "Rare Undiscovered Recipe",
@@ -88094,6 +88249,11 @@
     "name": "Fitted Stock",
     "type": "Common Stock",
     "icon": "https://bungie.net/common/destiny2_content/icons/27c6695ec475d3fa1aefa71c2b099bfc.png"
+  },
+  "4259683833": {
+    "name": "The Drowned Captain – 4",
+    "type": "Lore",
+    "icon": "https://bungie.net/common/destiny2_content/icons/7178fad37397a6839805ff4e713885a8.jpg"
   },
   "4260353952": {
     "name": "Sentinel Shield",
