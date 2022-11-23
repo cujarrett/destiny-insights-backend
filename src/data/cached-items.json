@@ -4116,6 +4116,11 @@
     "class": "hunter",
     "icon": "https://bungie.net/common/destiny2_content/icons/d5176e0a6d53cbf14ea7b014d32e6139.jpg"
   },
+  "219165495": {
+    "name": "Captain's Coin",
+    "type": "Legendary Material",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c7a06c6a6f8f0868ae3d074421ae6a64.jpg"
+  },
   "219816655": {
     "name": "Iron Fellowship Bond",
     "type": "Legendary Warlock Bond",
@@ -47464,6 +47469,11 @@
     "type": "Exotic Ghost Shell",
     "icon": "https://bungie.net/common/destiny2_content/icons/3ecc82498d5d41c90c0cb1396fe2432a.jpg"
   },
+  "2314235473": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/c069ea6e55ede0b1ba1856d67617cbeb.png"
+  },
   "2314916765": {
     "name": "War Simulator Ornament",
     "type": "Legendary Armor Ornament",
@@ -77489,6 +77499,11 @@
     "type": "Exotic Emote",
     "icon": "https://bungie.net/common/destiny2_content/icons/492b1d16a89b6c3dfcf69ddc5e5fc63b.jpg"
   },
+  "3765635756": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6813c00aa6959883dd25a2d80f777106.png"
+  },
   "3765938216": {
     "name": "Umbral Infiltration",
     "type": "Legendary Quest Step",
@@ -77814,6 +77829,11 @@
     "name": "Unlimited Power",
     "type": "Common Daily Bounty",
     "icon": "https://bungie.net/common/destiny2_content/icons/619ac29fe998248f84e10ea906d4eda0.jpg"
+  },
+  "3782413343": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6813c00aa6959883dd25a2d80f777106.png"
   },
   "3783059515": {
     "name": "Stella Incognita Cloak",
@@ -78821,6 +78841,11 @@
     "type": "Legendary Hunter Universal Ornament",
     "icon": "https://bungie.net/common/destiny2_content/icons/8cd2ca5ace13ceabe10a7d8ebcb9f3e5.jpg"
   },
+  "3832746200": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6813c00aa6959883dd25a2d80f777106.png"
+  },
   "3833235577": {
     "name": "Dragonfly Regalia Warlock Bundle",
     "type": "Legendary Package",
@@ -79184,6 +79209,11 @@
     "name": "Europa Pulse Rifle",
     "type": "Legendary Weapon Quest",
     "icon": "https://bungie.net/common/destiny2_content/icons/03ee71f3a33e8173f934ea596e0dd5a0.jpg"
+  },
+  "3849523787": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6813c00aa6959883dd25a2d80f777106.png"
   },
   "3849754183": {
     "name": "Iron Symmachy Gloves",
@@ -79567,6 +79597,11 @@
     "type": "Common Deprecated Armor Mod",
     "icon": "https://bungie.net/common/destiny2_content/icons/58afd7d17e7b58883b94fd5ba2e66b76.png"
   },
+  "3866301502": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6813c00aa6959883dd25a2d80f777106.png"
+  },
   "3866356643": {
     "name": "IKELOS_HC_v1.0.1",
     "type": "Legendary Hand Cannon",
@@ -79852,6 +79887,11 @@
     "name": "Ascendant Apple Tart",
     "type": "Legendary Discovered Recipe",
     "icon": "https://bungie.net/common/destiny2_content/icons/bd5edc0ef99acd2c6da6af788f59e33c.jpg"
+  },
+  "3883079057": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6813c00aa6959883dd25a2d80f777106.png"
   },
   "3883296839": {
     "name": "Improved Solar Analyzer",
@@ -80279,6 +80319,11 @@
     "class": "warlock",
     "icon": "https://bungie.net/common/destiny2_content/icons/50f4ced1e5c224b2142b9d6439b4f0ca.jpg"
   },
+  "3899856644": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6813c00aa6959883dd25a2d80f777106.png"
+  },
   "3899944893": {
     "name": "Cataloguer",
     "type": "Legendary Emblem",
@@ -80668,6 +80713,11 @@
     "type": "Rare Armor Ornament",
     "class": "titan",
     "icon": "https://bungie.net/common/destiny2_content/icons/4d35225459d46cad67b765a45d6b5039.jpg"
+  },
+  "3916634359": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6813c00aa6959883dd25a2d80f777106.png"
   },
   "3916835562": {
     "name": "Fènghuáng",
@@ -81390,6 +81440,11 @@
     "name": "Motion to Suppress",
     "type": "Legendary Submachine Gun",
     "icon": "https://bungie.net/common/destiny2_content/icons/b886cf418324e8f4b19ebd4ff1b20217.jpg"
+  },
+  "3950189533": {
+    "name": "A Rising Tide",
+    "type": "Legendary Quest Step",
+    "icon": "https://bungie.net/common/destiny2_content/icons/6813c00aa6959883dd25a2d80f777106.png"
   },
   "3951194746": {
     "name": "Real Ghost Stories",
