@@ -50,10 +50,10 @@
     "@semantic-release/npm": "~9.0.1",
     "@semantic-release/release-notes-generator": "~10.0.3",
     "ava": "~5.1.0",
-    "aws-sdk": "~2.1265.0",
-    "commitizen": "~4.2.5",
+    "aws-sdk": "~2.1277.0",
+    "commitizen": "~4.2.6",
     "cz-conventional-changelog": "~3.3.0",
-    "eslint": "~8.28.0",
+    "eslint": "~8.30.0",
     "husky": "~8.0.2",
     "nyc": "~15.1.0"
   },
