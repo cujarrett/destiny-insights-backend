@@ -54,6 +54,25 @@ module.exports.setAuth = async (newAuth) => {
   await docClient.update(params).promise()
 }
 
+module.exports.getKeys = async () => {
+  console.log("getKeys called")
+  AWS.config.update({ region: "us-east-1" })
+  const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
+
+  const params = {
+    TableName: "destiny-insights-backend-consumers-auth"
+  }
+
+  const response = await ddb.scan(params).promise()
+  const responseObject = response.Items
+  const result = []
+  for (const index of Object.keys(responseObject)) {
+    result.push(responseObject[index].key.S)
+  }
+
+  return result
+}
+
 module.exports.getModDataForLastYear = async () => {
   console.log("getModDataForLastYear called")
   AWS.config.update({ region: "us-east-1" })
