@@ -90,6 +90,31 @@ resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_bungi
   policy_arn = aws_iam_policy.destiny_insights_backend_bungie_api_auth.arn
 }
 
+resource "aws_iam_policy" "destiny_insights_backend_consumers_auth" {
+  name        = "destiny-insights-backend-consumers-auth-dynamodb"
+  description = "Adds DynamoDB access"
+
+  policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "dynamodb:Query",
+      ],
+      "Resource": "${var.destiny_insights_backend_consumers_auth_arn}"
+    }
+  ]
+}
+EOF
+}
+
+resource "aws_iam_role_policy_attachment" "attach_destiny_insights_backend_consumers_auth_dynamodb" {
+  role       = aws_iam_role.destiny_insights_backend.name
+  policy_arn = aws_iam_policy.destiny_insights_backend_consumers_auth.arn
+}
+
 resource "aws_iam_policy" "destiny_insights_items" {
   name        = "destiny-insights-backend-items-dynamodb"
   description = "Adds DynamoDB access"
