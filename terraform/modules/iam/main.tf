@@ -101,7 +101,7 @@ resource "aws_iam_policy" "destiny_insights_backend_consumers_auth" {
     {
       "Effect": "Allow",
       "Action": [
-        "dynamodb:Query"
+        "dynamodb:Scan"
       ],
       "Resource": "${var.destiny_insights_backend_consumers_auth_arn}"
     }
