@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.97.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.96.1...v1.97.0) (2023-01-09)
+
+
+### Features
+
+* adds auth ([#320](https://github.com/cujarrett/destiny-insights-backend/issues/320)) ([51b0942](https://github.com/cujarrett/destiny-insights-backend/commit/51b0942ec20aef2b7b30e8ee88f2d09ff72f4518))
+
 ## [1.96.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.96.0...v1.96.1) (2023-01-09)
 
 
