@@ -118,6 +118,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
           armor.type = cachedItems[itemHash].type
           armor.class = cachedItems[itemHash].class
         } else {
+          console.log(`itemHash ${itemHash} not found in cache`)
           usedCachedData = false
           await getItemDefinitions()
           armor.name = itemDefinitions[vendorSalesData[key].itemHash].displayProperties.name
@@ -148,6 +149,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
           mod.name = cachedMods[itemHash].name
           mod.type = cachedMods[itemHash].type
         } else {
+          console.log(`itemHash ${itemHash} not found in cache`)
           usedCachedData = false
           await getItemDefinitions()
           mod.name = itemDefinitions[itemHash].displayProperties.name
@@ -163,6 +165,7 @@ module.exports.getVendorInventory = async (vendorHash) => {
           weapon.name = cachedItems[itemHash].name
           weapon.type = cachedItems[itemHash].type
         } else {
+          console.log(`itemHash ${itemHash} not found in cache`)
           usedCachedData = false
           await getItemDefinitions()
           weapon.name = itemDefinitions[itemHash].displayProperties.name
@@ -199,19 +202,18 @@ module.exports.getVendorInventory = async (vendorHash) => {
           perkHashes.push(...sockets.filter((item) => item.plugHash).map((item) => item.plugHash))
         }
 
-        const pveKillTracker = 2302094943
-        if (perkHashes.includes(pveKillTracker)) {
-          perkHashes.splice(perkHashes.indexOf(pveKillTracker, 1))
-        }
-        const pvpKillTracker = 38912240
-        if (perkHashes.includes(pvpKillTracker)) {
-          perkHashes.splice(perkHashes.indexOf(pvpKillTracker, 1))
+        const killTrackerPerks = [2302094943, 38912240, 2240097604]
+        for (const killTrackerPerk of killTrackerPerks) {
+          if (perkHashes.includes(killTrackerPerk)) {
+            perkHashes.splice(perkHashes.indexOf(killTrackerPerk, 1))
+          }
         }
 
         const arePerksCached = () => {
           let cacheFound = true
           for (const perk of perkHashes) {
             if (perk && !cachedItems[perk]) {
+              console.log(`itemHash ${perk} not found in cache`)
               cacheFound = false
             }
           }

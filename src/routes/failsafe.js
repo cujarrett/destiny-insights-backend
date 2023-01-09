@@ -1,3 +1,4 @@
+const { isValidConsumerAuth } = require("../util/is-valid-consumer-auth.js")
 const { getVendorInventory } = require ("../util/get-vendor-inventory.js")
 
 module.exports = async (api) => {
@@ -6,6 +7,8 @@ module.exports = async (api) => {
     let result
 
     try {
+      const validConsumerAuth = await isValidConsumerAuth(request)
+      console.log({ validConsumerAuth })
       response.header("Access-Control-Allow-Origin", "*")
       result = await getVendorInventory("1576276905")
     } catch (error) {
