@@ -15,25 +15,6 @@ portion of the API dealing with the games mods, armor, and weapon inventory. Thi
 was done to learn and build out a backend for my serverless Twitter
 [destiny-insights-bot](https://github.com/cujarrett/destiny-insights-bot).
 
-## Use
-
-It's intended for personal use. Don't abuse the API.
-
-### Vendors
-
-- [/ada-1](https://api.destinyinsights.com/ada-1)
-- [/banshee-44](https://api.destinyinsights.com/banshee-44)
-- [/commander-zavala](https://api.destinyinsights.com/commander-zavala)
-- [/devrim-kay](https://api.destinyinsights.com/devrim-kay)
-- [/failsafe](https://api.destinyinsights.com/failsafe)
-- [/lord-shaxx](https://api.destinyinsights.com/lord-shaxx)
-- [/the-drifter](https://api.destinyinsights.com/the-drifter)
-- [/xur](https://api.destinyinsights.com/xur)
-
-### Historic Data
-
-- [/mod-data-for-last-year](https://api.destinyinsights.com/mod-data-for-last-year) - Returns mods sold in the last year
-
 <p align="center">
   Made with :heart:, JavaScript, and GitHub.
 </p>
