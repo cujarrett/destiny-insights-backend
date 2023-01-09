@@ -19,7 +19,7 @@ output "destiny_insights_backend_bungie_api_auth_arn" {
   value = aws_dynamodb_table.destiny_insights_backend_bungie_api_auth.arn
 }
 
-resource "aws_dynamodb_table" "destiny_insights_backend_bungie_api_auth" {
+resource "aws_dynamodb_table" "destiny_insights_backend_bungie_consumer_auth" {
   name           = "destiny-insights-backend-bungie-consumer-auth"
   billing_mode   = "PROVISIONED"
   read_capacity  = 1
