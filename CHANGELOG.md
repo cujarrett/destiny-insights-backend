@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.95.1](https://github.com/cujarrett/destiny-insights-backend/compare/v1.95.0...v1.95.1) (2023-01-09)
+
+
+### Bug Fixes
+
+* fixes consumer auth table name ([#317](https://github.com/cujarrett/destiny-insights-backend/issues/317)) ([3c512a2](https://github.com/cujarrett/destiny-insights-backend/commit/3c512a2be9154007b7385dc2b9822b8c76a44bd9))
+
 # [1.95.0](https://github.com/cujarrett/destiny-insights-backend/compare/v1.94.2...v1.95.0) (2023-01-09)
 
 
