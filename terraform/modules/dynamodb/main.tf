@@ -9,10 +9,6 @@ resource "aws_dynamodb_table" "destiny_insights_backend_bungie_api_auth" {
     name = "app"
     type = "S"
   }
-
-  lifecycle {
-    prevent_destroy = true
-  }
 }
 
 output "destiny_insights_backend_bungie_api_auth_arn" {
@@ -29,10 +25,6 @@ resource "aws_dynamodb_table" "destiny_insights_backend_consumers_auth" {
   attribute {
     name = "id"
     type = "S"
-  }
-
-  lifecycle {
-    prevent_destroy = true
   }
 }
 
